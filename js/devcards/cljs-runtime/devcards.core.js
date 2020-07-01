@@ -168,18 +168,18 @@ return this__41009__auto__;
 });
 goog.inherits(ctor__41011__auto__,React.Component);
 
-var x41791_42153 = ctor__41011__auto__.prototype;
-(x41791_42153.componentDidMount = (function (){
+var x41791_42157 = ctor__41011__auto__.prototype;
+(x41791_42157.componentDidMount = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x41791_42153.componentDidUpdate = (function (){
+(x41791_42157.componentDidUpdate = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x41791_42153.render = (function (){
+(x41791_42157.render = (function (){
 var this$ = this;
 return React.createElement("pre",({"className": (cljs.core.truth_(devcards.core.get_hljs())?"com-rigsomelight-devcards-code-highlighting":""), "key": cljs.core.hash((function (){var G__41792 = this$;
 var G__41793 = new cljs.core.Keyword(null,"code","code",1586293142);
@@ -234,14 +234,14 @@ return React.createElement(devcards.core.CodeHighlight,({"code": new cljs.core.K
 }));
 devcards.core.markdown__GT_react = (function devcards$core$markdown__GT_react(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___42161 = arguments.length;
-var i__4790__auto___42162 = (0);
+var len__4789__auto___42164 = arguments.length;
+var i__4790__auto___42165 = (0);
 while(true){
-if((i__4790__auto___42162 < len__4789__auto___42161)){
-args__4795__auto__.push((arguments[i__4790__auto___42162]));
+if((i__4790__auto___42165 < len__4789__auto___42164)){
+args__4795__auto__.push((arguments[i__4790__auto___42165]));
 
-var G__42163 = (i__4790__auto___42162 + (1));
-i__4790__auto___42162 = G__42163;
+var G__42166 = (i__4790__auto___42165 + (1));
+i__4790__auto___42165 = G__42166;
 continue;
 } else {
 }

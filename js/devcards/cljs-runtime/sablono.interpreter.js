@@ -68,8 +68,8 @@ return React.Component.call(this$,props);
 
 goog.inherits(ctor,React.Component);
 
-var x39148_39174 = ctor.prototype;
-(x39148_39174.onChange = (function (event){
+var x39148_39179 = ctor.prototype;
+(x39148_39179.onChange = (function (event){
 var this$ = this;
 var temp__5735__auto__ = this$.props.onChange;
 if(cljs.core.truth_(temp__5735__auto__)){
@@ -82,7 +82,7 @@ return null;
 }
 }));
 
-(x39148_39174.componentWillReceiveProps = (function (new_props){
+(x39148_39179.componentWillReceiveProps = (function (new_props){
 var this$ = this;
 var state_value = goog.object.getValueByKeys(this$,"state",property);
 var element_value = (function (){var G__39149 = ReactDOM.findDOMNode(this$);
@@ -96,7 +96,7 @@ return sablono.interpreter.update_state(this$,new_props,property,goog.object.get
 }
 }));
 
-(x39148_39174.render = (function (){
+(x39148_39179.render = (function (){
 var this$ = this;
 return React.createElement(element,this$.state);
 }));

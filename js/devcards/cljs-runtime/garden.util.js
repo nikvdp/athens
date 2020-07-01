@@ -34,11 +34,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(goog.string.format,fmt,args
 (garden.util.format.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.util.format.cljs$lang$applyTo = (function (seq32906){
-var G__32907 = cljs.core.first(seq32906);
-var seq32906__$1 = cljs.core.next(seq32906);
+(garden.util.format.cljs$lang$applyTo = (function (seq32907){
+var G__32908 = cljs.core.first(seq32907);
+var seq32907__$1 = cljs.core.next(seq32907);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32907,seq32906__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32908,seq32907__$1);
 }));
 
 
@@ -390,8 +390,8 @@ while(true){
 if((i__4790__auto___32963 < len__4789__auto___32962)){
 args__4795__auto__.push((arguments[i__4790__auto___32963]));
 
-var G__32964 = (i__4790__auto___32963 + (1));
-i__4790__auto___32963 = G__32964;
+var G__32966 = (i__4790__auto___32963 + (1));
+i__4790__auto___32963 = G__32966;
 continue;
 } else {
 }

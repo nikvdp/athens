@@ -201,12 +201,12 @@ goog.object.set(G__48482_48503,G__48483_48504,G__48484_48505);
 
 goog.object.set(sablono.util.ToString,"number",true);
 
-var G__48485_48507 = sablono.util.to_str;
+var G__48485_48506 = sablono.util.to_str;
 var G__48486_48508 = "number";
 var G__48487_48509 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__48485_48507,G__48486_48508,G__48487_48509);
+goog.object.set(G__48485_48506,G__48486_48508,G__48487_48509);
 
 goog.object.set(sablono.util.ToString,"_",true);
 

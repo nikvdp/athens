@@ -39,6 +39,7 @@ SHADOW_ENV.setLoaded("datascript.transit.js");
 SHADOW_ENV.setLoaded("day8.re_frame.forward_events_fx.js");
 SHADOW_ENV.setLoaded("day8.re_frame.async_flow_fx.js");
 SHADOW_ENV.setLoaded("athens.effects.js");
+SHADOW_ENV.setLoaded("athens.util.js");
 SHADOW_ENV.setLoaded("cljs.env.js");
 SHADOW_ENV.setLoaded("cljs.tagged_literals.js");
 SHADOW_ENV.setLoaded("cljs.analyzer.js");
