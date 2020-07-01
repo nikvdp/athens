@@ -159,18 +159,18 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
  *   may short circuit the other options processing. 
  *   Returns [special-option rest-options]
  */
-zprint.core.process_rest_options = (function zprint$core$process_rest_options(internal_options,p__31825){
-var vec__31826 = p__31825;
-var width_or_options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31826,(0),null);
-var options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31826,(1),null);
+zprint.core.process_rest_options = (function zprint$core$process_rest_options(internal_options,p__31827){
+var vec__31830 = p__31827;
+var width_or_options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31830,(0),null);
+var options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31830,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(width_or_options,new cljs.core.Keyword(null,"default","default",-1987822328))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"default","default",-1987822328),zprint.config.get_default_options()], null);
 } else {
-var vec__31831 = (cljs.core.truth_((function (){var fexpr__31834 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"explain","explain",484226146),null,new cljs.core.Keyword(null,"support","support",1392531368),null,new cljs.core.Keyword(null,"explain-justified","explain-justified",371413450),null,new cljs.core.Keyword(null,"help","help",-439233446),null], null), null);
-return (fexpr__31834.cljs$core$IFn$_invoke$arity$1 ? fexpr__31834.cljs$core$IFn$_invoke$arity$1(width_or_options) : fexpr__31834.call(null,width_or_options));
+var vec__31834 = (cljs.core.truth_((function (){var fexpr__31837 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"explain","explain",484226146),null,new cljs.core.Keyword(null,"support","support",1392531368),null,new cljs.core.Keyword(null,"explain-justified","explain-justified",371413450),null,new cljs.core.Keyword(null,"help","help",-439233446),null], null), null);
+return (fexpr__31837.cljs$core$IFn$_invoke$arity$1 ? fexpr__31837.cljs$core$IFn$_invoke$arity$1(width_or_options) : fexpr__31837.call(null,width_or_options));
 })())?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [null,width_or_options], null):new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [width_or_options,null], null));
-var width_or_options__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31831,(0),null);
-var special_option = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31831,(1),null);
+var width_or_options__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31834,(0),null);
+var special_option = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31834,(1),null);
 var configure_errors = (cljs.core.truth_(new cljs.core.Keyword(null,"configured?","configured?",642178633).cljs$core$IFn$_invoke$arity$1(zprint.config.get_options()))?null:zprint.core.configure_all_BANG_());
 var width = ((typeof width_or_options__$1 === 'number')?width_or_options__$1:null);
 var rest_options = (cljs.core.truth_((function (){var and__4174__auto__ = width;
@@ -441,11 +441,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(zprint.core.zprint_str_inte
 (zprint.core.zprint_str.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(zprint.core.zprint_str.cljs$lang$applyTo = (function (seq31873){
-var G__31874 = cljs.core.first(seq31873);
-var seq31873__$1 = cljs.core.next(seq31873);
+(zprint.core.zprint_str.cljs$lang$applyTo = (function (seq31874){
+var G__31875 = cljs.core.first(seq31874);
+var seq31874__$1 = cljs.core.next(seq31874);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31874,seq31873__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31875,seq31874__$1);
 }));
 
 /**

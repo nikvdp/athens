@@ -27,17 +27,17 @@ throw (new Error(["Could not find instance method: ",cljs.core.str.cljs$core$IFn
 }
 }
 });
-sci.impl.interop.get_static_field = (function sci$impl$interop$get_static_field(p__58243){
-var vec__58244 = p__58243;
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58244,(0),null);
-var field_name_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58244,(1),null);
+sci.impl.interop.get_static_field = (function sci$impl$interop$get_static_field(p__58240){
+var vec__58241 = p__58240;
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58241,(0),null);
+var field_name_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58241,(1),null);
 return goog.object.get(class$,field_name_sym);
 });
 sci.impl.interop.invoke_js_constructor = (function sci$impl$interop$invoke_js_constructor(constructor$,args){
 var ctor = Function.prototype.bind.apply(constructor$);
 var args__$1 = sci.impl.interop.js_object_array(args);
-var G__58247 = ((args__$1).length);
-switch (G__58247) {
+var G__58244 = ((args__$1).length);
+switch (G__58244) {
 case (0):
 return (new ctor());
 
@@ -78,10 +78,10 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Constructors with more th
 sci.impl.interop.invoke_constructor = (function sci$impl$interop$invoke_constructor(constructor$,args){
 return sci.impl.interop.invoke_js_constructor(constructor$,args);
 });
-sci.impl.interop.invoke_static_method = (function sci$impl$interop$invoke_static_method(p__58248,args){
-var vec__58249 = p__58248;
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58249,(0),null);
-var method_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58249,(1),null);
+sci.impl.interop.invoke_static_method = (function sci$impl$interop$invoke_static_method(p__58245,args){
+var vec__58247 = p__58245;
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58247,(0),null);
+var method_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58247,(1),null);
 var temp__5733__auto__ = goog.object.get(class$,method_name);
 if(cljs.core.truth_(temp__5733__auto__)){
 var method = temp__5733__auto__;

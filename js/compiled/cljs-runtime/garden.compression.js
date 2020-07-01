@@ -47,8 +47,8 @@ return garden.compression.tokenizer.cljs$core$IFn$_invoke$arity$variadic(argseq_
 (garden.compression.tokenizer.cljs$core$IFn$_invoke$arity$variadic = (function (tags_PLUS_regexes){
 var fs = cljs.core.map.cljs$core$IFn$_invoke$arity$2(garden.compression.token_fn,tags_PLUS_regexes);
 return (function (s){
-return cljs.core.some((function (p1__35253_SHARP_){
-return (p1__35253_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__35253_SHARP_.cljs$core$IFn$_invoke$arity$1(s) : p1__35253_SHARP_.call(null,s));
+return cljs.core.some((function (p1__35252_SHARP_){
+return (p1__35252_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__35252_SHARP_.cljs$core$IFn$_invoke$arity$1(s) : p1__35252_SHARP_.call(null,s));
 }),fs);
 });
 }));
@@ -56,9 +56,9 @@ return (p1__35253_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__35253_SHARP_.cljs$c
 (garden.compression.tokenizer.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq35258){
+(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq35253){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq35258));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq35253));
 }));
 
 /**
@@ -80,9 +80,9 @@ var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__35259__$1,new cljs.co
 var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__35259__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
 var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__35259__$1,new cljs.core.Keyword(null,"size","size",1098693007));
 var G__35284 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__35285 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__35263 = tag;
-var G__35263__$1 = (((G__35263 instanceof cljs.core.Keyword))?G__35263.fqn:null);
-switch (G__35263__$1) {
+var G__35285 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__35262 = tag;
+var G__35262__$1 = (((G__35262 instanceof cljs.core.Keyword))?G__35262.fqn:null);
+switch (G__35262__$1) {
 case "string":
 return chunk;
 

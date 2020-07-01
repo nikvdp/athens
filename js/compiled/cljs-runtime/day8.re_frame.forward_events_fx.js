@@ -54,8 +54,8 @@ var post_event_callback_fn = (function (event_v,___$2){
 if(cljs.core.truth_(cljs.core.some((function (pred){
 return (pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(event_v) : pred.call(null,event_v));
 }),events_preds))){
-var G__52054 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52054) : re_frame.core.dispatch.call(null,G__52054));
+var G__52050 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52050) : re_frame.core.dispatch.call(null,G__52050));
 } else {
 return null;
 }

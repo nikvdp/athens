@@ -236,14 +236,14 @@ return cljs.core.flush();
 });
 debux.common.util.form_header = (function debux$common$util$form_header(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46057 = arguments.length;
-var i__4790__auto___46058 = (0);
+var len__4789__auto___46051 = arguments.length;
+var i__4790__auto___46052 = (0);
 while(true){
-if((i__4790__auto___46058 < len__4789__auto___46057)){
-args__4795__auto__.push((arguments[i__4790__auto___46058]));
+if((i__4790__auto___46052 < len__4789__auto___46051)){
+args__4795__auto__.push((arguments[i__4790__auto___46052]));
 
-var G__46059 = (i__4790__auto___46058 + (1));
-i__4790__auto___46058 = G__46059;
+var G__46053 = (i__4790__auto___46052 + (1));
+i__4790__auto___46052 = G__46053;
 continue;
 } else {
 }
@@ -350,8 +350,8 @@ opts__$1 = G__46070;
 acc = G__46071;
 continue;
 } else {
-if(cljs.core.truth_((function (){var fexpr__46029 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"o","o",-1350007228),null,new cljs.core.Keyword(null,"once","once",-262568523),null], null), null);
-return (fexpr__46029.cljs$core$IFn$_invoke$arity$1 ? fexpr__46029.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46029.call(null,f));
+if(cljs.core.truth_((function (){var fexpr__46027 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"o","o",-1350007228),null,new cljs.core.Keyword(null,"once","once",-262568523),null], null), null);
+return (fexpr__46027.cljs$core$IFn$_invoke$arity$1 ? fexpr__46027.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46027.call(null,f));
 })())){
 var G__46072 = cljs.core.next(opts__$1);
 var G__46073 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"once","once",-262568523),true);
@@ -359,8 +359,8 @@ opts__$1 = G__46072;
 acc = G__46073;
 continue;
 } else {
-if(cljs.core.truth_((function (){var fexpr__46030 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
-return (fexpr__46030.cljs$core$IFn$_invoke$arity$1 ? fexpr__46030.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46030.call(null,f));
+if(cljs.core.truth_((function (){var fexpr__46028 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
+return (fexpr__46028.cljs$core$IFn$_invoke$arity$1 ? fexpr__46028.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46028.call(null,f));
 })())){
 var G__46074 = cljs.core.nnext(opts__$1);
 var G__46075 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
@@ -387,21 +387,21 @@ return null;
 break;
 }
 });
-debux.common.util.quote_val = (function debux$common$util$quote_val(p__46031){
-var vec__46032 = p__46031;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46032,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46032,(1),null);
+debux.common.util.quote_val = (function debux$common$util$quote_val(p__46029){
+var vec__46030 = p__46029;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46030,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46030,(1),null);
 return cljs.core.vec(cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,k,null,(1),null)),(new cljs.core.List(null,cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,new cljs.core.Symbol(null,"quote","quote",1377916282,null),null,(1),null)),(new cljs.core.List(null,v,null,(1),null))))),null,(1),null))))));
 });
 debux.common.util.quote_vals = (function debux$common$util$quote_vals(m){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2(debux.common.util.quote_val,m));
 });
 debux.common.util.include_recur_QMARK_ = (function debux$common$util$include_recur_QMARK_(form){
-var G__46037 = new cljs.core.Symbol(null,"recur","recur",1202958259,null);
-var fexpr__46036 = (function (){var fexpr__46038 = cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.set,cljs.core.flatten);
+var G__46035 = new cljs.core.Symbol(null,"recur","recur",1202958259,null);
+var fexpr__46034 = (function (){var fexpr__46038 = cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.set,cljs.core.flatten);
 return (fexpr__46038.cljs$core$IFn$_invoke$arity$1 ? fexpr__46038.cljs$core$IFn$_invoke$arity$1(form) : fexpr__46038.call(null,form));
 })();
-return (fexpr__46036.cljs$core$IFn$_invoke$arity$1 ? fexpr__46036.cljs$core$IFn$_invoke$arity$1(G__46037) : fexpr__46036.call(null,G__46037));
+return (fexpr__46034.cljs$core$IFn$_invoke$arity$1 ? fexpr__46034.cljs$core$IFn$_invoke$arity$1(G__46035) : fexpr__46034.call(null,G__46035));
 });
 debux.common.util.o_skip_QMARK_ = (function debux$common$util$o_skip_QMARK_(sym){
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol("debux.common.macro-specs","o-skip","debux.common.macro-specs/o-skip",-1957530336,null),sym);
