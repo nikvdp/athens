@@ -79,10 +79,10 @@ var temp__5733__auto____$1 = cljs.core.second(sq);
 if(cljs.core.truth_(temp__5733__auto____$1)){
 var c2 = temp__5733__auto____$1;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(c2,"'")){
-var G__64736 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
-var G__64737 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
-sq = G__64736;
-v = G__64737;
+var G__64737 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
+var G__64738 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
+sq = G__64737;
+v = G__64738;
 continue;
 } else {
 var G__64739 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
@@ -184,8 +184,8 @@ continue;
 
 break;
 case "hide":
-return instaparse.combinators_source.hide((function (){var G__64708 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__64708) : instaparse.cfg.build_rule.call(null,G__64708));
+return instaparse.combinators_source.hide((function (){var G__64704 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__64704) : instaparse.cfg.build_rule.call(null,G__64704));
 })());
 
 break;

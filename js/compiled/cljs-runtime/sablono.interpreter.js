@@ -38,10 +38,10 @@ throw cljs.core.missing_protocol("IInterpreter.interpret",this$);
 sablono.interpreter.update_state = (function sablono$interpreter$update_state(component,next_props,property,value){
 var on_change = goog.object.getValueByKeys(component,"state","onChange");
 var next_state = ({});
-var G__48532_48563 = next_state;
-var G__48533_48564 = next_props;
-var G__48534_48565 = ({"onChange": on_change});
-goog.object.extend(G__48532_48563,G__48533_48564,G__48534_48565);
+var G__48535_48563 = next_state;
+var G__48536_48564 = next_props;
+var G__48537_48565 = ({"onChange": on_change});
+goog.object.extend(G__48535_48563,G__48536_48564,G__48537_48565);
 
 goog.object.set(next_state,property,value);
 
@@ -297,12 +297,12 @@ return sablono.interpreter.interpret_seq(this$__$1);
 
 goog.object.set(sablono.interpreter.IInterpreter,"_",true);
 
-var G__48560_48593 = sablono.interpreter.interpret;
-var G__48561_48594 = "_";
-var G__48562_48595 = (function (this$){
+var G__48560_48591 = sablono.interpreter.interpret;
+var G__48561_48592 = "_";
+var G__48562_48593 = (function (this$){
 return this$;
 });
-goog.object.set(G__48560_48593,G__48561_48594,G__48562_48595);
+goog.object.set(G__48560_48591,G__48561_48592,G__48562_48593);
 
 (cljs.core.Cons.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 

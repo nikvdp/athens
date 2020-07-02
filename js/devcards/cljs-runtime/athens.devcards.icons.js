@@ -9,7 +9,7 @@ goog.require('devcards.core');
 goog.require('reagent.core');
 devcards.core.register_card(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"path","path",-188191168),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"athens.devcards.icons","athens.devcards.icons",1685691515),new cljs.core.Keyword(null,"Standard-Icons","Standard-Icons",80890066)], null),new cljs.core.Keyword(null,"func","func",-238706040),(function (){
 return devcards.core.card_base(new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),"Standard-Icons",new cljs.core.Keyword(null,"documentation","documentation",1889593999),null,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){
-if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.icons !== 'undefined') && (typeof athens.devcards.icons.t_athens$devcards$icons60802 !== 'undefined')){
+if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.icons !== 'undefined') && (typeof athens.devcards.icons.t_athens$devcards$icons60824 !== 'undefined')){
 } else {
 
 /**
@@ -18,26 +18,26 @@ if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') &
  * @implements {cljs.core.IWithMeta}
  * @implements {devcards.core.IDevcardOptions}
 */
-athens.devcards.icons.t_athens$devcards$icons60802 = (function (meta60803){
-this.meta60803 = meta60803;
+athens.devcards.icons.t_athens$devcards$icons60824 = (function (meta60825){
+this.meta60825 = meta60825;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 });
-(athens.devcards.icons.t_athens$devcards$icons60802.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_60804,meta60803__$1){
+(athens.devcards.icons.t_athens$devcards$icons60824.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_60826,meta60825__$1){
 var self__ = this;
-var _60804__$1 = this;
-return (new athens.devcards.icons.t_athens$devcards$icons60802(meta60803__$1));
+var _60826__$1 = this;
+return (new athens.devcards.icons.t_athens$devcards$icons60824(meta60825__$1));
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60802.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_60804){
+(athens.devcards.icons.t_athens$devcards$icons60824.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_60826){
 var self__ = this;
-var _60804__$1 = this;
-return self__.meta60803;
+var _60826__$1 = this;
+return self__.meta60825;
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60802.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
+(athens.devcards.icons.t_athens$devcards$icons60824.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
 
-(athens.devcards.icons.t_athens$devcards$icons60802.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__41676__auto__,devcard_opts__41677__auto__){
+(athens.devcards.icons.t_athens$devcards$icons60824.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__41676__auto__,devcard_opts__41677__auto__){
 var self__ = this;
 var this__41676__auto____$1 = this;
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(devcard_opts__41677__auto__,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){var v__41695__auto__ = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.Face], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.Settings], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.Search], null)], null);
@@ -51,34 +51,34 @@ return reagent.core.as_element(v__41695__auto__);
 })(),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"options","options",99638489),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.PersistentArrayMap.EMPTY,devcards.core.assert_options_map(new cljs.core.Keyword(null,"options","options",99638489).cljs$core$IFn$_invoke$arity$1(devcard_opts__41677__auto__))], 0))], 0));
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60802.getBasis = (function (){
-return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta60803","meta60803",-1478961587,null)], null);
+(athens.devcards.icons.t_athens$devcards$icons60824.getBasis = (function (){
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta60825","meta60825",981506297,null)], null);
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60802.cljs$lang$type = true);
+(athens.devcards.icons.t_athens$devcards$icons60824.cljs$lang$type = true);
 
-(athens.devcards.icons.t_athens$devcards$icons60802.cljs$lang$ctorStr = "athens.devcards.icons/t_athens$devcards$icons60802");
+(athens.devcards.icons.t_athens$devcards$icons60824.cljs$lang$ctorStr = "athens.devcards.icons/t_athens$devcards$icons60824");
 
-(athens.devcards.icons.t_athens$devcards$icons60802.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
-return cljs.core._write(writer__4429__auto__,"athens.devcards.icons/t_athens$devcards$icons60802");
+(athens.devcards.icons.t_athens$devcards$icons60824.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
+return cljs.core._write(writer__4429__auto__,"athens.devcards.icons/t_athens$devcards$icons60824");
 }));
 
 /**
- * Positional factory function for athens.devcards.icons/t_athens$devcards$icons60802.
+ * Positional factory function for athens.devcards.icons/t_athens$devcards$icons60824.
  */
-athens.devcards.icons.__GT_t_athens$devcards$icons60802 = (function athens$devcards$icons$__GT_t_athens$devcards$icons60802(meta60803){
-return (new athens.devcards.icons.t_athens$devcards$icons60802(meta60803));
+athens.devcards.icons.__GT_t_athens$devcards$icons60824 = (function athens$devcards$icons$__GT_t_athens$devcards$icons60824(meta60825){
+return (new athens.devcards.icons.t_athens$devcards$icons60824(meta60825));
 });
 
 }
 
-return (new athens.devcards.icons.t_athens$devcards$icons60802(null));
+return (new athens.devcards.icons.t_athens$devcards$icons60824(null));
 })()
 ,new cljs.core.Keyword(null,"initial-data","initial-data",-1315709804),null,new cljs.core.Keyword(null,"options","options",99638489),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"watch-atom","watch-atom",-2134031308),false], null)], null));
 })], null));
 devcards.core.register_card(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"path","path",-188191168),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"athens.devcards.icons","athens.devcards.icons",1685691515),new cljs.core.Keyword(null,"Icon-Types","Icon-Types",-1761109666)], null),new cljs.core.Keyword(null,"func","func",-238706040),(function (){
 return devcards.core.card_base(new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),"Icon-Types",new cljs.core.Keyword(null,"documentation","documentation",1889593999),"Use the different built-in icon types by appending one of `Outlined`, `Rounded`, `TwoTone`, or `Sharp` to the icon name.",new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){
-if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.icons !== 'undefined') && (typeof athens.devcards.icons.t_athens$devcards$icons60805 !== 'undefined')){
+if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.icons !== 'undefined') && (typeof athens.devcards.icons.t_athens$devcards$icons60827 !== 'undefined')){
 } else {
 
 /**
@@ -87,26 +87,26 @@ if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') &
  * @implements {cljs.core.IWithMeta}
  * @implements {devcards.core.IDevcardOptions}
 */
-athens.devcards.icons.t_athens$devcards$icons60805 = (function (meta60806){
-this.meta60806 = meta60806;
+athens.devcards.icons.t_athens$devcards$icons60827 = (function (meta60828){
+this.meta60828 = meta60828;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 });
-(athens.devcards.icons.t_athens$devcards$icons60805.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_60807,meta60806__$1){
+(athens.devcards.icons.t_athens$devcards$icons60827.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_60829,meta60828__$1){
 var self__ = this;
-var _60807__$1 = this;
-return (new athens.devcards.icons.t_athens$devcards$icons60805(meta60806__$1));
+var _60829__$1 = this;
+return (new athens.devcards.icons.t_athens$devcards$icons60827(meta60828__$1));
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60805.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_60807){
+(athens.devcards.icons.t_athens$devcards$icons60827.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_60829){
 var self__ = this;
-var _60807__$1 = this;
-return self__.meta60806;
+var _60829__$1 = this;
+return self__.meta60828;
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60805.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
+(athens.devcards.icons.t_athens$devcards$icons60827.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
 
-(athens.devcards.icons.t_athens$devcards$icons60805.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__41676__auto__,devcard_opts__41677__auto__){
+(athens.devcards.icons.t_athens$devcards$icons60827.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__41676__auto__,devcard_opts__41677__auto__){
 var self__ = this;
 var this__41676__auto____$1 = this;
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(devcard_opts__41677__auto__,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){var v__41695__auto__ = new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.Directions], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.DirectionsOutlined], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.DirectionsRounded], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.DirectionsTwoTone], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,">",">",-555517146),module$node_modules$$material_ui$icons$index.DirectionsSharp], null)], null);
@@ -120,34 +120,34 @@ return reagent.core.as_element(v__41695__auto__);
 })(),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"options","options",99638489),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.PersistentArrayMap.EMPTY,devcards.core.assert_options_map(new cljs.core.Keyword(null,"options","options",99638489).cljs$core$IFn$_invoke$arity$1(devcard_opts__41677__auto__))], 0))], 0));
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60805.getBasis = (function (){
-return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta60806","meta60806",789573869,null)], null);
+(athens.devcards.icons.t_athens$devcards$icons60827.getBasis = (function (){
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta60828","meta60828",1440966298,null)], null);
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60805.cljs$lang$type = true);
+(athens.devcards.icons.t_athens$devcards$icons60827.cljs$lang$type = true);
 
-(athens.devcards.icons.t_athens$devcards$icons60805.cljs$lang$ctorStr = "athens.devcards.icons/t_athens$devcards$icons60805");
+(athens.devcards.icons.t_athens$devcards$icons60827.cljs$lang$ctorStr = "athens.devcards.icons/t_athens$devcards$icons60827");
 
-(athens.devcards.icons.t_athens$devcards$icons60805.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
-return cljs.core._write(writer__4429__auto__,"athens.devcards.icons/t_athens$devcards$icons60805");
+(athens.devcards.icons.t_athens$devcards$icons60827.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
+return cljs.core._write(writer__4429__auto__,"athens.devcards.icons/t_athens$devcards$icons60827");
 }));
 
 /**
- * Positional factory function for athens.devcards.icons/t_athens$devcards$icons60805.
+ * Positional factory function for athens.devcards.icons/t_athens$devcards$icons60827.
  */
-athens.devcards.icons.__GT_t_athens$devcards$icons60805 = (function athens$devcards$icons$__GT_t_athens$devcards$icons60805(meta60806){
-return (new athens.devcards.icons.t_athens$devcards$icons60805(meta60806));
+athens.devcards.icons.__GT_t_athens$devcards$icons60827 = (function athens$devcards$icons$__GT_t_athens$devcards$icons60827(meta60828){
+return (new athens.devcards.icons.t_athens$devcards$icons60827(meta60828));
 });
 
 }
 
-return (new athens.devcards.icons.t_athens$devcards$icons60805(null));
+return (new athens.devcards.icons.t_athens$devcards$icons60827(null));
 })()
 ,new cljs.core.Keyword(null,"initial-data","initial-data",-1315709804),null,new cljs.core.Keyword(null,"options","options",99638489),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"watch-atom","watch-atom",-2134031308),false], null)], null));
 })], null));
 devcards.core.register_card(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"path","path",-188191168),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"athens.devcards.icons","athens.devcards.icons",1685691515),new cljs.core.Keyword(null,"Styling-icons","Styling-icons",1966565413)], null),new cljs.core.Keyword(null,"func","func",-238706040),(function (){
 return devcards.core.card_base(new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),"Styling-icons",new cljs.core.Keyword(null,"documentation","documentation",1889593999),"Color, opacity, and other properties can be applied to icons by placing them in an element with those styles applied.",new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){
-if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.icons !== 'undefined') && (typeof athens.devcards.icons.t_athens$devcards$icons60808 !== 'undefined')){
+if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') && (typeof athens.devcards.icons !== 'undefined') && (typeof athens.devcards.icons.t_athens$devcards$icons60830 !== 'undefined')){
 } else {
 
 /**
@@ -156,26 +156,26 @@ if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') &
  * @implements {cljs.core.IWithMeta}
  * @implements {devcards.core.IDevcardOptions}
 */
-athens.devcards.icons.t_athens$devcards$icons60808 = (function (meta60809){
-this.meta60809 = meta60809;
+athens.devcards.icons.t_athens$devcards$icons60830 = (function (meta60831){
+this.meta60831 = meta60831;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 });
-(athens.devcards.icons.t_athens$devcards$icons60808.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_60810,meta60809__$1){
+(athens.devcards.icons.t_athens$devcards$icons60830.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_60832,meta60831__$1){
 var self__ = this;
-var _60810__$1 = this;
-return (new athens.devcards.icons.t_athens$devcards$icons60808(meta60809__$1));
+var _60832__$1 = this;
+return (new athens.devcards.icons.t_athens$devcards$icons60830(meta60831__$1));
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60808.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_60810){
+(athens.devcards.icons.t_athens$devcards$icons60830.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_60832){
 var self__ = this;
-var _60810__$1 = this;
-return self__.meta60809;
+var _60832__$1 = this;
+return self__.meta60831;
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60808.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
+(athens.devcards.icons.t_athens$devcards$icons60830.prototype.devcards$core$IDevcardOptions$ = cljs.core.PROTOCOL_SENTINEL);
 
-(athens.devcards.icons.t_athens$devcards$icons60808.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__41676__auto__,devcard_opts__41677__auto__){
+(athens.devcards.icons.t_athens$devcards$icons60830.prototype.devcards$core$IDevcardOptions$_devcard_options$arity$2 = (function (this__41676__auto__,devcard_opts__41677__auto__){
 var self__ = this;
 var this__41676__auto____$1 = this;
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(devcard_opts__41677__auto__,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){var v__41695__auto__ = new cljs.core.PersistentVector(null, 11, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"link-color","link-color",1347118056))], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540))], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"warning-color","warning-color",924289810))], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600))], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936))], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opacity","opacity",397153780),new cljs.core.Keyword(null,"opacity-lower","opacity-lower",-521611975).cljs$core$IFn$_invoke$arity$1(athens.style.OPACITIES)], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opacity","opacity",397153780),new cljs.core.Keyword(null,"opacity-low","opacity-low",-761003971).cljs$core$IFn$_invoke$arity$1(athens.style.OPACITIES)], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opacity","opacity",397153780),new cljs.core.Keyword(null,"opacity-med","opacity-med",1700530190).cljs$core$IFn$_invoke$arity$1(athens.style.OPACITIES)], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opacity","opacity",397153780),new cljs.core.Keyword(null,"opacity-high","opacity-high",1902226703).cljs$core$IFn$_invoke$arity$1(athens.style.OPACITIES)], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936))], null)], null),reagent.core.create_element.cljs$core$IFn$_invoke$arity$1(module$node_modules$$material_ui$icons$index.Face)], null)], null);
@@ -189,28 +189,28 @@ return reagent.core.as_element(v__41695__auto__);
 })(),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"options","options",99638489),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.PersistentArrayMap.EMPTY,devcards.core.assert_options_map(new cljs.core.Keyword(null,"options","options",99638489).cljs$core$IFn$_invoke$arity$1(devcard_opts__41677__auto__))], 0))], 0));
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60808.getBasis = (function (){
-return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta60809","meta60809",-499311573,null)], null);
+(athens.devcards.icons.t_athens$devcards$icons60830.getBasis = (function (){
+return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"meta60831","meta60831",1676271300,null)], null);
 }));
 
-(athens.devcards.icons.t_athens$devcards$icons60808.cljs$lang$type = true);
+(athens.devcards.icons.t_athens$devcards$icons60830.cljs$lang$type = true);
 
-(athens.devcards.icons.t_athens$devcards$icons60808.cljs$lang$ctorStr = "athens.devcards.icons/t_athens$devcards$icons60808");
+(athens.devcards.icons.t_athens$devcards$icons60830.cljs$lang$ctorStr = "athens.devcards.icons/t_athens$devcards$icons60830");
 
-(athens.devcards.icons.t_athens$devcards$icons60808.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
-return cljs.core._write(writer__4429__auto__,"athens.devcards.icons/t_athens$devcards$icons60808");
+(athens.devcards.icons.t_athens$devcards$icons60830.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
+return cljs.core._write(writer__4429__auto__,"athens.devcards.icons/t_athens$devcards$icons60830");
 }));
 
 /**
- * Positional factory function for athens.devcards.icons/t_athens$devcards$icons60808.
+ * Positional factory function for athens.devcards.icons/t_athens$devcards$icons60830.
  */
-athens.devcards.icons.__GT_t_athens$devcards$icons60808 = (function athens$devcards$icons$__GT_t_athens$devcards$icons60808(meta60809){
-return (new athens.devcards.icons.t_athens$devcards$icons60808(meta60809));
+athens.devcards.icons.__GT_t_athens$devcards$icons60830 = (function athens$devcards$icons$__GT_t_athens$devcards$icons60830(meta60831){
+return (new athens.devcards.icons.t_athens$devcards$icons60830(meta60831));
 });
 
 }
 
-return (new athens.devcards.icons.t_athens$devcards$icons60808(null));
+return (new athens.devcards.icons.t_athens$devcards$icons60830(null));
 })()
 ,new cljs.core.Keyword(null,"initial-data","initial-data",-1315709804),null,new cljs.core.Keyword(null,"options","options",99638489),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"watch-atom","watch-atom",-2134031308),false], null)], null));
 })], null));

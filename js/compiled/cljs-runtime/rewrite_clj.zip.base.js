@@ -62,12 +62,12 @@ return (rewrite_clj.node.sexpr.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.
  * Get children as s-expressions.
  */
 rewrite_clj.zip.base.child_sexprs = (function rewrite_clj$zip$base$child_sexprs(zloc){
-var G__30372 = zloc;
-var G__30372__$1 = (((G__30372 == null))?null:clojure.zip.node(G__30372));
-if((G__30372__$1 == null)){
+var G__30371 = zloc;
+var G__30371__$1 = (((G__30371 == null))?null:clojure.zip.node(G__30371));
+if((G__30371__$1 == null)){
 return null;
 } else {
-return (rewrite_clj.node.child_sexprs.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.child_sexprs.cljs$core$IFn$_invoke$arity$1(G__30372__$1) : rewrite_clj.node.child_sexprs.call(null,G__30372__$1));
+return (rewrite_clj.node.child_sexprs.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.child_sexprs.cljs$core$IFn$_invoke$arity$1(G__30371__$1) : rewrite_clj.node.child_sexprs.call(null,G__30371__$1));
 }
 });
 /**

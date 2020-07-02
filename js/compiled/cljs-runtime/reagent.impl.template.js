@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__32413_32461 = reagent.impl.template.custom_prop_name_cache;
-var G__32414_32462 = cljs.core.name(k);
-var G__32415_32463 = v;
-goog.object.set(G__32413_32461,G__32414_32462,G__32415_32463);
+var G__32413_32459 = reagent.impl.template.custom_prop_name_cache;
+var G__32414_32460 = cljs.core.name(k);
+var G__32415_32461 = v;
+goog.object.set(G__32413_32459,G__32414_32460,G__32415_32461);
 
 return v;
 } else {
@@ -182,9 +182,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 var G__32467 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__32469__i = 0, G__32469__a = new Array(arguments.length -  0);
-while (G__32469__i < G__32469__a.length) {G__32469__a[G__32469__i] = arguments[G__32469__i + 0]; ++G__32469__i;}
-  args = new cljs.core.IndexedSeq(G__32469__a,0,null);
+var G__32468__i = 0, G__32468__a = new Array(arguments.length -  0);
+while (G__32468__i < G__32468__a.length) {G__32468__a[G__32468__i] = arguments[G__32468__i + 0]; ++G__32468__i;}
+  args = new cljs.core.IndexedSeq(G__32468__a,0,null);
 } 
 return G__32467__delegate.call(this,args);};
 G__32467.cljs$lang$maxFixedArity = 0;
@@ -609,8 +609,8 @@ return reagent.impl.template.native_element(reagent.impl.template.__GT_HiccupTag
 
 break;
 default:
-var G__32515 = cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subs.cljs$core$IFn$_invoke$arity$3(n,(0),pos),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.with_meta(v,null),(0),cljs.core.subs.cljs$core$IFn$_invoke$arity$2(n,(pos + (1))))], null),cljs.core.meta(v));
-v = G__32515;
+var G__32509 = cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subs.cljs$core$IFn$_invoke$arity$3(n,(0),pos),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.with_meta(v,null),(0),cljs.core.subs.cljs$core$IFn$_invoke$arity$2(n,(pos + (1))))], null),cljs.core.meta(v));
+v = G__32509;
 continue;
 
 }

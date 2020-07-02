@@ -61,9 +61,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (rewrite_clj.node.seq.SeqNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k30116,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__30120 = k30116;
-var G__30120__$1 = (((G__30120 instanceof cljs.core.Keyword))?G__30120.fqn:null);
-switch (G__30120__$1) {
+var G__30125 = k30116;
+var G__30125__$1 = (((G__30125 instanceof cljs.core.Keyword))?G__30125.fqn:null);
+switch (G__30125__$1) {
 case "tag":
 return self__.tag;
 
@@ -141,10 +141,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__30131 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__30133 = (function (coll__4436__auto__){
 return (580297420 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__30131(this__4435__auto____$1);
+return fexpr__30133(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 

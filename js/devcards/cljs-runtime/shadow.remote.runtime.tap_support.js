@@ -90,14 +90,14 @@ var tid = cljs.core.first(seq__60556__$1);
 shadow.remote.runtime.api.relay_msg(runtime,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"op","op",-1882987955),new cljs.core.Keyword(null,"tap","tap",-1086702463),new cljs.core.Keyword(null,"tid","tid",-901350880),tid,new cljs.core.Keyword(null,"oid","oid",-768692334),oid], null));
 
 
-var G__60571 = cljs.core.next(seq__60556__$1);
-var G__60572 = null;
-var G__60573 = (0);
-var G__60574 = (0);
-seq__60556 = G__60571;
-chunk__60557 = G__60572;
-count__60558 = G__60573;
-i__60559 = G__60574;
+var G__60574 = cljs.core.next(seq__60556__$1);
+var G__60575 = null;
+var G__60576 = (0);
+var G__60577 = (0);
+seq__60556 = G__60574;
+chunk__60557 = G__60575;
+count__60558 = G__60576;
+i__60559 = G__60577;
 continue;
 }
 } else {
