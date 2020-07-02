@@ -229,11 +229,11 @@ return (new rewrite_clj.node.comment.CommentNode(s,null,null,null));
  * Factory function for rewrite-clj.node.comment/CommentNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.comment.map__GT_CommentNode = (function rewrite_clj$node$comment$map__GT_CommentNode(G__29836){
-var extmap__4478__auto__ = (function (){var G__29848 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29836,new cljs.core.Keyword(null,"s","s",1705939918));
+var extmap__4478__auto__ = (function (){var G__29849 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29836,new cljs.core.Keyword(null,"s","s",1705939918));
 if(cljs.core.record_QMARK_(G__29836)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29848);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29849);
 } else {
-return G__29848;
+return G__29849;
 }
 })();
 return (new rewrite_clj.node.comment.CommentNode(new cljs.core.Keyword(null,"s","s",1705939918).cljs$core$IFn$_invoke$arity$1(G__29836),null,cljs.core.not_empty(extmap__4478__auto__),null));

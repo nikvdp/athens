@@ -372,14 +372,14 @@ return reagent.ratom.atom.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___31550 = arguments.length;
-var i__4790__auto___31551 = (0);
+var len__4789__auto___31545 = arguments.length;
+var i__4790__auto___31546 = (0);
 while(true){
-if((i__4790__auto___31551 < len__4789__auto___31550)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___31551]));
+if((i__4790__auto___31546 < len__4789__auto___31545)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___31546]));
 
-var G__31552 = (i__4790__auto___31551 + (1));
-i__4790__auto___31551 = G__31552;
+var G__31547 = (i__4790__auto___31546 + (1));
+i__4790__auto___31546 = G__31547;
 continue;
 } else {
 }
@@ -432,9 +432,9 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(reagent.ratom._running,cljs.c
 } else {
 }
 
-var __31553 = o.reagReactionCache;
-var __31554__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__31553,k);
-(o.reagReactionCache = __31554__$1);
+var __31552 = o.reagReactionCache;
+var __31553__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__31552,k);
+(o.reagReactionCache = __31553__$1);
 
 if((!((obj == null)))){
 (obj.reaction = null);
@@ -554,14 +554,14 @@ return r;
 });
 reagent.ratom.track = (function reagent$ratom$track(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___31559 = arguments.length;
-var i__4790__auto___31560 = (0);
+var len__4789__auto___31555 = arguments.length;
+var i__4790__auto___31556 = (0);
 while(true){
-if((i__4790__auto___31560 < len__4789__auto___31559)){
-args__4795__auto__.push((arguments[i__4790__auto___31560]));
+if((i__4790__auto___31556 < len__4789__auto___31555)){
+args__4795__auto__.push((arguments[i__4790__auto___31556]));
 
-var G__31561 = (i__4790__auto___31560 + (1));
-i__4790__auto___31560 = G__31561;
+var G__31557 = (i__4790__auto___31556 + (1));
+i__4790__auto___31556 = G__31557;
 continue;
 } else {
 }
@@ -593,14 +593,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31490,seq31489
 
 reagent.ratom.track_BANG_ = (function reagent$ratom$track_BANG_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___31562 = arguments.length;
-var i__4790__auto___31563 = (0);
+var len__4789__auto___31559 = arguments.length;
+var i__4790__auto___31560 = (0);
 while(true){
-if((i__4790__auto___31563 < len__4789__auto___31562)){
-args__4795__auto__.push((arguments[i__4790__auto___31563]));
+if((i__4790__auto___31560 < len__4789__auto___31559)){
+args__4795__auto__.push((arguments[i__4790__auto___31560]));
 
-var G__31564 = (i__4790__auto___31563 + (1));
-i__4790__auto___31563 = G__31564;
+var G__31561 = (i__4790__auto___31560 + (1));
+i__4790__auto___31560 = G__31561;
 continue;
 } else {
 }
@@ -1268,11 +1268,11 @@ var n__4666__auto__ = a.length;
 var i = (0);
 while(true){
 if((i < n__4666__auto__)){
-var fexpr__31523_31643 = (a[i]);
-(fexpr__31523_31643.cljs$core$IFn$_invoke$arity$1 ? fexpr__31523_31643.cljs$core$IFn$_invoke$arity$1(this$__$1) : fexpr__31523_31643.call(null,this$__$1));
+var fexpr__31523_31645 = (a[i]);
+(fexpr__31523_31645.cljs$core$IFn$_invoke$arity$1 ? fexpr__31523_31645.cljs$core$IFn$_invoke$arity$1(this$__$1) : fexpr__31523_31645.call(null,this$__$1));
 
-var G__31645 = (i + (1));
-i = G__31645;
+var G__31646 = (i + (1));
+i = G__31646;
 continue;
 } else {
 return null;

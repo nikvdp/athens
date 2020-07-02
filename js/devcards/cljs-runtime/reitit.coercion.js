@@ -309,8 +309,8 @@ return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.not_empty(cljs
 (reitit.coercion.CoercionError.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__49845){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__49859 = cljs.core.keyword_identical_QMARK_;
-var expr__49860 = k__4447__auto__;
+var pred__49856 = cljs.core.keyword_identical_QMARK_;
+var expr__49857 = k__4447__auto__;
 return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__49845),null));
 }));
 
@@ -732,12 +732,12 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49913,(1),null);
 if(cljs.core.truth_(v)){
 cljs.core.chunk_append(b__49912,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,reitit.coercion.request_coercer(coercion,k,v,opts)], null));
 
-var G__49996 = (i__49911 + (1));
-i__49911 = G__49996;
+var G__49993 = (i__49911 + (1));
+i__49911 = G__49993;
 continue;
 } else {
-var G__49997 = (i__49911 + (1));
-i__49911 = G__49997;
+var G__49994 = (i__49911 + (1));
+i__49911 = G__49994;
 continue;
 }
 } else {
@@ -795,12 +795,12 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49926__$1,new cljs.c
 if(cljs.core.truth_(body)){
 cljs.core.chunk_append(b__49922,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null));
 
-var G__50000 = (i__49921 + (1));
-i__49921 = G__50000;
+var G__49999 = (i__49921 + (1));
+i__49921 = G__49999;
 continue;
 } else {
-var G__50001 = (i__49921 + (1));
-i__49921 = G__50001;
+var G__50000 = (i__49921 + (1));
+i__49921 = G__50000;
 continue;
 }
 } else {
@@ -822,8 +822,8 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49931__$1,new cljs.c
 if(cljs.core.truth_(body)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null),reitit$coercion$response_coercers_$_iter__49919(cljs.core.rest(s__49920__$2)));
 } else {
-var G__50003 = cljs.core.rest(s__49920__$2);
-s__49920__$1 = G__50003;
+var G__50001 = cljs.core.rest(s__49920__$2);
+s__49920__$1 = G__50001;
 continue;
 }
 }

@@ -78,10 +78,10 @@ while(true){
 if(cljs.core.truth_(new cljs.core.Keyword("node","title","node/title",628940777).cljs$core$IFn$_invoke$arity$1(b))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,b);
 } else {
-var G__32845 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
-var G__32846 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
-b = G__32845;
-res = G__32846;
+var G__32850 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
+var G__32851 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
+b = G__32850;
+res = G__32851;
 continue;
 }
 break;
@@ -113,10 +113,10 @@ return acc;
 if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(x) : pred.call(null,x)))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
 } else {
-var G__32847 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
-var G__32848 = cljs.core.next(xs__$1);
-acc = G__32847;
-xs__$1 = G__32848;
+var G__32857 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
+var G__32858 = cljs.core.next(xs__$1);
+acc = G__32857;
+xs__$1 = G__32858;
 continue;
 
 }
