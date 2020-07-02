@@ -81,19 +81,19 @@ try{var G__27913_27930 = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_27928,"while storing",cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces),e_27931], 0));
 }
 
-var G__27932 = seq__27895_27923;
-var G__27933 = chunk__27896_27924;
-var G__27934 = count__27897_27925;
-var G__27935 = (i__27898_27926 + (1));
-seq__27895_27923 = G__27932;
-chunk__27896_27924 = G__27933;
-count__27897_27925 = G__27934;
-i__27898_27926 = G__27935;
+var G__27934 = seq__27895_27923;
+var G__27935 = chunk__27896_27924;
+var G__27936 = count__27897_27925;
+var G__27937 = (i__27898_27926 + (1));
+seq__27895_27923 = G__27934;
+chunk__27896_27924 = G__27935;
+count__27897_27925 = G__27936;
+i__27898_27926 = G__27937;
 continue;
 } else {
-var temp__5735__auto___27938 = cljs.core.seq(seq__27895_27923);
-if(temp__5735__auto___27938){
-var seq__27895_27940__$1 = temp__5735__auto___27938;
+var temp__5735__auto___27939 = cljs.core.seq(seq__27895_27923);
+if(temp__5735__auto___27939){
+var seq__27895_27940__$1 = temp__5735__auto___27939;
 if(cljs.core.chunked_seq_QMARK_(seq__27895_27940__$1)){
 var c__4609__auto___27941 = cljs.core.chunk_first(seq__27895_27940__$1);
 var G__27942 = cljs.core.chunk_rest(seq__27895_27940__$1);

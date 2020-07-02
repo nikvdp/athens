@@ -29,14 +29,14 @@ x = G__55092;
 continue;
 } else {
 if((x instanceof cljs.core.Symbol)){
-var G__55066 = spec_tools.impl.normalize_symbol(x);
-var G__55067 = null;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55066,G__55067) : spec_tools.parse.parse_form.call(null,G__55066,G__55067));
+var G__55065 = spec_tools.impl.normalize_symbol(x);
+var G__55066 = null;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55065,G__55066) : spec_tools.parse.parse_form.call(null,G__55065,G__55066));
 } else {
 if(cljs.core.seq_QMARK_(x)){
-var G__55068 = spec_tools.impl.normalize_symbol(cljs.core.first(x));
-var G__55069 = x;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55068,G__55069) : spec_tools.parse.parse_form.call(null,G__55068,G__55069));
+var G__55067 = spec_tools.impl.normalize_symbol(cljs.core.first(x));
+var G__55068 = x;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55067,G__55068) : spec_tools.parse.parse_form.call(null,G__55067,G__55068));
 } else {
 if(cljs.core.truth_(cljs.spec.alpha.spec_QMARK_(x))){
 var G__55093 = cljs.spec.alpha.form(x);
@@ -44,9 +44,9 @@ x = G__55093;
 continue;
 } else {
 if(cljs.core.ifn_QMARK_(x)){
-var G__55070 = (spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1 ? spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1(x) : spec_tools.form.resolve_form.call(null,x));
-var G__55071 = null;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55070,G__55071) : spec_tools.parse.parse_form.call(null,G__55070,G__55071));
+var G__55069 = (spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1 ? spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1(x) : spec_tools.form.resolve_form.call(null,x));
+var G__55070 = null;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55069,G__55070) : spec_tools.parse.parse_form.call(null,G__55069,G__55070));
 } else {
 return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(x,null) : spec_tools.parse.parse_form.call(null,x,null));
 
