@@ -85,8 +85,8 @@ if((i >= (0))){
 if(dommy.utils.class_match_QMARK_(class_name,class$,i)){
 return i;
 } else {
-var G__34617 = (i + class$.length);
-start_from = G__34617;
+var G__34616 = (i + class$.length);
+start_from = G__34616;
 continue;
 }
 } else {

@@ -173,28 +173,28 @@ if(temp__5735__auto___58850){
 var seq__58724_58851__$1 = temp__5735__auto___58850;
 if(cljs.core.chunked_seq_QMARK_(seq__58724_58851__$1)){
 var c__4609__auto___58852 = cljs.core.chunk_first(seq__58724_58851__$1);
-var G__58854 = cljs.core.chunk_rest(seq__58724_58851__$1);
-var G__58855 = c__4609__auto___58852;
-var G__58856 = cljs.core.count(c__4609__auto___58852);
-var G__58857 = (0);
-seq__58724_58841 = G__58854;
-chunk__58725_58842 = G__58855;
-count__58726_58843 = G__58856;
-i__58727_58844 = G__58857;
+var G__58853 = cljs.core.chunk_rest(seq__58724_58851__$1);
+var G__58854 = c__4609__auto___58852;
+var G__58855 = cljs.core.count(c__4609__auto___58852);
+var G__58856 = (0);
+seq__58724_58841 = G__58853;
+chunk__58725_58842 = G__58854;
+count__58726_58843 = G__58855;
+i__58727_58844 = G__58856;
 continue;
 } else {
-var v_58858 = cljs.core.first(seq__58724_58851__$1);
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_58858);
+var v_58857 = cljs.core.first(seq__58724_58851__$1);
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_58857);
 
 
-var G__58859 = cljs.core.next(seq__58724_58851__$1);
-var G__58860 = null;
+var G__58858 = cljs.core.next(seq__58724_58851__$1);
+var G__58859 = null;
+var G__58860 = (0);
 var G__58861 = (0);
-var G__58862 = (0);
-seq__58724_58841 = G__58859;
-chunk__58725_58842 = G__58860;
-count__58726_58843 = G__58861;
-i__58727_58844 = G__58862;
+seq__58724_58841 = G__58858;
+chunk__58725_58842 = G__58859;
+count__58726_58843 = G__58860;
+i__58727_58844 = G__58861;
 continue;
 }
 } else {
@@ -203,17 +203,17 @@ continue;
 break;
 }
 
+var G__58862 = vals;
+vals = G__58862;
+continue;
+} else {
+if(edamame.impl.parser.non_match_QMARK_(next_val)){
 var G__58863 = vals;
 vals = G__58863;
 continue;
 } else {
-if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__58864 = vals;
+var G__58864 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
 vals = G__58864;
-continue;
-} else {
-var G__58865 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
-vals = G__58865;
 continue;
 
 }

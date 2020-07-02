@@ -28,8 +28,8 @@ reagent.core.is_client = reagent.impl.util.is_client;
  *   ```
  */
 reagent.core.create_element = (function reagent$core$create_element(var_args){
-var G__32516 = arguments.length;
-switch (G__32516) {
+var G__32513 = arguments.length;
+switch (G__32513) {
 case 1:
 return reagent.core.create_element.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -96,15 +96,15 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(module$node_modules$react$i
 }));
 
 /** @this {Function} */
-(reagent.core.create_element.cljs$lang$applyTo = (function (seq32512){
-var G__32513 = cljs.core.first(seq32512);
-var seq32512__$1 = cljs.core.next(seq32512);
-var G__32514 = cljs.core.first(seq32512__$1);
-var seq32512__$2 = cljs.core.next(seq32512__$1);
-var G__32515 = cljs.core.first(seq32512__$2);
-var seq32512__$3 = cljs.core.next(seq32512__$2);
+(reagent.core.create_element.cljs$lang$applyTo = (function (seq32509){
+var G__32510 = cljs.core.first(seq32509);
+var seq32509__$1 = cljs.core.next(seq32509);
+var G__32511 = cljs.core.first(seq32509__$1);
+var seq32509__$2 = cljs.core.next(seq32509__$1);
+var G__32512 = cljs.core.first(seq32509__$2);
+var seq32509__$3 = cljs.core.next(seq32509__$2);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32513,G__32514,G__32515,seq32512__$3);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32510,G__32511,G__32512,seq32509__$3);
 }));
 
 (reagent.core.create_element.cljs$lang$maxFixedArity = (3));
@@ -151,8 +151,8 @@ return reagent.impl.component.reactify_component(c);
  *   Returns the mounted component instance.
  */
 reagent.core.render = (function reagent$core$render(var_args){
-var G__32518 = arguments.length;
-switch (G__32518) {
+var G__32517 = arguments.length;
+switch (G__32517) {
 case 2:
 return reagent.core.render.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

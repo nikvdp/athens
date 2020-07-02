@@ -53,14 +53,14 @@ var style_hash = chunk__40393.cljs$core$IIndexed$_nth$arity$2(null,i__40395);
 cljs.core.reset_BANG_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(stylefy.impl.dom.styles_in_dom),style_hash),true);
 
 
-var G__40435 = seq__40392;
-var G__40436 = chunk__40393;
-var G__40437 = count__40394;
-var G__40438 = (i__40395 + (1));
-seq__40392 = G__40435;
-chunk__40393 = G__40436;
-count__40394 = G__40437;
-i__40395 = G__40438;
+var G__40434 = seq__40392;
+var G__40435 = chunk__40393;
+var G__40436 = count__40394;
+var G__40437 = (i__40395 + (1));
+seq__40392 = G__40434;
+chunk__40393 = G__40435;
+count__40394 = G__40436;
+i__40395 = G__40437;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__40392);
@@ -147,9 +147,9 @@ return null;
 } else {
 cljs.core.reset_BANG_(stylefy.impl.dom.dom_update_requested_QMARK_,true);
 
-var c__38856__auto___40456 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__38855__auto___40450 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__38857__auto__ = (function (){var switch__38788__auto__ = (function (state_40399){
+var f__38856__auto__ = (function (){var switch__38788__auto__ = (function (state_40399){
 var state_val_40400 = (state_40399[(1)]);
 if((state_val_40400 === (1))){
 var inst_40397 = stylefy.impl.dom.update_dom();
@@ -182,8 +182,8 @@ break;
 }
 }catch (e40403){if((e40403 instanceof Object)){
 var ex__38792__auto__ = e40403;
-var statearr_40404_40458 = state_40399;
-(statearr_40404_40458[(5)] = ex__38792__auto__);
+var statearr_40404_40457 = state_40399;
+(statearr_40404_40457[(5)] = ex__38792__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_40399);
@@ -195,8 +195,8 @@ throw e40403;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__38790__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__40461 = state_40399;
-state_40399 = G__40461;
+var G__40459 = state_40399;
+state_40399 = G__40459;
 continue;
 } else {
 return ret_value__38790__auto__;
@@ -218,12 +218,12 @@ stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__38789__auto__.
 return stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__38789__auto__;
 })()
 })();
-var state__38858__auto__ = (function (){var statearr_40408 = (f__38857__auto__.cljs$core$IFn$_invoke$arity$0 ? f__38857__auto__.cljs$core$IFn$_invoke$arity$0() : f__38857__auto__.call(null));
-(statearr_40408[(6)] = c__38856__auto___40456);
+var state__38857__auto__ = (function (){var statearr_40405 = (f__38856__auto__.cljs$core$IFn$_invoke$arity$0 ? f__38856__auto__.cljs$core$IFn$_invoke$arity$0() : f__38856__auto__.call(null));
+(statearr_40405[(6)] = c__38855__auto___40450);
 
-return statearr_40408;
+return statearr_40405;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__38858__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__38857__auto__);
 }));
 
 
@@ -277,12 +277,12 @@ return null;
 /**
  * Stores the style in an atom. The style is going to be added into the DOM soon.
  */
-stylefy.impl.dom.save_style_BANG_ = (function stylefy$impl$dom$save_style_BANG_(p__40417){
-var map__40418 = p__40417;
-var map__40418__$1 = (((((!((map__40418 == null))))?(((((map__40418.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40418.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__40418):map__40418);
-var style = map__40418__$1;
-var css = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40418__$1,new cljs.core.Keyword(null,"css","css",1135045163));
-var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40418__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
+stylefy.impl.dom.save_style_BANG_ = (function stylefy$impl$dom$save_style_BANG_(p__40416){
+var map__40417 = p__40416;
+var map__40417__$1 = (((((!((map__40417 == null))))?(((((map__40417.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40417.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__40417):map__40417);
+var style = map__40417__$1;
+var css = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40417__$1,new cljs.core.Keyword(null,"css","css",1135045163));
+var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40417__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
 if(cljs.core.truth_(css)){
 } else {
 throw (new Error(["Assert failed: ","Unable to save empty style!","\n","css"].join('')));

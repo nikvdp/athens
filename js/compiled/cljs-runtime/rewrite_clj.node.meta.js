@@ -120,10 +120,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__30010 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__30009 = (function (coll__4436__auto__){
 return (1501447658 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__30010(this__4435__auto____$1);
+return fexpr__30009(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -299,8 +299,8 @@ return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag
  * Create node representing a form and its metadata.
  */
 rewrite_clj.node.meta.meta_node = (function rewrite_clj$node$meta$meta_node(var_args){
-var G__30029 = arguments.length;
-switch (G__30029) {
+var G__30026 = arguments.length;
+switch (G__30026) {
 case 1:
 return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

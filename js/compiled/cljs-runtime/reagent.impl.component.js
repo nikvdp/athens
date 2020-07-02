@@ -238,9 +238,9 @@ return rat._run(false);
 }
 })], null);
 reagent.impl.component.custom_wrapper = (function reagent$impl$component$custom_wrapper(key,f){
-var G__32290 = key;
-var G__32290__$1 = (((G__32290 instanceof cljs.core.Keyword))?G__32290.fqn:null);
-switch (G__32290__$1) {
+var G__32292 = key;
+var G__32292__$1 = (((G__32292 instanceof cljs.core.Keyword))?G__32292.fqn:null);
+switch (G__32292__$1) {
 case "getDefaultProps":
 throw (new Error("getDefaultProps not supported"));
 
@@ -570,12 +570,12 @@ return cljs.core._write(writer,display_name);
 return cmp;
 });
 reagent.impl.component.fiber_component_path = (function reagent$impl$component$fiber_component_path(fiber){
-var name = (function (){var G__32319 = fiber;
-var G__32319__$1 = (((G__32319 == null))?null:G__32319.type);
-if((G__32319__$1 == null)){
+var name = (function (){var G__32323 = fiber;
+var G__32323__$1 = (((G__32323 == null))?null:G__32323.type);
+if((G__32323__$1 == null)){
 return null;
 } else {
-return G__32319__$1.displayName;
+return G__32323__$1.displayName;
 }
 })();
 var parent = (function (){var G__32325 = fiber;
