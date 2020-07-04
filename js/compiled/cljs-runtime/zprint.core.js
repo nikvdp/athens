@@ -159,10 +159,10 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
  *   may short circuit the other options processing. 
  *   Returns [special-option rest-options]
  */
-zprint.core.process_rest_options = (function zprint$core$process_rest_options(internal_options,p__31822){
-var vec__31823 = p__31822;
-var width_or_options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31823,(0),null);
-var options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31823,(1),null);
+zprint.core.process_rest_options = (function zprint$core$process_rest_options(internal_options,p__31824){
+var vec__31826 = p__31824;
+var width_or_options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31826,(0),null);
+var options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31826,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(width_or_options,new cljs.core.Keyword(null,"default","default",-1987822328))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"default","default",-1987822328),zprint.config.get_default_options()], null);
 } else {

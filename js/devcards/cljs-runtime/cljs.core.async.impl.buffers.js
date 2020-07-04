@@ -111,14 +111,14 @@ var n__4666__auto__ = self__.length;
 var x = (0);
 while(true){
 if((x < n__4666__auto__)){
-var v_34832 = this$.pop();
-if((keep_QMARK_.cljs$core$IFn$_invoke$arity$1 ? keep_QMARK_.cljs$core$IFn$_invoke$arity$1(v_34832) : keep_QMARK_.call(null,v_34832))){
-this$.unshift(v_34832);
+var v_34826 = this$.pop();
+if((keep_QMARK_.cljs$core$IFn$_invoke$arity$1 ? keep_QMARK_.cljs$core$IFn$_invoke$arity$1(v_34826) : keep_QMARK_.call(null,v_34826))){
+this$.unshift(v_34826);
 } else {
 }
 
-var G__34833 = (x + (1));
-x = G__34833;
+var G__34828 = (x + (1));
+x = G__34828;
 continue;
 } else {
 return null;

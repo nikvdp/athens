@@ -168,18 +168,18 @@ return this__41009__auto__;
 });
 goog.inherits(ctor__41011__auto__,React.Component);
 
-var x41791_42151 = ctor__41011__auto__.prototype;
-(x41791_42151.componentDidMount = (function (){
+var x41791_42157 = ctor__41011__auto__.prototype;
+(x41791_42157.componentDidMount = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x41791_42151.componentDidUpdate = (function (){
+(x41791_42157.componentDidUpdate = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x41791_42151.render = (function (){
+(x41791_42157.render = (function (){
 var this$ = this;
 return React.createElement("pre",({"className": (cljs.core.truth_(devcards.core.get_hljs())?"com-rigsomelight-devcards-code-highlighting":""), "key": cljs.core.hash((function (){var G__41792 = this$;
 var G__41793 = new cljs.core.Keyword(null,"code","code",1586293142);
@@ -240,8 +240,8 @@ while(true){
 if((i__4790__auto___42162 < len__4789__auto___42161)){
 args__4795__auto__.push((arguments[i__4790__auto___42162]));
 
-var G__42163 = (i__4790__auto___42162 + (1));
-i__4790__auto___42162 = G__42163;
+var G__42166 = (i__4790__auto___42162 + (1));
+i__4790__auto___42162 = G__42166;
 continue;
 } else {
 }

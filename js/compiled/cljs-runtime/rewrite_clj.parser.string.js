@@ -34,10 +34,10 @@ continue;
 } else {
 buf.append(c);
 
-var G__30234 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
-var G__30235 = lines;
-escape_QMARK_ = G__30234;
-lines = G__30235;
+var G__30235 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
+var G__30236 = lines;
+escape_QMARK_ = G__30235;
+lines = G__30236;
 continue;
 
 }

@@ -205,10 +205,10 @@ cljs.tools.reader.reader_types.read_char(rdr);
 if((d === (-1))){
 return cljs.tools.reader.impl.errors.throw_invalid_unicode_digit(rdr,ch);
 } else {
-var G__24935 = (i + (1));
-var G__24936 = (d + (uc * base));
-i = G__24935;
-uc = G__24936;
+var G__24934 = (i + (1));
+var G__24935 = (d + (uc * base));
+i = G__24934;
+uc = G__24935;
 continue;
 }
 }
@@ -664,8 +664,8 @@ return cljs.tools.reader.impl.errors.reader_error.cljs$core$IFn$_invoke$arity$va
 }
 });
 cljs.tools.reader.edn.macros = (function cljs$tools$reader$edn$macros(ch){
-var G__24914 = ch;
-switch (G__24914) {
+var G__24912 = ch;
+switch (G__24912) {
 case "\"":
 return cljs.tools.reader.edn.read_string_STAR_;
 
@@ -720,8 +720,8 @@ return null;
 }
 });
 cljs.tools.reader.edn.dispatch_macros = (function cljs$tools$reader$edn$dispatch_macros(ch){
-var G__24917 = ch;
-switch (G__24917) {
+var G__24915 = ch;
+switch (G__24915) {
 case "^":
 return cljs.tools.reader.edn.read_meta;
 

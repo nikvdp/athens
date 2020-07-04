@@ -94,8 +94,8 @@ var child = map__65836__$1;
 var uid__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__65836__$1,new cljs.core.Keyword("block","uid","block/uid",-1623585167));
 cljs.core.chunk_append(b__65835,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),uid__$1], null)));
 
-var G__65976 = (i__65834 + (1));
-i__65834 = G__65976;
+var G__65982 = (i__65834 + (1));
+i__65834 = G__65982;
 continue;
 } else {
 return true;

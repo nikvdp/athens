@@ -338,10 +338,10 @@ while(true){
 if(cljs.core.not(nloc)){
 return ploc;
 } else {
-var G__30693 = zprint.zutil.zleftnws(nloc);
-var G__30694 = nloc;
-nloc = G__30693;
-ploc = G__30694;
+var G__30694 = zprint.zutil.zleftnws(nloc);
+var G__30695 = nloc;
+nloc = G__30694;
+ploc = G__30695;
 continue;
 }
 break;
@@ -390,10 +390,10 @@ if((!((nloc == null)))){
 if(cljs.core.truth_((zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(nloc) : zthing_QMARK_.call(null,nloc)))){
 return i;
 } else {
-var G__30700 = zprint.zutil.zrightnws(nloc);
-var G__30701 = (i + (1));
-nloc = G__30700;
-i = G__30701;
+var G__30703 = zprint.zutil.zrightnws(nloc);
+var G__30704 = (i + (1));
+nloc = G__30703;
+i = G__30704;
 continue;
 }
 } else {
@@ -1075,12 +1075,12 @@ continue;
 }
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(pair),(1))){
-var G__30740 = ns__$1;
-var G__30741 = cljs.core.next(pair_seq__$1);
-var G__30742 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
-ns__$1 = G__30740;
-pair_seq__$1 = G__30741;
-out = G__30742;
+var G__30742 = ns__$1;
+var G__30743 = cljs.core.next(pair_seq__$1);
+var G__30744 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
+ns__$1 = G__30742;
+pair_seq__$1 = G__30743;
+out = G__30744;
 continue;
 } else {
 return null;

@@ -36,14 +36,14 @@ return devtools.prefs.set_prefs_BANG_(cljs.core.merge.cljs$core$IFn$_invoke$arit
 });
 devtools.prefs.update_pref_BANG_ = (function devtools$prefs$update_pref_BANG_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___20229 = arguments.length;
-var i__4790__auto___20230 = (0);
+var len__4789__auto___20236 = arguments.length;
+var i__4790__auto___20237 = (0);
 while(true){
-if((i__4790__auto___20230 < len__4789__auto___20229)){
-args__4795__auto__.push((arguments[i__4790__auto___20230]));
+if((i__4790__auto___20237 < len__4789__auto___20236)){
+args__4795__auto__.push((arguments[i__4790__auto___20237]));
 
-var G__20231 = (i__4790__auto___20230 + (1));
-i__4790__auto___20230 = G__20231;
+var G__20238 = (i__4790__auto___20237 + (1));
+i__4790__auto___20237 = G__20238;
 continue;
 } else {
 }

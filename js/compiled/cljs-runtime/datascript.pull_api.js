@@ -360,16 +360,16 @@ return G__42461;
 }
 })();
 if(cljs.core.seq(remaining)){
-var G__42476 = db;
-var G__42477 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.rest(remaining),(function (){var G__42462 = cljs.core.first(remaining);
+var G__42477 = db;
+var G__42478 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.rest(remaining),(function (){var G__42462 = cljs.core.first(remaining);
 if(cljs.core.truth_(result)){
 return cljs.core.update.cljs$core$IFn$_invoke$arity$5(G__42462,new cljs.core.Keyword(null,"kvps","kvps",65308317),cljs.core.assoc_BANG_,new cljs.core.Keyword(null,"attr","attr",-604132353).cljs$core$IFn$_invoke$arity$1(f),result);
 } else {
 return G__42462;
 }
 })());
-db = G__42476;
-frames = G__42477;
+db = G__42477;
+frames = G__42478;
 continue;
 } else {
 return result;

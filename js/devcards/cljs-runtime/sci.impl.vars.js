@@ -1272,10 +1272,10 @@ return sci.impl.vars.getName(cljs.core.deref(sci.impl.vars.current_ns));
 });
 sci.impl.vars.alter_var_root = (function sci$impl$vars$alter_var_root(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58434 = arguments.length;
+var len__4789__auto___58436 = arguments.length;
 var i__4790__auto___58437 = (0);
 while(true){
-if((i__4790__auto___58437 < len__4789__auto___58434)){
+if((i__4790__auto___58437 < len__4789__auto___58436)){
 args__4795__auto__.push((arguments[i__4790__auto___58437]));
 
 var G__58438 = (i__4790__auto___58437 + (1));
