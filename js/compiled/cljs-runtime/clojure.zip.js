@@ -319,14 +319,14 @@ return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.
  */
 clojure.zip.edit = (function clojure$zip$edit(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30357 = arguments.length;
-var i__4790__auto___30358 = (0);
+var len__4789__auto___30358 = arguments.length;
+var i__4790__auto___30359 = (0);
 while(true){
-if((i__4790__auto___30358 < len__4789__auto___30357)){
-args__4795__auto__.push((arguments[i__4790__auto___30358]));
+if((i__4790__auto___30359 < len__4789__auto___30358)){
+args__4795__auto__.push((arguments[i__4790__auto___30359]));
 
-var G__30360 = (i__4790__auto___30358 + (1));
-i__4790__auto___30358 = G__30360;
+var G__30360 = (i__4790__auto___30359 + (1));
+i__4790__auto___30359 = G__30360;
 continue;
 } else {
 }

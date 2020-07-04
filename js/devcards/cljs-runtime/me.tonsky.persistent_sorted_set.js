@@ -997,10 +997,10 @@ var level = set.shift;
 var node = set.root;
 while(true){
 if((level > (0))){
-var G__24971 = (level - me.tonsky.persistent_sorted_set.level_shift);
-var G__24972 = (node.pointers[me.tonsky.persistent_sorted_set.path_get(path,level)]);
-level = G__24971;
-node = G__24972;
+var G__24976 = (level - me.tonsky.persistent_sorted_set.level_shift);
+var G__24977 = (node.pointers[me.tonsky.persistent_sorted_set.path_get(path,level)]);
+level = G__24976;
+node = G__24977;
 continue;
 } else {
 return node.keys;
@@ -1188,10 +1188,10 @@ return (f.cljs$core$IFn$_invoke$arity$2 ? f.cljs$core$IFn$_invoke$arity$2(G__248
 if(cljs.core.reduced_QMARK_(val_SINGLEQUOTE_)){
 return cljs.core.deref(val_SINGLEQUOTE_);
 } else {
-var G__25007 = val_SINGLEQUOTE_;
-var G__25008 = (n + (1));
-val = G__25007;
-n = G__25008;
+var G__25008 = val_SINGLEQUOTE_;
+var G__25009 = (n + (1));
+val = G__25008;
+n = G__25009;
 continue;
 }
 } else {
@@ -1753,8 +1753,8 @@ if((i_25105 < len)){
 return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__24864) : f.call(null,G__24864));
 })());
 
-var G__25107 = (i_25105 + (1));
-i_25105 = G__25107;
+var G__25106 = (i_25105 + (1));
+i_25105 = G__25106;
 continue;
 } else {
 }
@@ -1772,24 +1772,24 @@ var chunk_len = me.tonsky.persistent_sorted_set.avg_len;
 var len = arr.length;
 var acc = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 if((len > (0))){
-var pos_25109 = (0);
+var pos_25108 = (0);
 while(true){
-var rest_25110 = (len - pos_25109);
-if((rest_25110 <= max_len)){
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,arr.slice(pos_25109));
+var rest_25109 = (len - pos_25108);
+if((rest_25109 <= max_len)){
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,arr.slice(pos_25108));
 } else {
-if((rest_25110 >= (chunk_len + min_len))){
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,arr.slice(pos_25109,(pos_25109 + chunk_len)));
+if((rest_25109 >= (chunk_len + min_len))){
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,arr.slice(pos_25108,(pos_25108 + chunk_len)));
 
-var G__25112 = (pos_25109 + chunk_len);
-pos_25109 = G__25112;
+var G__25111 = (pos_25108 + chunk_len);
+pos_25108 = G__25111;
 continue;
 } else {
-var piece_len_25113 = (rest_25110 >>> (1));
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,arr.slice(pos_25109,(pos_25109 + piece_len_25113)));
+var piece_len_25112 = (rest_25109 >>> (1));
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,arr.slice(pos_25108,(pos_25108 + piece_len_25112)));
 
-var G__25114 = (pos_25109 + piece_len_25113);
-pos_25109 = G__25114;
+var G__25113 = (pos_25108 + piece_len_25112);
+pos_25108 = G__25113;
 continue;
 
 }
@@ -1816,10 +1816,10 @@ var e = (arr[i]);
 if(((0) === (cmp.cljs$core$IFn$_invoke$arity$2 ? cmp.cljs$core$IFn$_invoke$arity$2(e,p) : cmp.call(null,e,p)))){
 return false;
 } else {
-var G__25118 = (i + (1));
-var G__25119 = e;
-i = G__25118;
-p = G__25119;
+var G__25115 = (i + (1));
+var G__25116 = e;
+i = G__25115;
+p = G__25116;
 continue;
 }
 }
@@ -1845,20 +1845,20 @@ return cljs.core.into_array.cljs$core$IFn$_invoke$arity$1(cljs.core.persistent_B
 } else {
 var e = (arr[i]);
 if(((0) === (cmp.cljs$core$IFn$_invoke$arity$2 ? cmp.cljs$core$IFn$_invoke$arity$2(e,p) : cmp.call(null,e,p)))){
-var G__25122 = acc;
-var G__25123 = (i + (1));
-var G__25124 = e;
-acc = G__25122;
-i = G__25123;
-p = G__25124;
+var G__25121 = acc;
+var G__25122 = (i + (1));
+var G__25123 = e;
+acc = G__25121;
+i = G__25122;
+p = G__25123;
 continue;
 } else {
-var G__25125 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,e);
-var G__25126 = (i + (1));
-var G__25127 = e;
-acc = G__25125;
-i = G__25126;
-p = G__25127;
+var G__25124 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,e);
+var G__25125 = (i + (1));
+var G__25126 = e;
+acc = G__25124;
+i = G__25125;
+p = G__25126;
 continue;
 }
 }
@@ -2006,14 +2006,14 @@ return (new me.tonsky.persistent_sorted_set.BTSet(cljs.core.first(current_level)
 
 break;
 default:
-var G__25139 = me.tonsky.persistent_sorted_set.arr_map_inplace(((function (current_level,shift,G__24874,leaves){
+var G__25137 = me.tonsky.persistent_sorted_set.arr_map_inplace(((function (current_level,shift,G__24874,leaves){
 return (function (p1__24873_SHARP_){
 return (new me.tonsky.persistent_sorted_set.Node(me.tonsky.persistent_sorted_set.arrays.amap(me.tonsky.persistent_sorted_set.node_lim_key,p1__24873_SHARP_),p1__24873_SHARP_));
 });})(current_level,shift,G__24874,leaves))
 ,me.tonsky.persistent_sorted_set.arr_partition_approx((16),(32),current_level));
-var G__25140 = (shift + me.tonsky.persistent_sorted_set.level_shift);
-current_level = G__25139;
-shift = G__25140;
+var G__25138 = (shift + me.tonsky.persistent_sorted_set.level_shift);
+current_level = G__25137;
+shift = G__25138;
 continue;
 
 }
@@ -2036,14 +2036,14 @@ return me.tonsky.persistent_sorted_set.sorted_set_by.cljs$core$IFn$_invoke$arity
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___25146 = arguments.length;
-var i__4790__auto___25147 = (0);
+var len__4789__auto___25145 = arguments.length;
+var i__4790__auto___25146 = (0);
 while(true){
-if((i__4790__auto___25147 < len__4789__auto___25146)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___25147]));
+if((i__4790__auto___25146 < len__4789__auto___25145)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___25146]));
 
-var G__25148 = (i__4790__auto___25147 + (1));
-i__4790__auto___25147 = G__25148;
+var G__25147 = (i__4790__auto___25146 + (1));
+i__4790__auto___25146 = G__25147;
 continue;
 } else {
 }

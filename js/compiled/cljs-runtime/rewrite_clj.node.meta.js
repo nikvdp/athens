@@ -299,8 +299,8 @@ return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag
  * Create node representing a form and its metadata.
  */
 rewrite_clj.node.meta.meta_node = (function rewrite_clj$node$meta$meta_node(var_args){
-var G__30027 = arguments.length;
-switch (G__30027) {
+var G__30026 = arguments.length;
+switch (G__30026) {
 case 1:
 return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -332,8 +332,8 @@ return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1(new cljs.co
  * `#^` prefix.
  */
 rewrite_clj.node.meta.raw_meta_node = (function rewrite_clj$node$meta$raw_meta_node(var_args){
-var G__30031 = arguments.length;
-switch (G__30031) {
+var G__30028 = arguments.length;
+switch (G__30028) {
 case 1:
 return rewrite_clj.node.meta.raw_meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

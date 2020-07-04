@@ -13,13 +13,13 @@ clojure.string.reverse = (function clojure$string$reverse(s){
 return s.replace(clojure.string.re_surrogate_pair,"$2$1").split("").reverse().join("");
 });
 clojure.string.replace_all = (function clojure$string$replace_all(s,re,replacement){
-var r = (new RegExp(re.source,(function (){var G__20232 = "g";
-var G__20232__$1 = (cljs.core.truth_(re.ignoreCase)?[G__20232,"i"].join(''):G__20232);
-var G__20232__$2 = (cljs.core.truth_(re.multiline)?[G__20232__$1,"m"].join(''):G__20232__$1);
+var r = (new RegExp(re.source,(function (){var G__20229 = "g";
+var G__20229__$1 = (cljs.core.truth_(re.ignoreCase)?[G__20229,"i"].join(''):G__20229);
+var G__20229__$2 = (cljs.core.truth_(re.multiline)?[G__20229__$1,"m"].join(''):G__20229__$1);
 if(cljs.core.truth_(re.unicode)){
-return [G__20232__$2,"u"].join('');
+return [G__20229__$2,"u"].join('');
 } else {
-return G__20232__$2;
+return G__20229__$2;
 }
 })()));
 return s.replace(r,replacement);
@@ -29,11 +29,11 @@ return (function() {
 var G__20247__delegate = function (args){
 var matches = cljs.core.drop_last.cljs$core$IFn$_invoke$arity$2((2),args);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(matches),(1))){
-var G__20233 = cljs.core.first(matches);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20233) : f.call(null,G__20233));
+var G__20231 = cljs.core.first(matches);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20231) : f.call(null,G__20231));
 } else {
-var G__20234 = cljs.core.vec(matches);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20234) : f.call(null,G__20234));
+var G__20232 = cljs.core.vec(matches);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20232) : f.call(null,G__20232));
 }
 };
 var G__20247 = function (var_args){
@@ -121,8 +121,8 @@ return s.replace(match,replacement);
  *   separated by an optional separator.
  */
 clojure.string.join = (function clojure$string$join(var_args){
-var G__20236 = arguments.length;
-switch (G__20236) {
+var G__20235 = arguments.length;
+switch (G__20235) {
 case 1:
 return clojure.string.join.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -167,10 +167,10 @@ if((coll__$2 == null)){
 sb.append(separator);
 }
 
-var G__20257 = sb;
-var G__20258 = coll__$2;
-sb = G__20257;
-coll__$1 = G__20258;
+var G__20260 = sb;
+var G__20261 = coll__$2;
+sb = G__20260;
+coll__$1 = G__20261;
 continue;
 } else {
 return sb.toString();
@@ -204,8 +204,8 @@ clojure.string.pop_last_while_empty = (function clojure$string$pop_last_while_em
 var v__$1 = v;
 while(true){
 if(("" === cljs.core.peek(v__$1))){
-var G__20259 = cljs.core.pop(v__$1);
-v__$1 = G__20259;
+var G__20262 = cljs.core.pop(v__$1);
+v__$1 = G__20262;
 continue;
 } else {
 return v__$1;
@@ -274,12 +274,12 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1);
 var m = cljs.core.re_find(re,s__$1);
 if((!((m == null)))){
 var index = s__$1.indexOf(m);
-var G__20264 = s__$1.substring((index + cljs.core.count(m)));
-var G__20265 = (limit__$1 - (1));
-var G__20266 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1.substring((0),index));
-s__$1 = G__20264;
-limit__$1 = G__20265;
-parts = G__20266;
+var G__20273 = s__$1.substring((index + cljs.core.count(m)));
+var G__20274 = (limit__$1 - (1));
+var G__20275 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1.substring((0),index));
+s__$1 = G__20273;
+limit__$1 = G__20274;
+parts = G__20275;
 continue;
 } else {
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(parts,s__$1);
@@ -328,8 +328,8 @@ return "";
 } else {
 var ch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(s,(index - (1)));
 if(((("\n" === ch)) || (("\r" === ch)))){
-var G__20267 = (index - (1));
-index = G__20267;
+var G__20286 = (index - (1));
+index = G__20286;
 continue;
 } else {
 return s.substring((0),index);
@@ -368,8 +368,8 @@ buffer.append(cljs.core.str.cljs$core$IFn$_invoke$arity$1(replacement));
 buffer.append(ch);
 }
 
-var G__20268 = (index + (1));
-index = G__20268;
+var G__20289 = (index + (1));
+index = G__20289;
 continue;
 }
 break;

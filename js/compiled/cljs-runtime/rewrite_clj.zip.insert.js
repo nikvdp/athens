@@ -43,12 +43,12 @@ return rewrite_clj.zip.insert.insert(clojure.zip.down,clojure.zip.insert_child,c
  */
 rewrite_clj.zip.insert.append_child = (function rewrite_clj$zip$insert$append_child(zloc,item){
 return rewrite_clj.zip.insert.insert((function (p1__30467_SHARP_){
-var G__30470 = p1__30467_SHARP_;
-var G__30470__$1 = (((G__30470 == null))?null:clojure.zip.down(G__30470));
-if((G__30470__$1 == null)){
+var G__30468 = p1__30467_SHARP_;
+var G__30468__$1 = (((G__30468 == null))?null:clojure.zip.down(G__30468));
+if((G__30468__$1 == null)){
 return null;
 } else {
-return clojure.zip.rightmost(G__30470__$1);
+return clojure.zip.rightmost(G__30468__$1);
 }
 }),clojure.zip.append_child,cljs.core.PersistentVector.EMPTY,zloc,item);
 });

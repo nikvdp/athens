@@ -282,9 +282,9 @@ var self__ = this;
 var this$__$1 = this;
 cljs.core.reset_BANG_(self__.last_fragment,path);
 
-var G__50288 = reitit.frontend.match_by_path(self__.router,path);
-var G__50289 = this$__$1;
-return (self__.on_navigate.cljs$core$IFn$_invoke$arity$2 ? self__.on_navigate.cljs$core$IFn$_invoke$arity$2(G__50288,G__50289) : self__.on_navigate.call(null,G__50288,G__50289));
+var G__50287 = reitit.frontend.match_by_path(self__.router,path);
+var G__50288 = this$__$1;
+return (self__.on_navigate.cljs$core$IFn$_invoke$arity$2 ? self__.on_navigate.cljs$core$IFn$_invoke$arity$2(G__50287,G__50288) : self__.on_navigate.call(null,G__50287,G__50288));
 }));
 
 (reitit.frontend.history.FragmentHistory.prototype.reitit$frontend$history$History$_get_path$arity$1 = (function (this$){

@@ -77,8 +77,8 @@ var k_27928 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27909_27927,(0),n
 var cb_27929 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__27909_27927,(1),null);
 try{var G__27913_27930 = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces);
 (cb_27929.cljs$core$IFn$_invoke$arity$1 ? cb_27929.cljs$core$IFn$_invoke$arity$1(G__27913_27930) : cb_27929.call(null,G__27913_27930));
-}catch (e27912){var e_27931 = e27912;
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_27928,"while storing",cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces),e_27931], 0));
+}catch (e27912){var e_27933 = e27912;
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_27928,"while storing",cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.trace.traces),e_27933], 0));
 }
 
 var G__27935 = seq__27895_27923;

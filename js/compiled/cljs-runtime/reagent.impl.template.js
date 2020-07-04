@@ -81,10 +81,10 @@ return (!(("object" === goog.typeOf(x))));
 });
 reagent.impl.template.kv_conv = (function reagent$impl$template$kv_conv(o,k,v){
 var G__32409 = o;
-var G__32410_32448 = G__32409;
-var G__32411_32449 = reagent.impl.template.cached_prop_name(k);
-var G__32412_32450 = (reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1(v) : reagent.impl.template.convert_prop_value.call(null,v));
-goog.object.set(G__32410_32448,G__32411_32449,G__32412_32450);
+var G__32410_32453 = G__32409;
+var G__32411_32454 = reagent.impl.template.cached_prop_name(k);
+var G__32412_32455 = (reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.template.convert_prop_value.cljs$core$IFn$_invoke$arity$1(v) : reagent.impl.template.convert_prop_value.call(null,v));
+goog.object.set(G__32410_32453,G__32411_32454,G__32412_32455);
 
 return G__32409;
 });
@@ -154,10 +154,10 @@ return k;
 });
 reagent.impl.template.custom_kv_conv = (function reagent$impl$template$custom_kv_conv(o,k,v){
 var G__32416 = o;
-var G__32417_32464 = G__32416;
-var G__32418_32465 = reagent.impl.template.cached_custom_prop_name(k);
-var G__32419_32466 = reagent.impl.template.convert_prop_value(v);
-goog.object.set(G__32417_32464,G__32418_32465,G__32419_32466);
+var G__32417_32466 = G__32416;
+var G__32418_32467 = reagent.impl.template.cached_custom_prop_name(k);
+var G__32419_32468 = reagent.impl.template.convert_prop_value(v);
+goog.object.set(G__32417_32466,G__32418_32467,G__32419_32468);
 
 return G__32416;
 });
