@@ -175,13 +175,13 @@ return null;
 /**
  * Converts stylefy/manual definition into CSS.
  */
-stylefy.impl.conversion.convert_manual_styles = (function stylefy$impl$conversion$convert_manual_styles(p__36469,options){
-var map__36470 = p__36469;
-var map__36470__$1 = (((((!((map__36470 == null))))?(((((map__36470.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__36470.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__36470):map__36470);
-var style = map__36470__$1;
-var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36470__$1,new cljs.core.Keyword(null,"props","props",453281727));
-var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36470__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
-var custom_selector = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36470__$1,new cljs.core.Keyword(null,"custom-selector","custom-selector",-474556277));
+stylefy.impl.conversion.convert_manual_styles = (function stylefy$impl$conversion$convert_manual_styles(p__36477,options){
+var map__36480 = p__36477;
+var map__36480__$1 = (((((!((map__36480 == null))))?(((((map__36480.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__36480.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__36480):map__36480);
+var style = map__36480__$1;
+var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36480__$1,new cljs.core.Keyword(null,"props","props",453281727));
+var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36480__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
+var custom_selector = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36480__$1,new cljs.core.Keyword(null,"custom-selector","custom-selector",-474556277));
 var temp__5735__auto__ = new cljs.core.Keyword("stylefy.core","manual","stylefy.core/manual",-1053755369).cljs$core$IFn$_invoke$arity$1(props);
 if(cljs.core.truth_(temp__5735__auto__)){
 var stylefy_manual_styles = temp__5735__auto__;
@@ -213,8 +213,8 @@ return null;
  * Converts the given style to CSS. Options are sent directly to Garden
  */
 stylefy.impl.conversion.style__GT_css = (function stylefy$impl$conversion$style__GT_css(var_args){
-var G__36473 = arguments.length;
-switch (G__36473) {
+var G__36483 = arguments.length;
+switch (G__36483) {
 case 1:
 return stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -233,12 +233,12 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$2(style,cljs.core.PersistentArrayMap.EMPTY);
 }));
 
-(stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$2 = (function (p__36474,options){
-var map__36475 = p__36474;
-var map__36475__$1 = (((((!((map__36475 == null))))?(((((map__36475.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__36475.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__36475):map__36475);
-var style = map__36475__$1;
-var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36475__$1,new cljs.core.Keyword(null,"props","props",453281727));
-var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36475__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
+(stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$2 = (function (p__36484,options){
+var map__36485 = p__36484;
+var map__36485__$1 = (((((!((map__36485 == null))))?(((((map__36485.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__36485.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__36485):map__36485);
+var style = map__36485__$1;
+var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36485__$1,new cljs.core.Keyword(null,"props","props",453281727));
+var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__36485__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
 var css_class = stylefy.impl.conversion.convert_base_style_into_class(style,options);
 var css_media_queries = stylefy.impl.conversion.convert_media_queries(style,options);
 var css_supports = stylefy.impl.conversion.convert_supports_rules(style,options);

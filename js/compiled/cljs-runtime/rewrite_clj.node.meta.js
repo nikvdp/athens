@@ -332,8 +332,8 @@ return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1(new cljs.co
  * `#^` prefix.
  */
 rewrite_clj.node.meta.raw_meta_node = (function rewrite_clj$node$meta$raw_meta_node(var_args){
-var G__30028 = arguments.length;
-switch (G__30028) {
+var G__30029 = arguments.length;
+switch (G__30029) {
 case 1:
 return rewrite_clj.node.meta.raw_meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

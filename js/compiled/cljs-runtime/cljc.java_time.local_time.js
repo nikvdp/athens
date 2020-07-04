@@ -25,8 +25,8 @@ cljc.java_time.local_time.minus_hours = (function cljc$java_time$local_time$minu
 return this4249.minusHours(long4250);
 });
 cljc.java_time.local_time.of = (function cljc$java_time$local_time$of(var_args){
-var G__58395 = arguments.length;
-switch (G__58395) {
+var G__58396 = arguments.length;
+switch (G__58396) {
 case 3:
 return cljc.java_time.local_time.of.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 

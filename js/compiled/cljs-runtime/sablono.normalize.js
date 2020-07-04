@@ -8,10 +8,10 @@ goog.require('sablono.util');
  */
 sablono.normalize.compact_map = (function sablono$normalize$compact_map(m){
 if(cljs.core.truth_(m)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__48497){
-var vec__48498 = p__48497;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48498,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48498,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__48494){
+var vec__48495 = p__48494;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48495,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48495,(1),null);
 return cljs.core.empty_QMARK_(v);
 })),m);
 } else {
@@ -119,11 +119,11 @@ return sablono.normalize.merge_with_class.cljs$core$IFn$_invoke$arity$variadic(a
 var maps__$1 = cljs.core.map.cljs$core$IFn$_invoke$arity$2(sablono.normalize.attributes,maps);
 var classes = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([maps__$1], 0));
 if(cljs.core.seq(maps__$1)){
-var G__48516 = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(cljs.core.into,cljs.core.PersistentArrayMap.EMPTY,maps__$1);
+var G__48510 = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(cljs.core.into,cljs.core.PersistentArrayMap.EMPTY,maps__$1);
 if((!(cljs.core.empty_QMARK_(classes)))){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__48516,new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.vec(classes));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__48510,new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.vec(classes));
 } else {
-return G__48516;
+return G__48510;
 }
 } else {
 return null;
@@ -133,9 +133,9 @@ return null;
 (sablono.normalize.merge_with_class.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sablono.normalize.merge_with_class.cljs$lang$applyTo = (function (seq48506){
+(sablono.normalize.merge_with_class.cljs$lang$applyTo = (function (seq48503){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq48506));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq48503));
 }));
 
 /**

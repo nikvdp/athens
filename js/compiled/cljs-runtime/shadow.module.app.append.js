@@ -5808,6 +5808,7 @@ SHADOW_ENV.setLoaded("athens.parse_renderer.js");
 SHADOW_ENV.setLoaded("komponentit.autosize.js");
 SHADOW_ENV.setLoaded("athens.devcards.blocks.js");
 SHADOW_ENV.setLoaded("athens.devcards.block_page.js");
+SHADOW_ENV.setLoaded("athens.devcards.breadcrumbs.js");
 SHADOW_ENV.setLoaded("athens.patterns.js");
 SHADOW_ENV.setLoaded("athens.devcards.node_page.js");
 SHADOW_ENV.setLoaded("athens.devcards.daily_notes.js");
