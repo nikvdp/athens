@@ -90,9 +90,9 @@ return clojure.string.join.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core
 (sablono.util.as_str.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sablono.util.as_str.cljs$lang$applyTo = (function (seq39071){
+(sablono.util.as_str.cljs$lang$applyTo = (function (seq39078){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq39071));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq39078));
 }));
 
 /**
@@ -100,12 +100,12 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  */
 sablono.util.camel_case = (function sablono$util$camel_case(k){
 if((((k instanceof cljs.core.Keyword)) || (typeof k === 'string') || ((k instanceof cljs.core.Symbol)))){
-var vec__39076 = cljs.core.name(k).split("-");
-var seq__39077 = cljs.core.seq(vec__39076);
-var first__39078 = cljs.core.first(seq__39077);
-var seq__39077__$1 = cljs.core.next(seq__39077);
-var first_word = first__39078;
-var words = seq__39077__$1;
+var vec__39079 = cljs.core.name(k).split("-");
+var seq__39080 = cljs.core.seq(vec__39079);
+var first__39081 = cljs.core.first(seq__39080);
+var seq__39080__$1 = cljs.core.next(seq__39080);
+var first_word = first__39081;
+var words = seq__39080__$1;
 if(((cljs.core.empty_QMARK_(words)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("aria",first_word)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("data",first_word)))){
 return k;
 } else {
@@ -120,8 +120,8 @@ return k;
  */
 sablono.util.camel_case_keys = (function sablono$util$camel_case_keys(m){
 if(cljs.core.map_QMARK_(m)){
-var m__$1 = cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__39081){
-var vec__39083 = p__39081;
+var m__$1 = cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__39082){
+var vec__39083 = p__39082;
 var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39083,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39083,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.util.camel_case(k),v], null);

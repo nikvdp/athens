@@ -78,10 +78,10 @@ while(true){
 if(cljs.core.truth_(new cljs.core.Keyword("node","title","node/title",628940777).cljs$core$IFn$_invoke$arity$1(b))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,b);
 } else {
-var G__32850 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
-var G__32851 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
-b = G__32850;
-res = G__32851;
+var G__32845 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
+var G__32846 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
+b = G__32845;
+res = G__32846;
 continue;
 }
 break;
@@ -115,10 +115,10 @@ return acc;
 if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(x) : pred.call(null,x)))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
 } else {
-var G__32857 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
-var G__32858 = cljs.core.next(xs__$1);
-acc = G__32857;
-xs__$1 = G__32858;
+var G__32852 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
+var G__32853 = cljs.core.next(xs__$1);
+acc = G__32852;
+xs__$1 = G__32853;
 continue;
 
 }
@@ -162,7 +162,7 @@ return null;
 }));
 if((typeof athens !== 'undefined') && (typeof athens.db !== 'undefined') && (typeof athens.db.rfdb !== 'undefined')){
 } else {
-athens.db.rfdb = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"errors","errors",-908790718),new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Keyword(null,"current-route","current-route",2067529448),new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357),new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),new cljs.core.Keyword(null,"daily-notes","daily-notes",302751021),new cljs.core.Keyword(null,"devtool","devtool",1338288336),new cljs.core.Keyword(null,"loading","loading",-737050189),new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733),new cljs.core.Keyword(null,"athena","athena",-1523991628),new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133),new cljs.core.Keyword(null,"user","user",1532431356)],[cljs.core.PersistentArrayMap.EMPTY,new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"uid","uid",-1447769400),null,new cljs.core.Keyword(null,"x","x",2099068185),null,new cljs.core.Keyword(null,"y","y",-1757859776),null,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),null,new cljs.core.Keyword("closest","kind","closest/kind",429209294),null], null),null,null,true,null,cljs.core.PersistentVector.EMPTY,false,true,cljs.core.PersistentArrayMap.EMPTY,false,false,"Jeff"]);
+athens.db.rfdb = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"errors","errors",-908790718),new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227),new cljs.core.Keyword(null,"current-route","current-route",2067529448),new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357),new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),new cljs.core.Keyword(null,"daily-notes","daily-notes",302751021),new cljs.core.Keyword(null,"devtool","devtool",1338288336),new cljs.core.Keyword(null,"loading","loading",-737050189),new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733),new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133),new cljs.core.Keyword(null,"user","user",1532431356),new cljs.core.Keyword("athena","open","athena/open",1253777725)],[cljs.core.PersistentArrayMap.EMPTY,new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"uid","uid",-1447769400),null,new cljs.core.Keyword(null,"x","x",2099068185),null,new cljs.core.Keyword(null,"y","y",-1757859776),null,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),null,new cljs.core.Keyword("closest","kind","closest/kind",429209294),null], null),cljs.core.List.EMPTY,null,null,true,null,cljs.core.PersistentVector.EMPTY,false,true,cljs.core.PersistentArrayMap.EMPTY,false,"Jeff",false]);
 }
 
 //# sourceMappingURL=athens.db.js.map

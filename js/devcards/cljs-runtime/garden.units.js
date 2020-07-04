@@ -285,14 +285,14 @@ var garden$units$make_unit_multiplier_$_u_STAR___1 = (function (x){
 return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(x) : u.call(null,x));
 });
 var garden$units$make_unit_multiplier_$_u_STAR___2 = (function (x,y){
-var map__33902 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(x) : u.call(null,x));
-var map__33902__$1 = (((((!((map__33902 == null))))?(((((map__33902.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33902.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33902):map__33902);
-var m1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33902__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
-var map__33903 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(y) : u.call(null,y));
-var map__33903__$1 = (((((!((map__33903 == null))))?(((((map__33903.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33903.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33903):map__33903);
-var m2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33903__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
-var G__33908 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
-return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__33908) : u.call(null,G__33908));
+var map__33900 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(x) : u.call(null,x));
+var map__33900__$1 = (((((!((map__33900 == null))))?(((((map__33900.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33900.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33900):map__33900);
+var m1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33900__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
+var map__33901 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(y) : u.call(null,y));
+var map__33901__$1 = (((((!((map__33901 == null))))?(((((map__33901.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33901.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33901):map__33901);
+var m2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33901__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
+var G__33904 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
+return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__33904) : u.call(null,G__33904));
 });
 var garden$units$make_unit_multiplier_$_u_STAR___3 = (function() { 
 var G__33949__delegate = function (x,y,more){
@@ -358,18 +358,18 @@ return ((100) * (x / y));
 return (function() {
 var garden$units$make_unit_divider_$_ud = null;
 var garden$units$make_unit_divider_$_ud__1 = (function (x){
-var G__33911 = ((1) / x);
-return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__33911) : u.call(null,G__33911));
+var G__33905 = ((1) / x);
+return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__33905) : u.call(null,G__33905));
 });
 var garden$units$make_unit_divider_$_ud__2 = (function (x,y){
-var map__33912 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(x) : u.call(null,x));
-var map__33912__$1 = (((((!((map__33912 == null))))?(((((map__33912.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33912.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33912):map__33912);
-var m1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33912__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
-var map__33913 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(y) : u.call(null,y));
-var map__33913__$1 = (((((!((map__33913 == null))))?(((((map__33913.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33913.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33913):map__33913);
-var m2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33913__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
-var G__33918 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
-return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__33918) : u.call(null,G__33918));
+var map__33906 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(x) : u.call(null,x));
+var map__33906__$1 = (((((!((map__33906 == null))))?(((((map__33906.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33906.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33906):map__33906);
+var m1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33906__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
+var map__33907 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(y) : u.call(null,y));
+var map__33907__$1 = (((((!((map__33907 == null))))?(((((map__33907.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33907.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__33907):map__33907);
+var m2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33907__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
+var G__33910 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
+return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__33910) : u.call(null,G__33910));
 });
 var garden$units$make_unit_divider_$_ud__3 = (function() { 
 var G__33954__delegate = function (x,y,more){

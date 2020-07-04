@@ -13,10 +13,10 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 /**
  * Is n within the closed range of low to high?
  */
-zprint.finish.within_QMARK_ = (function zprint$finish$within_QMARK_(n,p__28597){
-var vec__28598 = p__28597;
-var low = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28598,(0),null);
-var high = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28598,(1),null);
+zprint.finish.within_QMARK_ = (function zprint$finish$within_QMARK_(n,p__28596){
+var vec__28597 = p__28596;
+var low = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28597,(0),null);
+var high = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28597,(1),null);
 return (((n >= low)) && ((n <= high)));
 });
 /**
@@ -36,22 +36,22 @@ return cljs.core.some(cljs.core.partial.cljs$core$IFn$_invoke$arity$2(zprint.fin
  *   is the same as the key for the ground you get from the
  *   focus.  If you don't have a focus, you get the background.
  */
-zprint.finish.ground_color_to_style = (function zprint$finish$ground_color_to_style(p__28604,s,color,element,idx){
-var map__28605 = p__28604;
-var map__28605__$1 = (((((!((map__28605 == null))))?(((((map__28605.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__28605.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__28605):map__28605);
-var style_map = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28605__$1,new cljs.core.Keyword(null,"style-map","style-map",1488693527));
-var focus = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28605__$1,new cljs.core.Keyword(null,"focus","focus",234677911));
-var select = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28605__$1,new cljs.core.Keyword(null,"select","select",1147833503));
+zprint.finish.ground_color_to_style = (function zprint$finish$ground_color_to_style(p__28601,s,color,element,idx){
+var map__28602 = p__28601;
+var map__28602__$1 = (((((!((map__28602 == null))))?(((((map__28602.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__28602.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__28602):map__28602);
+var style_map = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28602__$1,new cljs.core.Keyword(null,"style-map","style-map",1488693527));
+var focus = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28602__$1,new cljs.core.Keyword(null,"focus","focus",234677911));
+var select = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__28602__$1,new cljs.core.Keyword(null,"select","select",1147833503));
 var output_QMARK_ = (cljs.core.truth_(select)?zprint.finish.within_vec_QMARK_(idx,select):true);
 if(cljs.core.truth_(output_QMARK_)){
-var G__28613 = (function (){var or__4185__auto__ = color;
+var G__28609 = (function (){var or__4185__auto__ = color;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
 return new cljs.core.Keyword(null,"none","none",1333468478);
 }
 })();
-var fexpr__28612 = (function (){var G__28614 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(element,new cljs.core.Keyword(null,"cursor-element","cursor-element",-616791907)))?(function (){
+var fexpr__28608 = (function (){var G__28610 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(element,new cljs.core.Keyword(null,"cursor-element","cursor-element",-616791907)))?(function (){
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["cursor-element:",s], 0));
 
 return new cljs.core.Keyword(null,"c","c",-1763192079);
@@ -63,9 +63,9 @@ return ((zprint.finish.within_QMARK_(idx,focus)) && (cljs.core.not_EQ_.cljs$core
 return and__4174__auto__;
 }
 })())?new cljs.core.Keyword(null,"f","f",-1597136552):new cljs.core.Keyword(null,"b","b",1482224470)));
-return (style_map.cljs$core$IFn$_invoke$arity$1 ? style_map.cljs$core$IFn$_invoke$arity$1(G__28614) : style_map.call(null,G__28614));
+return (style_map.cljs$core$IFn$_invoke$arity$1 ? style_map.cljs$core$IFn$_invoke$arity$1(G__28610) : style_map.call(null,G__28610));
 })();
-return (fexpr__28612.cljs$core$IFn$_invoke$arity$1 ? fexpr__28612.cljs$core$IFn$_invoke$arity$1(G__28613) : fexpr__28612.call(null,G__28613));
+return (fexpr__28608.cljs$core$IFn$_invoke$arity$1 ? fexpr__28608.cljs$core$IFn$_invoke$arity$1(G__28609) : fexpr__28608.call(null,G__28609));
 } else {
 return null;
 }
@@ -471,14 +471,14 @@ out = G__28706;
 continue;
 } else {
 if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n,(1)))?new cljs.core.Keyword(null,"e","e",1381269198).cljs$core$IFn$_invoke$arity$1(where):false))){
-var G__28708 = cljs.core.next(cvec_nl);
+var G__28707 = cljs.core.next(cvec_nl);
+var G__28708 = (idx + (1));
 var G__28709 = (idx + (1));
-var G__28710 = (idx + (1));
-var G__28711 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [start,idx], null));
-cvec_nl = G__28708;
-idx = G__28709;
-start = G__28710;
-out = G__28711;
+var G__28710 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [start,idx], null));
+cvec_nl = G__28707;
+idx = G__28708;
+start = G__28709;
+out = G__28710;
 continue;
 } else {
 if(cljs.core.truth_((((n > (1)))?(function (){var and__4174__auto__ = new cljs.core.Keyword(null,"b","b",1482224470).cljs$core$IFn$_invoke$arity$1(where);

@@ -31,10 +31,10 @@ var path = cljs.core.PersistentVector.EMPTY;
 var pdb = poshdb;
 while(true){
 if(cljs.core.truth_(pdb)){
-var G__46891 = cljs.core.cons(pdb,path);
-var G__46892 = posh.lib.db.get_parent_db(pdb);
-path = G__46891;
-pdb = G__46892;
+var G__46889 = cljs.core.cons(pdb,path);
+var G__46890 = posh.lib.db.get_parent_db(pdb);
+path = G__46889;
+pdb = G__46890;
 continue;
 } else {
 return path;
@@ -56,8 +56,8 @@ while(true){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(poshdb),new cljs.core.Keyword(null,"db","db",993250759))){
 return cljs.core.second(poshdb);
 } else {
-var G__46898 = posh.lib.db.get_parent_db(poshdb);
-poshdb = G__46898;
+var G__46892 = posh.lib.db.get_parent_db(poshdb);
+poshdb = G__46892;
 continue;
 }
 break;
@@ -75,8 +75,8 @@ return posh.lib.datom_matcher.datom_match_QMARK_(tx_patterns,datom);
 });
 });
 posh.lib.db.generate_initial_db = (function posh$lib$db$generate_initial_db(var_args){
-var G__46864 = arguments.length;
-switch (G__46864) {
+var G__46862 = arguments.length;
+switch (G__46862) {
 case 3:
 return posh.lib.db.generate_initial_db.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -96,12 +96,12 @@ return posh.lib.db.generate_initial_db.cljs$core$IFn$_invoke$arity$4(dcfg,conn,f
 }));
 
 (posh.lib.db.generate_initial_db.cljs$core$IFn$_invoke$arity$4 = (function (dcfg,conn,filters,db){
-var map__46868 = filters;
-var map__46868__$1 = (((((!((map__46868 == null))))?(((((map__46868.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46868.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46868):map__46868);
-var filter = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46868__$1,new cljs.core.Keyword(null,"filter","filter",-948537934));
-var as_of = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46868__$1,new cljs.core.Keyword(null,"as-of","as-of",-1841962382));
-var since = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46868__$1,new cljs.core.Keyword(null,"since","since",315379842));
-var with$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46868__$1,new cljs.core.Keyword(null,"with","with",-1536296876));
+var map__46867 = filters;
+var map__46867__$1 = (((((!((map__46867 == null))))?(((((map__46867.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46867.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46867):map__46867);
+var filter = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46867__$1,new cljs.core.Keyword(null,"filter","filter",-948537934));
+var as_of = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46867__$1,new cljs.core.Keyword(null,"as-of","as-of",-1841962382));
+var since = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46867__$1,new cljs.core.Keyword(null,"since","since",315379842));
+var with$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46867__$1,new cljs.core.Keyword(null,"with","with",-1536296876));
 var db__$1 = (function (){var or__4185__auto__ = db;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -116,35 +116,35 @@ return (fexpr__46871.cljs$core$IFn$_invoke$arity$2 ? fexpr__46871.cljs$core$IFn$
 var db__$3 = (cljs.core.truth_(as_of)?(function (){var fexpr__46872 = new cljs.core.Keyword(null,"as-of","as-of",-1841962382).cljs$core$IFn$_invoke$arity$1(dcfg);
 return (fexpr__46872.cljs$core$IFn$_invoke$arity$2 ? fexpr__46872.cljs$core$IFn$_invoke$arity$2(db__$2,as_of) : fexpr__46872.call(null,db__$2,as_of));
 })():db__$2);
-var db__$4 = (cljs.core.truth_(with$)?new cljs.core.Keyword(null,"db-after","db-after",-571884666).cljs$core$IFn$_invoke$arity$1((function (){var fexpr__46874 = new cljs.core.Keyword(null,"with","with",-1536296876).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__46874.cljs$core$IFn$_invoke$arity$2 ? fexpr__46874.cljs$core$IFn$_invoke$arity$2(db__$3,with$) : fexpr__46874.call(null,db__$3,with$));
+var db__$4 = (cljs.core.truth_(with$)?new cljs.core.Keyword(null,"db-after","db-after",-571884666).cljs$core$IFn$_invoke$arity$1((function (){var fexpr__46873 = new cljs.core.Keyword(null,"with","with",-1536296876).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__46873.cljs$core$IFn$_invoke$arity$2 ? fexpr__46873.cljs$core$IFn$_invoke$arity$2(db__$3,with$) : fexpr__46873.call(null,db__$3,with$));
 })()):db__$3);
-var db__$5 = (cljs.core.truth_(filter)?(function (){var G__46876 = db__$4;
-var G__46877 = (((filter instanceof cljs.core.Symbol))?null:filter);
-var fexpr__46875 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__46875.cljs$core$IFn$_invoke$arity$2 ? fexpr__46875.cljs$core$IFn$_invoke$arity$2(G__46876,G__46877) : fexpr__46875.call(null,G__46876,G__46877));
+var db__$5 = (cljs.core.truth_(filter)?(function (){var G__46875 = db__$4;
+var G__46876 = (((filter instanceof cljs.core.Symbol))?null:filter);
+var fexpr__46874 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__46874.cljs$core$IFn$_invoke$arity$2 ? fexpr__46874.cljs$core$IFn$_invoke$arity$2(G__46875,G__46876) : fexpr__46874.call(null,G__46875,G__46876));
 })():db__$4);
 return db__$5;
 }));
 
 (posh.lib.db.generate_initial_db.cljs$lang$maxFixedArity = 4);
 
-posh.lib.db.poshdb__GT_db = (function posh$lib$db$poshdb__GT_db(p__46879,poshdb){
-var map__46881 = p__46879;
-var map__46881__$1 = (((((!((map__46881 == null))))?(((((map__46881.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46881.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46881):map__46881);
-var posh_tree = map__46881__$1;
-var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46881__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
-var cache = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46881__$1,new cljs.core.Keyword(null,"cache","cache",-1237023054));
+posh.lib.db.poshdb__GT_db = (function posh$lib$db$poshdb__GT_db(p__46878,poshdb){
+var map__46879 = p__46878;
+var map__46879__$1 = (((((!((map__46879 == null))))?(((((map__46879.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46879.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46879):map__46879);
+var posh_tree = map__46879__$1;
+var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46879__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
+var cache = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46879__$1,new cljs.core.Keyword(null,"cache","cache",-1237023054));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(poshdb),new cljs.core.Keyword(null,"db","db",993250759))){
 return posh.lib.db.db_id__GT_db(posh_tree,cljs.core.second(poshdb));
 } else {
-var G__46884 = (function (){var G__46886 = posh_tree;
-var G__46887 = posh.lib.db.get_parent_db(poshdb);
-return (posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2 ? posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2(G__46886,G__46887) : posh.lib.db.poshdb__GT_db.call(null,G__46886,G__46887));
+var G__46882 = (function (){var G__46885 = posh_tree;
+var G__46886 = posh.lib.db.get_parent_db(poshdb);
+return (posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2 ? posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2(G__46885,G__46886) : posh.lib.db.poshdb__GT_db.call(null,G__46885,G__46886));
 })();
-var G__46885 = posh.lib.db.make_filter_pred(new cljs.core.Keyword(null,"pass-patterns","pass-patterns",1090887263).cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cache,poshdb)));
-var fexpr__46883 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__46883.cljs$core$IFn$_invoke$arity$2 ? fexpr__46883.cljs$core$IFn$_invoke$arity$2(G__46884,G__46885) : fexpr__46883.call(null,G__46884,G__46885));
+var G__46883 = posh.lib.db.make_filter_pred(new cljs.core.Keyword(null,"pass-patterns","pass-patterns",1090887263).cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cache,poshdb)));
+var fexpr__46881 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__46881.cljs$core$IFn$_invoke$arity$2 ? fexpr__46881.cljs$core$IFn$_invoke$arity$2(G__46882,G__46883) : fexpr__46881.call(null,G__46882,G__46883));
 }
 });
 posh.lib.db.poshdb__GT_analyze_db = (function posh$lib$db$poshdb__GT_analyze_db(posh_tree,poshdb){
