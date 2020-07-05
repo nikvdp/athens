@@ -14,10 +14,10 @@ if(cljs.core.fn_QMARK_(callback_pred)){
 return callback_pred;
 } else {
 if((callback_pred instanceof cljs.core.Keyword)){
-return (function (p__52019){
-var vec__52024 = p__52019;
-var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52024,(0),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52024,(1),null);
+return (function (p__52024){
+var vec__52025 = p__52024;
+var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52025,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52025,(1),null);
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(callback_pred,event_id);
 });
 } else {
@@ -54,8 +54,8 @@ var post_event_callback_fn = (function (event_v,___$2){
 if(cljs.core.truth_(cljs.core.some((function (pred){
 return (pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(event_v) : pred.call(null,event_v));
 }),events_preds))){
-var G__52047 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52047) : re_frame.core.dispatch.call(null,G__52047));
+var G__52049 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52049) : re_frame.core.dispatch.call(null,G__52049));
 } else {
 return null;
 }

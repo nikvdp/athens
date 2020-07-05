@@ -76,8 +76,8 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.registrar.regist
  * to the event handler at call time.
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.cofx.inject_cofx = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$cofx$inject_cofx(var_args){
-var G__28204 = arguments.length;
-switch (G__28204) {
+var G__28188 = arguments.length;
+switch (G__28188) {
 case 1:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.cofx.inject_cofx.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

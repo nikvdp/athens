@@ -1757,14 +1757,14 @@ if(temp__5735__auto__){
 var seq__25776__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__25776__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__25776__$1);
-var G__26048 = cljs.core.chunk_rest(seq__25776__$1);
-var G__26049 = c__4609__auto__;
-var G__26050 = cljs.core.count(c__4609__auto__);
-var G__26051 = (0);
-seq__25776 = G__26048;
-chunk__25777 = G__26049;
-count__25778 = G__26050;
-i__25779 = G__26051;
+var G__26049 = cljs.core.chunk_rest(seq__25776__$1);
+var G__26050 = c__4609__auto__;
+var G__26051 = cljs.core.count(c__4609__auto__);
+var G__26052 = (0);
+seq__25776 = G__26049;
+chunk__25777 = G__26050;
+count__25778 = G__26051;
+i__25779 = G__26052;
 continue;
 } else {
 var vec__25789 = cljs.core.first(seq__25776__$1);
@@ -2327,10 +2327,10 @@ return new cljs.core.Keyword(null,"e","e",1381269198).cljs$core$IFn$_invoke$arit
 }
 } else {
 if(cljs.core.array_QMARK_(eid)){
-var G__26113 = db;
-var G__26114 = cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(eid);
-db = G__26113;
-eid = G__26114;
+var G__26109 = db;
+var G__26110 = cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(eid);
+db = G__26109;
+eid = G__26110;
 continue;
 } else {
 if((eid instanceof cljs.core.Keyword)){
@@ -2822,10 +2822,10 @@ return datascript.db.next_eid(db);
 })():old_eid
 ));
 var new_entity = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(entity,new cljs.core.Keyword("db","id","db/id",-1388397098),new_eid);
-var G__26159 = datascript.db.allocate_eid.cljs$core$IFn$_invoke$arity$3(report,old_eid,new_eid);
-var G__26160 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(datascript.db.explode(db,new_entity),entities);
-report = G__26159;
-es = G__26160;
+var G__26158 = datascript.db.allocate_eid.cljs$core$IFn$_invoke$arity$3(report,old_eid,new_eid);
+var G__26159 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(datascript.db.explode(db,new_entity),entities);
+report = G__26158;
+es = G__26159;
 continue;
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Expected number, string or lookup ref for :db/id, got ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([old_eid], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("entity-id","syntax","entity-id/syntax",1921317045),new cljs.core.Keyword(null,"entity","entity",-450970276),entity], null));
