@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__32413_32459 = reagent.impl.template.custom_prop_name_cache;
-var G__32414_32460 = cljs.core.name(k);
-var G__32415_32461 = v;
-goog.object.set(G__32413_32459,G__32414_32460,G__32415_32461);
+var G__32413_32456 = reagent.impl.template.custom_prop_name_cache;
+var G__32414_32457 = cljs.core.name(k);
+var G__32415_32458 = v;
+goog.object.set(G__32413_32456,G__32414_32457,G__32415_32458);
 
 return v;
 } else {
@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___32494 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___32494 == null)){
+var temp__5739__auto___32499 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___32499 == null)){
 } else {
-var key_32496 = temp__5739__auto___32494;
-(jsprops.key = key_32496);
+var key_32500 = temp__5739__auto___32499;
+(jsprops.key = key_32500);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);

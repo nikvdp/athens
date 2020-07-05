@@ -149,8 +149,8 @@ return cljs.core.keys(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.dere
  *   to clojure.core/find-ns.
  */
 cljs.analyzer.api.find_ns = (function cljs$analyzer$api$find_ns(var_args){
-var G__43969 = arguments.length;
-switch (G__43969) {
+var G__43971 = arguments.length;
+switch (G__43971) {
 case 1:
 return cljs.analyzer.api.find_ns.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

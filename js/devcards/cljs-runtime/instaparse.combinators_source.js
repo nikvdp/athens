@@ -107,14 +107,14 @@ return instaparse.combinators_source.ord.cljs$core$IFn$_invoke$arity$0();
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___56018 = arguments.length;
-var i__4790__auto___56019 = (0);
+var len__4789__auto___56016 = arguments.length;
+var i__4790__auto___56017 = (0);
 while(true){
-if((i__4790__auto___56019 < len__4789__auto___56018)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___56019]));
+if((i__4790__auto___56017 < len__4789__auto___56016)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___56017]));
 
-var G__56020 = (i__4790__auto___56019 + (1));
-i__4790__auto___56019 = G__56020;
+var G__56018 = (i__4790__auto___56017 + (1));
+i__4790__auto___56017 = G__56018;
 continue;
 } else {
 }
@@ -155,14 +155,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55958,seq55957
  */
 instaparse.combinators_source.cat = (function instaparse$combinators_source$cat(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___56027 = arguments.length;
-var i__4790__auto___56028 = (0);
+var len__4789__auto___56026 = arguments.length;
+var i__4790__auto___56027 = (0);
 while(true){
-if((i__4790__auto___56028 < len__4789__auto___56027)){
-args__4795__auto__.push((arguments[i__4790__auto___56028]));
+if((i__4790__auto___56027 < len__4789__auto___56026)){
+args__4795__auto__.push((arguments[i__4790__auto___56027]));
 
-var G__56029 = (i__4790__auto___56028 + (1));
-i__4790__auto___56028 = G__56029;
+var G__56029 = (i__4790__auto___56027 + (1));
+i__4790__auto___56027 = G__56029;
 continue;
 } else {
 }
@@ -411,8 +411,8 @@ var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55980,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55980,(1),null);
 cljs.core.chunk_append(b__55979,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(v,new cljs.core.Keyword(null,"red","red",-969428204),(reduction.cljs$core$IFn$_invoke$arity$1 ? reduction.cljs$core$IFn$_invoke$arity$1(k) : reduction.call(null,k)))], null));
 
-var G__56086 = (i__55978 + (1));
-i__55978 = G__56086;
+var G__56088 = (i__55978 + (1));
+i__55978 = G__56088;
 continue;
 } else {
 return true;

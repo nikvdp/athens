@@ -68,8 +68,8 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(day8.re_frame_10x.inlined_dep
 return handler_fn;
 });
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.registrar.clear_handlers = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$registrar$clear_handlers(var_args){
-var G__27418 = arguments.length;
-switch (G__27418) {
+var G__27413 = arguments.length;
+switch (G__27413) {
 case 0:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.registrar.clear_handlers.cljs$core$IFn$_invoke$arity$0();
 

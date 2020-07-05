@@ -58,18 +58,18 @@ return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29060_SHARP_);
 }
 });
 posh.lib.datom_matcher.matching_datoms = (function posh$lib$datom_matcher$matching_datoms(patterns,datoms){
-var G__29063 = patterns;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,G__29063)){
+var G__29065 = patterns;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,G__29065)){
 return datoms;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.PersistentVector.EMPTY], null),G__29063)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.PersistentVector.EMPTY], null),G__29065)){
 return datoms;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__29063)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__29065)){
 return null;
 } else {
-return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__29062_SHARP_){
-return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29062_SHARP_);
+return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__29063_SHARP_){
+return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29063_SHARP_);
 }),datoms);
 
 }
@@ -121,16 +121,16 @@ if((function (){var id = cljs.core.ffirst(leftover_patterns);
 return ((cljs.core.set_QMARK_(id)) || (typeof id === 'number'));
 })()){
 var r = posh.lib.datom_matcher.combine_entids(cljs.core.PersistentHashSet.EMPTY,cljs.core.rest(cljs.core.first(leftover_patterns)),leftover_patterns,new_patterns,cljs.core.PersistentVector.EMPTY);
-var G__29079 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
-var G__29080 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
-new_patterns = G__29079;
-leftover_patterns = G__29080;
+var G__29080 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
+var G__29081 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
+new_patterns = G__29080;
+leftover_patterns = G__29081;
 continue;
 } else {
-var G__29081 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
-var G__29082 = cljs.core.rest(leftover_patterns);
-new_patterns = G__29081;
-leftover_patterns = G__29082;
+var G__29082 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
+var G__29083 = cljs.core.rest(leftover_patterns);
+new_patterns = G__29082;
+leftover_patterns = G__29083;
 continue;
 }
 }

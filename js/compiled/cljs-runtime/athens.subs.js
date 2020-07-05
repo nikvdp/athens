@@ -2,21 +2,21 @@ goog.provide('athens.subs');
 goog.require('cljs.core');
 goog.require('day8.re_frame.tracing');
 goog.require('re_frame.core');
-var G__58161_58212 = new cljs.core.Keyword(null,"user","user",1532431356);
-var G__58162_58213 = (function (db,_){
+var G__58161_58215 = new cljs.core.Keyword(null,"user","user",1532431356);
+var G__58162_58216 = (function (db,_){
 return new cljs.core.Keyword(null,"user","user",1532431356).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58161_58212,G__58162_58213) : re_frame.core.reg_sub.call(null,G__58161_58212,G__58162_58213));
-var G__58163_58214 = new cljs.core.Keyword(null,"app-db","app-db",865606302);
-var G__58164_58215 = (function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58161_58215,G__58162_58216) : re_frame.core.reg_sub.call(null,G__58161_58215,G__58162_58216));
+var G__58163_58217 = new cljs.core.Keyword(null,"app-db","app-db",865606302);
+var G__58164_58218 = (function (db,_){
 return db;
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58163_58214,G__58164_58215) : re_frame.core.reg_sub.call(null,G__58163_58214,G__58164_58215));
-var G__58165_58216 = new cljs.core.Keyword(null,"alert","alert",-571950580);
-var G__58166_58217 = (function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58163_58217,G__58164_58218) : re_frame.core.reg_sub.call(null,G__58163_58217,G__58164_58218));
+var G__58165_58219 = new cljs.core.Keyword(null,"alert","alert",-571950580);
+var G__58166_58220 = (function (db,_){
 return new cljs.core.Keyword(null,"alert","alert",-571950580).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58165_58216,G__58166_58217) : re_frame.core.reg_sub.call(null,G__58165_58216,G__58166_58217));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58165_58219,G__58166_58220) : re_frame.core.reg_sub.call(null,G__58165_58219,G__58166_58220));
 var G__58167_58221 = new cljs.core.Keyword(null,"loading?","loading?",1905707049);
 var G__58168_58222 = (function (db,_){
 return new cljs.core.Keyword(null,"loading?","loading?",1905707049).cljs$core$IFn$_invoke$arity$1(db);
@@ -174,8 +174,8 @@ throw e;
 return new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099).cljs$core$IFn$_invoke$arity$1(db);
 }));
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58189_58237,G__58190_58238) : re_frame.core.reg_sub.call(null,G__58189_58237,G__58190_58238));
-var G__58192_58239 = new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411);
-var G__58193_58240 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var G__58194_58239 = new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411);
+var G__58195_58240 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
@@ -189,14 +189,14 @@ return result__54415__auto__;
 debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
 return result__54415__auto__;
-}catch (e58194){var e = e58194;
+}catch (e58200){var e = e58200;
 throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58192_58239,G__58193_58240) : re_frame.core.reg_sub.call(null,G__58192_58239,G__58193_58240));
-var G__58195_58241 = new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573);
-var G__58196_58242 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58194_58239,G__58195_58240) : re_frame.core.reg_sub.call(null,G__58194_58239,G__58195_58240));
+var G__58203_58241 = new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573);
+var G__58204_58242 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
@@ -210,14 +210,14 @@ return result__54415__auto__;
 debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
 return result__54415__auto__;
-}catch (e58197){var e = e58197;
+}catch (e58208){var e = e58208;
 throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58195_58241,G__58196_58242) : re_frame.core.reg_sub.call(null,G__58195_58241,G__58196_58242));
-var G__58204_58243 = new cljs.core.Keyword("athena","get-recent","athena/get-recent",141186072);
-var G__58205_58244 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58203_58241,G__58204_58242) : re_frame.core.reg_sub.call(null,G__58203_58241,G__58204_58242));
+var G__58209_58243 = new cljs.core.Keyword("athena","get-recent","athena/get-recent",141186072);
+var G__58210_58244 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
@@ -231,11 +231,11 @@ return result__54415__auto__;
 debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54415__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
 return result__54415__auto__;
-}catch (e58208){var e = e58208;
+}catch (e58214){var e = e58214;
 throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword("athena","recent-items","athena/recent-items",-1145487227).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58204_58243,G__58205_58244) : re_frame.core.reg_sub.call(null,G__58204_58243,G__58205_58244));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__58209_58243,G__58210_58244) : re_frame.core.reg_sub.call(null,G__58209_58243,G__58210_58244));
 
 //# sourceMappingURL=athens.subs.js.map

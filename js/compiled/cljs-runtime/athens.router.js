@@ -89,8 +89,8 @@ var G__58147 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVe
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58147) : re_frame.core.dispatch.call(null,G__58147));
 });
 athens.router.navigate_uid = (function athens$router$navigate_uid(var_args){
-var G__58149 = arguments.length;
-switch (G__58149) {
+var G__58150 = arguments.length;
+switch (G__58150) {
 case 1:
 return athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

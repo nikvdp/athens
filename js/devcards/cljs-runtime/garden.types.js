@@ -135,17 +135,17 @@ return (new garden.types.CSSUnit(self__.unit,self__.magnitude,self__.__meta,cljs
 (garden.types.CSSUnit.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__32859){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__32870 = cljs.core.keyword_identical_QMARK_;
-var expr__32871 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__32873 = new cljs.core.Keyword(null,"unit","unit",375175175);
-var G__32874 = expr__32871;
-return (pred__32870.cljs$core$IFn$_invoke$arity$2 ? pred__32870.cljs$core$IFn$_invoke$arity$2(G__32873,G__32874) : pred__32870.call(null,G__32873,G__32874));
+var pred__32872 = cljs.core.keyword_identical_QMARK_;
+var expr__32873 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__32875 = new cljs.core.Keyword(null,"unit","unit",375175175);
+var G__32876 = expr__32873;
+return (pred__32872.cljs$core$IFn$_invoke$arity$2 ? pred__32872.cljs$core$IFn$_invoke$arity$2(G__32875,G__32876) : pred__32872.call(null,G__32875,G__32876));
 })())){
 return (new garden.types.CSSUnit(G__32859,self__.magnitude,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__32875 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
-var G__32876 = expr__32871;
-return (pred__32870.cljs$core$IFn$_invoke$arity$2 ? pred__32870.cljs$core$IFn$_invoke$arity$2(G__32875,G__32876) : pred__32870.call(null,G__32875,G__32876));
+if(cljs.core.truth_((function (){var G__32877 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
+var G__32878 = expr__32873;
+return (pred__32872.cljs$core$IFn$_invoke$arity$2 ? pred__32872.cljs$core$IFn$_invoke$arity$2(G__32877,G__32878) : pred__32872.call(null,G__32877,G__32878));
 })())){
 return (new garden.types.CSSUnit(self__.unit,G__32859,self__.__meta,self__.__extmap,null));
 } else {

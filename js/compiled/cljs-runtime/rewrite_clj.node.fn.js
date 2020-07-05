@@ -358,11 +358,11 @@ return (new rewrite_clj.node.fn.FnNode(children,null,null,null));
  * Factory function for rewrite-clj.node.fn/FnNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.fn.map__GT_FnNode = (function rewrite_clj$node$fn$map__GT_FnNode(G__30044){
-var extmap__4478__auto__ = (function (){var G__30067 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__30044,new cljs.core.Keyword(null,"children","children",-940561982));
+var extmap__4478__auto__ = (function (){var G__30066 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__30044,new cljs.core.Keyword(null,"children","children",-940561982));
 if(cljs.core.record_QMARK_(G__30044)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__30067);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__30066);
 } else {
-return G__30067;
+return G__30066;
 }
 })();
 return (new rewrite_clj.node.fn.FnNode(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__30044),null,cljs.core.not_empty(extmap__4478__auto__),null));
