@@ -29,8 +29,8 @@ while (G__65728__i < G__65728__a.length) {G__65728__a[G__65728__i] = arguments[G
 } 
 return G__65727__delegate.call(this,contents);};
 G__65727.cljs$lang$maxFixedArity = 0;
-G__65727.cljs$lang$applyTo = (function (arglist__65730){
-var contents = cljs.core.seq(arglist__65730);
+G__65727.cljs$lang$applyTo = (function (arglist__65729){
+var contents = cljs.core.seq(arglist__65729);
 return G__65727__delegate(contents);
 });
 G__65727.cljs$core$IFn$_invoke$arity$variadic = G__65727__delegate;

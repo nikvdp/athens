@@ -16,7 +16,7 @@ throw (new Error("UUID literal expects a string as its representation."));
 }
 
 try{return cljs.core.uuid(form);
-}catch (e52332){var e = e52332;
+}catch (e52331){var e = e52331;
 throw (new Error(e.message));
 }});
 cljs.tagged_literals.read_inst = (function cljs$tagged_literals$read_inst(form){

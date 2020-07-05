@@ -105,10 +105,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__32871 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__32869 = (function (coll__4436__auto__){
 return (70281654 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__32871(this__4435__auto____$1);
+return fexpr__32869(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -135,17 +135,17 @@ return (new garden.types.CSSUnit(self__.unit,self__.magnitude,self__.__meta,cljs
 (garden.types.CSSUnit.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__32859){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__32874 = cljs.core.keyword_identical_QMARK_;
-var expr__32875 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__32877 = new cljs.core.Keyword(null,"unit","unit",375175175);
-var G__32878 = expr__32875;
-return (pred__32874.cljs$core$IFn$_invoke$arity$2 ? pred__32874.cljs$core$IFn$_invoke$arity$2(G__32877,G__32878) : pred__32874.call(null,G__32877,G__32878));
+var pred__32870 = cljs.core.keyword_identical_QMARK_;
+var expr__32871 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__32873 = new cljs.core.Keyword(null,"unit","unit",375175175);
+var G__32874 = expr__32871;
+return (pred__32870.cljs$core$IFn$_invoke$arity$2 ? pred__32870.cljs$core$IFn$_invoke$arity$2(G__32873,G__32874) : pred__32870.call(null,G__32873,G__32874));
 })())){
 return (new garden.types.CSSUnit(G__32859,self__.magnitude,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__32879 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
-var G__32880 = expr__32875;
-return (pred__32874.cljs$core$IFn$_invoke$arity$2 ? pred__32874.cljs$core$IFn$_invoke$arity$2(G__32879,G__32880) : pred__32874.call(null,G__32879,G__32880));
+if(cljs.core.truth_((function (){var G__32875 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
+var G__32876 = expr__32871;
+return (pred__32870.cljs$core$IFn$_invoke$arity$2 ? pred__32870.cljs$core$IFn$_invoke$arity$2(G__32875,G__32876) : pred__32870.call(null,G__32875,G__32876));
 })())){
 return (new garden.types.CSSUnit(self__.unit,G__32859,self__.__meta,self__.__extmap,null));
 } else {

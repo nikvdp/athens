@@ -77,10 +77,10 @@ return rewrite_clj.node.coercer.seq_node(rewrite_clj.node.seq.set_node,sq__$1);
 var comma_30208 = rewrite_clj.node.whitespace.whitespace_node(", ");
 var space_30209 = rewrite_clj.node.whitespace.whitespace_node(" ");
 rewrite_clj.node.coercer.map__GT_children = (function rewrite_clj$node$coercer$map__GT_children(m){
-return cljs.core.vec(cljs.core.butlast(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__30195){
-var vec__30196 = p__30195;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30196,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30196,(1),null);
+return cljs.core.vec(cljs.core.butlast(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__30194){
+var vec__30195 = p__30194;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30195,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30195,(1),null);
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [rewrite_clj.node.protocols.coerce(k),space_30209,rewrite_clj.node.protocols.coerce(v),comma_30208], null);
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([m], 0))));
 });

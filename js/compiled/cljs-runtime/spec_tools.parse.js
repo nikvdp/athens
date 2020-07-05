@@ -4,8 +4,8 @@ goog.require('spec_tools.impl');
 goog.require('cljs.spec.alpha');
 goog.require('spec_tools.form');
 spec_tools.parse.type_dispatch_value = (function spec_tools$parse$type_dispatch_value(type){
-var fexpr__55112 = ((cljs.core.sequential_QMARK_(type))?cljs.core.first:cljs.core.identity);
-return (fexpr__55112.cljs$core$IFn$_invoke$arity$1 ? fexpr__55112.cljs$core$IFn$_invoke$arity$1(type) : fexpr__55112.call(null,type));
+var fexpr__55111 = ((cljs.core.sequential_QMARK_(type))?cljs.core.first:cljs.core.identity);
+return (fexpr__55111.cljs$core$IFn$_invoke$arity$1 ? fexpr__55111.cljs$core$IFn$_invoke$arity$1(type) : fexpr__55111.call(null,type));
 });
 spec_tools.parse.collection_type_QMARK_ = (function spec_tools$parse$collection_type_QMARK_(type){
 return cljs.core.contains_QMARK_(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"tuple","tuple",-472667284),null,new cljs.core.Keyword(null,"vector","vector",1902966158),null,new cljs.core.Keyword(null,"map-of","map-of",1189682355),null,new cljs.core.Keyword(null,"set","set",304602554),null,new cljs.core.Keyword(null,"map","map",1371690461),null], null), null),type);
@@ -29,14 +29,14 @@ x = G__55139;
 continue;
 } else {
 if((x instanceof cljs.core.Symbol)){
-var G__55116 = spec_tools.impl.normalize_symbol(x);
-var G__55117 = null;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55116,G__55117) : spec_tools.parse.parse_form.call(null,G__55116,G__55117));
+var G__55112 = spec_tools.impl.normalize_symbol(x);
+var G__55113 = null;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55112,G__55113) : spec_tools.parse.parse_form.call(null,G__55112,G__55113));
 } else {
 if(cljs.core.seq_QMARK_(x)){
-var G__55118 = spec_tools.impl.normalize_symbol(cljs.core.first(x));
-var G__55119 = x;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55118,G__55119) : spec_tools.parse.parse_form.call(null,G__55118,G__55119));
+var G__55115 = spec_tools.impl.normalize_symbol(cljs.core.first(x));
+var G__55116 = x;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55115,G__55116) : spec_tools.parse.parse_form.call(null,G__55115,G__55116));
 } else {
 if(cljs.core.truth_(cljs.spec.alpha.spec_QMARK_(x))){
 var G__55140 = cljs.spec.alpha.form(x);
@@ -44,9 +44,9 @@ x = G__55140;
 continue;
 } else {
 if(cljs.core.ifn_QMARK_(x)){
-var G__55120 = (spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1 ? spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1(x) : spec_tools.form.resolve_form.call(null,x));
-var G__55121 = null;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55120,G__55121) : spec_tools.parse.parse_form.call(null,G__55120,G__55121));
+var G__55117 = (spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1 ? spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1(x) : spec_tools.form.resolve_form.call(null,x));
+var G__55118 = null;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55117,G__55118) : spec_tools.parse.parse_form.call(null,G__55117,G__55118));
 } else {
 return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(x,null) : spec_tools.parse.parse_form.call(null,x,null));
 

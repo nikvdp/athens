@@ -372,21 +372,21 @@ goog.object.set(G__57595_57627,G__57596_57628,G__57597_57629);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 
-var G__57598_57630 = reitit.impl.into_string;
-var G__57599_57631 = "number";
-var G__57600_57632 = (function (this$){
+var G__57598_57633 = reitit.impl.into_string;
+var G__57599_57634 = "number";
+var G__57600_57635 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57598_57630,G__57599_57631,G__57600_57632);
+goog.object.set(G__57598_57633,G__57599_57634,G__57600_57635);
 
 goog.object.set(reitit.impl.IntoString,"object",true);
 
-var G__57601_57633 = reitit.impl.into_string;
-var G__57602_57634 = "object";
-var G__57603_57635 = (function (this$){
+var G__57601_57636 = reitit.impl.into_string;
+var G__57602_57637 = "object";
+var G__57603_57638 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57601_57633,G__57602_57634,G__57603_57635);
+goog.object.set(G__57601_57636,G__57602_57637,G__57603_57638);
 
 goog.object.set(reitit.impl.IntoString,"null",true);
 
