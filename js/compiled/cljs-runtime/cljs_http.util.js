@@ -22,8 +22,8 @@ return null;
 /**
  * Build the url from the request map.
  */
-cljs_http.util.build_url = (function cljs_http$util$build_url(p__51819){
-var map__51821 = p__51819;
+cljs_http.util.build_url = (function cljs_http$util$build_url(p__51820){
+var map__51821 = p__51820;
 var map__51821__$1 = (((((!((map__51821 == null))))?(((((map__51821.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51821.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51821):map__51821);
 var scheme = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51821__$1,new cljs.core.Keyword(null,"scheme","scheme",90199613));
 var server_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51821__$1,new cljs.core.Keyword(null,"server-name","server-name",-1012104295));

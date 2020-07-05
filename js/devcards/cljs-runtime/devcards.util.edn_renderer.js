@@ -26,11 +26,11 @@ return devcards.util.edn_renderer.clearfix_separator_STAR_;
 } else {
 return devcards.util.edn_renderer.separator_STAR_;
 }
-}catch (e41195){if((e41195 instanceof Error)){
-var e = e41195;
+}catch (e41194){if((e41194 instanceof Error)){
+var e = e41194;
 return devcards.util.edn_renderer.clearfix_separator_STAR_;
 } else {
-throw e41195;
+throw e41194;
 
 }
 }});
@@ -106,12 +106,12 @@ return devcards.util.edn_renderer.literal("literal",x);
 }
 });
 devcards.util.edn_renderer.html_edn = (function devcards$util$edn_renderer$html_edn(e){
-var _STAR_key_counter_STAR__orig_val__41207 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
-var _STAR_key_counter_STAR__temp_val__41208 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
-(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__41208);
+var _STAR_key_counter_STAR__orig_val__41206 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
+var _STAR_key_counter_STAR__temp_val__41207 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
+(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__41207);
 
 try{return React.createElement("div",({"key": "devcards-edn-block", "className": "com-rigsomelight-rendered-edn com-rigsomelight-devcards-typog"}),sablono.interpreter.interpret(devcards.util.edn_renderer.html(e)));
-}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__41207);
+}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__41206);
 }});
 
 //# sourceMappingURL=devcards.util.edn_renderer.js.map
