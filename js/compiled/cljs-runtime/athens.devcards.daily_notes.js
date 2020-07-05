@@ -118,9 +118,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__66007),athens$devcards$daily_note
 return cljs.core.chunk_cons(cljs.core.chunk(b__66007),null);
 }
 } else {
-var map__66010 = cljs.core.first(s__66005__$2);
-var map__66010__$1 = (((((!((map__66010 == null))))?(((((map__66010.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__66010.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__66010):map__66010);
-var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__66010__$1,new cljs.core.Keyword("block","uid","block/uid",-1623585167));
+var map__66011 = cljs.core.first(s__66005__$2);
+var map__66011__$1 = (((((!((map__66011 == null))))?(((((map__66011.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__66011.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__66011):map__66011);
+var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__66011__$1,new cljs.core.Keyword("block","uid","block/uid",-1623585167));
 return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"<>","<>",1280186386),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(athens.devcards.daily_notes.daily_notes_page_style),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.node_page.node_page_component,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid], null)], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),uid], null)),athens$devcards$daily_notes$daily_notes_panel_$_iter__66004(cljs.core.rest(s__66005__$2)));
 }
 } else {

@@ -40,37 +40,37 @@ return cljs.core.not_empty(cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.cor
 (sci.impl.opts.process_permissions.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq67023){
+(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq67026){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq67023));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq67026));
 }));
 
 sci.impl.opts.default_classes = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Symbol(null,"Error","Error",-1692662047,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),Error,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function() {
-var G__67048 = null;
-var G__67048__1 = (function (msg){
+var G__67045 = null;
+var G__67045__1 = (function (msg){
 return (new Error(msg));
 });
-var G__67048__2 = (function (msg,filename){
+var G__67045__2 = (function (msg,filename){
 return (new Error(msg,filename));
 });
-var G__67048__3 = (function (msg,filename,line){
+var G__67045__3 = (function (msg,filename,line){
 return (new Error(msg,filename,line));
 });
-G__67048 = function(msg,filename,line){
+G__67045 = function(msg,filename,line){
 switch(arguments.length){
 case 1:
-return G__67048__1.call(this,msg);
+return G__67045__1.call(this,msg);
 case 2:
-return G__67048__2.call(this,msg,filename);
+return G__67045__2.call(this,msg,filename);
 case 3:
-return G__67048__3.call(this,msg,filename,line);
+return G__67045__3.call(this,msg,filename,line);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__67048.cljs$core$IFn$_invoke$arity$1 = G__67048__1;
-G__67048.cljs$core$IFn$_invoke$arity$2 = G__67048__2;
-G__67048.cljs$core$IFn$_invoke$arity$3 = G__67048__3;
-return G__67048;
+G__67045.cljs$core$IFn$_invoke$arity$1 = G__67045__1;
+G__67045.cljs$core$IFn$_invoke$arity$2 = G__67045__2;
+G__67045.cljs$core$IFn$_invoke$arity$3 = G__67045__3;
+return G__67045;
 })()
 ], null),new cljs.core.Symbol(null,"cljs.core.Delay","cljs.core.Delay",-1917476777,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.Delay,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__67027_SHARP_){
 return (new cljs.core.Delay(p1__67027_SHARP_,null));
@@ -101,8 +101,8 @@ break;
 /**
  * Initializes options
  */
-sci.impl.opts.init = (function sci$impl$opts$init(p__67033){
-var map__67034 = p__67033;
+sci.impl.opts.init = (function sci$impl$opts$init(p__67032){
+var map__67034 = p__67032;
 var map__67034__$1 = (((((!((map__67034 == null))))?(((((map__67034.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__67034.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__67034):map__67034);
 var features = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67034__$1,new cljs.core.Keyword(null,"features","features",-1146962336));
 var namespaces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67034__$1,new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469));

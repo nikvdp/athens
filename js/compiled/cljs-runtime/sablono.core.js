@@ -13,12 +13,12 @@ sablono.core.wrap_attrs = (function sablono$core$wrap_attrs(func){
 return (function() { 
 var G__50573__delegate = function (args){
 if(cljs.core.map_QMARK_(cljs.core.first(args))){
-var vec__50387 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(func,cljs.core.rest(args));
-var seq__50388 = cljs.core.seq(vec__50387);
-var first__50389 = cljs.core.first(seq__50388);
-var seq__50388__$1 = cljs.core.next(seq__50388);
-var tag = first__50389;
-var body = seq__50388__$1;
+var vec__50389 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(func,cljs.core.rest(args));
+var seq__50390 = cljs.core.seq(vec__50389);
+var first__50391 = cljs.core.first(seq__50390);
+var seq__50390__$1 = cljs.core.next(seq__50390);
+var tag = first__50391;
+var body = seq__50390__$1;
 if(cljs.core.map_QMARK_(cljs.core.first(body))){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [tag,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.first(body),cljs.core.first(args)], 0))], null),cljs.core.rest(body));
 } else {
@@ -170,12 +170,12 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  * Include the JavaScript library at `src`.
  */
 sablono.core.include_js = (function sablono$core$include_js(src){
-var G__50428 = goog.dom.getDocument().body;
-var G__50429 = (function (){var G__50432 = "script";
-var G__50433 = ({"src": src});
-return goog.dom.createDom(G__50432,G__50433);
+var G__50430 = goog.dom.getDocument().body;
+var G__50431 = (function (){var G__50433 = "script";
+var G__50434 = ({"src": src});
+return goog.dom.createDom(G__50433,G__50434);
 })();
-return goog.dom.appendChild(G__50428,G__50429);
+return goog.dom.appendChild(G__50430,G__50431);
 });
 /**
  * Include Facebook's React JavaScript library.
@@ -186,7 +186,7 @@ return sablono.core.include_js("http://fb.me/react-0.12.2.js");
 /**
  * Wraps some content in a HTML hyperlink with the supplied URL.
  */
-sablono.core.link_to50438 = (function sablono$core$link_to50438(var_args){
+sablono.core.link_to50439 = (function sablono$core$link_to50439(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___50581 = arguments.length;
 var i__4790__auto___50582 = (0);
@@ -203,17 +203,17 @@ break;
 }
 
 var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.IndexedSeq(args__4795__auto__.slice((1)),(0),null)):null);
-return sablono.core.link_to50438.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
+return sablono.core.link_to50439.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(sablono.core.link_to50438.cljs$core$IFn$_invoke$arity$variadic = (function (url,content){
+(sablono.core.link_to50439.cljs$core$IFn$_invoke$arity$variadic = (function (url,content){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),sablono.util.as_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([url], 0))], null),content], null);
 }));
 
-(sablono.core.link_to50438.cljs$lang$maxFixedArity = (1));
+(sablono.core.link_to50439.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sablono.core.link_to50438.cljs$lang$applyTo = (function (seq50440){
+(sablono.core.link_to50439.cljs$lang$applyTo = (function (seq50440){
 var G__50441 = cljs.core.first(seq50440);
 var seq50440__$1 = cljs.core.next(seq50440);
 var self__4776__auto__ = this;
@@ -221,21 +221,21 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__50441,seq50440
 }));
 
 
-sablono.core.link_to = sablono.core.wrap_attrs(sablono.core.link_to50438);
+sablono.core.link_to = sablono.core.wrap_attrs(sablono.core.link_to50439);
 /**
  * Wraps some content in a HTML hyperlink with the supplied e-mail
  *   address. If no content provided use the e-mail address as content.
  */
 sablono.core.mail_to50447 = (function sablono$core$mail_to50447(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___50586 = arguments.length;
-var i__4790__auto___50587 = (0);
+var len__4789__auto___50584 = arguments.length;
+var i__4790__auto___50585 = (0);
 while(true){
-if((i__4790__auto___50587 < len__4789__auto___50586)){
-args__4795__auto__.push((arguments[i__4790__auto___50587]));
+if((i__4790__auto___50585 < len__4789__auto___50584)){
+args__4795__auto__.push((arguments[i__4790__auto___50585]));
 
-var G__50588 = (i__4790__auto___50587 + (1));
-i__4790__auto___50587 = G__50588;
+var G__50586 = (i__4790__auto___50585 + (1));
+i__4790__auto___50585 = G__50586;
 continue;
 } else {
 }
@@ -246,9 +246,9 @@ var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.I
 return sablono.core.mail_to50447.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(sablono.core.mail_to50447.cljs$core$IFn$_invoke$arity$variadic = (function (e_mail,p__50450){
-var vec__50452 = p__50450;
-var content = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50452,(0),null);
+(sablono.core.mail_to50447.cljs$core$IFn$_invoke$arity$variadic = (function (e_mail,p__50452){
+var vec__50453 = p__50452;
+var content = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50453,(0),null);
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),["mailto:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_mail)].join('')], null),(function (){var or__4185__auto__ = content;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -291,8 +291,8 @@ if((i__50463 < size__4581__auto__)){
 var x = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__50463);
 cljs.core.chunk_append(b__50464,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),x], null));
 
-var G__50590 = (i__50463 + (1));
-i__50463 = G__50590;
+var G__50589 = (i__50463 + (1));
+i__50463 = G__50589;
 continue;
 } else {
 return true;
@@ -341,8 +341,8 @@ if((i__50474 < size__4581__auto__)){
 var x = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__50474);
 cljs.core.chunk_append(b__50475,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),x], null));
 
-var G__50592 = (i__50474 + (1));
-i__50474 = G__50592;
+var G__50591 = (i__50474 + (1));
+i__50474 = G__50591;
 continue;
 } else {
 return true;

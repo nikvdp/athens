@@ -140,14 +140,14 @@ var rep = clojure.string.replace(s,match,trunc_prefix);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(rep,s)){
 return trunc_prefix;
 } else {
-var G__31975 = clojure.string.replace(s,match,trunc_prefix);
-var G__31976 = limit;
-var G__31977 = match;
-var G__31978 = trunc_prefix;
-s = G__31975;
-limit = G__31976;
-match = G__31977;
-trunc_prefix = G__31978;
+var G__31976 = clojure.string.replace(s,match,trunc_prefix);
+var G__31977 = limit;
+var G__31978 = match;
+var G__31979 = trunc_prefix;
+s = G__31976;
+limit = G__31977;
+match = G__31978;
+trunc_prefix = G__31979;
 continue;
 }
 }
@@ -523,11 +523,11 @@ return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$
 (day8.re_frame_10x.utils.pretty_print_condensed.pr_str_truncated.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(day8.re_frame_10x.utils.pretty_print_condensed.pr_str_truncated.cljs$lang$applyTo = (function (seq31964){
-var G__31965 = cljs.core.first(seq31964);
-var seq31964__$1 = cljs.core.next(seq31964);
+(day8.re_frame_10x.utils.pretty_print_condensed.pr_str_truncated.cljs$lang$applyTo = (function (seq31967){
+var G__31968 = cljs.core.first(seq31967);
+var seq31967__$1 = cljs.core.next(seq31967);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31965,seq31964__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31968,seq31967__$1);
 }));
 
 

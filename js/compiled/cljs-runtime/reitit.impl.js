@@ -363,39 +363,39 @@ return [ns,(cljs.core.truth_(ns)?"/":null),cljs.core.name(this$__$1)].join('');
 
 goog.object.set(reitit.impl.IntoString,"boolean",true);
 
-var G__57599_57635 = reitit.impl.into_string;
-var G__57600_57636 = "boolean";
-var G__57601_57637 = (function (this$){
+var G__57599_57634 = reitit.impl.into_string;
+var G__57600_57635 = "boolean";
+var G__57601_57636 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57599_57635,G__57600_57636,G__57601_57637);
+goog.object.set(G__57599_57634,G__57600_57635,G__57601_57636);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 
-var G__57602_57638 = reitit.impl.into_string;
-var G__57603_57639 = "number";
-var G__57604_57640 = (function (this$){
+var G__57602_57637 = reitit.impl.into_string;
+var G__57603_57638 = "number";
+var G__57604_57639 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57602_57638,G__57603_57639,G__57604_57640);
+goog.object.set(G__57602_57637,G__57603_57638,G__57604_57639);
 
 goog.object.set(reitit.impl.IntoString,"object",true);
 
-var G__57605_57641 = reitit.impl.into_string;
-var G__57606_57642 = "object";
-var G__57607_57643 = (function (this$){
+var G__57605_57640 = reitit.impl.into_string;
+var G__57606_57641 = "object";
+var G__57607_57642 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57605_57641,G__57606_57642,G__57607_57643);
+goog.object.set(G__57605_57640,G__57606_57641,G__57607_57642);
 
 goog.object.set(reitit.impl.IntoString,"null",true);
 
-var G__57608_57648 = reitit.impl.into_string;
-var G__57609_57649 = "null";
-var G__57610_57650 = (function (_){
+var G__57608_57643 = reitit.impl.into_string;
+var G__57609_57644 = "null";
+var G__57610_57645 = (function (_){
 return null;
 });
-goog.object.set(G__57608_57648,G__57609_57649,G__57610_57650);
+goog.object.set(G__57608_57643,G__57609_57644,G__57610_57645);
 /**
  * Convert parameters' values into URL-encoded strings, suitable for URL paths
  */

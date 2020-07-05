@@ -729,20 +729,20 @@ var seq__66338__$2 = cljs.core.next(seq__66338__$1);
 var v__$1 = first__66339__$1;
 var cases__$2 = seq__66338__$2;
 if(cljs.core.list_QMARK_(k)){
-var G__66446 = cases__$2;
-var G__66447 = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(((function (cases__$1,ret_map,vec__66337,seq__66338,first__66339,seq__66338__$1,k,first__66339__$1,seq__66338__$2,v__$1,cases__$2,v,clauses,match_clauses,result_clauses,default$,cases,assoc_new){
+var G__66464 = cases__$2;
+var G__66465 = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(((function (cases__$1,ret_map,vec__66337,seq__66338,first__66339,seq__66338__$1,k,first__66339__$1,seq__66338__$2,v__$1,cases__$2,v,clauses,match_clauses,result_clauses,default$,cases,assoc_new){
 return (function (acc,k__$1){
 return assoc_new(acc,k__$1,v__$1);
 });})(cases__$1,ret_map,vec__66337,seq__66338,first__66339,seq__66338__$1,k,first__66339__$1,seq__66338__$2,v__$1,cases__$2,v,clauses,match_clauses,result_clauses,default$,cases,assoc_new))
 ,ret_map,k);
-cases__$1 = G__66446;
-ret_map = G__66447;
+cases__$1 = G__66464;
+ret_map = G__66465;
 continue;
 } else {
-var G__66448 = cases__$2;
-var G__66449 = assoc_new(ret_map,k,v__$1);
-cases__$1 = G__66448;
-ret_map = G__66449;
+var G__66466 = cases__$2;
+var G__66467 = assoc_new(ret_map,k,v__$1);
+cases__$1 = G__66466;
+ret_map = G__66467;
 continue;
 }
 } else {
@@ -770,27 +770,27 @@ if(exprs){
 var expr = cljs.core.first(exprs);
 var exprs__$1 = cljs.core.next(exprs);
 if(((cljs.core.seq_QMARK_(expr)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol(null,"catch","catch",-1616370245,null),cljs.core.first(expr))))){
-var G__66450 = exprs__$1;
-var G__66451 = body_exprs;
-var G__66452 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(catch_exprs,expr);
-var G__66453 = finally_expr;
-exprs = G__66450;
-body_exprs = G__66451;
-catch_exprs = G__66452;
-finally_expr = G__66453;
+var G__66468 = exprs__$1;
+var G__66469 = body_exprs;
+var G__66470 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(catch_exprs,expr);
+var G__66471 = finally_expr;
+exprs = G__66468;
+body_exprs = G__66469;
+catch_exprs = G__66470;
+finally_expr = G__66471;
 continue;
 } else {
 if(((cljs.core.not(exprs__$1)) && (((cljs.core.seq_QMARK_(expr)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol(null,"finally","finally",-1065347064,null),cljs.core.first(expr))))))){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [body_exprs,catch_exprs,expr], null);
 } else {
-var G__66454 = exprs__$1;
-var G__66455 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(body_exprs,expr);
-var G__66456 = catch_exprs;
-var G__66457 = finally_expr;
-exprs = G__66454;
-body_exprs = G__66455;
-catch_exprs = G__66456;
-finally_expr = G__66457;
+var G__66472 = exprs__$1;
+var G__66473 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(body_exprs,expr);
+var G__66474 = catch_exprs;
+var G__66475 = finally_expr;
+exprs = G__66472;
+body_exprs = G__66473;
+catch_exprs = G__66474;
+finally_expr = G__66475;
 continue;
 
 }
@@ -903,26 +903,26 @@ var i__66373 = (0);
 while(true){
 if((i__66373 < count__66372)){
 var spec = chunk__66371.cljs$core$IIndexed$_nth$arity$2(null,i__66373);
-var fq_class_name_66476 = cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(spec);
-if(cljs.core.truth_(sci.impl.interop.resolve_class(ctx,fq_class_name_66476))){
+var fq_class_name_66487 = cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(spec);
+if(cljs.core.truth_(sci.impl.interop.resolve_class(ctx,fq_class_name_66487))){
 } else {
-sci.impl.utils.throw_error_with_location.cljs$core$IFn$_invoke$arity$2(["Unable to resolve classname: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(fq_class_name_66476)].join(''),expr);
+sci.impl.utils.throw_error_with_location.cljs$core$IFn$_invoke$arity$2(["Unable to resolve classname: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(fq_class_name_66487)].join(''),expr);
 }
 
-var last_dot_66477 = clojure.string.last_index_of.cljs$core$IFn$_invoke$arity$2(spec,".");
-var class_name_66478 = cljs.core.subs.cljs$core$IFn$_invoke$arity$3(spec,(last_dot_66477 + (1)),cljs.core.count(spec));
-var cnn_66479 = sci.impl.vars.current_ns_name();
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(env,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469),cnn_66479,new cljs.core.Keyword(null,"imports","imports",-1249933394),cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(class_name_66478)], null),fq_class_name_66476);
+var last_dot_66490 = clojure.string.last_index_of.cljs$core$IFn$_invoke$arity$2(spec,".");
+var class_name_66491 = cljs.core.subs.cljs$core$IFn$_invoke$arity$3(spec,(last_dot_66490 + (1)),cljs.core.count(spec));
+var cnn_66492 = sci.impl.vars.current_ns_name();
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(env,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469),cnn_66492,new cljs.core.Keyword(null,"imports","imports",-1249933394),cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(class_name_66491)], null),fq_class_name_66487);
 
 
-var G__66480 = seq__66370;
-var G__66481 = chunk__66371;
-var G__66482 = count__66372;
-var G__66483 = (i__66373 + (1));
-seq__66370 = G__66480;
-chunk__66371 = G__66481;
-count__66372 = G__66482;
-i__66373 = G__66483;
+var G__66493 = seq__66370;
+var G__66494 = chunk__66371;
+var G__66495 = count__66372;
+var G__66496 = (i__66373 + (1));
+seq__66370 = G__66493;
+chunk__66371 = G__66494;
+count__66372 = G__66495;
+i__66373 = G__66496;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__66370);
@@ -930,37 +930,37 @@ if(temp__5735__auto__){
 var seq__66370__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__66370__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__66370__$1);
-var G__66484 = cljs.core.chunk_rest(seq__66370__$1);
-var G__66485 = c__4609__auto__;
-var G__66486 = cljs.core.count(c__4609__auto__);
-var G__66487 = (0);
-seq__66370 = G__66484;
-chunk__66371 = G__66485;
-count__66372 = G__66486;
-i__66373 = G__66487;
+var G__66497 = cljs.core.chunk_rest(seq__66370__$1);
+var G__66498 = c__4609__auto__;
+var G__66499 = cljs.core.count(c__4609__auto__);
+var G__66500 = (0);
+seq__66370 = G__66497;
+chunk__66371 = G__66498;
+count__66372 = G__66499;
+i__66373 = G__66500;
 continue;
 } else {
 var spec = cljs.core.first(seq__66370__$1);
-var fq_class_name_66488 = cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(spec);
-if(cljs.core.truth_(sci.impl.interop.resolve_class(ctx,fq_class_name_66488))){
+var fq_class_name_66501 = cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(spec);
+if(cljs.core.truth_(sci.impl.interop.resolve_class(ctx,fq_class_name_66501))){
 } else {
-sci.impl.utils.throw_error_with_location.cljs$core$IFn$_invoke$arity$2(["Unable to resolve classname: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(fq_class_name_66488)].join(''),expr);
+sci.impl.utils.throw_error_with_location.cljs$core$IFn$_invoke$arity$2(["Unable to resolve classname: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(fq_class_name_66501)].join(''),expr);
 }
 
-var last_dot_66489 = clojure.string.last_index_of.cljs$core$IFn$_invoke$arity$2(spec,".");
-var class_name_66490 = cljs.core.subs.cljs$core$IFn$_invoke$arity$3(spec,(last_dot_66489 + (1)),cljs.core.count(spec));
-var cnn_66491 = sci.impl.vars.current_ns_name();
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(env,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469),cnn_66491,new cljs.core.Keyword(null,"imports","imports",-1249933394),cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(class_name_66490)], null),fq_class_name_66488);
+var last_dot_66502 = clojure.string.last_index_of.cljs$core$IFn$_invoke$arity$2(spec,".");
+var class_name_66503 = cljs.core.subs.cljs$core$IFn$_invoke$arity$3(spec,(last_dot_66502 + (1)),cljs.core.count(spec));
+var cnn_66504 = sci.impl.vars.current_ns_name();
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(env,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469),cnn_66504,new cljs.core.Keyword(null,"imports","imports",-1249933394),cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(class_name_66503)], null),fq_class_name_66501);
 
 
-var G__66492 = cljs.core.next(seq__66370__$1);
-var G__66493 = null;
-var G__66494 = (0);
-var G__66495 = (0);
-seq__66370 = G__66492;
-chunk__66371 = G__66493;
-count__66372 = G__66494;
-i__66373 = G__66495;
+var G__66505 = cljs.core.next(seq__66370__$1);
+var G__66506 = null;
+var G__66507 = (0);
+var G__66508 = (0);
+seq__66370 = G__66505;
+chunk__66371 = G__66506;
+count__66372 = G__66507;
+i__66373 = G__66508;
 continue;
 }
 } else {
@@ -1154,10 +1154,10 @@ continue;
 
 break;
 case "gen-class":
-var G__66516 = cljs.core.next(exprs__$3);
-var G__66517 = ret;
-exprs__$3 = G__66516;
-ret = G__66517;
+var G__66519 = cljs.core.next(exprs__$3);
+var G__66520 = ret;
+exprs__$3 = G__66519;
+ret = G__66520;
 continue;
 
 break;

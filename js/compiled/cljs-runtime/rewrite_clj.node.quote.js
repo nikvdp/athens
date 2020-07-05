@@ -208,29 +208,29 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.quote.QuoteNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__29899){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__29915 = cljs.core.keyword_identical_QMARK_;
-var expr__29916 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__29919 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
-var G__29920 = expr__29916;
-return (pred__29915.cljs$core$IFn$_invoke$arity$2 ? pred__29915.cljs$core$IFn$_invoke$arity$2(G__29919,G__29920) : pred__29915.call(null,G__29919,G__29920));
+var pred__29920 = cljs.core.keyword_identical_QMARK_;
+var expr__29921 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__29923 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
+var G__29924 = expr__29921;
+return (pred__29920.cljs$core$IFn$_invoke$arity$2 ? pred__29920.cljs$core$IFn$_invoke$arity$2(G__29923,G__29924) : pred__29920.call(null,G__29923,G__29924));
 })())){
 return (new rewrite_clj.node.quote.QuoteNode(G__29899,self__.prefix,self__.sym,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__29921 = new cljs.core.Keyword(null,"prefix","prefix",-265908465);
-var G__29922 = expr__29916;
-return (pred__29915.cljs$core$IFn$_invoke$arity$2 ? pred__29915.cljs$core$IFn$_invoke$arity$2(G__29921,G__29922) : pred__29915.call(null,G__29921,G__29922));
+if(cljs.core.truth_((function (){var G__29925 = new cljs.core.Keyword(null,"prefix","prefix",-265908465);
+var G__29926 = expr__29921;
+return (pred__29920.cljs$core$IFn$_invoke$arity$2 ? pred__29920.cljs$core$IFn$_invoke$arity$2(G__29925,G__29926) : pred__29920.call(null,G__29925,G__29926));
 })())){
 return (new rewrite_clj.node.quote.QuoteNode(self__.tag,G__29899,self__.sym,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__29923 = new cljs.core.Keyword(null,"sym","sym",-1444860305);
-var G__29924 = expr__29916;
-return (pred__29915.cljs$core$IFn$_invoke$arity$2 ? pred__29915.cljs$core$IFn$_invoke$arity$2(G__29923,G__29924) : pred__29915.call(null,G__29923,G__29924));
+if(cljs.core.truth_((function (){var G__29927 = new cljs.core.Keyword(null,"sym","sym",-1444860305);
+var G__29928 = expr__29921;
+return (pred__29920.cljs$core$IFn$_invoke$arity$2 ? pred__29920.cljs$core$IFn$_invoke$arity$2(G__29927,G__29928) : pred__29920.call(null,G__29927,G__29928));
 })())){
 return (new rewrite_clj.node.quote.QuoteNode(self__.tag,self__.prefix,G__29899,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__29925 = new cljs.core.Keyword(null,"children","children",-940561982);
-var G__29926 = expr__29916;
-return (pred__29915.cljs$core$IFn$_invoke$arity$2 ? pred__29915.cljs$core$IFn$_invoke$arity$2(G__29925,G__29926) : pred__29915.call(null,G__29925,G__29926));
+if(cljs.core.truth_((function (){var G__29929 = new cljs.core.Keyword(null,"children","children",-940561982);
+var G__29930 = expr__29921;
+return (pred__29920.cljs$core$IFn$_invoke$arity$2 ? pred__29920.cljs$core$IFn$_invoke$arity$2(G__29929,G__29930) : pred__29920.call(null,G__29929,G__29930));
 })())){
 return (new rewrite_clj.node.quote.QuoteNode(self__.tag,self__.prefix,self__.sym,G__29899,self__.__meta,self__.__extmap,null));
 } else {

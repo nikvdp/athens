@@ -2,9 +2,9 @@ goog.provide('posh.lib.db');
 goog.require('cljs.core');
 goog.require('posh.lib.datom_matcher');
 posh.lib.db.get_parent_db = (function posh$lib$db$get_parent_db(poshdb){
-var G__46844 = cljs.core.first(poshdb);
-var G__46844__$1 = (((G__46844 instanceof cljs.core.Keyword))?G__46844.fqn:null);
-switch (G__46844__$1) {
+var G__46846 = cljs.core.first(poshdb);
+var G__46846__$1 = (((G__46846 instanceof cljs.core.Keyword))?G__46846.fqn:null);
+switch (G__46846__$1) {
 case "db":
 return null;
 
@@ -22,7 +22,7 @@ return cljs.core.first(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(poshdb,(2)));
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__46844__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__46846__$1)].join('')));
 
 }
 });
@@ -56,8 +56,8 @@ while(true){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(poshdb),new cljs.core.Keyword(null,"db","db",993250759))){
 return cljs.core.second(poshdb);
 } else {
-var G__46891 = posh.lib.db.get_parent_db(poshdb);
-poshdb = G__46891;
+var G__46889 = posh.lib.db.get_parent_db(poshdb);
+poshdb = G__46889;
 continue;
 }
 break;
@@ -116,13 +116,13 @@ return (fexpr__46864.cljs$core$IFn$_invoke$arity$2 ? fexpr__46864.cljs$core$IFn$
 var db__$3 = (cljs.core.truth_(as_of)?(function (){var fexpr__46865 = new cljs.core.Keyword(null,"as-of","as-of",-1841962382).cljs$core$IFn$_invoke$arity$1(dcfg);
 return (fexpr__46865.cljs$core$IFn$_invoke$arity$2 ? fexpr__46865.cljs$core$IFn$_invoke$arity$2(db__$2,as_of) : fexpr__46865.call(null,db__$2,as_of));
 })():db__$2);
-var db__$4 = (cljs.core.truth_(with$)?new cljs.core.Keyword(null,"db-after","db-after",-571884666).cljs$core$IFn$_invoke$arity$1((function (){var fexpr__46866 = new cljs.core.Keyword(null,"with","with",-1536296876).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__46866.cljs$core$IFn$_invoke$arity$2 ? fexpr__46866.cljs$core$IFn$_invoke$arity$2(db__$3,with$) : fexpr__46866.call(null,db__$3,with$));
+var db__$4 = (cljs.core.truth_(with$)?new cljs.core.Keyword(null,"db-after","db-after",-571884666).cljs$core$IFn$_invoke$arity$1((function (){var fexpr__46867 = new cljs.core.Keyword(null,"with","with",-1536296876).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__46867.cljs$core$IFn$_invoke$arity$2 ? fexpr__46867.cljs$core$IFn$_invoke$arity$2(db__$3,with$) : fexpr__46867.call(null,db__$3,with$));
 })()):db__$3);
-var db__$5 = (cljs.core.truth_(filter)?(function (){var G__46868 = db__$4;
-var G__46869 = (((filter instanceof cljs.core.Symbol))?null:filter);
-var fexpr__46867 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__46867.cljs$core$IFn$_invoke$arity$2 ? fexpr__46867.cljs$core$IFn$_invoke$arity$2(G__46868,G__46869) : fexpr__46867.call(null,G__46868,G__46869));
+var db__$5 = (cljs.core.truth_(filter)?(function (){var G__46869 = db__$4;
+var G__46870 = (((filter instanceof cljs.core.Symbol))?null:filter);
+var fexpr__46868 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__46868.cljs$core$IFn$_invoke$arity$2 ? fexpr__46868.cljs$core$IFn$_invoke$arity$2(G__46869,G__46870) : fexpr__46868.call(null,G__46869,G__46870));
 })():db__$4);
 return db__$5;
 }));
