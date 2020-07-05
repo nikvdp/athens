@@ -123,8 +123,8 @@ return null;
  * Recursively merge values based on the information in their metadata.
  */
 meta_merge.core.meta_merge = (function meta_merge$core$meta_merge(var_args){
-var G__56335 = arguments.length;
-switch (G__56335) {
+var G__56360 = arguments.length;
+switch (G__56360) {
 case 0:
 return meta_merge.core.meta_merge.cljs$core$IFn$_invoke$arity$0();
 
@@ -139,14 +139,14 @@ return meta_merge.core.meta_merge.cljs$core$IFn$_invoke$arity$2((arguments[(0)])
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___56337 = arguments.length;
-var i__4790__auto___56338 = (0);
+var len__4789__auto___56362 = arguments.length;
+var i__4790__auto___56363 = (0);
 while(true){
-if((i__4790__auto___56338 < len__4789__auto___56337)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___56338]));
+if((i__4790__auto___56363 < len__4789__auto___56362)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___56363]));
 
-var G__56339 = (i__4790__auto___56338 + (1));
-i__4790__auto___56338 = G__56339;
+var G__56364 = (i__4790__auto___56363 + (1));
+i__4790__auto___56363 = G__56364;
 continue;
 } else {
 }
@@ -203,13 +203,13 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(meta_merge.core.meta_merge
 }));
 
 /** @this {Function} */
-(meta_merge.core.meta_merge.cljs$lang$applyTo = (function (seq56332){
-var G__56333 = cljs.core.first(seq56332);
-var seq56332__$1 = cljs.core.next(seq56332);
-var G__56334 = cljs.core.first(seq56332__$1);
-var seq56332__$2 = cljs.core.next(seq56332__$1);
+(meta_merge.core.meta_merge.cljs$lang$applyTo = (function (seq56357){
+var G__56358 = cljs.core.first(seq56357);
+var seq56357__$1 = cljs.core.next(seq56357);
+var G__56359 = cljs.core.first(seq56357__$1);
+var seq56357__$2 = cljs.core.next(seq56357__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__56333,G__56334,seq56332__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__56358,G__56359,seq56357__$2);
 }));
 
 (meta_merge.core.meta_merge.cljs$lang$maxFixedArity = (2));

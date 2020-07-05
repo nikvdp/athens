@@ -5753,7 +5753,6 @@ SHADOW_ENV.setLoaded("module$node_modules$$material_ui$icons$ZoomOutTwoTone.js")
 SHADOW_ENV.setLoaded("module$node_modules$$material_ui$icons$index.js");
 SHADOW_ENV.setLoaded("athens.devcards.buttons.js");
 SHADOW_ENV.setLoaded("athens.devcards.db.js");
-SHADOW_ENV.setLoaded("athens.lib.dom.attributes.js");
 SHADOW_ENV.setLoaded("module$node_modules$$js_joda$core$dist$js_joda.js");
 SHADOW_ENV.setLoaded("java.time.js");
 SHADOW_ENV.setLoaded("time_literals.read_write.js");

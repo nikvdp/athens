@@ -62,14 +62,14 @@ return val_in_latter;
  */
 zprint.config.merge_deep = (function zprint$config$merge_deep(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30906 = arguments.length;
-var i__4790__auto___30907 = (0);
+var len__4789__auto___30908 = arguments.length;
+var i__4790__auto___30909 = (0);
 while(true){
-if((i__4790__auto___30907 < len__4789__auto___30906)){
-args__4795__auto__.push((arguments[i__4790__auto___30907]));
+if((i__4790__auto___30909 < len__4789__auto___30908)){
+args__4795__auto__.push((arguments[i__4790__auto___30909]));
 
-var G__30908 = (i__4790__auto___30907 + (1));
-i__4790__auto___30907 = G__30908;
+var G__30910 = (i__4790__auto___30909 + (1));
+i__4790__auto___30909 = G__30910;
 continue;
 } else {
 }
@@ -108,14 +108,14 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"fr
  */
 zprint.config.merge_deep_doc = (function zprint$config$merge_deep_doc(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30909 = arguments.length;
-var i__4790__auto___30910 = (0);
+var len__4789__auto___30911 = arguments.length;
+var i__4790__auto___30912 = (0);
 while(true){
-if((i__4790__auto___30910 < len__4789__auto___30909)){
-args__4795__auto__.push((arguments[i__4790__auto___30910]));
+if((i__4790__auto___30912 < len__4789__auto___30911)){
+args__4795__auto__.push((arguments[i__4790__auto___30912]));
 
-var G__30911 = (i__4790__auto___30910 + (1));
-i__4790__auto___30910 = G__30911;
+var G__30913 = (i__4790__auto___30912 + (1));
+i__4790__auto___30912 = G__30913;
 continue;
 } else {
 }
@@ -399,9 +399,9 @@ return errors;
 } else {
 zprint.config.reset_options_BANG_.cljs$core$IFn$_invoke$arity$2(zprint_options,doc_map);
 
-var G__30776_30935 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"configured?","configured?",642178633),true], null);
-var G__30777_30936 = "internal";
-(zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2 ? zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2(G__30776_30935,G__30777_30936) : zprint.config.config_set_options_BANG_.call(null,G__30776_30935,G__30777_30936));
+var G__30776_30936 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"configured?","configured?",642178633),true], null);
+var G__30777_30937 = "internal";
+(zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2 ? zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2(G__30776_30936,G__30777_30937) : zprint.config.config_set_options_BANG_.call(null,G__30776_30936,G__30777_30937));
 
 if(cljs.core.truth_(zprint.config.is_in_repl_QMARK_())){
 zprint.config.internal_set_options_BANG_("REPL execution default",zprint.config.get_explained_all_options(),zprint.config.get_options(),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"parallel?","parallel?",-25273892),true], null));

@@ -21,17 +21,17 @@ if(cljs.core.truth_((p_QMARK_.cljs$core$IFn$_invoke$arity$1 ? p_QMARK_.cljs$core
 var temp__5733__auto__ = (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(loc) : f.call(null,loc));
 if(cljs.core.truth_(temp__5733__auto__)){
 var n = temp__5733__auto__;
-var G__30690 = (rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1(n) : rewrite_clj.zip.next.call(null,n));
-loc = G__30690;
+var G__30696 = (rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1(n) : rewrite_clj.zip.next.call(null,n));
+loc = G__30696;
 continue;
 } else {
-var G__30691 = (rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1(loc) : rewrite_clj.zip.next.call(null,loc));
-loc = G__30691;
+var G__30699 = (rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1(loc) : rewrite_clj.zip.next.call(null,loc));
+loc = G__30699;
 continue;
 }
 } else {
-var G__30692 = (rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1(loc) : rewrite_clj.zip.next.call(null,loc));
-loc = G__30692;
+var G__30700 = (rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.next.cljs$core$IFn$_invoke$arity$1(loc) : rewrite_clj.zip.next.call(null,loc));
+loc = G__30700;
 continue;
 }
 }
@@ -67,8 +67,8 @@ return "";
 }
 })())].join('');
 } else {
-var G__30697 = (rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.down.call(null,nloc));
-nloc = G__30697;
+var G__30703 = (rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.down.call(null,nloc));
+nloc = G__30703;
 continue;
 }
 break;
@@ -83,10 +83,10 @@ var dep_seq = (function (){var nloc = zloc;
 var out = cljs.core.PersistentVector.EMPTY;
 while(true){
 if(cljs.core.truth_(nloc)){
-var G__30700 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.right.call(null,nloc));
-var G__30701 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,nloc);
-nloc = G__30700;
-out = G__30701;
+var G__30706 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.right.call(null,nloc));
+var G__30707 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,nloc);
+nloc = G__30706;
+out = G__30707;
 continue;
 } else {
 return out;
@@ -104,12 +104,12 @@ if(cljs.core.truth_(new_loc)){
 var new_z = cljs.core.first(new_loc);
 var new_node = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1(new_z) : rewrite_clj.zip.tag.call(null,new_z)),new cljs.core.Keyword(null,"uneval","uneval",1932037707)))?rewrite_clj.parser.parse_string((rewrite_clj.zip.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.string.cljs$core$IFn$_invoke$arity$1(new_z) : rewrite_clj.zip.string.call(null,new_z))):(rewrite_clj.zip.node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.node.cljs$core$IFn$_invoke$arity$1(new_z) : rewrite_clj.zip.node.call(null,new_z)));
 var replaced_loc = clojure.zip.replace(nloc,new_node);
-var G__30704 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(replaced_loc) : rewrite_clj.zip.right.call(null,replaced_loc));
-var G__30705 = cljs.core.next(new_loc);
-var G__30706 = replaced_loc;
-nloc = G__30704;
-new_loc = G__30705;
-last_loc = G__30706;
+var G__30710 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(replaced_loc) : rewrite_clj.zip.right.call(null,replaced_loc));
+var G__30711 = cljs.core.next(new_loc);
+var G__30712 = replaced_loc;
+nloc = G__30710;
+new_loc = G__30711;
+last_loc = G__30712;
 continue;
 } else {
 return (rewrite_clj.zip.up.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.up.cljs$core$IFn$_invoke$arity$1(last_loc) : rewrite_clj.zip.up.call(null,last_loc));
@@ -121,16 +121,16 @@ break;
  * Do a down and a sort-val
  */
 zprint.rewrite.sort_down = (function zprint$rewrite$sort_down(zloc){
-return zprint.rewrite.sort_val((function (){var G__30686 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(zloc) : rewrite_clj.zip.right.call(null,zloc));
-return (rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1(G__30686) : rewrite_clj.zip.down.call(null,G__30686));
+return zprint.rewrite.sort_val((function (){var G__30688 = (rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.right.cljs$core$IFn$_invoke$arity$1(zloc) : rewrite_clj.zip.right.call(null,zloc));
+return (rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.down.cljs$core$IFn$_invoke$arity$1(G__30688) : rewrite_clj.zip.down.call(null,G__30688));
 })());
 });
 /**
  * Reorder the dependencies in a project.clj file.
  */
 zprint.rewrite.sort_dependencies = (function zprint$rewrite$sort_dependencies(caller,options,zloc){
-var new_dep = zprint.rewrite.prewalk(zloc,(function (p1__30687_SHARP_){
-return ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1(p1__30687_SHARP_) : rewrite_clj.zip.tag.call(null,p1__30687_SHARP_)),new cljs.core.Keyword(null,"token","token",-1211463215))) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((rewrite_clj.zip.sexpr.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.sexpr.cljs$core$IFn$_invoke$arity$1(p1__30687_SHARP_) : rewrite_clj.zip.sexpr.call(null,p1__30687_SHARP_)),new cljs.core.Keyword(null,"dependencies","dependencies",1108064605))));
+var new_dep = zprint.rewrite.prewalk(zloc,(function (p1__30691_SHARP_){
+return ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1(p1__30691_SHARP_) : rewrite_clj.zip.tag.call(null,p1__30691_SHARP_)),new cljs.core.Keyword(null,"token","token",-1211463215))) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((rewrite_clj.zip.sexpr.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.sexpr.cljs$core$IFn$_invoke$arity$1(p1__30691_SHARP_) : rewrite_clj.zip.sexpr.call(null,p1__30691_SHARP_)),new cljs.core.Keyword(null,"dependencies","dependencies",1108064605))));
 }),zprint.rewrite.sort_down);
 return new_dep;
 });

@@ -25,10 +25,10 @@ return or__4185__auto__;
 return top;
 }
 } else {
-var G__30384 = (function (){var G__30369 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
-return (rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1(G__30369) : rewrite_clj.node.forms_node.call(null,G__30369));
+var G__30383 = (function (){var G__30368 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
+return (rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1(G__30368) : rewrite_clj.node.forms_node.call(null,G__30368));
 })();
-node = G__30384;
+node = G__30383;
 continue;
 }
 break;
@@ -92,12 +92,12 @@ return (0);
  * Create zipper from String.
  */
 rewrite_clj.zip.base.of_string = (function rewrite_clj$zip$base$of_string(s){
-var G__30380 = s;
-var G__30380__$1 = (((G__30380 == null))?null:rewrite_clj.parser.parse_string_all(G__30380));
-if((G__30380__$1 == null)){
+var G__30379 = s;
+var G__30379__$1 = (((G__30379 == null))?null:rewrite_clj.parser.parse_string_all(G__30379));
+if((G__30379__$1 == null)){
 return null;
 } else {
-return rewrite_clj.zip.base.edn(G__30380__$1);
+return rewrite_clj.zip.base.edn(G__30379__$1);
 }
 });
 /**

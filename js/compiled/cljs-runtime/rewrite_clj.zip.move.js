@@ -6,12 +6,12 @@ goog.require('clojure.zip');
  * Move right to next non-whitespace/non-comment location.
  */
 rewrite_clj.zip.move.right = (function rewrite_clj$zip$move$right(zloc){
-var G__30368 = zloc;
-var G__30368__$1 = (((G__30368 == null))?null:clojure.zip.right(G__30368));
-if((G__30368__$1 == null)){
+var G__30369 = zloc;
+var G__30369__$1 = (((G__30369 == null))?null:clojure.zip.right(G__30369));
+if((G__30369__$1 == null)){
 return null;
 } else {
-return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$1(G__30368__$1);
+return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$1(G__30369__$1);
 }
 });
 /**
@@ -55,12 +55,12 @@ return rewrite_clj.zip.whitespace.skip_whitespace_left(G__30375__$1);
  */
 rewrite_clj.zip.move.next = (function rewrite_clj$zip$move$next(zloc){
 if(cljs.core.truth_(zloc)){
-var or__4185__auto__ = (function (){var G__30379 = zloc;
-var G__30379__$1 = (((G__30379 == null))?null:clojure.zip.next(G__30379));
-if((G__30379__$1 == null)){
+var or__4185__auto__ = (function (){var G__30380 = zloc;
+var G__30380__$1 = (((G__30380 == null))?null:clojure.zip.next(G__30380));
+if((G__30380__$1 == null)){
 return null;
 } else {
-return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$2(clojure.zip.next,G__30379__$1);
+return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$2(clojure.zip.next,G__30380__$1);
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -106,12 +106,12 @@ return (rewrite_clj.zip.whitespace.skip_whitespace_left(clojure.zip.left(zloc)) 
  * Move to the next non-whitespace/non-comment location in a depth-first manner.
  */
 rewrite_clj.zip.move.prev = (function rewrite_clj$zip$move$prev(zloc){
-var G__30383 = zloc;
-var G__30383__$1 = (((G__30383 == null))?null:clojure.zip.prev(G__30383));
-if((G__30383__$1 == null)){
+var G__30384 = zloc;
+var G__30384__$1 = (((G__30384 == null))?null:clojure.zip.prev(G__30384));
+if((G__30384__$1 == null)){
 return null;
 } else {
-return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$2(clojure.zip.prev,G__30383__$1);
+return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$2(clojure.zip.prev,G__30384__$1);
 }
 });
 /**
