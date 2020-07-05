@@ -238,9 +238,9 @@ return rat._run(false);
 }
 })], null);
 reagent.impl.component.custom_wrapper = (function reagent$impl$component$custom_wrapper(key,f){
-var G__31565 = key;
-var G__31565__$1 = (((G__31565 instanceof cljs.core.Keyword))?G__31565.fqn:null);
-switch (G__31565__$1) {
+var G__31563 = key;
+var G__31563__$1 = (((G__31563 instanceof cljs.core.Keyword))?G__31563.fqn:null);
+switch (G__31563__$1) {
 case "getDefaultProps":
 throw (new Error("getDefaultProps not supported"));
 
@@ -530,10 +530,10 @@ if(cljs.core.truth_(get_initial_state)){
 
 return this$;
 });
-var G__31594_31672 = cmp.prototype;
-var G__31595_31673 = module$node_modules$react$index.Component.prototype;
-var G__31596_31674 = methods$;
-goog.object.extend(G__31594_31672,G__31595_31673,G__31596_31674);
+var G__31590_31672 = cmp.prototype;
+var G__31591_31673 = module$node_modules$react$index.Component.prototype;
+var G__31592_31674 = methods$;
+goog.object.extend(G__31590_31672,G__31591_31673,G__31592_31674);
 
 if(cljs.core.truth_(new cljs.core.Keyword(null,"render","render",-1408033454).cljs$core$IFn$_invoke$arity$1(body__$1))){
 (cmp.prototype.render = new cljs.core.Keyword(null,"render","render",-1408033454).cljs$core$IFn$_invoke$arity$1(body__$1));
@@ -647,47 +647,47 @@ return c;
 }
 }
 })();
-var elem = (function (){var or__4185__auto__ = (function (){var G__31624 = instance;
-if((G__31624 == null)){
+var elem = (function (){var or__4185__auto__ = (function (){var G__31620 = instance;
+if((G__31620 == null)){
 return null;
 } else {
-return goog.object.get(G__31624,"_currentElement");
+return goog.object.get(G__31620,"_currentElement");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__31626 = instance;
-if((G__31626 == null)){
+var G__31621 = instance;
+if((G__31621 == null)){
 return null;
 } else {
-return G__31626._currentElement;
+return G__31621._currentElement;
 }
 }
 })();
-var name = (function (){var G__31638 = elem;
-var G__31638__$1 = (((G__31638 == null))?null:G__31638.type);
-if((G__31638__$1 == null)){
+var name = (function (){var G__31631 = elem;
+var G__31631__$1 = (((G__31631 == null))?null:G__31631.type);
+if((G__31631__$1 == null)){
 return null;
 } else {
-return G__31638__$1.displayName;
+return G__31631__$1.displayName;
 }
 })();
-var owner = (function (){var or__4185__auto__ = (function (){var G__31645 = elem;
-if((G__31645 == null)){
+var owner = (function (){var or__4185__auto__ = (function (){var G__31640 = elem;
+if((G__31640 == null)){
 return null;
 } else {
-return goog.object.get(G__31645,"_owner");
+return goog.object.get(G__31640,"_owner");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__31646 = elem;
-if((G__31646 == null)){
+var G__31642 = elem;
+if((G__31642 == null)){
 return null;
 } else {
-return G__31646._owner;
+return G__31642._owner;
 }
 }
 })();

@@ -28,8 +28,8 @@ cljs.tools.reader.edn.not_constituent_QMARK_ = (function cljs$tools$reader$edn$n
 return ((("@" === ch)) || (("`" === ch)) || (("~" === ch)));
 });
 cljs.tools.reader.edn.read_token = (function cljs$tools$reader$edn$read_token(var_args){
-var G__24861 = arguments.length;
-switch (G__24861) {
+var G__24863 = arguments.length;
+switch (G__24863) {
 case 3:
 return cljs.tools.reader.edn.read_token.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -401,14 +401,14 @@ return or__4185__auto__;
 return cljs.tools.reader.impl.errors.throw_invalid_number(rdr,s);
 }
 } else {
-var G__24939 = (function (){var G__24893 = sb;
+var G__24938 = (function (){var G__24893 = sb;
 G__24893.append(ch);
 
 return G__24893;
 })();
-var G__24940 = cljs.tools.reader.reader_types.read_char(rdr);
-sb = G__24939;
-ch = G__24940;
+var G__24939 = cljs.tools.reader.reader_types.read_char(rdr);
+sb = G__24938;
+ch = G__24939;
 continue;
 }
 break;
@@ -478,27 +478,27 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__24895)){
 return cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$arity$variadic(rdr,new cljs.core.Keyword(null,"string","string",-1989541586),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["\"",sb], 0));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\\",G__24895)){
-var G__24943 = (function (){var G__24896 = sb;
+var G__24941 = (function (){var G__24896 = sb;
 G__24896.append(cljs.tools.reader.edn.escape_char(sb,rdr));
 
 return G__24896;
 })();
-var G__24944 = cljs.tools.reader.reader_types.read_char(rdr);
-sb = G__24943;
-ch = G__24944;
+var G__24942 = cljs.tools.reader.reader_types.read_char(rdr);
+sb = G__24941;
+ch = G__24942;
 continue;
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\"",G__24895)){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 } else {
-var G__24945 = (function (){var G__24897 = sb;
+var G__24943 = (function (){var G__24897 = sb;
 G__24897.append(ch);
 
 return G__24897;
 })();
-var G__24946 = cljs.tools.reader.reader_types.read_char(rdr);
-sb = G__24945;
-ch = G__24946;
+var G__24944 = cljs.tools.reader.reader_types.read_char(rdr);
+sb = G__24943;
+ch = G__24944;
 continue;
 
 }
@@ -802,8 +802,8 @@ return cljs.tools.reader.impl.errors.throw_unknown_reader_tag(rdr,tag);
  *            be called with the tag and the value.
  */
 cljs.tools.reader.edn.read = (function cljs$tools$reader$edn$read(var_args){
-var G__24913 = arguments.length;
-switch (G__24913) {
+var G__24915 = arguments.length;
+switch (G__24915) {
 case 1:
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

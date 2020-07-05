@@ -11,30 +11,30 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("obj-support not bound, ca
 
 return shadow.remote.runtime.obj_support.get_ref(shadow.remote.runtime.eval_support.obj_support_inst,oid);
 });
-shadow.remote.runtime.eval_support.eval_cljs = (function shadow$remote$runtime$eval_support$eval_cljs(p__60819,msg){
-var map__60820 = p__60819;
-var map__60820__$1 = (((((!((map__60820 == null))))?(((((map__60820.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60820.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60820):map__60820);
-var svc = map__60820__$1;
-var runtime = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60820__$1,new cljs.core.Keyword(null,"runtime","runtime",-1331573996));
-var obj_support = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60820__$1,new cljs.core.Keyword(null,"obj-support","obj-support",1522559229));
+shadow.remote.runtime.eval_support.eval_cljs = (function shadow$remote$runtime$eval_support$eval_cljs(p__60816,msg){
+var map__60817 = p__60816;
+var map__60817__$1 = (((((!((map__60817 == null))))?(((((map__60817.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60817.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60817):map__60817);
+var svc = map__60817__$1;
+var runtime = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60817__$1,new cljs.core.Keyword(null,"runtime","runtime",-1331573996));
+var obj_support = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60817__$1,new cljs.core.Keyword(null,"obj-support","obj-support",1522559229));
 (shadow.remote.runtime.eval_support.obj_support_inst = obj_support);
 
-return runtime.eval_cljs(msg,(function (p__60822){
-var map__60823 = p__60822;
-var map__60823__$1 = (((((!((map__60823 == null))))?(((((map__60823.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60823.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60823):map__60823);
-var result = map__60823__$1;
-var eval_results = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60823__$1,new cljs.core.Keyword(null,"eval-results","eval-results",553789722));
+return runtime.eval_cljs(msg,(function (p__60819){
+var map__60820 = p__60819;
+var map__60820__$1 = (((((!((map__60820 == null))))?(((((map__60820.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60820.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60820):map__60820);
+var result = map__60820__$1;
+var eval_results = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60820__$1,new cljs.core.Keyword(null,"eval-results","eval-results",553789722));
 (shadow.remote.runtime.eval_support.obj_support_inst = null);
 
 console.log("eval-cljs result",result);
 
-var seq__60825 = cljs.core.seq(eval_results);
-var chunk__60826 = null;
-var count__60827 = (0);
-var i__60828 = (0);
+var seq__60822 = cljs.core.seq(eval_results);
+var chunk__60823 = null;
+var count__60824 = (0);
+var i__60825 = (0);
 while(true){
-if((i__60828 < count__60827)){
-var map__60833 = chunk__60826.cljs$core$IIndexed$_nth$arity$2(null,i__60828);
+if((i__60825 < count__60824)){
+var map__60833 = chunk__60823.cljs$core$IIndexed$_nth$arity$2(null,i__60825);
 var map__60833__$1 = (((((!((map__60833 == null))))?(((((map__60833.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60833.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60833):map__60833);
 var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60833__$1,new cljs.core.Keyword(null,"value","value",305978217));
 if((value == null)){
@@ -45,32 +45,32 @@ shadow.remote.runtime.api.reply(runtime,msg,new cljs.core.PersistentArrayMap(nul
 }
 
 
-var G__60850 = seq__60825;
-var G__60851 = chunk__60826;
-var G__60852 = count__60827;
-var G__60853 = (i__60828 + (1));
-seq__60825 = G__60850;
-chunk__60826 = G__60851;
-count__60827 = G__60852;
-i__60828 = G__60853;
+var G__60850 = seq__60822;
+var G__60851 = chunk__60823;
+var G__60852 = count__60824;
+var G__60853 = (i__60825 + (1));
+seq__60822 = G__60850;
+chunk__60823 = G__60851;
+count__60824 = G__60852;
+i__60825 = G__60853;
 continue;
 } else {
-var temp__5735__auto__ = cljs.core.seq(seq__60825);
+var temp__5735__auto__ = cljs.core.seq(seq__60822);
 if(temp__5735__auto__){
-var seq__60825__$1 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__60825__$1)){
-var c__4609__auto__ = cljs.core.chunk_first(seq__60825__$1);
-var G__60854 = cljs.core.chunk_rest(seq__60825__$1);
+var seq__60822__$1 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__60822__$1)){
+var c__4609__auto__ = cljs.core.chunk_first(seq__60822__$1);
+var G__60854 = cljs.core.chunk_rest(seq__60822__$1);
 var G__60855 = c__4609__auto__;
 var G__60856 = cljs.core.count(c__4609__auto__);
 var G__60857 = (0);
-seq__60825 = G__60854;
-chunk__60826 = G__60855;
-count__60827 = G__60856;
-i__60828 = G__60857;
+seq__60822 = G__60854;
+chunk__60823 = G__60855;
+count__60824 = G__60856;
+i__60825 = G__60857;
 continue;
 } else {
-var map__60835 = cljs.core.first(seq__60825__$1);
+var map__60835 = cljs.core.first(seq__60822__$1);
 var map__60835__$1 = (((((!((map__60835 == null))))?(((((map__60835.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60835.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60835):map__60835);
 var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60835__$1,new cljs.core.Keyword(null,"value","value",305978217));
 if((value == null)){
@@ -81,14 +81,14 @@ shadow.remote.runtime.api.reply(runtime,msg,new cljs.core.PersistentArrayMap(nul
 }
 
 
-var G__60859 = cljs.core.next(seq__60825__$1);
+var G__60859 = cljs.core.next(seq__60822__$1);
 var G__60860 = null;
 var G__60861 = (0);
 var G__60862 = (0);
-seq__60825 = G__60859;
-chunk__60826 = G__60860;
-count__60827 = G__60861;
-i__60828 = G__60862;
+seq__60822 = G__60859;
+chunk__60823 = G__60860;
+count__60824 = G__60861;
+i__60825 = G__60862;
 continue;
 }
 } else {

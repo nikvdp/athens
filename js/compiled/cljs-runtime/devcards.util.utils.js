@@ -48,12 +48,12 @@ throw e50450;
 }
 }});
 devcards.util.utils.pprint_code = (function devcards$util$utils$pprint_code(code){
-var _STAR_print_pprint_dispatch_STAR__orig_val__50465 = cljs.pprint._STAR_print_pprint_dispatch_STAR_;
-var _STAR_print_pprint_dispatch_STAR__temp_val__50466 = cljs.pprint.code_dispatch;
-(cljs.pprint._STAR_print_pprint_dispatch_STAR_ = _STAR_print_pprint_dispatch_STAR__temp_val__50466);
+var _STAR_print_pprint_dispatch_STAR__orig_val__50461 = cljs.pprint._STAR_print_pprint_dispatch_STAR_;
+var _STAR_print_pprint_dispatch_STAR__temp_val__50462 = cljs.pprint.code_dispatch;
+(cljs.pprint._STAR_print_pprint_dispatch_STAR_ = _STAR_print_pprint_dispatch_STAR__temp_val__50462);
 
 try{return devcards.util.utils.pprint_str(code);
-}finally {(cljs.pprint._STAR_print_pprint_dispatch_STAR_ = _STAR_print_pprint_dispatch_STAR__orig_val__50465);
+}finally {(cljs.pprint._STAR_print_pprint_dispatch_STAR_ = _STAR_print_pprint_dispatch_STAR__orig_val__50461);
 }});
 
 //# sourceMappingURL=devcards.util.utils.js.map

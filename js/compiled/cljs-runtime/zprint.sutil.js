@@ -74,15 +74,15 @@ var sloc = sexpr;
 var i = (0);
 while(true){
 if(cljs.core.truth_(sloc)){
-if(cljs.core.truth_((function (){var G__31061 = cljs.core.first(sloc);
-return (zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(G__31061) : zthing_QMARK_.call(null,G__31061));
+if(cljs.core.truth_((function (){var G__31062 = cljs.core.first(sloc);
+return (zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(G__31062) : zthing_QMARK_.call(null,G__31062));
 })())){
 return i;
 } else {
-var G__31252 = cljs.core.next(sloc);
-var G__31253 = (i + (1));
-sloc = G__31252;
-i = G__31253;
+var G__31249 = cljs.core.next(sloc);
+var G__31250 = (i + (1));
+sloc = G__31249;
+i = G__31250;
 continue;
 }
 } else {
@@ -323,13 +323,13 @@ var ns__$1 = null;
 var pair_seq__$1 = pair_seq;
 var out = cljs.core.PersistentVector.EMPTY;
 while(true){
-var vec__31093 = cljs.core.first(pair_seq__$1);
-var seq__31094 = cljs.core.seq(vec__31093);
-var first__31095 = cljs.core.first(seq__31094);
-var seq__31094__$1 = cljs.core.next(seq__31094);
-var k = first__31095;
-var rest_of_pair = seq__31094__$1;
-var pair = vec__31093;
+var vec__31092 = cljs.core.first(pair_seq__$1);
+var seq__31093 = cljs.core.seq(vec__31092);
+var first__31094 = cljs.core.first(seq__31093);
+var seq__31093__$1 = cljs.core.next(seq__31093);
+var k = first__31094;
+var rest_of_pair = seq__31093__$1;
+var pair = vec__31092;
 var current_ns = ((((rest_of_pair) && ((((k instanceof cljs.core.Keyword)) || ((k instanceof cljs.core.Symbol))))))?cljs.core.namespace(k):null);
 if(cljs.core.not(k)){
 if(cljs.core.truth_(ns__$1)){
@@ -341,33 +341,33 @@ return null;
 if(cljs.core.truth_(current_ns)){
 if(cljs.core.truth_(ns__$1)){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(ns__$1,current_ns)){
-var G__31282 = ns__$1;
-var G__31283 = cljs.core.next(pair_seq__$1);
-var G__31284 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
-ns__$1 = G__31282;
-pair_seq__$1 = G__31283;
-out = G__31284;
+var G__31277 = ns__$1;
+var G__31278 = cljs.core.next(pair_seq__$1);
+var G__31279 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
+ns__$1 = G__31277;
+pair_seq__$1 = G__31278;
+out = G__31279;
 continue;
 } else {
 return null;
 }
 } else {
-var G__31287 = current_ns;
-var G__31288 = cljs.core.next(pair_seq__$1);
-var G__31289 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
-ns__$1 = G__31287;
-pair_seq__$1 = G__31288;
-out = G__31289;
+var G__31281 = current_ns;
+var G__31282 = cljs.core.next(pair_seq__$1);
+var G__31283 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
+ns__$1 = G__31281;
+pair_seq__$1 = G__31282;
+out = G__31283;
 continue;
 }
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(pair),(1))){
-var G__31292 = ns__$1;
-var G__31293 = cljs.core.next(pair_seq__$1);
-var G__31294 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
-ns__$1 = G__31292;
-pair_seq__$1 = G__31293;
-out = G__31294;
+var G__31287 = ns__$1;
+var G__31288 = cljs.core.next(pair_seq__$1);
+var G__31289 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
+ns__$1 = G__31287;
+pair_seq__$1 = G__31288;
+out = G__31289;
 continue;
 } else {
 return null;
