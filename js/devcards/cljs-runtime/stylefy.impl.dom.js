@@ -53,14 +53,14 @@ var style_hash = chunk__38536.cljs$core$IIndexed$_nth$arity$2(null,i__38538);
 cljs.core.reset_BANG_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(stylefy.impl.dom.styles_in_dom),style_hash),true);
 
 
-var G__38579 = seq__38535;
-var G__38580 = chunk__38536;
-var G__38581 = count__38537;
-var G__38582 = (i__38538 + (1));
-seq__38535 = G__38579;
-chunk__38536 = G__38580;
-count__38537 = G__38581;
-i__38538 = G__38582;
+var G__38580 = seq__38535;
+var G__38581 = chunk__38536;
+var G__38582 = count__38537;
+var G__38583 = (i__38538 + (1));
+seq__38535 = G__38580;
+chunk__38536 = G__38581;
+count__38537 = G__38582;
+i__38538 = G__38583;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__38535);
@@ -122,8 +122,8 @@ stylefy.impl.dom.update_style_tags_BANG_(node_stylefy,node_stylefy_constant);
 cljs.core.reset_BANG_(stylefy.impl.dom.dom_update_requested_QMARK_,false);
 
 try{stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(stylefy.impl.dom.styles_as_css),cljs.core.deref(stylefy.impl.dom.stylefy_instance_id));
-}catch (e38539){var e_38598 = e38539;
-stylefy.impl.log.warn(["Unable to cache styles, error: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_38598)].join(''));
+}catch (e38539){var e_38599 = e38539;
+stylefy.impl.log.warn(["Unable to cache styles, error: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_38599)].join(''));
 
 stylefy.impl.cache.clear_styles.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(stylefy.impl.dom.stylefy_instance_id));
 
@@ -234,10 +234,10 @@ return null;
 }
 });
 stylefy.impl.dom.init_multi_instance = (function stylefy$impl$dom$init_multi_instance(p__38552){
-var map__38554 = p__38552;
-var map__38554__$1 = (((((!((map__38554 == null))))?(((((map__38554.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38554.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38554):map__38554);
-var options = map__38554__$1;
-var multi_instance = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38554__$1,new cljs.core.Keyword(null,"multi-instance","multi-instance",-1525956512));
+var map__38553 = p__38552;
+var map__38553__$1 = (((((!((map__38553 == null))))?(((((map__38553.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38553.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38553):map__38553);
+var options = map__38553__$1;
+var multi_instance = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38553__$1,new cljs.core.Keyword(null,"multi-instance","multi-instance",-1525956512));
 var base_node = new cljs.core.Keyword(null,"base-node","base-node",-275497090).cljs$core$IFn$_invoke$arity$1(multi_instance);
 var instance_id = new cljs.core.Keyword(null,"instance-id","instance-id",951361263).cljs$core$IFn$_invoke$arity$1(multi_instance);
 if((((instance_id == null)) || (typeof instance_id === 'string'))){
@@ -278,11 +278,11 @@ return null;
  * Stores the style in an atom. The style is going to be added into the DOM soon.
  */
 stylefy.impl.dom.save_style_BANG_ = (function stylefy$impl$dom$save_style_BANG_(p__38563){
-var map__38564 = p__38563;
-var map__38564__$1 = (((((!((map__38564 == null))))?(((((map__38564.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38564.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38564):map__38564);
-var style = map__38564__$1;
-var css = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38564__$1,new cljs.core.Keyword(null,"css","css",1135045163));
-var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38564__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
+var map__38565 = p__38563;
+var map__38565__$1 = (((((!((map__38565 == null))))?(((((map__38565.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38565.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38565):map__38565);
+var style = map__38565__$1;
+var css = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38565__$1,new cljs.core.Keyword(null,"css","css",1135045163));
+var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38565__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
 if(cljs.core.truth_(css)){
 } else {
 throw (new Error(["Assert failed: ","Unable to save empty style!","\n","css"].join('')));

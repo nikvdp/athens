@@ -58,18 +58,18 @@ return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29060_SHARP_);
 }
 });
 posh.lib.datom_matcher.matching_datoms = (function posh$lib$datom_matcher$matching_datoms(patterns,datoms){
-var G__29065 = patterns;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,G__29065)){
+var G__29064 = patterns;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,G__29064)){
 return datoms;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.PersistentVector.EMPTY], null),G__29065)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.PersistentVector.EMPTY], null),G__29064)){
 return datoms;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__29065)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__29064)){
 return null;
 } else {
-return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__29063_SHARP_){
-return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29063_SHARP_);
+return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__29062_SHARP_){
+return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29062_SHARP_);
 }),datoms);
 
 }

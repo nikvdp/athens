@@ -156,8 +156,8 @@ return iter__4582__auto__(children);
 athens.devcards.block_page.block_page_component = (function athens$devcards$block_page$block_page_component(ident){
 var block = athens.db.get_block_document(ident);
 var parents = athens.db.get_parents_recursively(ident);
-var editing_uid = cljs.core.deref((function (){var G__65822 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__65822) : re_frame.core.subscribe.call(null,G__65822));
+var editing_uid = cljs.core.deref((function (){var G__65821 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__65821) : re_frame.core.subscribe.call(null,G__65821));
 })());
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.block_page.block_page_el,block,parents,editing_uid], null);
 });

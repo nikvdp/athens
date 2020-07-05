@@ -18,23 +18,23 @@ shadow.remote.runtime.cljs.browser.transit_str = (function shadow$remote$runtime
 var w = cognitect.transit.writer.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"json","json",1279968570));
 return cognitect.transit.write(w,obj);
 });
-shadow.remote.runtime.cljs.browser.abort_BANG_ = (function shadow$remote$runtime$cljs$browser$abort_BANG_(p__60860,action,ex){
-var map__60861 = p__60860;
+shadow.remote.runtime.cljs.browser.abort_BANG_ = (function shadow$remote$runtime$cljs$browser$abort_BANG_(p__60851,action,ex){
+var map__60852 = p__60851;
+var map__60852__$1 = (((((!((map__60852 == null))))?(((((map__60852.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60852.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60852):map__60852);
+var state = map__60852__$1;
+var callback = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60852__$1,new cljs.core.Keyword(null,"callback","callback",-705136228));
+var G__60858 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(state,new cljs.core.Keyword(null,"failed","failed",-1397425762),true,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"completed","completed",-486056503),false,new cljs.core.Keyword(null,"ex","ex",-1413771341),ex,new cljs.core.Keyword(null,"ex-action","ex-action",672251553),action], 0));
+return (callback.cljs$core$IFn$_invoke$arity$1 ? callback.cljs$core$IFn$_invoke$arity$1(G__60858) : callback.call(null,G__60858));
+});
+shadow.remote.runtime.cljs.browser.interpret_action = (function shadow$remote$runtime$cljs$browser$interpret_action(p__60859,p__60860){
+var map__60861 = p__60859;
 var map__60861__$1 = (((((!((map__60861 == null))))?(((((map__60861.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60861.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60861):map__60861);
 var state = map__60861__$1;
-var callback = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60861__$1,new cljs.core.Keyword(null,"callback","callback",-705136228));
-var G__60863 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(state,new cljs.core.Keyword(null,"failed","failed",-1397425762),true,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"completed","completed",-486056503),false,new cljs.core.Keyword(null,"ex","ex",-1413771341),ex,new cljs.core.Keyword(null,"ex-action","ex-action",672251553),action], 0));
-return (callback.cljs$core$IFn$_invoke$arity$1 ? callback.cljs$core$IFn$_invoke$arity$1(G__60863) : callback.call(null,G__60863));
-});
-shadow.remote.runtime.cljs.browser.interpret_action = (function shadow$remote$runtime$cljs$browser$interpret_action(p__60864,p__60865){
-var map__60866 = p__60864;
-var map__60866__$1 = (((((!((map__60866 == null))))?(((((map__60866.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60866.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60866):map__60866);
-var state = map__60866__$1;
-var runtime = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60866__$1,new cljs.core.Keyword(null,"runtime","runtime",-1331573996));
-var map__60867 = p__60865;
-var map__60867__$1 = (((((!((map__60867 == null))))?(((((map__60867.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60867.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60867):map__60867);
-var action = map__60867__$1;
-var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60867__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+var runtime = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60861__$1,new cljs.core.Keyword(null,"runtime","runtime",-1331573996));
+var map__60862 = p__60860;
+var map__60862__$1 = (((((!((map__60862 == null))))?(((((map__60862.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60862.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60862):map__60862);
+var action = map__60862__$1;
+var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60862__$1,new cljs.core.Keyword(null,"type","type",1174270348));
 var G__60870 = type;
 var G__60870__$1 = (((G__60870 instanceof cljs.core.Keyword))?G__60870.fqn:null);
 switch (G__60870__$1) {
