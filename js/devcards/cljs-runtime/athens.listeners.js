@@ -9,8 +9,8 @@ goog.require('goog.events.KeyCodes');
 
 athens.listeners.mouse_down_bullet = (function athens$listeners$mouse_down_bullet(e){
 var class_list = cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(e.target.classList);
-if(cljs.core.truth_(cljs.core.some((function (p1__61635_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__61635_SHARP_);
+if(cljs.core.truth_(cljs.core.some((function (p1__61651_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__61651_SHARP_);
 }),class_list))){
 var start_pos = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"x","x",2099068185),e.clientX,new cljs.core.Keyword(null,"y","y",-1757859776),e.clientY], null);
 var uid = e.target.dataset.uid;
@@ -24,13 +24,13 @@ return null;
 });
 athens.listeners.mouse_up_bullet = (function athens$listeners$mouse_up_bullet(on_move){
 return (function (_){
-var map__61636 = cljs.core.deref((function (){var G__61637 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__61637) : re_frame.core.subscribe.call(null,G__61637));
+var map__61652 = cljs.core.deref((function (){var G__61653 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__61653) : re_frame.core.subscribe.call(null,G__61653));
 })());
-var map__61636__$1 = (((((!((map__61636 == null))))?(((((map__61636.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61636.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61636):map__61636);
-var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61636__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
-var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61636__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
-var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61636__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
+var map__61652__$1 = (((((!((map__61652 == null))))?(((((map__61652.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61652.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61652):map__61652);
+var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61652__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
+var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61652__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
+var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61652__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
 if(cljs.core.truth_((function (){var and__4174__auto__ = uid;
 if(cljs.core.truth_(and__4174__auto__)){
 var and__4174__auto____$1 = kind;
@@ -43,13 +43,13 @@ return and__4174__auto____$1;
 return and__4174__auto__;
 }
 })())){
-var G__61639_61655 = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drop-bullet","drop-bullet",1177869489),uid,target_uid,kind], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61639_61655) : re_frame.core.dispatch.call(null,G__61639_61655));
+var G__61655_61675 = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drop-bullet","drop-bullet",1177869489),uid,target_uid,kind], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61655_61675) : re_frame.core.dispatch.call(null,G__61655_61675));
 } else {
 }
 
-var G__61640_61656 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),null], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61640_61656) : re_frame.core.dispatch.call(null,G__61640_61656));
+var G__61656_61676 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),null], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61656_61676) : re_frame.core.dispatch.call(null,G__61656_61676));
 
 return goog.events.unlisten(window,goog.events.EventType.MOUSEMOVE,on_move);
 });
@@ -81,8 +81,8 @@ return closest_sibling_uid;
 var closest_kind = (cljs.core.truth_(closest_child_uid)?new cljs.core.Keyword(null,"child","child",623967545):(cljs.core.truth_(closest_sibling_uid)?new cljs.core.Keyword(null,"sibling","sibling",-1183865000):null));
 (e.target.hidden = false);
 
-var G__61641 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"x","x",2099068185),x,new cljs.core.Keyword(null,"y","y",-1757859776),y,new cljs.core.Keyword(null,"uid","uid",-1447769400),uid,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),closest_uid,new cljs.core.Keyword("closest","kind","closest/kind",429209294),closest_kind], null)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61641) : re_frame.core.dispatch.call(null,G__61641));
+var G__61657 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"x","x",2099068185),x,new cljs.core.Keyword(null,"y","y",-1757859776),y,new cljs.core.Keyword(null,"uid","uid",-1447769400),uid,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),closest_uid,new cljs.core.Keyword("closest","kind","closest/kind",429209294),closest_kind], null)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61657) : re_frame.core.dispatch.call(null,G__61657));
 });
 });
 athens.listeners.mouse_down_block = (function athens$listeners$mouse_down_block(e){
@@ -102,8 +102,8 @@ return closest_page_header;
 }
 })();
 if(cljs.core.truth_(closest)){
-var G__61642 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040),closest.dataset.uid], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61642) : re_frame.core.dispatch.call(null,G__61642));
+var G__61658 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040),closest.dataset.uid], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61658) : re_frame.core.dispatch.call(null,G__61658));
 } else {
 return null;
 }
@@ -112,14 +112,14 @@ athens.listeners.mouse_over_bullet = (function athens$listeners$mouse_over_bulle
 var class_list = cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(e.target.classList);
 var closest = e.target.closest(".tooltip");
 var uid = e.target.dataset.uid;
-var tooltip_uid = cljs.core.deref((function (){var G__61644 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__61644) : re_frame.core.subscribe.call(null,G__61644));
+var tooltip_uid = cljs.core.deref((function (){var G__61660 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__61660) : re_frame.core.subscribe.call(null,G__61660));
 })());
-if(cljs.core.truth_(cljs.core.some((function (p1__61643_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__61643_SHARP_);
+if(cljs.core.truth_(cljs.core.some((function (p1__61659_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__61659_SHARP_);
 }),class_list))){
-var G__61645 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099),uid], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61645) : re_frame.core.dispatch.call(null,G__61645));
+var G__61661 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099),uid], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61661) : re_frame.core.dispatch.call(null,G__61661));
 } else {
 if(cljs.core.truth_(closest)){
 return null;
@@ -127,16 +127,16 @@ return null;
 if((tooltip_uid == null)){
 return null;
 } else {
-var G__61646 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099),null], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61646) : re_frame.core.dispatch.call(null,G__61646));
+var G__61662 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("tooltip","uid","tooltip/uid",1421925099),null], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61662) : re_frame.core.dispatch.call(null,G__61662));
 
 }
 }
 }
 });
 athens.listeners.mouse_down_outside_athena = (function athens$listeners$mouse_down_outside_athena(e){
-var athena_QMARK_ = cljs.core.deref((function (){var G__61647 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","open","athena/open",1253777725)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__61647) : re_frame.core.subscribe.call(null,G__61647));
+var athena_QMARK_ = cljs.core.deref((function (){var G__61663 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","open","athena/open",1253777725)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__61663) : re_frame.core.subscribe.call(null,G__61663));
 })());
 var closest = e.target.closest(".athena");
 if(cljs.core.truth_((function (){var and__4174__auto__ = athena_QMARK_;
@@ -146,8 +146,8 @@ return (closest == null);
 return and__4174__auto__;
 }
 })())){
-var G__61648 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61648) : re_frame.core.dispatch.call(null,G__61648));
+var G__61664 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61664) : re_frame.core.dispatch.call(null,G__61664));
 } else {
 return null;
 }
@@ -164,28 +164,28 @@ return shift;
 return and__4174__auto__;
 }
 })():false))){
-var G__61649 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"redo","redo",501190664)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61649) : re_frame.core.dispatch.call(null,G__61649));
+var G__61668 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"redo","redo",501190664)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61668) : re_frame.core.dispatch.call(null,G__61668));
 } else {
 if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.Z))?meta:false))){
-var G__61650 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"undo","undo",-1818036302)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61650) : re_frame.core.dispatch.call(null,G__61650));
+var G__61669 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"undo","undo",-1818036302)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61669) : re_frame.core.dispatch.call(null,G__61669));
 } else {
 if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.K))?meta:false))){
-var G__61651 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61651) : re_frame.core.dispatch.call(null,G__61651));
+var G__61670 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61670) : re_frame.core.dispatch.call(null,G__61670));
 } else {
 if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.G))?ctrl:false))){
-var G__61652 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("devtool","toggle","devtool/toggle",-1442703685)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61652) : re_frame.core.dispatch.call(null,G__61652));
+var G__61671 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("devtool","toggle","devtool/toggle",-1442703685)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61671) : re_frame.core.dispatch.call(null,G__61671));
 } else {
 if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.R))?ctrl:false))){
-var G__61653 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("right-sidebar","toggle","right-sidebar/toggle",-1089397191)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61653) : re_frame.core.dispatch.call(null,G__61653));
+var G__61672 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("right-sidebar","toggle","right-sidebar/toggle",-1089397191)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61672) : re_frame.core.dispatch.call(null,G__61672));
 } else {
 if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.L))?ctrl:false))){
-var G__61654 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","toggle","left-sidebar/toggle",212949860)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61654) : re_frame.core.dispatch.call(null,G__61654));
+var G__61674 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","toggle","left-sidebar/toggle",212949860)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61674) : re_frame.core.dispatch.call(null,G__61674));
 } else {
 return null;
 }
