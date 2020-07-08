@@ -194,9 +194,9 @@ var b__48579 = cljs.core.chunk_buffer(size__4581__auto__);
 if((function (){var i__48578 = (0);
 while(true){
 if((i__48578 < size__4581__auto__)){
-var vec__48580 = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__48578);
-var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48580,(0),null);
-var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48580,(1),null);
+var vec__48581 = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__48578);
+var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48581,(0),null);
+var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48581,(1),null);
 cljs.core.chunk_append(b__48579,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));
