@@ -799,10 +799,10 @@ return reagent.ratom.cursor(src,path);
  */
 reagent.core.rswap_BANG_ = (function reagent$core$rswap_BANG_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___31903 = arguments.length;
+var len__4789__auto___31904 = arguments.length;
 var i__4790__auto___31905 = (0);
 while(true){
-if((i__4790__auto___31905 < len__4789__auto___31903)){
+if((i__4790__auto___31905 < len__4789__auto___31904)){
 args__4795__auto__.push((arguments[i__4790__auto___31905]));
 
 var G__31906 = (i__4790__auto___31905 + (1));
