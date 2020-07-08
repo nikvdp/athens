@@ -182,9 +182,9 @@ var self__ = this;
 var this__42228__auto____$1 = this;
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(devcard_opts__42229__auto__,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),(function (){var v__42247__auto__ = (function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.buttons.button,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"on-click-fn","on-click-fn",739785852),(function (){
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(athens.views.devtool.state_STAR_,cljs.core.assoc,new cljs.core.Keyword(null,"eval-str","eval-str",752008756),new cljs.core.Keyword(null,"eval-str","eval-str",752008756).cljs$core$IFn$_invoke$arity$1(athens.devcards.devtool.initial_state));
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(athens.views.devtool.state_STAR_,cljs.core.assoc,new cljs.core.Keyword(null,"eval-str","eval-str",752008756),new cljs.core.Keyword(null,"eval-str","eval-str",752008756).cljs$core$IFn$_invoke$arity$1(athens.views.devtool.initial_state));
 
-return (athens.devcards.devtool.eval_box_BANG_.cljs$core$IFn$_invoke$arity$0 ? athens.devcards.devtool.eval_box_BANG_.cljs$core$IFn$_invoke$arity$0() : athens.devcards.devtool.eval_box_BANG_.call(null));
+return athens.views.devtool.eval_box_BANG_();
 }),new cljs.core.Keyword(null,"label","label",1718410804),"Reset"], null)], null);
 });
 if(cljs.core.fn_QMARK_(v__42247__auto__)){

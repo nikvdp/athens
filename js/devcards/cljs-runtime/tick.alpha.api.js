@@ -490,14 +490,14 @@ return tick.alpha.api._PLUS_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___55590 = arguments.length;
-var i__4790__auto___55591 = (0);
+var len__4789__auto___55594 = arguments.length;
+var i__4790__auto___55595 = (0);
 while(true){
-if((i__4790__auto___55591 < len__4789__auto___55590)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___55591]));
+if((i__4790__auto___55595 < len__4789__auto___55594)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___55595]));
 
-var G__55593 = (i__4790__auto___55591 + (1));
-i__4790__auto___55591 = G__55593;
+var G__55596 = (i__4790__auto___55595 + (1));
+i__4790__auto___55595 = G__55596;
 continue;
 } else {
 }
@@ -836,12 +836,12 @@ return tick.core._GT_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._GT_(x,y))){
 if(cljs.core.next(more)){
-var G__55619 = y;
-var G__55620 = cljs.core.first(more);
-var G__55621 = cljs.core.next(more);
-x = G__55619;
-y = G__55620;
-more = G__55621;
+var G__55620 = y;
+var G__55621 = cljs.core.first(more);
+var G__55622 = cljs.core.next(more);
+x = G__55620;
+y = G__55621;
+more = G__55622;
 continue;
 } else {
 return tick.core._GT_(y,cljs.core.first(more));
@@ -878,14 +878,14 @@ return tick.alpha.api._GT__EQ_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(a
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___55623 = arguments.length;
-var i__4790__auto___55624 = (0);
+var len__4789__auto___55624 = arguments.length;
+var i__4790__auto___55625 = (0);
 while(true){
-if((i__4790__auto___55624 < len__4789__auto___55623)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___55624]));
+if((i__4790__auto___55625 < len__4789__auto___55624)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___55625]));
 
-var G__55625 = (i__4790__auto___55624 + (1));
-i__4790__auto___55624 = G__55625;
+var G__55626 = (i__4790__auto___55625 + (1));
+i__4790__auto___55625 = G__55626;
 continue;
 } else {
 }
@@ -910,12 +910,12 @@ return tick.core._GT__EQ_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._GT__EQ_(x,y))){
 if(cljs.core.next(more)){
-var G__55626 = y;
-var G__55627 = cljs.core.first(more);
-var G__55628 = cljs.core.next(more);
-x = G__55626;
-y = G__55627;
-more = G__55628;
+var G__55627 = y;
+var G__55628 = cljs.core.first(more);
+var G__55629 = cljs.core.next(more);
+x = G__55627;
+y = G__55628;
+more = G__55629;
 continue;
 } else {
 return tick.core._GT__EQ_(y,cljs.core.first(more));

@@ -105,14 +105,14 @@ return cljs.core.assoc_in(context,new cljs.core.PersistentVector(null, 2, 5, clj
 });
 re_frame.interceptor.update_effect = (function re_frame$interceptor$update_effect(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46596 = arguments.length;
-var i__4790__auto___46597 = (0);
+var len__4789__auto___46595 = arguments.length;
+var i__4790__auto___46596 = (0);
 while(true){
-if((i__4790__auto___46597 < len__4789__auto___46596)){
-args__4795__auto__.push((arguments[i__4790__auto___46597]));
+if((i__4790__auto___46596 < len__4789__auto___46595)){
+args__4795__auto__.push((arguments[i__4790__auto___46596]));
 
-var G__46598 = (i__4790__auto___46597 + (1));
-i__4790__auto___46597 = G__46598;
+var G__46597 = (i__4790__auto___46596 + (1));
+i__4790__auto___46596 = G__46597;
 continue;
 } else {
 }
@@ -130,20 +130,20 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(cljs.core.update_in,context
 (re_frame.interceptor.update_effect.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(re_frame.interceptor.update_effect.cljs$lang$applyTo = (function (seq46576){
-var G__46577 = cljs.core.first(seq46576);
-var seq46576__$1 = cljs.core.next(seq46576);
-var G__46578 = cljs.core.first(seq46576__$1);
-var seq46576__$2 = cljs.core.next(seq46576__$1);
-var G__46579 = cljs.core.first(seq46576__$2);
-var seq46576__$3 = cljs.core.next(seq46576__$2);
+(re_frame.interceptor.update_effect.cljs$lang$applyTo = (function (seq46575){
+var G__46576 = cljs.core.first(seq46575);
+var seq46575__$1 = cljs.core.next(seq46575);
+var G__46577 = cljs.core.first(seq46575__$1);
+var seq46575__$2 = cljs.core.next(seq46575__$1);
+var G__46578 = cljs.core.first(seq46575__$2);
+var seq46575__$3 = cljs.core.next(seq46575__$2);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46577,G__46578,G__46579,seq46576__$3);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46576,G__46577,G__46578,seq46575__$3);
 }));
 
 re_frame.interceptor.get_coeffect = (function re_frame$interceptor$get_coeffect(var_args){
-var G__46582 = arguments.length;
-switch (G__46582) {
+var G__46581 = arguments.length;
+switch (G__46581) {
 case 1:
 return re_frame.interceptor.get_coeffect.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -181,14 +181,14 @@ return cljs.core.assoc_in(context,new cljs.core.PersistentVector(null, 2, 5, clj
 });
 re_frame.interceptor.update_coeffect = (function re_frame$interceptor$update_coeffect(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46600 = arguments.length;
-var i__4790__auto___46601 = (0);
+var len__4789__auto___46599 = arguments.length;
+var i__4790__auto___46600 = (0);
 while(true){
-if((i__4790__auto___46601 < len__4789__auto___46600)){
-args__4795__auto__.push((arguments[i__4790__auto___46601]));
+if((i__4790__auto___46600 < len__4789__auto___46599)){
+args__4795__auto__.push((arguments[i__4790__auto___46600]));
 
-var G__46602 = (i__4790__auto___46601 + (1));
-i__4790__auto___46601 = G__46602;
+var G__46601 = (i__4790__auto___46600 + (1));
+i__4790__auto___46600 = G__46601;
 continue;
 } else {
 }
@@ -260,8 +260,8 @@ return context__$1;
 } else {
 var interceptor = cljs.core.peek(queue);
 var stack = new cljs.core.Keyword(null,"stack","stack",-793405930).cljs$core$IFn$_invoke$arity$1(context__$1);
-var G__46607 = re_frame.interceptor.invoke_interceptor_fn(cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(context__$1,new cljs.core.Keyword(null,"queue","queue",1455835879),cljs.core.pop(queue),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(stack,interceptor)], 0)),interceptor,direction);
-context__$1 = G__46607;
+var G__46603 = re_frame.interceptor.invoke_interceptor_fn(cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(context__$1,new cljs.core.Keyword(null,"queue","queue",1455835879),cljs.core.pop(queue),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(stack,interceptor)], 0)),interceptor,direction);
+context__$1 = G__46603;
 continue;
 }
 break;
