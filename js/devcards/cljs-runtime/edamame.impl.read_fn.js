@@ -5,17 +5,17 @@ goog.require('cljs.core');
  */
 edamame.impl.read_fn.walk_STAR_ = (function edamame$impl$read_fn$walk_STAR_(inner,outer,form){
 if(cljs.core.list_QMARK_(form)){
-return cljs.core.with_meta((function (){var G__59008 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.list,cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form));
-return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59008) : outer.call(null,G__59008));
+return cljs.core.with_meta((function (){var G__59002 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.list,cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form));
+return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59002) : outer.call(null,G__59002));
 })(),cljs.core.meta(form));
 } else {
 if(cljs.core.map_entry_QMARK_(form)){
-var G__59009 = (new cljs.core.MapEntry((function (){var G__59010 = cljs.core.key(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__59010) : inner.call(null,G__59010));
-})(),(function (){var G__59011 = cljs.core.val(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__59011) : inner.call(null,G__59011));
+var G__59005 = (new cljs.core.MapEntry((function (){var G__59006 = cljs.core.key(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__59006) : inner.call(null,G__59006));
+})(),(function (){var G__59007 = cljs.core.val(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__59007) : inner.call(null,G__59007));
 })(),null));
-return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59009) : outer.call(null,G__59009));
+return (outer.cljs$core$IFn$_invoke$arity$1 ? outer.cljs$core$IFn$_invoke$arity$1(G__59005) : outer.call(null,G__59005));
 } else {
 if(cljs.core.seq_QMARK_(form)){
 return cljs.core.with_meta((function (){var G__59012 = cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form));
@@ -52,9 +52,9 @@ var expr__$1 = edamame.impl.read_fn.postwalk_STAR_((function (elt){
 if((elt instanceof cljs.core.Symbol)){
 var temp__5733__auto__ = cljs.core.re_matches(/^%(.*)/,cljs.core.name(elt));
 if(cljs.core.truth_(temp__5733__auto__)){
-var vec__59024 = temp__5733__auto__;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59024,(0),null);
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59024,(1),null);
+var vec__59017 = temp__5733__auto__;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59017,(0),null);
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59017,(1),null);
 if(cljs.core.empty_QMARK_(m)){
 state.cljs$core$IVolatile$_vreset_BANG_$arity$2(null,cljs.core.update.cljs$core$IFn$_invoke$arity$4(state.cljs$core$IDeref$_deref$arity$1(null),new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124),cljs.core.max,(1)));
 
@@ -65,8 +65,8 @@ state.cljs$core$IVolatile$_vreset_BANG_$arity$2(null,cljs.core.assoc.cljs$core$I
 
 return elt;
 } else {
-var n_59030 = parseInt(m);
-state.cljs$core$IVolatile$_vreset_BANG_$arity$2(null,cljs.core.update.cljs$core$IFn$_invoke$arity$4(state.cljs$core$IDeref$_deref$arity$1(null),new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124),cljs.core.max,n_59030));
+var n_59021 = parseInt(m);
+state.cljs$core$IVolatile$_vreset_BANG_$arity$2(null,cljs.core.update.cljs$core$IFn$_invoke$arity$4(state.cljs$core$IDeref$_deref$arity$1(null),new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124),cljs.core.max,n_59021));
 
 return elt;
 
@@ -79,10 +79,10 @@ return elt;
 return elt;
 }
 }),expr);
-var map__59019 = cljs.core.deref(state);
-var map__59019__$1 = (((((!((map__59019 == null))))?(((((map__59019.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59019.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59019):map__59019);
-var max_fixed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59019__$1,new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124));
-var var_args_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59019__$1,new cljs.core.Keyword(null,"var-args?","var-args?",-1630678710));
+var map__59016 = cljs.core.deref(state);
+var map__59016__$1 = (((((!((map__59016 == null))))?(((((map__59016.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59016.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59016):map__59016);
+var max_fixed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59016__$1,new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124));
+var var_args_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59016__$1,new cljs.core.Keyword(null,"var-args?","var-args?",-1630678710));
 var fixed_names = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__59015_SHARP_){
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(["%",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__59015_SHARP_)].join(''));
 }),cljs.core.range.cljs$core$IFn$_invoke$arity$2((1),(max_fixed + (1))));

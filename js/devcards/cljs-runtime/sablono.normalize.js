@@ -191,21 +191,21 @@ return cljs.core.map_QMARK_(x);
  * Ensure an element vector is of the form [tag-name attrs content].
  */
 sablono.normalize.element = (function sablono$normalize$element(p__39645){
-var vec__39646 = p__39645;
-var seq__39647 = cljs.core.seq(vec__39646);
-var first__39648 = cljs.core.first(seq__39647);
-var seq__39647__$1 = cljs.core.next(seq__39647);
-var tag = first__39648;
-var content = seq__39647__$1;
+var vec__39649 = p__39645;
+var seq__39650 = cljs.core.seq(vec__39649);
+var first__39651 = cljs.core.first(seq__39650);
+var seq__39650__$1 = cljs.core.next(seq__39650);
+var tag = first__39651;
+var content = seq__39650__$1;
 if((((tag instanceof cljs.core.Keyword)) || ((tag instanceof cljs.core.Symbol)) || (typeof tag === 'string'))){
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.str.cljs$core$IFn$_invoke$arity$1(tag)," is not a valid element name."].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),tag,new cljs.core.Keyword(null,"content","content",15833224),content], null));
 }
 
-var vec__39652 = sablono.normalize.match_tag(tag);
-var tag__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39652,(0),null);
-var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39652,(1),null);
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39652,(2),null);
+var vec__39656 = sablono.normalize.match_tag(tag);
+var tag__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(0),null);
+var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(1),null);
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(2),null);
 var tag_attrs = sablono.normalize.compact_map(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),id,new cljs.core.Keyword(null,"class","class",-2030961996),class$], null));
 var map_attrs = cljs.core.first(content);
 if(sablono.normalize.attrs_QMARK_(map_attrs)){
