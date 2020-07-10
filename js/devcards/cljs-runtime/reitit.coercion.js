@@ -231,10 +231,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k49860,else__
 (reitit.coercion.CoercionError.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4458__auto__,f__4459__auto__,init__4460__auto__){
 var self__ = this;
 var this__4458__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__49868){
-var vec__49869 = p__49868;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49869,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49869,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__49865){
+var vec__49866 = p__49865;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49866,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49866,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -279,10 +279,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__49884 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__49869 = (function (coll__4436__auto__){
 return (-537525465 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__49884(this__4435__auto____$1);
+return fexpr__49869(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -309,8 +309,8 @@ return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.not_empty(cljs
 (reitit.coercion.CoercionError.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__49859){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__49885 = cljs.core.keyword_identical_QMARK_;
-var expr__49886 = k__4447__auto__;
+var pred__49870 = cljs.core.keyword_identical_QMARK_;
+var expr__49871 = k__4447__auto__;
 return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__49859),null));
 }));
 
@@ -361,11 +361,11 @@ return (new reitit.coercion.CoercionError(null,null,null));
  * Factory function for reitit.coercion/CoercionError, taking a map of keywords to field values.
  */
 reitit.coercion.map__GT_CoercionError = (function reitit$coercion$map__GT_CoercionError(G__49863){
-var extmap__4478__auto__ = (function (){var G__49888 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$1(G__49863);
+var extmap__4478__auto__ = (function (){var G__49885 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$1(G__49863);
 if(cljs.core.record_QMARK_(G__49863)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__49888);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__49885);
 } else {
-return G__49888;
+return G__49885;
 }
 })();
 return (new reitit.coercion.CoercionError(null,cljs.core.not_empty(extmap__4478__auto__),null));
@@ -795,12 +795,12 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49940__$1,new cljs.c
 if(cljs.core.truth_(body)){
 cljs.core.chunk_append(b__49936,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null));
 
-var G__50007 = (i__49935 + (1));
-i__49935 = G__50007;
+var G__50013 = (i__49935 + (1));
+i__49935 = G__50013;
 continue;
 } else {
-var G__50008 = (i__49935 + (1));
-i__49935 = G__50008;
+var G__50014 = (i__49935 + (1));
+i__49935 = G__50014;
 continue;
 }
 } else {
@@ -822,8 +822,8 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49945__$1,new cljs.c
 if(cljs.core.truth_(body)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null),reitit$coercion$response_coercers_$_iter__49933(cljs.core.rest(s__49934__$2)));
 } else {
-var G__50009 = cljs.core.rest(s__49934__$2);
-s__49934__$1 = G__50009;
+var G__50015 = cljs.core.rest(s__49934__$2);
+s__49934__$1 = G__50015;
 continue;
 }
 }

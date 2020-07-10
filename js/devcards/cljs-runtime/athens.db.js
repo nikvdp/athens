@@ -225,20 +225,20 @@ athens.db.trim_head = (function athens$db$trim_head(xs,n){
 return cljs.core.vec(cljs.core.drop.cljs$core$IFn$_invoke$arity$2((cljs.core.count(xs) - n),xs));
 });
 athens.db.find_prev = (function athens$db$find_prev(xs,pred){
-return cljs.core.last(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__32873_SHARP_){
-return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__32873_SHARP_) : pred.call(null,p1__32873_SHARP_)));
+return cljs.core.last(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__32868_SHARP_){
+return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__32868_SHARP_) : pred.call(null,p1__32868_SHARP_)));
 }),xs));
 });
 athens.db.find_next = (function athens$db$find_next(xs,pred){
-return cljs.core.fnext(cljs.core.drop_while.cljs$core$IFn$_invoke$arity$2((function (p1__32874_SHARP_){
-return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__32874_SHARP_) : pred.call(null,p1__32874_SHARP_)));
+return cljs.core.fnext(cljs.core.drop_while.cljs$core$IFn$_invoke$arity$2((function (p1__32873_SHARP_){
+return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__32873_SHARP_) : pred.call(null,p1__32873_SHARP_)));
 }),xs));
 });
 datascript.core.listen_BANG_.cljs$core$IFn$_invoke$arity$3(athens.db.dsdb,new cljs.core.Keyword(null,"history","history",-247395220),(function (tx_report){
-var map__32877 = tx_report;
-var map__32877__$1 = (((((!((map__32877 == null))))?(((((map__32877.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32877.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__32877):map__32877);
-var db_before = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32877__$1,new cljs.core.Keyword(null,"db-before","db-before",-553691536));
-var db_after = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32877__$1,new cljs.core.Keyword(null,"db-after","db-after",-571884666));
+var map__32876 = tx_report;
+var map__32876__$1 = (((((!((map__32876 == null))))?(((((map__32876.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32876.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__32876):map__32876);
+var db_before = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32876__$1,new cljs.core.Keyword(null,"db-before","db-before",-553691536));
+var db_after = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32876__$1,new cljs.core.Keyword(null,"db-after","db-after",-571884666));
 if(cljs.core.truth_((function (){var and__4174__auto__ = db_before;
 if(cljs.core.truth_(and__4174__auto__)){
 return db_after;
@@ -247,8 +247,8 @@ return and__4174__auto__;
 }
 })())){
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(athens.db.history,(function (h){
-return athens.db.trim_head(cljs.core.conj.cljs$core$IFn$_invoke$arity$2(athens.db.drop_tail(h,(function (p1__32876_SHARP_){
-return (p1__32876_SHARP_ === db_before);
+return athens.db.trim_head(cljs.core.conj.cljs$core$IFn$_invoke$arity$2(athens.db.drop_tail(h,(function (p1__32875_SHARP_){
+return (p1__32875_SHARP_ === db_before);
 })),db_after),(10));
 }));
 } else {

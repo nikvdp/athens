@@ -61,16 +61,16 @@ var args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31044,(2),null);
 var retrieve__$1 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"results","results",-1134170113),new cljs.core.Keyword(null,"simple-patterns","simple-patterns",788142763)], null),cljs.core.remove.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"patterns","patterns",1164082024),null], null), null),retrieve));
 var qm = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"in","in",-1531184865),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"$","$",-1580747756,null)], null)], null),posh.lib.q_analyze.query_to_map(query)], 0));
 var dbvarmap = posh.lib.q_analyze.make_dbarg_map(new cljs.core.Keyword(null,"in","in",-1531184865).cljs$core$IFn$_invoke$arity$1(qm),args);
-var poshdbmap = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.merge,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__31048){
-var vec__31049 = p__31048;
-var db_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31049,(0),null);
-var poshdb = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31049,(1),null);
+var poshdbmap = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.merge,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__31047){
+var vec__31048 = p__31047;
+var db_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31048,(0),null);
+var poshdb = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31048,(1),null);
 return cljs.core.PersistentArrayMap.createAsIfByAssoc([db_sym,posh.lib.db.poshdb__GT_analyze_db(posh_tree,poshdb)]);
 }),dbvarmap));
-var fixed_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__31052){
-var vec__31053 = p__31052;
-var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31053,(0),null);
-var arg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31053,(1),null);
+var fixed_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__31051){
+var vec__31052 = p__31051;
+var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31052,(0),null);
+var arg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31052,(1),null);
 var or__4185__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(poshdbmap,sym);
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -98,9 +98,9 @@ posh.lib.update.update_filter_q = (function posh$lib$update$update_filter_q(posh
 return posh.lib.update.filter_q_transform_analysis(new cljs.core.Keyword(null,"analysis","analysis",-1362593389).cljs$core$IFn$_invoke$arity$1(posh.lib.update.update_q_with_dbvarmap(posh_tree,storage_key)));
 });
 posh.lib.update.update_posh_item = (function posh$lib$update$update_posh_item(posh_tree,storage_key){
-var G__31056 = cljs.core.first(storage_key);
-var G__31056__$1 = (((G__31056 instanceof cljs.core.Keyword))?G__31056.fqn:null);
-switch (G__31056__$1) {
+var G__31055 = cljs.core.first(storage_key);
+var G__31055__$1 = (((G__31055 instanceof cljs.core.Keyword))?G__31055.fqn:null);
+switch (G__31055__$1) {
 case "pull":
 return posh.lib.update.update_pull(posh_tree,storage_key);
 
@@ -114,7 +114,7 @@ return posh.lib.update.update_filter_pull(posh_tree,storage_key);
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31056__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__31055__$1)].join('')));
 
 }
 });
