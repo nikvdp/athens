@@ -216,9 +216,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__48587),spec_tools$swagger$core$it
 return cljs.core.chunk_cons(cljs.core.chunk(b__48587),null);
 }
 } else {
-var vec__48592 = cljs.core.first(s__48585__$2);
-var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48592,(0),null);
-var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48592,(1),null);
+var vec__48591 = cljs.core.first(s__48585__$2);
+var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48591,(0),null);
+var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48591,(1),null);
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));
@@ -242,10 +242,10 @@ return or__4185__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 })();
-var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__48595){
-var vec__48596 = p__48595;
-var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48596,(0),null);
-var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48596,(1),null);
+var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__48594){
+var vec__48595 = p__48594;
+var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48595,(0),null);
+var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48595,(1),null);
 return (spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2 ? spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2(in$,spec) : spec_tools.swagger.core.extract_parameter.call(null,in$,spec));
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([v], 0));
 var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__48599,p){

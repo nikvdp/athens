@@ -106,12 +106,12 @@ return devcards.util.edn_renderer.literal("literal",x);
 }
 });
 devcards.util.edn_renderer.html_edn = (function devcards$util$edn_renderer$html_edn(e){
-var _STAR_key_counter_STAR__orig_val__41752 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
-var _STAR_key_counter_STAR__temp_val__41753 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
-(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__41753);
+var _STAR_key_counter_STAR__orig_val__41753 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
+var _STAR_key_counter_STAR__temp_val__41754 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
+(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__41754);
 
 try{return React.createElement("div",({"key": "devcards-edn-block", "className": "com-rigsomelight-rendered-edn com-rigsomelight-devcards-typog"}),sablono.interpreter.interpret(devcards.util.edn_renderer.html(e)));
-}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__41752);
+}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__41753);
 }});
 
 //# sourceMappingURL=devcards.util.edn_renderer.js.map

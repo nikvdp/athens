@@ -233,8 +233,8 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$2(style,cljs.core.PersistentArrayMap.EMPTY);
 }));
 
-(stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$2 = (function (p__34642,options){
-var map__34643 = p__34642;
+(stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$2 = (function (p__34641,options){
+var map__34643 = p__34641;
 var map__34643__$1 = (((((!((map__34643 == null))))?(((((map__34643.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__34643.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__34643):map__34643);
 var style = map__34643__$1;
 var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34643__$1,new cljs.core.Keyword(null,"props","props",453281727));

@@ -161,10 +161,10 @@ var d = cljs.tools.reader.impl.utils.char_code(cljs.core.nth.cljs$core$IFn$_invo
 if((d === (-1))){
 return cljs.tools.reader.impl.errors.throw_invalid_unicode_digit_in_token(null,cljs.core.nth.cljs$core$IFn$_invoke$arity$2(token,i),token);
 } else {
-var G__24600 = (i + (1));
-var G__24601 = (d + (uc * base));
-i = G__24600;
-uc = G__24601;
+var G__24601 = (i + (1));
+var G__24602 = (d + (uc * base));
+i = G__24601;
+uc = G__24602;
 continue;
 }
 }
@@ -295,9 +295,9 @@ return null;
 }
 });
 cljs.tools.reader.edn.read_delimited = (function cljs$tools$reader$edn$read_delimited(kind,delim,rdr,opts){
-var vec__24545 = cljs.tools.reader.edn.starting_line_col_info(rdr);
-var start_line = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24545,(0),null);
-var start_column = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24545,(1),null);
+var vec__24548 = cljs.tools.reader.edn.starting_line_col_info(rdr);
+var start_line = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24548,(0),null);
+var start_column = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24548,(1),null);
 var delim__$1 = cljs.tools.reader.impl.utils.char$(delim);
 var a = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 while(true){
@@ -318,15 +318,15 @@ var G__24606 = (((!((mret === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke
 a = G__24606;
 continue;
 } else {
-var o = (function (){var G__24548 = (function (){var G__24555 = rdr;
-cljs.tools.reader.reader_types.unread(G__24555,ch);
+var o = (function (){var G__24553 = (function (){var G__24557 = rdr;
+cljs.tools.reader.reader_types.unread(G__24557,ch);
 
-return G__24555;
+return G__24557;
 })();
-var G__24549 = true;
-var G__24550 = null;
-var G__24551 = opts;
-return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24548,G__24549,G__24550,G__24551) : cljs.tools.reader.edn.read.call(null,G__24548,G__24549,G__24550,G__24551));
+var G__24554 = true;
+var G__24555 = null;
+var G__24556 = opts;
+return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24553,G__24554,G__24555,G__24556) : cljs.tools.reader.edn.read.call(null,G__24553,G__24554,G__24555,G__24556));
 })();
 var G__24607 = (((!((o === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,o):a);
 a = G__24607;
@@ -491,14 +491,14 @@ continue;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\"",G__24565)){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 } else {
-var G__24616 = (function (){var G__24567 = sb;
+var G__24615 = (function (){var G__24567 = sb;
 G__24567.append(ch);
 
 return G__24567;
 })();
-var G__24617 = cljs.tools.reader.reader_types.read_char(rdr);
-sb = G__24616;
-ch = G__24617;
+var G__24616 = cljs.tools.reader.reader_types.read_char(rdr);
+sb = G__24615;
+ch = G__24616;
 continue;
 
 }
@@ -612,12 +612,12 @@ return G__24570;
 });
 cljs.tools.reader.edn.read_namespaced_map = (function cljs$tools$reader$edn$read_namespaced_map(rdr,_,opts){
 var token = cljs.tools.reader.edn.read_token.cljs$core$IFn$_invoke$arity$3(rdr,new cljs.core.Keyword(null,"namespaced-map","namespaced-map",1235665380),cljs.tools.reader.reader_types.read_char(rdr));
-var temp__5733__auto__ = (function (){var G__24578 = token;
-var G__24578__$1 = (((G__24578 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__24578));
-if((G__24578__$1 == null)){
+var temp__5733__auto__ = (function (){var G__24575 = token;
+var G__24575__$1 = (((G__24575 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__24575));
+if((G__24575__$1 == null)){
 return null;
 } else {
-return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__24578__$1);
+return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__24575__$1);
 }
 })();
 if(cljs.core.truth_(temp__5733__auto__)){
@@ -898,8 +898,8 @@ throw e24589;
  * opts is a map as per clojure.tools.reader.edn/read
  */
 cljs.tools.reader.edn.read_string = (function cljs$tools$reader$edn$read_string(var_args){
-var G__24595 = arguments.length;
-switch (G__24595) {
+var G__24591 = arguments.length;
+switch (G__24591) {
 case 1:
 return cljs.tools.reader.edn.read_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

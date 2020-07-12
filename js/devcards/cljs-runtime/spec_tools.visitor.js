@@ -51,8 +51,8 @@ spec_tools.visitor.visit_spec = (function (){var method_table__4672__auto__ = cl
 var prefer_table__4673__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4674__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4675__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.visitor","default","spec-tools.visitor/default",49677361)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__48393 = cljs.core.get_global_hierarchy;
-return (fexpr__48393.cljs$core$IFn$_invoke$arity$0 ? fexpr__48393.cljs$core$IFn$_invoke$arity$0() : fexpr__48393.call(null));
+var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.visitor","default","spec-tools.visitor/default",49677361)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__48378 = cljs.core.get_global_hierarchy;
+return (fexpr__48378.cljs$core$IFn$_invoke$arity$0 ? fexpr__48378.cljs$core$IFn$_invoke$arity$0() : fexpr__48378.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("spec-tools.visitor","visit-spec"),spec_tools.visitor.spec_dispatch,new cljs.core.Keyword("spec-tools.visitor","default","spec-tools.visitor/default",49677361),hierarchy__4676__auto__,method_table__4672__auto__,prefer_table__4673__auto__,method_cache__4674__auto__,cached_hierarchy__4675__auto__));
 })();
@@ -76,8 +76,8 @@ return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("sp
  *   * otherwise: the spec itself
  */
 spec_tools.visitor.visit = (function spec_tools$visitor$visit(var_args){
-var G__48395 = arguments.length;
-switch (G__48395) {
+var G__48391 = arguments.length;
+switch (G__48391) {
 case 2:
 return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -96,11 +96,11 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(spec,accept,null);
 }));
 
-(spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3 = (function (spec,accept,p__48397){
-var map__48398 = p__48397;
-var map__48398__$1 = (((((!((map__48398 == null))))?(((((map__48398.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48398.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__48398):map__48398);
-var options = map__48398__$1;
-var visited = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48398__$1,new cljs.core.Keyword("spec-tools.visitor","visited","spec-tools.visitor/visited",820668632));
+(spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3 = (function (spec,accept,p__48396){
+var map__48397 = p__48396;
+var map__48397__$1 = (((((!((map__48397 == null))))?(((((map__48397.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48397.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__48397):map__48397);
+var options = map__48397__$1;
+var visited = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48397__$1,new cljs.core.Keyword("spec-tools.visitor","visited","spec-tools.visitor/visited",820668632));
 if(cljs.core.not(cljs.core.get.cljs$core$IFn$_invoke$arity$2(visited,spec))){
 var options__$1 = (((spec instanceof cljs.core.Keyword))?cljs.core.update.cljs$core$IFn$_invoke$arity$4(options,new cljs.core.Keyword("spec-tools.visitor","visited","spec-tools.visitor/visited",820668632),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.conj,cljs.core.PersistentHashSet.EMPTY),spec):options);
 return (spec_tools.visitor.visit_spec.cljs$core$IFn$_invoke$arity$3 ? spec_tools.visitor.visit_spec.cljs$core$IFn$_invoke$arity$3(spec,accept,options__$1) : spec_tools.visitor.visit_spec.call(null,spec,accept,options__$1));
@@ -112,53 +112,53 @@ return (spec_tools.visitor.visit_spec.cljs$core$IFn$_invoke$arity$3 ? spec_tools
 (spec_tools.visitor.visit.cljs$lang$maxFixedArity = 3);
 
 spec_tools.visitor.visit_spec.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("spec-tools.visitor","set","spec-tools.visitor/set",1650075415),(function (spec,accept,options){
-var G__48401 = new cljs.core.Keyword("spec-tools.visitor","set","spec-tools.visitor/set",1650075415);
-var G__48402 = spec;
-var G__48403 = cljs.core.vec((((spec instanceof cljs.core.Keyword))?spec_tools.impl.extract_form(spec):spec));
-var G__48404 = options;
-return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48401,G__48402,G__48403,G__48404) : accept.call(null,G__48401,G__48402,G__48403,G__48404));
+var G__48399 = new cljs.core.Keyword("spec-tools.visitor","set","spec-tools.visitor/set",1650075415);
+var G__48400 = spec;
+var G__48401 = cljs.core.vec((((spec instanceof cljs.core.Keyword))?spec_tools.impl.extract_form(spec):spec));
+var G__48402 = options;
+return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48399,G__48400,G__48401,G__48402) : accept.call(null,G__48399,G__48400,G__48401,G__48402));
 }));
 spec_tools.visitor.visit_spec.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Symbol("clojure.spec.alpha","keys","clojure.spec.alpha/keys",-90227326,null),(function (spec,accept,options){
 var keys = spec_tools.impl.extract_keys(spec_tools.impl.extract_form(spec));
-var G__48406 = new cljs.core.Symbol("clojure.spec.alpha","keys","clojure.spec.alpha/keys",-90227326,null);
-var G__48407 = spec;
-var G__48408 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48405_SHARP_){
-return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48405_SHARP_,accept,options);
+var G__48404 = new cljs.core.Symbol("clojure.spec.alpha","keys","clojure.spec.alpha/keys",-90227326,null);
+var G__48405 = spec;
+var G__48406 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48403_SHARP_){
+return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48403_SHARP_,accept,options);
 }),keys);
-var G__48409 = options;
-return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48406,G__48407,G__48408,G__48409) : accept.call(null,G__48406,G__48407,G__48408,G__48409));
+var G__48407 = options;
+return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48404,G__48405,G__48406,G__48407) : accept.call(null,G__48404,G__48405,G__48406,G__48407));
 }));
 spec_tools.visitor.visit_spec.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Symbol("clojure.spec.alpha","or","clojure.spec.alpha/or",434904251,null),(function (spec,accept,options){
-var vec__48411 = spec_tools.impl.extract_form(spec);
-var seq__48412 = cljs.core.seq(vec__48411);
-var first__48413 = cljs.core.first(seq__48412);
-var seq__48412__$1 = cljs.core.next(seq__48412);
-var _ = first__48413;
-var map__48414 = seq__48412__$1;
-var map__48414__$1 = (((((!((map__48414 == null))))?(((((map__48414.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48414.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__48414):map__48414);
-var inner_spec_map = map__48414__$1;
-var G__48416 = new cljs.core.Symbol("clojure.spec.alpha","or","clojure.spec.alpha/or",434904251,null);
-var G__48417 = spec;
-var G__48418 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48410_SHARP_){
-return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48410_SHARP_,accept,options);
+var vec__48409 = spec_tools.impl.extract_form(spec);
+var seq__48410 = cljs.core.seq(vec__48409);
+var first__48411 = cljs.core.first(seq__48410);
+var seq__48410__$1 = cljs.core.next(seq__48410);
+var _ = first__48411;
+var map__48412 = seq__48410__$1;
+var map__48412__$1 = (((((!((map__48412 == null))))?(((((map__48412.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48412.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__48412):map__48412);
+var inner_spec_map = map__48412__$1;
+var G__48414 = new cljs.core.Symbol("clojure.spec.alpha","or","clojure.spec.alpha/or",434904251,null);
+var G__48415 = spec;
+var G__48416 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48408_SHARP_){
+return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48408_SHARP_,accept,options);
 }),cljs.core.vals(inner_spec_map));
-var G__48419 = options;
-return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48416,G__48417,G__48418,G__48419) : accept.call(null,G__48416,G__48417,G__48418,G__48419));
+var G__48417 = options;
+return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48414,G__48415,G__48416,G__48417) : accept.call(null,G__48414,G__48415,G__48416,G__48417));
 }));
 spec_tools.visitor.visit_spec.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Symbol("clojure.spec.alpha","and","clojure.spec.alpha/and",-843882543,null),(function (spec,accept,options){
-var vec__48421 = spec_tools.impl.extract_form(spec);
-var seq__48422 = cljs.core.seq(vec__48421);
-var first__48423 = cljs.core.first(seq__48422);
-var seq__48422__$1 = cljs.core.next(seq__48422);
-var _ = first__48423;
-var inner_specs = seq__48422__$1;
-var G__48424 = new cljs.core.Symbol("clojure.spec.alpha","and","clojure.spec.alpha/and",-843882543,null);
-var G__48425 = spec;
-var G__48426 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48420_SHARP_){
-return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48420_SHARP_,accept,options);
+var vec__48420 = spec_tools.impl.extract_form(spec);
+var seq__48421 = cljs.core.seq(vec__48420);
+var first__48422 = cljs.core.first(seq__48421);
+var seq__48421__$1 = cljs.core.next(seq__48421);
+var _ = first__48422;
+var inner_specs = seq__48421__$1;
+var G__48423 = new cljs.core.Symbol("clojure.spec.alpha","and","clojure.spec.alpha/and",-843882543,null);
+var G__48424 = spec;
+var G__48425 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48419_SHARP_){
+return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48419_SHARP_,accept,options);
 }),inner_specs);
-var G__48427 = options;
-return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48424,G__48425,G__48426,G__48427) : accept.call(null,G__48424,G__48425,G__48426,G__48427));
+var G__48426 = options;
+return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48423,G__48424,G__48425,G__48426) : accept.call(null,G__48423,G__48424,G__48425,G__48426));
 }));
 spec_tools.visitor.visit_merge = (function spec_tools$visitor$visit_merge(spec,accept,options){
 var vec__48429 = spec_tools.impl.extract_form(spec);
@@ -169,8 +169,8 @@ var _ = first__48431;
 var inner_specs = seq__48430__$1;
 var G__48432 = new cljs.core.Symbol("clojure.spec.alpha","merge","clojure.spec.alpha/merge",472136035,null);
 var G__48433 = spec;
-var G__48434 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48428_SHARP_){
-return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48428_SHARP_,accept,options);
+var G__48434 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48427_SHARP_){
+return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48427_SHARP_,accept,options);
 }),inner_specs);
 var G__48435 = options;
 return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48432,G__48433,G__48434,G__48435) : accept.call(null,G__48432,G__48433,G__48434,G__48435));
