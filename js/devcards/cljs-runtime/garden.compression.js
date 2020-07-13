@@ -4,8 +4,8 @@ goog.require('cljs.core');
  * Return a function which when given a string will return a map
  *   containing the chunk of text matched by re, it's size, and tag.
  */
-garden.compression.token_fn = (function garden$compression$token_fn(p__33407){
-var vec__33409 = p__33407;
+garden.compression.token_fn = (function garden$compression$token_fn(p__33408){
+var vec__33409 = p__33408;
 var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33409,(0),null);
 var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33409,(1),null);
 return (function (s){
@@ -26,14 +26,14 @@ return null;
  */
 garden.compression.tokenizer = (function garden$compression$tokenizer(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___33423 = arguments.length;
-var i__4790__auto___33424 = (0);
+var len__4789__auto___33430 = arguments.length;
+var i__4790__auto___33431 = (0);
 while(true){
-if((i__4790__auto___33424 < len__4789__auto___33423)){
-args__4795__auto__.push((arguments[i__4790__auto___33424]));
+if((i__4790__auto___33431 < len__4789__auto___33430)){
+args__4795__auto__.push((arguments[i__4790__auto___33431]));
 
-var G__33428 = (i__4790__auto___33424 + (1));
-i__4790__auto___33424 = G__33428;
+var G__33434 = (i__4790__auto___33431 + (1));
+i__4790__auto___33431 = G__33434;
 continue;
 } else {
 }
