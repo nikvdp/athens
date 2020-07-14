@@ -279,10 +279,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__49884 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__49896 = (function (coll__4436__auto__){
 return (-537525465 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__49884(this__4435__auto____$1);
+return fexpr__49896(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -309,8 +309,8 @@ return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.not_empty(cljs
 (reitit.coercion.CoercionError.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__49874){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__49885 = cljs.core.keyword_identical_QMARK_;
-var expr__49886 = k__4447__auto__;
+var pred__49900 = cljs.core.keyword_identical_QMARK_;
+var expr__49901 = k__4447__auto__;
 return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__49874),null));
 }));
 
@@ -757,8 +757,8 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49945,(1),null);
 if(cljs.core.truth_(v)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,reitit.coercion.request_coercer(coercion,k,v,opts)], null),reitit$coercion$request_coercers_$_iter__49938(cljs.core.rest(s__49939__$2)));
 } else {
-var G__50024 = cljs.core.rest(s__49939__$2);
-s__49939__$1 = G__50024;
+var G__50021 = cljs.core.rest(s__49939__$2);
+s__49939__$1 = G__50021;
 continue;
 }
 }
@@ -795,12 +795,12 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49955__$1,new cljs.c
 if(cljs.core.truth_(body)){
 cljs.core.chunk_append(b__49951,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null));
 
-var G__50028 = (i__49950 + (1));
-i__49950 = G__50028;
+var G__50022 = (i__49950 + (1));
+i__49950 = G__50022;
 continue;
 } else {
-var G__50029 = (i__49950 + (1));
-i__49950 = G__50029;
+var G__50023 = (i__49950 + (1));
+i__49950 = G__50023;
 continue;
 }
 } else {

@@ -113,6 +113,10 @@ return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dis
 (athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$2 = (function (uid,e){
 var shift = e.shiftKey;
 if(cljs.core.truth_(shift)){
+window.getSelection().empty();
+
+e.preventDefault();
+
 var G__50469 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("right-sidebar","open-item","right-sidebar/open-item",-1234515614),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__50469) : re_frame.core.dispatch.call(null,G__50469));
 } else {

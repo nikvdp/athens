@@ -4,8 +4,8 @@ goog.require('cljs.core');
  * Return a function which when given a string will return a map
  *   containing the chunk of text matched by re, it's size, and tag.
  */
-garden.compression.token_fn = (function garden$compression$token_fn(p__33412){
-var vec__33414 = p__33412;
+garden.compression.token_fn = (function garden$compression$token_fn(p__33413){
+var vec__33414 = p__33413;
 var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33414,(0),null);
 var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33414,(1),null);
 return (function (s){
@@ -56,9 +56,9 @@ return (p1__33418_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__33418_SHARP_.cljs$c
 (garden.compression.tokenizer.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq33420){
+(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq33419){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33420));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33419));
 }));
 
 /**
@@ -79,10 +79,10 @@ var map__33425__$1 = (((((!((map__33425 == null))))?(((((map__33425.cljs$lang$pr
 var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33425__$1,new cljs.core.Keyword(null,"tag","tag",-1290361223));
 var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33425__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
 var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33425__$1,new cljs.core.Keyword(null,"size","size",1098693007));
-var G__33446 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__33447 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__33428 = tag;
-var G__33428__$1 = (((G__33428 instanceof cljs.core.Keyword))?G__33428.fqn:null);
-switch (G__33428__$1) {
+var G__33450 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
+var G__33451 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__33429 = tag;
+var G__33429__$1 = (((G__33429 instanceof cljs.core.Keyword))?G__33429.fqn:null);
+switch (G__33429__$1) {
 case "string":
 return chunk;
 
@@ -132,8 +132,8 @@ return chunk;
 
 }
 })())].join('');
-s1 = G__33446;
-s2 = G__33447;
+s1 = G__33450;
+s2 = G__33451;
 continue;
 } else {
 return s2;

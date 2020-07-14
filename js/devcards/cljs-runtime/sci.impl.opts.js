@@ -46,36 +46,36 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 }));
 
 sci.impl.opts.default_classes = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Symbol(null,"Error","Error",-1692662047,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),Error,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function() {
-var G__59582 = null;
-var G__59582__1 = (function (msg){
+var G__59579 = null;
+var G__59579__1 = (function (msg){
 return (new Error(msg));
 });
-var G__59582__2 = (function (msg,filename){
+var G__59579__2 = (function (msg,filename){
 return (new Error(msg,filename));
 });
-var G__59582__3 = (function (msg,filename,line){
+var G__59579__3 = (function (msg,filename,line){
 return (new Error(msg,filename,line));
 });
-G__59582 = function(msg,filename,line){
+G__59579 = function(msg,filename,line){
 switch(arguments.length){
 case 1:
-return G__59582__1.call(this,msg);
+return G__59579__1.call(this,msg);
 case 2:
-return G__59582__2.call(this,msg,filename);
+return G__59579__2.call(this,msg,filename);
 case 3:
-return G__59582__3.call(this,msg,filename,line);
+return G__59579__3.call(this,msg,filename,line);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__59582.cljs$core$IFn$_invoke$arity$1 = G__59582__1;
-G__59582.cljs$core$IFn$_invoke$arity$2 = G__59582__2;
-G__59582.cljs$core$IFn$_invoke$arity$3 = G__59582__3;
-return G__59582;
+G__59579.cljs$core$IFn$_invoke$arity$1 = G__59579__1;
+G__59579.cljs$core$IFn$_invoke$arity$2 = G__59579__2;
+G__59579.cljs$core$IFn$_invoke$arity$3 = G__59579__3;
+return G__59579;
 })()
-], null),new cljs.core.Symbol(null,"cljs.core.Delay","cljs.core.Delay",-1917476777,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.Delay,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59559_SHARP_){
-return (new cljs.core.Delay(p1__59559_SHARP_,null));
-})], null),new cljs.core.Symbol(null,"goog.string.StringBuffer","goog.string.StringBuffer",-1220229842,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),goog.string.StringBuffer,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59560_SHARP_){
-return (new goog.string.StringBuffer(p1__59560_SHARP_));
+], null),new cljs.core.Symbol(null,"cljs.core.Delay","cljs.core.Delay",-1917476777,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.Delay,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59558_SHARP_){
+return (new cljs.core.Delay(p1__59558_SHARP_,null));
+})], null),new cljs.core.Symbol(null,"goog.string.StringBuffer","goog.string.StringBuffer",-1220229842,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),goog.string.StringBuffer,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59559_SHARP_){
+return (new goog.string.StringBuffer(p1__59559_SHARP_));
 })], null)], null);
 sci.impl.opts.default_imports = cljs.core.PersistentArrayMap.EMPTY;
 sci.impl.opts.normalize_classes = (function sci$impl$opts$normalize_classes(classes){
@@ -84,13 +84,13 @@ var kvs = classes;
 while(true){
 var temp__5733__auto__ = cljs.core.first(kvs);
 if(cljs.core.truth_(temp__5733__auto__)){
-var vec__59564 = temp__5733__auto__;
-var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59564,(0),null);
-var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59564,(1),null);
-var G__59585 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
-var G__59586 = cljs.core.rest(kvs);
-class__GT_opts = G__59585;
-kvs = G__59586;
+var vec__59561 = temp__5733__auto__;
+var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59561,(0),null);
+var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59561,(1),null);
+var G__59583 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
+var G__59584 = cljs.core.rest(kvs);
+class__GT_opts = G__59583;
+kvs = G__59584;
 continue;
 } else {
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"public-class","public-class",1127293019),new cljs.core.Keyword(null,"public-class","public-class",1127293019).cljs$core$IFn$_invoke$arity$1(classes),new cljs.core.Keyword(null,"class->opts","class->opts",2061906477),cljs.core.persistent_BANG_(class__GT_opts)], null);

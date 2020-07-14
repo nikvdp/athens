@@ -194,10 +194,10 @@ return type;
  */
 sablono.interpreter.create_element = (function sablono$interpreter$create_element(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___39751 = arguments.length;
+var len__4789__auto___39750 = arguments.length;
 var i__4790__auto___39752 = (0);
 while(true){
-if((i__4790__auto___39752 < len__4789__auto___39751)){
+if((i__4790__auto___39752 < len__4789__auto___39750)){
 args__4795__auto__.push((arguments[i__4790__auto___39752]));
 
 var G__39753 = (i__4790__auto___39752 + (1));
@@ -274,12 +274,12 @@ return sablono.interpreter.interpret_seq(x);
 });
 goog.object.set(sablono.interpreter.IInterpreter,"null",true);
 
-var G__39729_39760 = sablono.interpreter.interpret;
-var G__39730_39761 = "null";
-var G__39731_39762 = (function (this$){
+var G__39729_39756 = sablono.interpreter.interpret;
+var G__39730_39757 = "null";
+var G__39731_39758 = (function (this$){
 return null;
 });
-goog.object.set(G__39729_39760,G__39730_39761,G__39731_39762);
+goog.object.set(G__39729_39756,G__39730_39757,G__39731_39758);
 
 (cljs.core.PersistentVector.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 

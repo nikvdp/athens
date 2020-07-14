@@ -6,5 +6,18 @@ return cljs.core.subs.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$
 athens.util.now_ts = (function athens$util$now_ts(){
 return (new Date()).getTime();
 });
+athens.util.scroll_if_needed = (function athens$util$scroll_if_needed(element,container){
+if((element.offsetTop < container.scrollTop)){
+return (container.scrollTop = element.offsetTop);
+} else {
+var offsetBottom = (element.offsetTop + element.offsetHeight);
+var scrollBottom = (container.scrollTop + container.offsetHeight);
+if((scrollBottom < offsetBottom)){
+return (container.scrollTop = (offsetBottom - container.offsetHeight));
+} else {
+return null;
+}
+}
+});
 
 //# sourceMappingURL=athens.util.js.map
