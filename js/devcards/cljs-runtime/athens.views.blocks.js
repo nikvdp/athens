@@ -48,8 +48,8 @@ var inner_title = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._PLUS_
 if((athens.db.search_exact_node_title(inner_title) == null)){
 var now_58244 = athens.util.now_ts();
 var uid_58245__$1 = athens.util.gen_block_uid();
-var G__58163_58248 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword("node","title","node/title",628940777),inner_title,new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid_58245__$1,new cljs.core.Keyword("edit","time","edit/time",1384867476),now_58244,new cljs.core.Keyword("create","time","create/time",-1563077754),now_58244], null)], null)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58163_58248) : re_frame.core.dispatch.call(null,G__58163_58248));
+var G__58163_58247 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword("node","title","node/title",628940777),inner_title,new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid_58245__$1,new cljs.core.Keyword("edit","time","edit/time",1384867476),now_58244,new cljs.core.Keyword("create","time","create/time",-1563077754),now_58244], null)], null)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58163_58247) : re_frame.core.dispatch.call(null,G__58163_58247));
 } else {
 }
 
