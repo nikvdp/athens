@@ -906,8 +906,8 @@ return report;
  * Forces underlying `conn` value to become `db`. Will generate a tx-report that will remove everything from old value and insert everything from the new one.
  */
 datascript.core.reset_conn_BANG_ = (function datascript$core$reset_conn_BANG_(var_args){
-var G__29006 = arguments.length;
-switch (G__29006) {
+var G__29004 = arguments.length;
+switch (G__29004) {
 case 2:
 return datascript.core.reset_conn_BANG_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -1113,9 +1113,9 @@ count__29038_29194 = G__29208;
 i__29039_29195 = G__29209;
 continue;
 } else {
-var vec__29056_29210 = cljs.core.first(seq__29036_29204__$1);
-var tag_29211 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29056_29210,(0),null);
-var cb_29212 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29056_29210,(1),null);
+var vec__29051_29210 = cljs.core.first(seq__29036_29204__$1);
+var tag_29211 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29051_29210,(0),null);
+var cb_29212 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29051_29210,(1),null);
 cljs.reader.register_tag_parser_BANG_(tag_29211,cb_29212);
 
 
