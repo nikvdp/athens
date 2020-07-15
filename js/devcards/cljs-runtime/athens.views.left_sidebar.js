@@ -69,19 +69,19 @@ return null;
 }),new cljs.core.Keyword(null,"on-drag-leave","on-drag-leave",-373180078),(function (___$3){
 return cljs.core.reset_BANG_(drag,null);
 }),new cljs.core.Keyword(null,"on-drop","on-drop",1867868491),(function (e){
-var source_order_61519 = parseInt(e.dataTransfer.getData("text/plain"));
-cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([source_order_61519,order], 0));
+var source_order_61524 = parseInt(e.dataTransfer.getData("text/plain"));
+cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([source_order_61524,order], 0));
 
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_61519,order)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_61524,order)){
 } else {
-if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_61519,(order - (1)))) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(drag),new cljs.core.Keyword(null,"above","above",-1286866470))))){
+if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_61524,(order - (1)))) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(drag),new cljs.core.Keyword(null,"above","above",-1286866470))))){
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(drag),new cljs.core.Keyword(null,"below","below",-926774883))){
-var G__61508_61520 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-below","left-sidebar/drop-below",1291292866),source_order_61519,order], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61508_61520) : re_frame.core.dispatch.call(null,G__61508_61520));
+var G__61508_61525 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-below","left-sidebar/drop-below",1291292866),source_order_61524,order], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61508_61525) : re_frame.core.dispatch.call(null,G__61508_61525));
 } else {
-var G__61509_61521 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-above","left-sidebar/drop-above",75584917),source_order_61519,order], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61509_61521) : re_frame.core.dispatch.call(null,G__61509_61521));
+var G__61509_61529 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-above","left-sidebar/drop-above",75584917),source_order_61524,order], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__61509_61529) : re_frame.core.dispatch.call(null,G__61509_61529));
 
 }
 }
@@ -117,8 +117,8 @@ if((i__61515 < size__4581__auto__)){
 var sh = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__61515);
 cljs.core.chunk_append(b__61516,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.left_sidebar.shortcut_component,sh], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),["left-sidebar-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.second(sh))].join('')], null)));
 
-var G__61522 = (i__61515 + (1));
-i__61515 = G__61522;
+var G__61530 = (i__61515 + (1));
+i__61515 = G__61530;
 continue;
 } else {
 return true;
