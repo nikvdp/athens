@@ -188,8 +188,8 @@ while (G__31978__i < G__31978__a.length) {G__31978__a[G__31978__i] = arguments[G
 } 
 return G__31977__delegate.call(this,args);};
 G__31977.cljs$lang$maxFixedArity = 0;
-G__31977.cljs$lang$applyTo = (function (arglist__31981){
-var args = cljs.core.seq(arglist__31981);
+G__31977.cljs$lang$applyTo = (function (arglist__31979){
+var args = cljs.core.seq(arglist__31979);
 return G__31977__delegate(args);
 });
 G__31977.cljs$core$IFn$_invoke$arity$variadic = G__31977__delegate;
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___32001 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___32001 == null)){
+var temp__5739__auto___31997 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___31997 == null)){
 } else {
-var key_32002 = temp__5739__auto___32001;
-(jsprops.key = key_32002);
+var key_31998 = temp__5739__auto___31997;
+(jsprops.key = key_31998);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

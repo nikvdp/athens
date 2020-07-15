@@ -179,8 +179,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24304,seq24303
 }));
 
 cljs.tools.reader.impl.errors.throw_eof_delimited = (function cljs$tools$reader$impl$errors$throw_eof_delimited(var_args){
-var G__24306 = arguments.length;
-switch (G__24306) {
+var G__24307 = arguments.length;
+switch (G__24307) {
 case 4:
 return cljs.tools.reader.impl.errors.throw_eof_delimited.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -256,9 +256,9 @@ return cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$ari
 });
 
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$arity$variadic = (function (rdr,kind,start){
-var init = (function (){var G__24312 = kind;
-var G__24312__$1 = (((G__24312 instanceof cljs.core.Keyword))?G__24312.fqn:null);
-switch (G__24312__$1) {
+var init = (function (){var G__24315 = kind;
+var G__24315__$1 = (((G__24315 instanceof cljs.core.Keyword))?G__24315.fqn:null);
+switch (G__24315__$1) {
 case "regex":
 return "#\"";
 
@@ -268,7 +268,7 @@ return "\"";
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24312__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24315__$1)].join('')));
 
 }
 })();
@@ -278,13 +278,13 @@ return cljs.tools.reader.impl.errors.eof_error.cljs$core$IFn$_invoke$arity$varia
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq24308){
-var G__24309 = cljs.core.first(seq24308);
-var seq24308__$1 = cljs.core.next(seq24308);
-var G__24310 = cljs.core.first(seq24308__$1);
-var seq24308__$2 = cljs.core.next(seq24308__$1);
+(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq24312){
+var G__24313 = cljs.core.first(seq24312);
+var seq24312__$1 = cljs.core.next(seq24312);
+var G__24314 = cljs.core.first(seq24312__$1);
+var seq24312__$2 = cljs.core.next(seq24312__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24309,G__24310,seq24308__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24313,G__24314,seq24312__$2);
 }));
 
 cljs.tools.reader.impl.errors.throw_no_dispatch = (function cljs$tools$reader$impl$errors$throw_no_dispatch(rdr,ch){

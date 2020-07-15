@@ -31,7 +31,7 @@ return athens.views.breadcrumbs.breadcrumbs_list.cljs$core$IFn$_invoke$arity$var
 var map__58514 = p__58513;
 var map__58514__$1 = (((((!((map__58514 == null))))?(((((map__58514.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58514.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58514):map__58514);
 var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58514__$1,new cljs.core.Keyword(null,"style","style",-496642736));
-return cljs.core.into.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ol","ol",932524051),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.breadcrumbs.breadcrumbs_list_style,style], 0))),children], null));
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ol","ol",932524051),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.breadcrumbs.breadcrumbs_list_style,style], 0)))], null),children);
 }));
 
 (athens.views.breadcrumbs.breadcrumbs_list.cljs$lang$maxFixedArity = (1));
@@ -46,14 +46,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58512,seq58511
 
 athens.views.breadcrumbs.breadcrumb = (function athens$views$breadcrumbs$breadcrumb(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58524 = arguments.length;
-var i__4790__auto___58525 = (0);
+var len__4789__auto___58527 = arguments.length;
+var i__4790__auto___58528 = (0);
 while(true){
-if((i__4790__auto___58525 < len__4789__auto___58524)){
-args__4795__auto__.push((arguments[i__4790__auto___58525]));
+if((i__4790__auto___58528 < len__4789__auto___58527)){
+args__4795__auto__.push((arguments[i__4790__auto___58528]));
 
-var G__58526 = (i__4790__auto___58525 + (1));
-i__4790__auto___58525 = G__58526;
+var G__58529 = (i__4790__auto___58528 + (1));
+i__4790__auto___58528 = G__58529;
 continue;
 } else {
 }
