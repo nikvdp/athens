@@ -56,21 +56,21 @@ return coll;
 });
 goog.object.set(sci.impl.max_or_throw.MaxOrThrow,"null",true);
 
-var G__59134_59154 = sci.impl.max_or_throw.max_or_throw;
-var G__59135_59155 = "null";
-var G__59136_59156 = (function (this$,ctx,n){
+var G__59137_59159 = sci.impl.max_or_throw.max_or_throw;
+var G__59138_59160 = "null";
+var G__59139_59161 = (function (this$,ctx,n){
 return this$;
 });
-goog.object.set(G__59134_59154,G__59135_59155,G__59136_59156);
+goog.object.set(G__59137_59159,G__59138_59160,G__59139_59161);
 
 goog.object.set(sci.impl.max_or_throw.MaxOrThrow,"_",true);
 
-var G__59140_59160 = sci.impl.max_or_throw.max_or_throw;
-var G__59141_59161 = "_";
-var G__59142_59162 = (function (this$,ctx,n){
+var G__59145_59164 = sci.impl.max_or_throw.max_or_throw;
+var G__59146_59165 = "_";
+var G__59147_59166 = (function (this$,ctx,n){
 return this$;
 });
-goog.object.set(G__59140_59160,G__59141_59161,G__59142_59162);
+goog.object.set(G__59145_59164,G__59146_59165,G__59147_59166);
 
 (cljs.core.LazySeq.prototype.sci$impl$max_or_throw$MaxOrThrow$ = cljs.core.PROTOCOL_SENTINEL);
 
