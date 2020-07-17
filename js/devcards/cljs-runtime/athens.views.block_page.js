@@ -121,8 +121,8 @@ var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58507__$1,new cljs.cor
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })());
 
-var G__58520 = (i__58505 + (1));
-i__58505 = G__58520;
+var G__58521 = (i__58505 + (1));
+i__58505 = G__58521;
 continue;
 } else {
 return true;
@@ -136,9 +136,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__58506),null);
 }
 } else {
 var child = cljs.core.first(s__58504__$2);
-return cljs.core.cons((function (){var map__58509 = child;
-var map__58509__$1 = (((((!((map__58509 == null))))?(((((map__58509.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58509.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58509):map__58509);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58509__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
+return cljs.core.cons((function (){var map__58511 = child;
+var map__58511__$1 = (((((!((map__58511 == null))))?(((((map__58511.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58511.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58511):map__58511);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58511__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })(),athens$views$block_page$block_page_el_$_iter__58503(cljs.core.rest(s__58504__$2)));
 }
@@ -155,8 +155,8 @@ return iter__4582__auto__(children);
 athens.views.block_page.block_page_component = (function athens$views$block_page$block_page_component(ident){
 var block = athens.db.get_block_document(ident);
 var parents = athens.db.get_parents_recursively(ident);
-var editing_uid = cljs.core.deref((function (){var G__58512 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58512) : re_frame.core.subscribe.call(null,G__58512));
+var editing_uid = cljs.core.deref((function (){var G__58518 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58518) : re_frame.core.subscribe.call(null,G__58518));
 })());
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.block_page.block_page_el,block,parents,editing_uid], null);
 });

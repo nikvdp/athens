@@ -35,45 +35,45 @@ return athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$2(new cljs.core.Ke
  * Transforms Instaparse output to Hiccup.
  */
 athens.parse_renderer.transform = (function athens$parse_renderer$transform(tree){
-var G__58327 = new cljs.core.PersistentArrayMap(null, 7, [new cljs.core.Keyword(null,"block","block",664686210),(function() { 
-var G__58354__delegate = function (contents){
+var G__58327 = new cljs.core.PersistentArrayMap(null, 8, [new cljs.core.Keyword(null,"block","block",664686210),(function() { 
+var G__58342__delegate = function (contents){
 return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),"block",new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"white-space","white-space",-707351930),"pre-line"], null)], null)], null),contents);
 };
-var G__58354 = function (var_args){
+var G__58342 = function (var_args){
 var contents = null;
 if (arguments.length > 0) {
-var G__58355__i = 0, G__58355__a = new Array(arguments.length -  0);
-while (G__58355__i < G__58355__a.length) {G__58355__a[G__58355__i] = arguments[G__58355__i + 0]; ++G__58355__i;}
-  contents = new cljs.core.IndexedSeq(G__58355__a,0,null);
+var G__58343__i = 0, G__58343__a = new Array(arguments.length -  0);
+while (G__58343__i < G__58343__a.length) {G__58343__a[G__58343__i] = arguments[G__58343__i + 0]; ++G__58343__i;}
+  contents = new cljs.core.IndexedSeq(G__58343__a,0,null);
 } 
-return G__58354__delegate.call(this,contents);};
-G__58354.cljs$lang$maxFixedArity = 0;
-G__58354.cljs$lang$applyTo = (function (arglist__58356){
-var contents = cljs.core.seq(arglist__58356);
-return G__58354__delegate(contents);
+return G__58342__delegate.call(this,contents);};
+G__58342.cljs$lang$maxFixedArity = 0;
+G__58342.cljs$lang$applyTo = (function (arglist__58344){
+var contents = cljs.core.seq(arglist__58344);
+return G__58342__delegate(contents);
 });
-G__58354.cljs$core$IFn$_invoke$arity$variadic = G__58354__delegate;
-return G__58354;
+G__58342.cljs$core$IFn$_invoke$arity$variadic = G__58342__delegate;
+return G__58342;
 })()
 ,new cljs.core.Keyword(null,"page-link","page-link",-169621200),(function() { 
-var G__58357__delegate = function (title){
+var G__58345__delegate = function (title){
 return athens.parse_renderer.render_page_link(title);
 };
-var G__58357 = function (var_args){
+var G__58345 = function (var_args){
 var title = null;
 if (arguments.length > 0) {
-var G__58358__i = 0, G__58358__a = new Array(arguments.length -  0);
-while (G__58358__i < G__58358__a.length) {G__58358__a[G__58358__i] = arguments[G__58358__i + 0]; ++G__58358__i;}
-  title = new cljs.core.IndexedSeq(G__58358__a,0,null);
+var G__58346__i = 0, G__58346__a = new Array(arguments.length -  0);
+while (G__58346__i < G__58346__a.length) {G__58346__a[G__58346__i] = arguments[G__58346__i + 0]; ++G__58346__i;}
+  title = new cljs.core.IndexedSeq(G__58346__a,0,null);
 } 
-return G__58357__delegate.call(this,title);};
-G__58357.cljs$lang$maxFixedArity = 0;
-G__58357.cljs$lang$applyTo = (function (arglist__58359){
-var title = cljs.core.seq(arglist__58359);
-return G__58357__delegate(title);
+return G__58345__delegate.call(this,title);};
+G__58345.cljs$lang$maxFixedArity = 0;
+G__58345.cljs$lang$applyTo = (function (arglist__58347){
+var title = cljs.core.seq(arglist__58347);
+return G__58345__delegate(title);
 });
-G__58357.cljs$core$IFn$_invoke$arity$variadic = G__58357__delegate;
-return G__58357;
+G__58345.cljs$core$IFn$_invoke$arity$variadic = G__58345__delegate;
+return G__58345;
 })()
 ,new cljs.core.Keyword(null,"block-ref","block-ref",362929756),(function (uid){
 var block = (function (){var G__58329 = athens.db.dsdb;
@@ -108,6 +108,8 @@ var url = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58340__$1,new cljs.co
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$2(athens.parse_renderer.url_link,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),"url-link",new cljs.core.Keyword(null,"href","href",-793805698),url], null)),text], null);
 }),new cljs.core.Keyword(null,"bold","bold",-116809535),(function (text){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"strong","strong",269529000),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),"contents bold"], null),text], null);
+}),new cljs.core.Keyword(null,"pre-formatted","pre-formatted",797009626),(function (text){
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"code","code",1586293142),text], null);
 })], null);
 var G__58328 = tree;
 return (instaparse.core.transform.cljs$core$IFn$_invoke$arity$2 ? instaparse.core.transform.cljs$core$IFn$_invoke$arity$2(G__58327,G__58328) : instaparse.core.transform.call(null,G__58327,G__58328));

@@ -10,13 +10,13 @@ athens.views.breadcrumbs.breadcrumb_style = new cljs.core.PersistentArrayMap(nul
 athens.views.breadcrumbs.breadcrumbs_list = (function athens$views$breadcrumbs$breadcrumbs_list(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___58541 = arguments.length;
-var i__4790__auto___58545 = (0);
+var i__4790__auto___58542 = (0);
 while(true){
-if((i__4790__auto___58545 < len__4789__auto___58541)){
-args__4795__auto__.push((arguments[i__4790__auto___58545]));
+if((i__4790__auto___58542 < len__4789__auto___58541)){
+args__4795__auto__.push((arguments[i__4790__auto___58542]));
 
-var G__58546 = (i__4790__auto___58545 + (1));
-i__4790__auto___58545 = G__58546;
+var G__58546 = (i__4790__auto___58542 + (1));
+i__4790__auto___58542 = G__58546;
 continue;
 } else {
 }
