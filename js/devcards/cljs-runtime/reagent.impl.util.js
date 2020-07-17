@@ -31,12 +31,12 @@ if(typeof dashed === 'string'){
 return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
-var vec__31609 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
-var seq__31610 = cljs.core.seq(vec__31609);
-var first__31611 = cljs.core.first(seq__31610);
-var seq__31610__$1 = cljs.core.next(seq__31610);
-var start = first__31611;
-var parts = seq__31610__$1;
+var vec__31618 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
+var seq__31619 = cljs.core.seq(vec__31618);
+var first__31620 = cljs.core.first(seq__31619);
+var seq__31619__$1 = cljs.core.next(seq__31619);
+var start = first__31620;
+var parts = seq__31619__$1;
 if(cljs.core.truth_((reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1(start) : reagent.impl.util.dont_camel_case.call(null,start)))){
 return name_str;
 } else {
@@ -50,12 +50,12 @@ return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
 var name_str__$1 = clojure.string.replace(name_str,/(unsafe|UNSAFE)[-_]/,"UNSAFE_");
-var vec__31615 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
-var seq__31616 = cljs.core.seq(vec__31615);
-var first__31617 = cljs.core.first(seq__31616);
-var seq__31616__$1 = cljs.core.next(seq__31616);
-var start = first__31617;
-var parts = seq__31616__$1;
+var vec__31621 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
+var seq__31622 = cljs.core.seq(vec__31621);
+var first__31623 = cljs.core.first(seq__31622);
+var seq__31622__$1 = cljs.core.next(seq__31622);
+var start = first__31623;
+var parts = seq__31622__$1;
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.str,start,cljs.core.map.cljs$core$IFn$_invoke$arity$2(reagent.impl.util.capitalize,parts));
 }
 });
@@ -114,8 +114,8 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (reagent.impl.util.PartialFn.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__31629 = (arguments.length - (1));
-switch (G__31629) {
+var G__31640 = (arguments.length - (1));
+switch (G__31640) {
 case (0):
 return self__.cljs$core$IFn$_invoke$arity$0();
 
@@ -210,10 +210,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 }));
 
-(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args31628){
+(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args31638){
 var self__ = this;
 var self____$1 = this;
-return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args31628)));
+return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args31638)));
 }));
 
 (reagent.impl.util.PartialFn.prototype.cljs$core$IFn$_invoke$arity$0 = (function (){

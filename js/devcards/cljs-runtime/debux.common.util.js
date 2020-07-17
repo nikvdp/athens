@@ -434,7 +434,7 @@ return result;
 });
 debux.common.util.spy_comp = (function debux$common$util$spy_comp(quoted_form,indent,form){
 return (function() { 
-var G__46355__delegate = function (arg){
+var G__46349__delegate = function (arg){
 var result = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(form,arg);
 if(cljs.core.integer_QMARK_(indent)){
 } else {
@@ -448,21 +448,21 @@ return (debux.common.util.remove_d.cljs$core$IFn$_invoke$arity$2 ? debux.common.
 
 return result;
 };
-var G__46355 = function (var_args){
+var G__46349 = function (var_args){
 var arg = null;
 if (arguments.length > 0) {
-var G__46356__i = 0, G__46356__a = new Array(arguments.length -  0);
-while (G__46356__i < G__46356__a.length) {G__46356__a[G__46356__i] = arguments[G__46356__i + 0]; ++G__46356__i;}
-  arg = new cljs.core.IndexedSeq(G__46356__a,0,null);
+var G__46350__i = 0, G__46350__a = new Array(arguments.length -  0);
+while (G__46350__i < G__46350__a.length) {G__46350__a[G__46350__i] = arguments[G__46350__i + 0]; ++G__46350__i;}
+  arg = new cljs.core.IndexedSeq(G__46350__a,0,null);
 } 
-return G__46355__delegate.call(this,arg);};
-G__46355.cljs$lang$maxFixedArity = 0;
-G__46355.cljs$lang$applyTo = (function (arglist__46357){
-var arg = cljs.core.seq(arglist__46357);
-return G__46355__delegate(arg);
+return G__46349__delegate.call(this,arg);};
+G__46349.cljs$lang$maxFixedArity = 0;
+G__46349.cljs$lang$applyTo = (function (arglist__46351){
+var arg = cljs.core.seq(arglist__46351);
+return G__46349__delegate(arg);
 });
-G__46355.cljs$core$IFn$_invoke$arity$variadic = G__46355__delegate;
-return G__46355;
+G__46349.cljs$core$IFn$_invoke$arity$variadic = G__46349__delegate;
+return G__46349;
 })()
 ;
 });
