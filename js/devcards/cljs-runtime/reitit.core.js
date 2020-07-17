@@ -1989,11 +1989,11 @@ var router__$1 = (cljs.core.truth_(router)?router:((((cljs.core._EQ_.cljs$core$I
 )))));
 var temp__5735__auto___50581 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
 if(cljs.core.truth_(temp__5735__auto___50581)){
-var conflicts_50582 = temp__5735__auto___50581;
-var temp__5735__auto___50583__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
-if(cljs.core.truth_(temp__5735__auto___50583__$1)){
-var conflict_report_50584 = temp__5735__auto___50583__$1;
-(conflicts_50582.cljs$core$IFn$_invoke$arity$1 ? conflicts_50582.cljs$core$IFn$_invoke$arity$1(conflict_report_50584) : conflicts_50582.call(null,conflict_report_50584));
+var conflicts_50583 = temp__5735__auto___50581;
+var temp__5735__auto___50584__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
+if(cljs.core.truth_(temp__5735__auto___50584__$1)){
+var conflict_report_50585 = temp__5735__auto___50584__$1;
+(conflicts_50583.cljs$core$IFn$_invoke$arity$1 ? conflicts_50583.cljs$core$IFn$_invoke$arity$1(conflict_report_50585) : conflicts_50583.call(null,conflict_report_50585));
 } else {
 }
 } else {
@@ -2004,10 +2004,10 @@ reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(
 } else {
 }
 
-var temp__5735__auto___50585 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
-if(cljs.core.truth_(temp__5735__auto___50585)){
-var validate_50586 = temp__5735__auto___50585;
-(validate_50586.cljs$core$IFn$_invoke$arity$2 ? validate_50586.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_50586.call(null,compiled_routes,opts__$1));
+var temp__5735__auto___50586 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
+if(cljs.core.truth_(temp__5735__auto___50586)){
+var validate_50587 = temp__5735__auto___50586;
+(validate_50587.cljs$core$IFn$_invoke$arity$2 ? validate_50587.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_50587.call(null,compiled_routes,opts__$1));
 } else {
 }
 

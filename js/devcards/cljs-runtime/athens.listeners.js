@@ -109,8 +109,8 @@ athens.listeners.unfocus = (function athens$listeners$unfocus(e){
 var selected_items = cljs.core.deref((function (){var G__56173 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","items","selected/items",1686402211)], null);
 return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__56173) : re_frame.core.subscribe.call(null,G__56173));
 })());
-var editing_uid = cljs.core.deref((function (){var G__56175 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__56175) : re_frame.core.subscribe.call(null,G__56175));
+var editing_uid = cljs.core.deref((function (){var G__56174 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__56174) : re_frame.core.subscribe.call(null,G__56174));
 })());
 var closest_block = e.target.closest(".block-content");
 var closest_block_header = e.target.closest(".block-header");

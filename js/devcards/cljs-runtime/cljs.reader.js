@@ -14,8 +14,8 @@ return cljs.core.subs.cljs$core$IFn$_invoke$arity$3(s,(0),width);
 var b = (new goog.string.StringBuffer(s));
 while(true){
 if((b.getLength() < width)){
-var G__24696 = b.append("0");
-b = G__24696;
+var G__24695 = b.append("0");
+b = G__24695;
 continue;
 } else {
 return b.toString();
