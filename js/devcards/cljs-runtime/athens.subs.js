@@ -2,11 +2,11 @@ goog.provide('athens.subs');
 goog.require('cljs.core');
 goog.require('day8.re_frame.tracing');
 goog.require('re_frame.core');
-var G__55910_55977 = new cljs.core.Keyword(null,"user","user",1532431356);
-var G__55911_55978 = (function (db,_){
+var G__55907_55977 = new cljs.core.Keyword(null,"user","user",1532431356);
+var G__55908_55978 = (function (db,_){
 return new cljs.core.Keyword(null,"user","user",1532431356).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55910_55977,G__55911_55978) : re_frame.core.reg_sub.call(null,G__55910_55977,G__55911_55978));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55907_55977,G__55908_55978) : re_frame.core.reg_sub.call(null,G__55907_55977,G__55908_55978));
 var G__55912_55979 = new cljs.core.Keyword(null,"app-db","app-db",865606302);
 var G__55913_55980 = (function (db,_){
 return db;
@@ -22,8 +22,8 @@ var G__55917_55984 = (function (db,_){
 return new cljs.core.Keyword(null,"loading?","loading?",1905707049).cljs$core$IFn$_invoke$arity$1(db);
 });
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55916_55983,G__55917_55984) : re_frame.core.reg_sub.call(null,G__55916_55983,G__55917_55984));
-var G__55921_55985 = new cljs.core.Keyword("athena","open","athena/open",1253777725);
-var G__55922_55986 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var G__55918_55985 = new cljs.core.Keyword("athena","open","athena/open",1253777725);
+var G__55919_55986 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("athena","open","athena/open",1253777725),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
@@ -37,12 +37,12 @@ return result__46791__auto__;
 debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__46791__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("athena","open","athena/open",1253777725),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
 return result__46791__auto__;
-}catch (e55923){var e = e55923;
+}catch (e55920){var e = e55920;
 throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword("athena","open","athena/open",1253777725).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55921_55985,G__55922_55986) : re_frame.core.reg_sub.call(null,G__55921_55985,G__55922_55986));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55918_55985,G__55919_55986) : re_frame.core.reg_sub.call(null,G__55918_55985,G__55919_55986));
 var G__55924_55987 = new cljs.core.Keyword("devtool","open","devtool/open",-1176270029);
 var G__55925_55988 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;

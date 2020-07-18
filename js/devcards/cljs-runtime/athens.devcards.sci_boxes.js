@@ -196,22 +196,22 @@ var id_SINGLEQUOTE_ = athens.devcards.sci_boxes.next_box_id(boxes__$1,visited_SI
 if(cljs.core.not(id_SINGLEQUOTE_)){
 return boxes_SINGLEQUOTE_;
 } else {
-var G__61641 = boxes_SINGLEQUOTE_;
-var G__61642 = visited_SINGLEQUOTE_;
-var G__61643 = id_SINGLEQUOTE_;
-boxes__$1 = G__61641;
-visited = G__61642;
-id = G__61643;
+var G__61644 = boxes_SINGLEQUOTE_;
+var G__61645 = visited_SINGLEQUOTE_;
+var G__61646 = id_SINGLEQUOTE_;
+boxes__$1 = G__61644;
+visited = G__61645;
+id = G__61646;
 continue;
 }
 break;
 }
 });
-athens.devcards.sci_boxes.add_child = (function athens$devcards$sci_boxes$add_child(p__61606,idx,id){
-var map__61607 = p__61606;
-var map__61607__$1 = (((((!((map__61607 == null))))?(((((map__61607.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61607.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61607):map__61607);
-var box = map__61607__$1;
-var children_ids = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61607__$1,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198));
+athens.devcards.sci_boxes.add_child = (function athens$devcards$sci_boxes$add_child(p__61609,idx,id){
+var map__61610 = p__61609;
+var map__61610__$1 = (((((!((map__61610 == null))))?(((((map__61610.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61610.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61610):map__61610);
+var box = map__61610__$1;
+var children_ids = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61610__$1,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198));
 var new_idx = (idx + (1));
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(box,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198),cljs.core.apply.cljs$core$IFn$_invoke$arity$4(cljs.core.conj,cljs.core.subvec.cljs$core$IFn$_invoke$arity$3(children_ids,(0),new_idx),id,cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(children_ids,new_idx)));
 });
@@ -219,22 +219,22 @@ athens.devcards.sci_boxes.remove_child = (function athens$devcards$sci_boxes$rem
 var idx = athens.devcards.sci_boxes.index_of(new cljs.core.Keyword(null,"children-ids","children-ids",-293558198).cljs$core$IFn$_invoke$arity$1(parent),child_id);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$4(parent,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198),athens.devcards.sci_boxes.remove_from_vec,idx);
 });
-athens.devcards.sci_boxes.add_sibling = (function athens$devcards$sci_boxes$add_sibling(p__61609,id){
-var map__61610 = p__61609;
-var map__61610__$1 = (((((!((map__61610 == null))))?(((((map__61610.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61610.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61610):map__61610);
-var state = map__61610__$1;
-var next_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61610__$1,new cljs.core.Keyword(null,"next-id","next-id",-224240762));
-var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61610__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
+athens.devcards.sci_boxes.add_sibling = (function athens$devcards$sci_boxes$add_sibling(p__61612,id){
+var map__61613 = p__61612;
+var map__61613__$1 = (((((!((map__61613 == null))))?(((((map__61613.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61613.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61613):map__61613);
+var state = map__61613__$1;
+var next_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61613__$1,new cljs.core.Keyword(null,"next-id","next-id",-224240762));
+var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61613__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
 var parent_id = athens.devcards.sci_boxes.get_parent_id(boxes,id);
 var siblings = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(boxes,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [parent_id,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198)], null));
 var idx = athens.devcards.sci_boxes.index_of(siblings,id);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(cljs.core.update.cljs$core$IFn$_invoke$arity$variadic(cljs.core.update.cljs$core$IFn$_invoke$arity$3(state,new cljs.core.Keyword(null,"next-id","next-id",-224240762),cljs.core.inc),new cljs.core.Keyword(null,"boxes","boxes",-420813822),cljs.core.update,parent_id,athens.devcards.sci_boxes.add_child,idx,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([next_id], 0)),new cljs.core.Keyword(null,"boxes","boxes",-420813822),cljs.core.assoc,next_id,athens.devcards.sci_boxes.empty_box),new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.eval_all_boxes);
 });
-athens.devcards.sci_boxes.delete_box = (function athens$devcards$sci_boxes$delete_box(p__61612,id){
-var map__61613 = p__61612;
-var map__61613__$1 = (((((!((map__61613 == null))))?(((((map__61613.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61613.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61613):map__61613);
-var state = map__61613__$1;
-var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61613__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
+athens.devcards.sci_boxes.delete_box = (function athens$devcards$sci_boxes$delete_box(p__61615,id){
+var map__61616 = p__61615;
+var map__61616__$1 = (((((!((map__61616 == null))))?(((((map__61616.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61616.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61616):map__61616);
+var state = map__61616__$1;
+var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61616__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
 var parent_id = athens.devcards.sci_boxes.get_parent_id(boxes,id);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$4(cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(state,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boxes","boxes",-420813822),parent_id], null),athens.devcards.sci_boxes.remove_child,id),new cljs.core.Keyword(null,"boxes","boxes",-420813822),cljs.core.dissoc,id),new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.eval_all_boxes);
 });
@@ -247,9 +247,9 @@ e.preventDefault();
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(athens.devcards.sci_boxes.box_state_STAR_,athens.devcards.sci_boxes.add_sibling,id);
 });
 athens.devcards.sci_boxes.handle_backspace_key_BANG_ = (function athens$devcards$sci_boxes$handle_backspace_key_BANG_(e,id){
-var map__61615 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(athens.devcards.sci_boxes.box_state_STAR_),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boxes","boxes",-420813822),id], null));
-var map__61615__$1 = (((((!((map__61615 == null))))?(((((map__61615.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61615.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61615):map__61615);
-var str_content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61615__$1,new cljs.core.Keyword(null,"str-content","str-content",297549190));
+var map__61618 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(athens.devcards.sci_boxes.box_state_STAR_),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boxes","boxes",-420813822),id], null));
+var map__61618__$1 = (((((!((map__61618 == null))))?(((((map__61618.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61618.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61618):map__61618);
+var str_content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61618__$1,new cljs.core.Keyword(null,"str-content","str-content",297549190));
 if(cljs.core.empty_QMARK_(str_content)){
 e.preventDefault();
 
@@ -262,9 +262,9 @@ athens.devcards.sci_boxes.handle_box_key_down_BANG_ = (function athens$devcards$
 var key_code = e.keyCode;
 var shift_QMARK_ = e.shiftKey;
 var k = (athens.devcards.sci_boxes.key_code__GT_key.cljs$core$IFn$_invoke$arity$1 ? athens.devcards.sci_boxes.key_code__GT_key.cljs$core$IFn$_invoke$arity$1(key_code) : athens.devcards.sci_boxes.key_code__GT_key.call(null,key_code));
-var G__61617 = k;
-var G__61617__$1 = (((G__61617 instanceof cljs.core.Keyword))?G__61617.fqn:null);
-switch (G__61617__$1) {
+var G__61620 = k;
+var G__61620__$1 = (((G__61620 instanceof cljs.core.Keyword))?G__61620.fqn:null);
+switch (G__61620__$1) {
 case "return":
 if(cljs.core.not(shift_QMARK_)){
 return athens.devcards.sci_boxes.handle_return_key_BANG_(e,id);
@@ -285,15 +285,15 @@ return null;
 athens.devcards.sci_boxes.handle_box_change_BANG_ = (function athens$devcards$sci_boxes$handle_box_change_BANG_(e,id){
 var target = e.target;
 var value = target.value;
-return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(athens.devcards.sci_boxes.box_state_STAR_,(function (p1__61618_SHARP_){
-return cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(p1__61618_SHARP_,new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.update_box_content,id,value),new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.eval_all_boxes);
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(athens.devcards.sci_boxes.box_state_STAR_,(function (p1__61621_SHARP_){
+return cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(p1__61621_SHARP_,new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.update_box_content,id,value),new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.eval_all_boxes);
 }));
 });
 athens.devcards.sci_boxes.sci_result_component = (function athens$devcards$sci_boxes$sci_result_component(result){
 if(cljs.core.truth_(result)){
-var map__61621 = result;
-var map__61621__$1 = (((((!((map__61621 == null))))?(((((map__61621.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61621.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61621):map__61621);
-var hiccup = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61621__$1,new cljs.core.Keyword(null,"hiccup","hiccup",1218876238));
+var map__61622 = result;
+var map__61622__$1 = (((((!((map__61622 == null))))?(((((map__61622.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61622.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61622):map__61622);
+var hiccup = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61622__$1,new cljs.core.Keyword(null,"hiccup","hiccup",1218876238));
 if(cljs.core.truth_(hiccup)){
 return hiccup;
 } else {

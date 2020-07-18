@@ -52,9 +52,9 @@ var expr__$1 = edamame.impl.read_fn.postwalk_STAR_((function (elt){
 if((elt instanceof cljs.core.Symbol)){
 var temp__5733__auto__ = cljs.core.re_matches(/^%(.*)/,cljs.core.name(elt));
 if(cljs.core.truth_(temp__5733__auto__)){
-var vec__59414 = temp__5733__auto__;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59414,(0),null);
-var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59414,(1),null);
+var vec__59418 = temp__5733__auto__;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59418,(0),null);
+var m = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59418,(1),null);
 if(cljs.core.empty_QMARK_(m)){
 state.cljs$core$IVolatile$_vreset_BANG_$arity$2(null,cljs.core.update.cljs$core$IFn$_invoke$arity$4(state.cljs$core$IDeref$_deref$arity$1(null),new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124),cljs.core.max,(1)));
 
@@ -79,10 +79,10 @@ return elt;
 return elt;
 }
 }),expr);
-var map__59410 = cljs.core.deref(state);
-var map__59410__$1 = (((((!((map__59410 == null))))?(((((map__59410.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59410.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59410):map__59410);
-var max_fixed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59410__$1,new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124));
-var var_args_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59410__$1,new cljs.core.Keyword(null,"var-args?","var-args?",-1630678710));
+var map__59413 = cljs.core.deref(state);
+var map__59413__$1 = (((((!((map__59413 == null))))?(((((map__59413.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59413.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59413):map__59413);
+var max_fixed = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59413__$1,new cljs.core.Keyword(null,"max-fixed","max-fixed",166770124));
+var var_args_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59413__$1,new cljs.core.Keyword(null,"var-args?","var-args?",-1630678710));
 var fixed_names = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__59409_SHARP_){
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(["%",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__59409_SHARP_)].join(''));
 }),cljs.core.range.cljs$core$IFn$_invoke$arity$2((1),(max_fixed + (1))));

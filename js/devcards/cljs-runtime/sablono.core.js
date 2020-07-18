@@ -13,12 +13,12 @@ sablono.core.wrap_attrs = (function sablono$core$wrap_attrs(func){
 return (function() { 
 var G__41971__delegate = function (args){
 if(cljs.core.map_QMARK_(cljs.core.first(args))){
-var vec__41786 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(func,cljs.core.rest(args));
-var seq__41787 = cljs.core.seq(vec__41786);
-var first__41788 = cljs.core.first(seq__41787);
-var seq__41787__$1 = cljs.core.next(seq__41787);
-var tag = first__41788;
-var body = seq__41787__$1;
+var vec__41785 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(func,cljs.core.rest(args));
+var seq__41786 = cljs.core.seq(vec__41785);
+var first__41787 = cljs.core.first(seq__41786);
+var seq__41786__$1 = cljs.core.next(seq__41786);
+var tag = first__41787;
+var body = seq__41786__$1;
 if(cljs.core.map_QMARK_(cljs.core.first(body))){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [tag,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.first(body),cljs.core.first(args)], 0))], null),cljs.core.rest(body));
 } else {
@@ -170,12 +170,12 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  * Include the JavaScript library at `src`.
  */
 sablono.core.include_js = (function sablono$core$include_js(src){
-var G__41829 = goog.dom.getDocument().body;
-var G__41830 = (function (){var G__41831 = "script";
+var G__41828 = goog.dom.getDocument().body;
+var G__41829 = (function (){var G__41831 = "script";
 var G__41832 = ({"src": src});
 return goog.dom.createDom(G__41831,G__41832);
 })();
-return goog.dom.appendChild(G__41829,G__41830);
+return goog.dom.appendChild(G__41828,G__41829);
 });
 /**
  * Include Facebook's React JavaScript library.
@@ -246,9 +246,9 @@ var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.I
 return sablono.core.mail_to41845.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(sablono.core.mail_to41845.cljs$core$IFn$_invoke$arity$variadic = (function (e_mail,p__41850){
-var vec__41851 = p__41850;
-var content = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41851,(0),null);
+(sablono.core.mail_to41845.cljs$core$IFn$_invoke$arity$variadic = (function (e_mail,p__41848){
+var vec__41849 = p__41848;
+var content = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41849,(0),null);
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),["mailto:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_mail)].join('')], null),(function (){var or__4185__auto__ = content;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -291,8 +291,8 @@ if((i__41861 < size__4581__auto__)){
 var x = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__41861);
 cljs.core.chunk_append(b__41862,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),x], null));
 
-var G__41988 = (i__41861 + (1));
-i__41861 = G__41988;
+var G__41987 = (i__41861 + (1));
+i__41861 = G__41987;
 continue;
 } else {
 return true;
@@ -1270,14 +1270,14 @@ sablono.core.reset_button = sablono.core.wrap_attrs(sablono.core.reset_button419
  */
 sablono.core.form_to41961 = (function sablono$core$form_to41961(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___42024 = arguments.length;
-var i__4790__auto___42025 = (0);
+var len__4789__auto___42020 = arguments.length;
+var i__4790__auto___42021 = (0);
 while(true){
-if((i__4790__auto___42025 < len__4789__auto___42024)){
-args__4795__auto__.push((arguments[i__4790__auto___42025]));
+if((i__4790__auto___42021 < len__4789__auto___42020)){
+args__4795__auto__.push((arguments[i__4790__auto___42021]));
 
-var G__42027 = (i__4790__auto___42025 + (1));
-i__4790__auto___42025 = G__42027;
+var G__42022 = (i__4790__auto___42021 + (1));
+i__4790__auto___42021 = G__42022;
 continue;
 } else {
 }
