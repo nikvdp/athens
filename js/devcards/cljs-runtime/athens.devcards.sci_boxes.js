@@ -207,11 +207,11 @@ continue;
 break;
 }
 });
-athens.devcards.sci_boxes.add_child = (function athens$devcards$sci_boxes$add_child(p__61619,idx,id){
-var map__61620 = p__61619;
-var map__61620__$1 = (((((!((map__61620 == null))))?(((((map__61620.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61620.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61620):map__61620);
-var box = map__61620__$1;
-var children_ids = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61620__$1,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198));
+athens.devcards.sci_boxes.add_child = (function athens$devcards$sci_boxes$add_child(p__61622,idx,id){
+var map__61623 = p__61622;
+var map__61623__$1 = (((((!((map__61623 == null))))?(((((map__61623.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61623.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61623):map__61623);
+var box = map__61623__$1;
+var children_ids = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61623__$1,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198));
 var new_idx = (idx + (1));
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(box,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198),cljs.core.apply.cljs$core$IFn$_invoke$arity$4(cljs.core.conj,cljs.core.subvec.cljs$core$IFn$_invoke$arity$3(children_ids,(0),new_idx),id,cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(children_ids,new_idx)));
 });
@@ -219,12 +219,12 @@ athens.devcards.sci_boxes.remove_child = (function athens$devcards$sci_boxes$rem
 var idx = athens.devcards.sci_boxes.index_of(new cljs.core.Keyword(null,"children-ids","children-ids",-293558198).cljs$core$IFn$_invoke$arity$1(parent),child_id);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$4(parent,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198),athens.devcards.sci_boxes.remove_from_vec,idx);
 });
-athens.devcards.sci_boxes.add_sibling = (function athens$devcards$sci_boxes$add_sibling(p__61622,id){
-var map__61623 = p__61622;
-var map__61623__$1 = (((((!((map__61623 == null))))?(((((map__61623.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61623.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61623):map__61623);
-var state = map__61623__$1;
-var next_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61623__$1,new cljs.core.Keyword(null,"next-id","next-id",-224240762));
-var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61623__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
+athens.devcards.sci_boxes.add_sibling = (function athens$devcards$sci_boxes$add_sibling(p__61625,id){
+var map__61626 = p__61625;
+var map__61626__$1 = (((((!((map__61626 == null))))?(((((map__61626.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61626.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61626):map__61626);
+var state = map__61626__$1;
+var next_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61626__$1,new cljs.core.Keyword(null,"next-id","next-id",-224240762));
+var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61626__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
 var parent_id = athens.devcards.sci_boxes.get_parent_id(boxes,id);
 var siblings = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(boxes,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [parent_id,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198)], null));
 var idx = athens.devcards.sci_boxes.index_of(siblings,id);
