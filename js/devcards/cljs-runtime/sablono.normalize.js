@@ -97,14 +97,14 @@ return G__39879;
  */
 sablono.normalize.merge_with_class = (function sablono$normalize$merge_with_class(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___39925 = arguments.length;
-var i__4790__auto___39926 = (0);
+var len__4789__auto___39922 = arguments.length;
+var i__4790__auto___39923 = (0);
 while(true){
-if((i__4790__auto___39926 < len__4789__auto___39925)){
-args__4795__auto__.push((arguments[i__4790__auto___39926]));
+if((i__4790__auto___39923 < len__4789__auto___39922)){
+args__4795__auto__.push((arguments[i__4790__auto___39923]));
 
-var G__39927 = (i__4790__auto___39926 + (1));
-i__4790__auto___39926 = G__39927;
+var G__39924 = (i__4790__auto___39923 + (1));
+i__4790__auto___39923 = G__39924;
 continue;
 } else {
 }
@@ -175,8 +175,8 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(".",cljs.core.first(p1__3988
  * Normalize the children of a HTML element.
  */
 sablono.normalize.children = (function sablono$normalize$children(x){
-return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,(((x == null))?cljs.core.List.EMPTY:((typeof x === 'string')?(new cljs.core.List(null,x,null,(1),null)):((sablono.util.element_QMARK_(x))?(new cljs.core.List(null,x,null,(1),null)):((((cljs.core.list_QMARK_(x)) && ((cljs.core.first(x) instanceof cljs.core.Symbol))))?(new cljs.core.List(null,x,null,(1),null)):((cljs.core.list_QMARK_(x))?x:((((cljs.core.sequential_QMARK_(x)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(x),(1))) && (cljs.core.sequential_QMARK_(cljs.core.first(x))) && ((!(typeof cljs.core.first(x) === 'string'))) && ((!(sablono.util.element_QMARK_(cljs.core.first(x)))))))?(function (){var G__39907 = cljs.core.first(x);
-return (sablono.normalize.children.cljs$core$IFn$_invoke$arity$1 ? sablono.normalize.children.cljs$core$IFn$_invoke$arity$1(G__39907) : sablono.normalize.children.call(null,G__39907));
+return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,(((x == null))?cljs.core.List.EMPTY:((typeof x === 'string')?(new cljs.core.List(null,x,null,(1),null)):((sablono.util.element_QMARK_(x))?(new cljs.core.List(null,x,null,(1),null)):((((cljs.core.list_QMARK_(x)) && ((cljs.core.first(x) instanceof cljs.core.Symbol))))?(new cljs.core.List(null,x,null,(1),null)):((cljs.core.list_QMARK_(x))?x:((((cljs.core.sequential_QMARK_(x)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(x),(1))) && (cljs.core.sequential_QMARK_(cljs.core.first(x))) && ((!(typeof cljs.core.first(x) === 'string'))) && ((!(sablono.util.element_QMARK_(cljs.core.first(x)))))))?(function (){var G__39896 = cljs.core.first(x);
+return (sablono.normalize.children.cljs$core$IFn$_invoke$arity$1 ? sablono.normalize.children.cljs$core$IFn$_invoke$arity$1(G__39896) : sablono.normalize.children.call(null,G__39896));
 })():((cljs.core.sequential_QMARK_(x))?x:(new cljs.core.List(null,x,null,(1),null))
 ))))))));
 });
@@ -190,13 +190,13 @@ return cljs.core.map_QMARK_(x);
 /**
  * Ensure an element vector is of the form [tag-name attrs content].
  */
-sablono.normalize.element = (function sablono$normalize$element(p__39915){
-var vec__39916 = p__39915;
-var seq__39917 = cljs.core.seq(vec__39916);
-var first__39918 = cljs.core.first(seq__39917);
-var seq__39917__$1 = cljs.core.next(seq__39917);
-var tag = first__39918;
-var content = seq__39917__$1;
+sablono.normalize.element = (function sablono$normalize$element(p__39911){
+var vec__39912 = p__39911;
+var seq__39913 = cljs.core.seq(vec__39912);
+var first__39914 = cljs.core.first(seq__39913);
+var seq__39913__$1 = cljs.core.next(seq__39913);
+var tag = first__39914;
+var content = seq__39913__$1;
 if((((tag instanceof cljs.core.Keyword)) || ((tag instanceof cljs.core.Symbol)) || (typeof tag === 'string'))){
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.str.cljs$core$IFn$_invoke$arity$1(tag)," is not a valid element name."].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),tag,new cljs.core.Keyword(null,"content","content",15833224),content], null));

@@ -44,11 +44,11 @@ athens.views.blocks.tooltip_style = cljs.core.PersistentHashMap.fromArrays([new 
 athens.views.blocks.dragging_style = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opacity","opacity",397153780),"0.25"], null);
 stylefy.core.class$("dragging",athens.views.blocks.dragging_style);
 athens.views.blocks.on_change = (function athens$views$blocks$on_change(value,uid){
-var G__58440_58517 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid], null),new cljs.core.Keyword("block","string","block/string",-2066596447),value,new cljs.core.Keyword("edit","time","edit/time",1384867476),athens.util.now_ts()], null)], null)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58440_58517) : re_frame.core.dispatch.call(null,G__58440_58517));
+var G__58440_58518 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid], null),new cljs.core.Keyword("block","string","block/string",-2066596447),value,new cljs.core.Keyword("edit","time","edit/time",1384867476),athens.util.now_ts()], null)], null)], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58440_58518) : re_frame.core.dispatch.call(null,G__58440_58518));
 
 var G__58441 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"page-link","page-link",-169621200),(function() { 
-var G__58518__delegate = function (title){
+var G__58519__delegate = function (title){
 var inner_title = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._PLUS_,title);
 if((athens.db.search_exact_node_title(inner_title) == null)){
 var now_58520 = athens.util.now_ts();
@@ -60,21 +60,21 @@ var G__58443_58522 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.Persis
 
 return ["[[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(inner_title),"]]"].join('');
 };
-var G__58518 = function (var_args){
+var G__58519 = function (var_args){
 var title = null;
 if (arguments.length > 0) {
 var G__58523__i = 0, G__58523__a = new Array(arguments.length -  0);
 while (G__58523__i < G__58523__a.length) {G__58523__a[G__58523__i] = arguments[G__58523__i + 0]; ++G__58523__i;}
   title = new cljs.core.IndexedSeq(G__58523__a,0,null);
 } 
-return G__58518__delegate.call(this,title);};
-G__58518.cljs$lang$maxFixedArity = 0;
-G__58518.cljs$lang$applyTo = (function (arglist__58524){
+return G__58519__delegate.call(this,title);};
+G__58519.cljs$lang$maxFixedArity = 0;
+G__58519.cljs$lang$applyTo = (function (arglist__58524){
 var title = cljs.core.seq(arglist__58524);
-return G__58518__delegate(title);
+return G__58519__delegate(title);
 });
-G__58518.cljs$core$IFn$_invoke$arity$variadic = G__58518__delegate;
-return G__58518;
+G__58519.cljs$core$IFn$_invoke$arity$variadic = G__58519__delegate;
+return G__58519;
 })()
 ], null);
 var G__58442 = athens.parser.parse_to_ast(value);
@@ -172,8 +172,8 @@ return string;
 }
 })()], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),["inline-search-item",cljs.core.str.cljs$core$IFn$_invoke$arity$1(uid)].join('')], null)));
 
-var G__58526 = (i__58457 + (1));
-i__58457 = G__58526;
+var G__58527 = (i__58457 + (1));
+i__58457 = G__58527;
 continue;
 } else {
 return true;
