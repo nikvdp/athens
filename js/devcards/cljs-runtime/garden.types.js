@@ -346,17 +346,17 @@ return (new garden.types.CSSFunction(self__.f,self__.args,self__.__meta,cljs.cor
 (garden.types.CSSFunction.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__33146){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__33159 = cljs.core.keyword_identical_QMARK_;
-var expr__33160 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__33162 = new cljs.core.Keyword(null,"f","f",-1597136552);
-var G__33163 = expr__33160;
-return (pred__33159.cljs$core$IFn$_invoke$arity$2 ? pred__33159.cljs$core$IFn$_invoke$arity$2(G__33162,G__33163) : pred__33159.call(null,G__33162,G__33163));
+var pred__33160 = cljs.core.keyword_identical_QMARK_;
+var expr__33161 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__33163 = new cljs.core.Keyword(null,"f","f",-1597136552);
+var G__33164 = expr__33161;
+return (pred__33160.cljs$core$IFn$_invoke$arity$2 ? pred__33160.cljs$core$IFn$_invoke$arity$2(G__33163,G__33164) : pred__33160.call(null,G__33163,G__33164));
 })())){
 return (new garden.types.CSSFunction(G__33146,self__.args,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__33164 = new cljs.core.Keyword(null,"args","args",1315556576);
-var G__33165 = expr__33160;
-return (pred__33159.cljs$core$IFn$_invoke$arity$2 ? pred__33159.cljs$core$IFn$_invoke$arity$2(G__33164,G__33165) : pred__33159.call(null,G__33164,G__33165));
+if(cljs.core.truth_((function (){var G__33165 = new cljs.core.Keyword(null,"args","args",1315556576);
+var G__33166 = expr__33161;
+return (pred__33160.cljs$core$IFn$_invoke$arity$2 ? pred__33160.cljs$core$IFn$_invoke$arity$2(G__33165,G__33166) : pred__33160.call(null,G__33165,G__33166));
 })())){
 return (new garden.types.CSSFunction(self__.f,G__33146,self__.__meta,self__.__extmap,null));
 } else {
@@ -412,11 +412,11 @@ return (new garden.types.CSSFunction(f,args,null,null,null));
  * Factory function for garden.types/CSSFunction, taking a map of keywords to field values.
  */
 garden.types.map__GT_CSSFunction = (function garden$types$map__GT_CSSFunction(G__33150){
-var extmap__4478__auto__ = (function (){var G__33167 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__33150,new cljs.core.Keyword(null,"f","f",-1597136552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"args","args",1315556576)], 0));
+var extmap__4478__auto__ = (function (){var G__33168 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__33150,new cljs.core.Keyword(null,"f","f",-1597136552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"args","args",1315556576)], 0));
 if(cljs.core.record_QMARK_(G__33150)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__33167);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__33168);
 } else {
-return G__33167;
+return G__33168;
 }
 })();
 return (new garden.types.CSSFunction(new cljs.core.Keyword(null,"f","f",-1597136552).cljs$core$IFn$_invoke$arity$1(G__33150),new cljs.core.Keyword(null,"args","args",1315556576).cljs$core$IFn$_invoke$arity$1(G__33150),null,cljs.core.not_empty(extmap__4478__auto__),null));
