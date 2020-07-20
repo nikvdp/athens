@@ -915,12 +915,12 @@ return null;
 }));
 goog.object.set(garden.compiler.CSSRenderer,"null",true);
 
-var G__34777_34852 = garden.compiler.render_css;
-var G__34778_34853 = "null";
-var G__34779_34854 = (function (this$){
+var G__34777_34845 = garden.compiler.render_css;
+var G__34778_34846 = "null";
+var G__34779_34847 = (function (this$){
 return "";
 });
-goog.object.set(G__34777_34852,G__34778_34853,G__34779_34854);
+goog.object.set(G__34777_34845,G__34778_34846,G__34779_34847);
 
 (garden.color.CSSColor.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -994,12 +994,12 @@ return cljs.core.map.cljs$core$IFn$_invoke$arity$2(garden.compiler.render_css,th
 
 goog.object.set(garden.compiler.CSSRenderer,"number",true);
 
-var G__34780_34858 = garden.compiler.render_css;
-var G__34781_34859 = "number";
-var G__34782_34860 = (function (this$){
+var G__34780_34855 = garden.compiler.render_css;
+var G__34781_34856 = "number";
+var G__34782_34857 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__34780_34858,G__34781_34859,G__34782_34860);
+goog.object.set(G__34780_34855,G__34781_34856,G__34782_34857);
 
 (garden.types.CSSFunction.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -1031,12 +1031,12 @@ return garden.compiler.render_rule(this$__$1);
 
 goog.object.set(garden.compiler.CSSRenderer,"_",true);
 
-var G__34783_34862 = garden.compiler.render_css;
-var G__34784_34863 = "_";
-var G__34785_34864 = (function (this$){
+var G__34783_34861 = garden.compiler.render_css;
+var G__34784_34862 = "_";
+var G__34785_34863 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__34783_34862,G__34784_34863,G__34785_34864);
+goog.object.set(G__34783_34861,G__34784_34862,G__34785_34863);
 
 (cljs.core.PersistentTreeMap.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 

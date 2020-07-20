@@ -762,12 +762,12 @@ return tick.core._LT__EQ_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._LT__EQ_(x,y))){
 if(cljs.core.next(more)){
-var G__55868 = y;
-var G__55869 = cljs.core.first(more);
-var G__55870 = cljs.core.next(more);
-x = G__55868;
-y = G__55869;
-more = G__55870;
+var G__55867 = y;
+var G__55868 = cljs.core.first(more);
+var G__55869 = cljs.core.next(more);
+x = G__55867;
+y = G__55868;
+more = G__55869;
 continue;
 } else {
 return tick.core._LT__EQ_(y,cljs.core.first(more));
