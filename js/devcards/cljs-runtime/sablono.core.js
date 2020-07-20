@@ -170,12 +170,12 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  * Include the JavaScript library at `src`.
  */
 sablono.core.include_js = (function sablono$core$include_js(src){
-var G__41828 = goog.dom.getDocument().body;
-var G__41829 = (function (){var G__41831 = "script";
-var G__41832 = ({"src": src});
-return goog.dom.createDom(G__41831,G__41832);
+var G__41826 = goog.dom.getDocument().body;
+var G__41827 = (function (){var G__41830 = "script";
+var G__41831 = ({"src": src});
+return goog.dom.createDom(G__41830,G__41831);
 })();
-return goog.dom.appendChild(G__41828,G__41829);
+return goog.dom.appendChild(G__41826,G__41827);
 });
 /**
  * Include Facebook's React JavaScript library.
@@ -186,7 +186,7 @@ return sablono.core.include_js("http://fb.me/react-0.12.2.js");
 /**
  * Wraps some content in a HTML hyperlink with the supplied URL.
  */
-sablono.core.link_to41837 = (function sablono$core$link_to41837(var_args){
+sablono.core.link_to41835 = (function sablono$core$link_to41835(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___41979 = arguments.length;
 var i__4790__auto___41980 = (0);
@@ -203,17 +203,17 @@ break;
 }
 
 var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.IndexedSeq(args__4795__auto__.slice((1)),(0),null)):null);
-return sablono.core.link_to41837.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
+return sablono.core.link_to41835.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(sablono.core.link_to41837.cljs$core$IFn$_invoke$arity$variadic = (function (url,content){
+(sablono.core.link_to41835.cljs$core$IFn$_invoke$arity$variadic = (function (url,content){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),sablono.util.as_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([url], 0))], null),content], null);
 }));
 
-(sablono.core.link_to41837.cljs$lang$maxFixedArity = (1));
+(sablono.core.link_to41835.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sablono.core.link_to41837.cljs$lang$applyTo = (function (seq41838){
+(sablono.core.link_to41835.cljs$lang$applyTo = (function (seq41838){
 var G__41839 = cljs.core.first(seq41838);
 var seq41838__$1 = cljs.core.next(seq41838);
 var self__4776__auto__ = this;
@@ -221,7 +221,7 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41839,seq41838
 }));
 
 
-sablono.core.link_to = sablono.core.wrap_attrs(sablono.core.link_to41837);
+sablono.core.link_to = sablono.core.wrap_attrs(sablono.core.link_to41835);
 /**
  * Wraps some content in a HTML hyperlink with the supplied e-mail
  *   address. If no content provided use the e-mail address as content.
@@ -1270,14 +1270,14 @@ sablono.core.reset_button = sablono.core.wrap_attrs(sablono.core.reset_button419
  */
 sablono.core.form_to41961 = (function sablono$core$form_to41961(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___42020 = arguments.length;
-var i__4790__auto___42021 = (0);
+var len__4789__auto___42030 = arguments.length;
+var i__4790__auto___42031 = (0);
 while(true){
-if((i__4790__auto___42021 < len__4789__auto___42020)){
-args__4795__auto__.push((arguments[i__4790__auto___42021]));
+if((i__4790__auto___42031 < len__4789__auto___42030)){
+args__4795__auto__.push((arguments[i__4790__auto___42031]));
 
-var G__42022 = (i__4790__auto___42021 + (1));
-i__4790__auto___42021 = G__42022;
+var G__42032 = (i__4790__auto___42031 + (1));
+i__4790__auto___42031 = G__42032;
 continue;
 } else {
 }

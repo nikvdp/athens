@@ -688,12 +688,12 @@ return tick.core._LT_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._LT_(x,y))){
 if(cljs.core.next(more)){
-var G__55861 = y;
-var G__55862 = cljs.core.first(more);
-var G__55863 = cljs.core.next(more);
-x = G__55861;
-y = G__55862;
-more = G__55863;
+var G__55860 = y;
+var G__55861 = cljs.core.first(more);
+var G__55862 = cljs.core.next(more);
+x = G__55860;
+y = G__55861;
+more = G__55862;
 continue;
 } else {
 return tick.core._LT_(y,cljs.core.first(more));
