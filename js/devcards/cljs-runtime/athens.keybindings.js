@@ -123,8 +123,8 @@ return and__4174__auto__;
 })())){
 target.blur();
 
-var G__56105_56165 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040),null], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56105_56165) : re_frame.core.dispatch.call(null,G__56105_56165));
+var G__56105_56160 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040),null], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56105_56160) : re_frame.core.dispatch.call(null,G__56105_56160));
 
 var G__56106 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","add-item","selected/add-item",-508591222),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56106) : re_frame.core.dispatch.call(null,G__56106));
@@ -138,8 +138,8 @@ return and__4174__auto__;
 })())){
 target.blur();
 
-var G__56107_56166 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040),null], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56107_56166) : re_frame.core.dispatch.call(null,G__56107_56166));
+var G__56107_56164 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040),null], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56107_56164) : re_frame.core.dispatch.call(null,G__56107_56164));
 
 var G__56108 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","add-item","selected/add-item",-508591222),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56108) : re_frame.core.dispatch.call(null,G__56108));
@@ -365,24 +365,24 @@ var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56131__$1,new cljs.co
 var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56131__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
 var close_pair = cljs.core.get.cljs$core$IFn$_invoke$arity$2(athens.keybindings.PAIR_CHARS,key);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
-var new_str_56185 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
+var new_str_56184 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 setTimeout((function (){
 var G__56133 = target;
 var G__56134 = (start + (1));
 return goog.dom.selection.setCursorPosition(G__56133,G__56134);
 }),(10));
 
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56185);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56184);
 } else {
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
-var surround_selection_56186 = athens.keybindings.surround(selection,key);
-var new_str_56187 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),surround_selection_56186,cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56187);
+var surround_selection_56185 = athens.keybindings.surround(selection,key);
+var new_str_56186 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),surround_selection_56185,cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_56186);
 
 setTimeout((function (){
-var G__56135_56188 = target;
-var G__56136_56189 = (start + (1));
-goog.dom.selection.setStart(G__56135_56188,G__56136_56189);
+var G__56135_56187 = target;
+var G__56136_56188 = (start + (1));
+goog.dom.selection.setStart(G__56135_56187,G__56136_56188);
 
 var G__56137 = target;
 var G__56138 = (end + (1));

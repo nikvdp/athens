@@ -43,8 +43,8 @@ re_frame.core.clear_cofx = cljs.core.partial.cljs$core$IFn$_invoke$arity$2(re_fr
  * chain.
  */
 re_frame.core.reg_event_db = (function re_frame$core$reg_event_db(var_args){
-var G__47186 = arguments.length;
-switch (G__47186) {
+var G__47185 = arguments.length;
+switch (G__47185) {
 case 2:
 return re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
