@@ -188,8 +188,8 @@ while (G__31983__i < G__31983__a.length) {G__31983__a[G__31983__i] = arguments[G
 } 
 return G__31982__delegate.call(this,args);};
 G__31982.cljs$lang$maxFixedArity = 0;
-G__31982.cljs$lang$applyTo = (function (arglist__31986){
-var args = cljs.core.seq(arglist__31986);
+G__31982.cljs$lang$applyTo = (function (arglist__31984){
+var args = cljs.core.seq(arglist__31984);
 return G__31982__delegate(args);
 });
 G__31982.cljs$core$IFn$_invoke$arity$variadic = G__31982__delegate;
@@ -467,10 +467,10 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___32006 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___32006 == null)){
+var temp__5739__auto___32002 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___32002 == null)){
 } else {
-var key_32007 = temp__5739__auto___32006;
+var key_32007 = temp__5739__auto___32002;
 (jsprops.key = key_32007);
 }
 

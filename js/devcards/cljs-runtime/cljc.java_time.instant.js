@@ -12,8 +12,8 @@ cljc.java_time.instant.range = (function cljc$java_time$instant$range(this3983,j
 return this3983.range(java_time_temporal_TemporalField3984);
 });
 cljc.java_time.instant.of_epoch_second = (function cljc$java_time$instant$of_epoch_second(var_args){
-var G__50836 = arguments.length;
-switch (G__50836) {
+var G__50837 = arguments.length;
+switch (G__50837) {
 case 1:
 return cljc.java_time.instant.of_epoch_second.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -180,8 +180,8 @@ return this4035.with(G__4036,G__4037);
 (cljc.java_time.instant.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.instant.now = (function cljc$java_time$instant$now(var_args){
-var G__50845 = arguments.length;
-switch (G__50845) {
+var G__50846 = arguments.length;
+switch (G__50846) {
 case 0:
 return cljc.java_time.instant.now.cljs$core$IFn$_invoke$arity$0();
 

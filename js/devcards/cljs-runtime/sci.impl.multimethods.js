@@ -167,17 +167,17 @@ return cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.
 (sci.impl.multimethods.defmethod.cljs$lang$maxFixedArity = (4));
 
 /** @this {Function} */
-(sci.impl.multimethods.defmethod.cljs$lang$applyTo = (function (seq59359){
-var G__59360 = cljs.core.first(seq59359);
-var seq59359__$1 = cljs.core.next(seq59359);
-var G__59361 = cljs.core.first(seq59359__$1);
-var seq59359__$2 = cljs.core.next(seq59359__$1);
-var G__59362 = cljs.core.first(seq59359__$2);
-var seq59359__$3 = cljs.core.next(seq59359__$2);
-var G__59363 = cljs.core.first(seq59359__$3);
-var seq59359__$4 = cljs.core.next(seq59359__$3);
+(sci.impl.multimethods.defmethod.cljs$lang$applyTo = (function (seq59357){
+var G__59360 = cljs.core.first(seq59357);
+var seq59357__$1 = cljs.core.next(seq59357);
+var G__59361 = cljs.core.first(seq59357__$1);
+var seq59357__$2 = cljs.core.next(seq59357__$1);
+var G__59362 = cljs.core.first(seq59357__$2);
+var seq59357__$3 = cljs.core.next(seq59357__$2);
+var G__59363 = cljs.core.first(seq59357__$3);
+var seq59357__$4 = cljs.core.next(seq59357__$3);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__59360,G__59361,G__59362,G__59363,seq59359__$4);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__59360,G__59361,G__59362,G__59363,seq59357__$4);
 }));
 
 
