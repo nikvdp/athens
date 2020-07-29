@@ -42,8 +42,8 @@ return null;
 }
 });
 stylefy.impl.cache.set_cache_created_time = (function stylefy$impl$cache$set_cache_created_time(var_args){
-var G__43526 = arguments.length;
-switch (G__43526) {
+var G__43529 = arguments.length;
+switch (G__43529) {
 case 1:
 return stylefy.impl.cache.set_cache_created_time.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -69,8 +69,8 @@ return window.localStorage.setItem(stylefy.impl.cache.cache_key_created(instance
 (stylefy.impl.cache.set_cache_created_time.cljs$lang$maxFixedArity = 2);
 
 stylefy.impl.cache.clear_styles = (function stylefy$impl$cache$clear_styles(var_args){
-var G__43528 = arguments.length;
-switch (G__43528) {
+var G__43534 = arguments.length;
+switch (G__43534) {
 case 0:
 return stylefy.impl.cache.clear_styles.cljs$core$IFn$_invoke$arity$0();
 
@@ -96,8 +96,8 @@ return window.localStorage.setItem(stylefy.impl.cache.cache_key_styles(instance_
 (stylefy.impl.cache.clear_styles.cljs$lang$maxFixedArity = 1);
 
 stylefy.impl.cache.use_caching_BANG_ = (function stylefy$impl$cache$use_caching_BANG_(var_args){
-var G__43530 = arguments.length;
-switch (G__43530) {
+var G__43536 = arguments.length;
+switch (G__43536) {
 case 1:
 return stylefy.impl.cache.use_caching_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -146,8 +146,8 @@ return null;
  *   Throws QUOTA_EXCEEDED_ERR if the storage is full.
  */
 stylefy.impl.cache.cache_styles = (function stylefy$impl$cache$cache_styles(var_args){
-var G__43535 = arguments.length;
-switch (G__43535) {
+var G__43541 = arguments.length;
+switch (G__43541) {
 case 1:
 return stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

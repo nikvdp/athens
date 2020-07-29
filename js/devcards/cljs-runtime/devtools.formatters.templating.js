@@ -609,24 +609,24 @@ throw (new Error(["Assert failed: ",["result of markup rendering must be a templ
 devtools.formatters.templating.render_markup_STAR_ = (function devtools$formatters$templating$render_markup_STAR_(initial_value,value){
 while(true){
 if(cljs.core.fn_QMARK_(value)){
-var G__23969 = initial_value;
-var G__23970 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
-initial_value = G__23969;
-value = G__23970;
+var G__23939 = initial_value;
+var G__23940 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
+initial_value = G__23939;
+value = G__23940;
 continue;
 } else {
 if((value instanceof cljs.core.Keyword)){
-var G__23971 = initial_value;
-var G__23972 = devtools.formatters.helpers.pref(value);
-initial_value = G__23971;
-value = G__23972;
+var G__23943 = initial_value;
+var G__23944 = devtools.formatters.helpers.pref(value);
+initial_value = G__23943;
+value = G__23944;
 continue;
 } else {
 if(cljs.core.sequential_QMARK_(value)){
-var G__23973 = initial_value;
-var G__23974 = devtools.formatters.templating.render_json_ml(value);
-initial_value = G__23973;
-value = G__23974;
+var G__23946 = initial_value;
+var G__23947 = devtools.formatters.templating.render_json_ml(value);
+initial_value = G__23946;
+value = G__23947;
 continue;
 } else {
 if(devtools.formatters.templating.template_QMARK_(value)){
