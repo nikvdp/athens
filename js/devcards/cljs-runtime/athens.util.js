@@ -48,8 +48,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__39198 = arguments.length;
-switch (G__39198) {
+var G__39197 = arguments.length;
+switch (G__39197) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 

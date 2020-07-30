@@ -54,13 +54,13 @@ return null;
 (devtools.async._STAR_installed_STAR_ = true);
 
 var G__24197_24199 = Error;
-var target__20857__auto___24200 = G__24197_24199;
-if(cljs.core.truth_(target__20857__auto___24200)){
+var target__20863__auto___24200 = G__24197_24199;
+if(cljs.core.truth_(target__20863__auto___24200)){
 } else {
-throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24197_24199)].join(''),"\n","target__20857__auto__"].join('')));
+throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24197_24199)].join(''),"\n","target__20863__auto__"].join('')));
 }
 
-(target__20857__auto___24200["stackTraceLimit"] = Infinity);
+(target__20863__auto___24200["stackTraceLimit"] = Infinity);
 
 
 devtools.async.install_async_set_immediate_BANG_();
