@@ -915,12 +915,12 @@ return null;
 }));
 goog.object.set(garden.compiler.CSSRenderer,"null",true);
 
-var G__40963_41041 = garden.compiler.render_css;
-var G__40964_41042 = "null";
-var G__40965_41043 = (function (this$){
+var G__40963_41044 = garden.compiler.render_css;
+var G__40964_41045 = "null";
+var G__40965_41046 = (function (this$){
 return "";
 });
-goog.object.set(G__40963_41041,G__40964_41042,G__40965_41043);
+goog.object.set(G__40963_41044,G__40964_41045,G__40965_41046);
 
 (garden.color.CSSColor.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 
