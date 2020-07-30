@@ -40,9 +40,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (instaparse.line_col.Cursor.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k57890,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__57896 = k57890;
-var G__57896__$1 = (((G__57896 instanceof cljs.core.Keyword))?G__57896.fqn:null);
-switch (G__57896__$1) {
+var G__57895 = k57890;
+var G__57895__$1 = (((G__57895 instanceof cljs.core.Keyword))?G__57895.fqn:null);
+switch (G__57895__$1) {
 case "index":
 return self__.index;
 
@@ -150,15 +150,15 @@ return (pred__57913.cljs$core$IFn$_invoke$arity$2 ? pred__57913.cljs$core$IFn$_i
 })())){
 return (new instaparse.line_col.Cursor(G__57889,self__.line,self__.column,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__57918 = new cljs.core.Keyword(null,"line","line",212345235);
-var G__57919 = expr__57914;
-return (pred__57913.cljs$core$IFn$_invoke$arity$2 ? pred__57913.cljs$core$IFn$_invoke$arity$2(G__57918,G__57919) : pred__57913.call(null,G__57918,G__57919));
+if(cljs.core.truth_((function (){var G__57922 = new cljs.core.Keyword(null,"line","line",212345235);
+var G__57923 = expr__57914;
+return (pred__57913.cljs$core$IFn$_invoke$arity$2 ? pred__57913.cljs$core$IFn$_invoke$arity$2(G__57922,G__57923) : pred__57913.call(null,G__57922,G__57923));
 })())){
 return (new instaparse.line_col.Cursor(self__.index,G__57889,self__.column,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__57920 = new cljs.core.Keyword(null,"column","column",2078222095);
-var G__57921 = expr__57914;
-return (pred__57913.cljs$core$IFn$_invoke$arity$2 ? pred__57913.cljs$core$IFn$_invoke$arity$2(G__57920,G__57921) : pred__57913.call(null,G__57920,G__57921));
+if(cljs.core.truth_((function (){var G__57924 = new cljs.core.Keyword(null,"column","column",2078222095);
+var G__57925 = expr__57914;
+return (pred__57913.cljs$core$IFn$_invoke$arity$2 ? pred__57913.cljs$core$IFn$_invoke$arity$2(G__57924,G__57925) : pred__57913.call(null,G__57924,G__57925));
 })())){
 return (new instaparse.line_col.Cursor(self__.index,self__.line,G__57889,self__.__meta,self__.__extmap,null));
 } else {
