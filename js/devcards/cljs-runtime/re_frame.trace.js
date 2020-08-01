@@ -46,13 +46,13 @@ return null;
 re_frame.trace.next_id = (function re_frame$trace$next_id(){
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(re_frame.trace.id,cljs.core.inc);
 });
-re_frame.trace.start_trace = (function re_frame$trace$start_trace(p__51327){
-var map__51328 = p__51327;
-var map__51328__$1 = (((((!((map__51328 == null))))?(((((map__51328.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51328.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51328):map__51328);
-var operation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51328__$1,new cljs.core.Keyword(null,"operation","operation",-1267664310));
-var op_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51328__$1,new cljs.core.Keyword(null,"op-type","op-type",-1636141668));
-var tags = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51328__$1,new cljs.core.Keyword(null,"tags","tags",1771418977));
-var child_of = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51328__$1,new cljs.core.Keyword(null,"child-of","child-of",-903376662));
+re_frame.trace.start_trace = (function re_frame$trace$start_trace(p__51325){
+var map__51326 = p__51325;
+var map__51326__$1 = (((((!((map__51326 == null))))?(((((map__51326.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51326.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51326):map__51326);
+var operation = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51326__$1,new cljs.core.Keyword(null,"operation","operation",-1267664310));
+var op_type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51326__$1,new cljs.core.Keyword(null,"op-type","op-type",-1636141668));
+var tags = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51326__$1,new cljs.core.Keyword(null,"tags","tags",1771418977));
+var child_of = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51326__$1,new cljs.core.Keyword(null,"child-of","child-of",-903376662));
 return new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"id","id",-1388402092),re_frame.trace.next_id(),new cljs.core.Keyword(null,"operation","operation",-1267664310),operation,new cljs.core.Keyword(null,"op-type","op-type",-1636141668),op_type,new cljs.core.Keyword(null,"tags","tags",1771418977),tags,new cljs.core.Keyword(null,"child-of","child-of",-903376662),(function (){var or__4185__auto__ = child_of;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;

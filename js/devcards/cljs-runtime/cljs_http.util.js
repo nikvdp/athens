@@ -11,9 +11,9 @@ goog.require('no.en.core');
  */
 cljs_http.util.basic_auth = (function cljs_http$util$basic_auth(credentials){
 if(cljs.core.truth_(credentials)){
-var vec__45776 = ((cljs.core.map_QMARK_(credentials))?cljs.core.map.cljs$core$IFn$_invoke$arity$2(credentials,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"username","username",1605666410),new cljs.core.Keyword(null,"password","password",417022471)], null)):credentials);
-var username = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45776,(0),null);
-var password = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45776,(1),null);
+var vec__45775 = ((cljs.core.map_QMARK_(credentials))?cljs.core.map.cljs$core$IFn$_invoke$arity$2(credentials,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"username","username",1605666410),new cljs.core.Keyword(null,"password","password",417022471)], null)):credentials);
+var username = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45775,(0),null);
+var password = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45775,(1),null);
 return ["Basic ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(no.en.core.base64_encode([cljs.core.str.cljs$core$IFn$_invoke$arity$1(username),":",cljs.core.str.cljs$core$IFn$_invoke$arity$1(password)].join('')))].join('');
 } else {
 return null;
