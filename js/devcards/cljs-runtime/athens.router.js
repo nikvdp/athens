@@ -8,27 +8,27 @@ goog.require('reitit.coercion.spec');
 goog.require('reitit.frontend');
 goog.require('reitit.frontend.controllers');
 goog.require('reitit.frontend.easy');
-var G__55866_55893 = new cljs.core.Keyword(null,"current-route","current-route",2067529448);
-var G__55867_55894 = (function (db){
+var G__55868_55893 = new cljs.core.Keyword(null,"current-route","current-route",2067529448);
+var G__55869_55894 = (function (db){
 return new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db);
 });
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55866_55893,G__55867_55894) : re_frame.core.reg_sub.call(null,G__55866_55893,G__55867_55894));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__55869){
-var vec__55870 = p__55869;
-var seq__55871 = cljs.core.seq(vec__55870);
-var first__55872 = cljs.core.first(seq__55871);
-var seq__55871__$1 = cljs.core.next(seq__55871);
-var ___$1 = first__55872;
-var route = seq__55871__$1;
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55868_55893,G__55869_55894) : re_frame.core.reg_sub.call(null,G__55868_55893,G__55869_55894));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigate","navigate",657596805),(function (_,p__55870){
+var vec__55871 = p__55870;
+var seq__55872 = cljs.core.seq(vec__55871);
+var first__55873 = cljs.core.first(seq__55872);
+var seq__55872__$1 = cljs.core.next(seq__55872);
+var ___$1 = first__55873;
+var route = seq__55872__$1;
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"navigate!","navigate!",79998348),route], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__55873,p__55874){
-var map__55875 = p__55873;
-var map__55875__$1 = (((((!((map__55875 == null))))?(((((map__55875.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55875.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55875):map__55875);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55875__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__55876 = p__55874;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55876,(0),null);
-var new_match = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55876,(1),null);
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"navigated","navigated",540897836),(function (p__55874,p__55875){
+var map__55876 = p__55874;
+var map__55876__$1 = (((((!((map__55876 == null))))?(((((map__55876.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55876.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55876):map__55876);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55876__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var vec__55877 = p__55875;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55877,(0),null);
+var new_match = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55877,(1),null);
 var old_match = new cljs.core.Keyword(null,"current-route","current-route",2067529448).cljs$core$IFn$_invoke$arity$1(db);
 var controllers = reitit.frontend.controllers.apply_controllers(new cljs.core.Keyword(null,"controllers","controllers",-1120410624).cljs$core$IFn$_invoke$arity$1(old_match),new_match);
 var node = (function (){var G__55881 = athens.db.dsdb;

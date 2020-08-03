@@ -242,17 +242,17 @@ return or__4185__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 })();
-var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__54024){
-var vec__54025 = p__54024;
-var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54025,(0),null);
-var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54025,(1),null);
+var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__54025){
+var vec__54026 = p__54025;
+var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54026,(0),null);
+var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54026,(1),null);
 return (spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2 ? spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2(in$,spec) : spec_tools.swagger.core.extract_parameter.call(null,in$,spec));
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([v], 0));
-var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__54028,p){
-var vec__54029 = p__54028;
-var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54029,(0),null);
-var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54029,(1),null);
-var acc__$1 = vec__54029;
+var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__54029,p){
+var vec__54030 = p__54029;
+var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54030,(0),null);
+var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54030,(1),null);
+var acc__$1 = vec__54030;
 var c = cljs.core.select_keys(p,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"in","in",-1531184865),new cljs.core.Keyword(null,"name","name",1843675177)], null));
 if(cljs.core.not((cache.cljs$core$IFn$_invoke$arity$1 ? cache.cljs$core$IFn$_invoke$arity$1(c) : cache.call(null,c)))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ps,p),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cache,c)], null);

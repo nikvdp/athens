@@ -117,7 +117,7 @@ return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dis
 
 return athens.views.blocks.walk_parse_tree_for_links(oldvalue,(function (inner_title){
 var block = athens.db.search_exact_node_title(inner_title);
-return (((!((block == null)))) && ((new cljs.core.Keyword("block","children","block/children",-1040716209).cljs$core$IFn$_invoke$arity$1(athens.db.get_block_document(new cljs.core.Keyword("db","id","db/id",-1388397098).cljs$core$IFn$_invoke$arity$1(block))) == null)) && ((athens.db.count_linked_references_excl_uid(inner_title,uid) === (0))));
+return (((!((block == null)))) && ((new cljs.core.Keyword("block","children","block/children",-1040716209).cljs$core$IFn$_invoke$arity$1(athens.db.get_block_document(new cljs.core.Keyword("db","id","db/id",-1388397098).cljs$core$IFn$_invoke$arity$1(block))) == null)) && ((athens.db.count_linked_references_excl_uid(inner_title,uid) === (0))) && ((!(clojure.string.includes_QMARK_(value,inner_title)))));
 }),(function (inner_title,_,___$1){
 var uid__$1 = new cljs.core.Keyword("block","uid","block/uid",-1623585167).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(athens.parse_renderer.pull_node_from_string(inner_title)));
 if((!((uid__$1 == null)))){
@@ -214,8 +214,8 @@ return string;
 }
 })()], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),["inline-search-item",cljs.core.str.cljs$core$IFn$_invoke$arity$1(uid)].join('')], null)));
 
-var G__58540 = (i__58447 + (1));
-i__58447 = G__58540;
+var G__58541 = (i__58447 + (1));
+i__58447 = G__58541;
 continue;
 } else {
 return true;

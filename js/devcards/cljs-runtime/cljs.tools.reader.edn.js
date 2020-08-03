@@ -75,10 +75,10 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 if(cljs.tools.reader.edn.not_constituent_QMARK_(ch)){
 return cljs.tools.reader.impl.errors.throw_bad_char(rdr,kind,ch);
 } else {
-var G__26750 = (function (){var G__26687 = sb;
-G__26687.append(cljs.tools.reader.reader_types.read_char(rdr));
+var G__26750 = (function (){var G__26688 = sb;
+G__26688.append(cljs.tools.reader.reader_types.read_char(rdr));
 
-return G__26687;
+return G__26688;
 })();
 var G__26751 = cljs.tools.reader.reader_types.peek_char(rdr);
 sb = G__26750;
@@ -401,14 +401,14 @@ return or__4185__auto__;
 return cljs.tools.reader.impl.errors.throw_invalid_number(rdr,s);
 }
 } else {
-var G__26764 = (function (){var G__26716 = sb;
+var G__26763 = (function (){var G__26716 = sb;
 G__26716.append(ch);
 
 return G__26716;
 })();
-var G__26766 = cljs.tools.reader.reader_types.read_char(rdr);
-sb = G__26764;
-ch = G__26766;
+var G__26764 = cljs.tools.reader.reader_types.read_char(rdr);
+sb = G__26763;
+ch = G__26764;
 continue;
 }
 break;
@@ -612,12 +612,12 @@ return G__26730;
 });
 cljs.tools.reader.edn.read_namespaced_map = (function cljs$tools$reader$edn$read_namespaced_map(rdr,_,opts){
 var token = cljs.tools.reader.edn.read_token.cljs$core$IFn$_invoke$arity$3(rdr,new cljs.core.Keyword(null,"namespaced-map","namespaced-map",1235665380),cljs.tools.reader.reader_types.read_char(rdr));
-var temp__5733__auto__ = (function (){var G__26731 = token;
-var G__26731__$1 = (((G__26731 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__26731));
-if((G__26731__$1 == null)){
+var temp__5733__auto__ = (function (){var G__26733 = token;
+var G__26733__$1 = (((G__26733 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__26733));
+if((G__26733__$1 == null)){
 return null;
 } else {
-return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__26731__$1);
+return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__26733__$1);
 }
 })();
 if(cljs.core.truth_(temp__5733__auto__)){
@@ -802,8 +802,8 @@ return cljs.tools.reader.impl.errors.throw_unknown_reader_tag(rdr,tag);
  *            be called with the tag and the value.
  */
 cljs.tools.reader.edn.read = (function cljs$tools$reader$edn$read(var_args){
-var G__26740 = arguments.length;
-switch (G__26740) {
+var G__26742 = arguments.length;
+switch (G__26742) {
 case 1:
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

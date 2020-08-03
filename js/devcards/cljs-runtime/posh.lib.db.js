@@ -106,8 +106,8 @@ var db__$1 = (function (){var or__4185__auto__ = db;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var fexpr__25773 = new cljs.core.Keyword(null,"db","db",993250759).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__25773.cljs$core$IFn$_invoke$arity$1 ? fexpr__25773.cljs$core$IFn$_invoke$arity$1(conn) : fexpr__25773.call(null,conn));
+var fexpr__25772 = new cljs.core.Keyword(null,"db","db",993250759).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__25772.cljs$core$IFn$_invoke$arity$1 ? fexpr__25772.cljs$core$IFn$_invoke$arity$1(conn) : fexpr__25772.call(null,conn));
 }
 })();
 var db__$2 = (cljs.core.truth_(since)?(function (){var fexpr__25774 = new cljs.core.Keyword(null,"since","since",315379842).cljs$core$IFn$_invoke$arity$1(dcfg);
