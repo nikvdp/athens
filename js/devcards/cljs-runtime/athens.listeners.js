@@ -21,20 +21,20 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.co
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.BACKSPACE)){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","delete","selected/delete",-812991161),selected_items], null));
 } else {
-if(cljs.core.truth_((function (){var and__4174__auto__ = shift;
-if(cljs.core.truth_(and__4174__auto__)){
+if(cljs.core.truth_((function (){var and__4115__auto__ = shift;
+if(cljs.core.truth_(and__4115__auto__)){
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(direction,new cljs.core.Keyword(null,"up","up",-269712113));
 } else {
-return and__4174__auto__;
+return and__4115__auto__;
 }
 })())){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","up","selected/up",921350754),selected_items], null));
 } else {
-if(cljs.core.truth_((function (){var and__4174__auto__ = shift;
-if(cljs.core.truth_(and__4174__auto__)){
+if(cljs.core.truth_((function (){var and__4115__auto__ = shift;
+if(cljs.core.truth_(and__4115__auto__)){
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(direction,new cljs.core.Keyword(null,"down","down",1565245570));
 } else {
-return and__4174__auto__;
+return and__4115__auto__;
 }
 })())){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","down","selected/down",-1806586329),selected_items], null));
@@ -97,13 +97,13 @@ var editing_uid = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$
 var closest_block = e.target.closest(".block-content");
 var closest_block_header = e.target.closest(".block-header");
 var closest_page_header = e.target.closest(".page-header");
-var closest = (function (){var or__4185__auto__ = closest_block;
-if(cljs.core.truth_(or__4185__auto__)){
-return or__4185__auto__;
+var closest = (function (){var or__4126__auto__ = closest_block;
+if(cljs.core.truth_(or__4126__auto__)){
+return or__4126__auto__;
 } else {
-var or__4185__auto____$1 = closest_block_header;
-if(cljs.core.truth_(or__4185__auto____$1)){
-return or__4185__auto____$1;
+var or__4126__auto____$1 = closest_block_header;
+if(cljs.core.truth_(or__4126__auto____$1)){
+return or__4126__auto____$1;
 } else {
 return closest_page_header;
 }
@@ -123,11 +123,11 @@ return null;
 athens.listeners.mouse_down_outside_athena = (function athens$listeners$mouse_down_outside_athena(e){
 var athena_QMARK_ = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","open","athena/open",1253777725)], null)));
 var closest = e.target.closest(".athena");
-if(cljs.core.truth_((function (){var and__4174__auto__ = athena_QMARK_;
-if(cljs.core.truth_(and__4174__auto__)){
+if(cljs.core.truth_((function (){var and__4115__auto__ = athena_QMARK_;
+if(cljs.core.truth_(and__4115__auto__)){
 return (closest == null);
 } else {
-return and__4174__auto__;
+return and__4115__auto__;
 }
 })())){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","toggle","athena/toggle",2028366801)], null));
@@ -140,11 +140,11 @@ var key = e.keyCode;
 var ctrl = e.ctrlKey;
 var meta = e.metaKey;
 var shift = e.shiftKey;
-if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.Z))?(function (){var and__4174__auto__ = meta;
-if(cljs.core.truth_(and__4174__auto__)){
+if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.Z))?(function (){var and__4115__auto__ = meta;
+if(cljs.core.truth_(and__4115__auto__)){
 return shift;
 } else {
-return and__4174__auto__;
+return and__4115__auto__;
 }
 })():false))){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"redo","redo",501190664)], null));

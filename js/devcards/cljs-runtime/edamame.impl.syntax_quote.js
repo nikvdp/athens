@@ -18,10 +18,10 @@ if(s__$1){
 var item = cljs.core.first(s__$1);
 var ret = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(r,((edamame.impl.syntax_quote.unquote_QMARK_(item))?(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,cljs.core.second(item),null,(1),null)),(2),null)):((edamame.impl.syntax_quote.unquote_splicing_QMARK_(item))?cljs.core.second(item):(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,(edamame.impl.syntax_quote.syntax_quote.cljs$core$IFn$_invoke$arity$3 ? edamame.impl.syntax_quote.syntax_quote.cljs$core$IFn$_invoke$arity$3(ctx,reader,item) : edamame.impl.syntax_quote.syntax_quote.call(null,ctx,reader,item)),null,(1),null)),(2),null))
 )));
-var G__59306 = cljs.core.next(s__$1);
-var G__59307 = ret;
-s__$1 = G__59306;
-r = G__59307;
+var G__58048 = cljs.core.next(s__$1);
+var G__58049 = ret;
+s__$1 = G__58048;
+r = G__58049;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(r));
@@ -56,10 +56,10 @@ var key_vals = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 while(true){
 if(s){
 var e = cljs.core.first(s);
-var G__59308 = cljs.core.next(s);
-var G__59309 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
-s = G__59308;
-key_vals = G__59309;
+var G__58050 = cljs.core.next(s);
+var G__58051 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
+s = G__58050;
+key_vals = G__58051;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(key_vals));
@@ -67,11 +67,11 @@ return cljs.core.seq(cljs.core.persistent_BANG_(key_vals));
 break;
 }
 });
-edamame.impl.syntax_quote.syntax_quote_STAR_ = (function edamame$impl$syntax_quote$syntax_quote_STAR_(p__59299,reader,form){
-var map__59300 = p__59299;
-var map__59300__$1 = (((((!((map__59300 == null))))?(((((map__59300.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59300.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59300):map__59300);
-var ctx = map__59300__$1;
-var gensyms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59300__$1,new cljs.core.Keyword(null,"gensyms","gensyms",248713782));
+edamame.impl.syntax_quote.syntax_quote_STAR_ = (function edamame$impl$syntax_quote$syntax_quote_STAR_(p__58041,reader,form){
+var map__58042 = p__58041;
+var map__58042__$1 = (((((!((map__58042 == null))))?(((((map__58042.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58042.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58042):map__58042);
+var ctx = map__58042__$1;
+var gensyms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58042__$1,new cljs.core.Keyword(null,"gensyms","gensyms",248713782));
 if(cljs.core.special_symbol_QMARK_(form)){
 return (new cljs.core.List(null,new cljs.core.Symbol(null,"quote","quote",1377916282,null),(new cljs.core.List(null,form,null,(1),null)),(2),null));
 } else {
@@ -95,14 +95,14 @@ return generated__$1;
 }
 } else {
 var f = new cljs.core.Keyword(null,"resolve-symbol","resolve-symbol",-319166964).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847).cljs$core$IFn$_invoke$arity$1(ctx));
-var fexpr__59302 = (function (){var or__4185__auto__ = f;
-if(cljs.core.truth_(or__4185__auto__)){
-return or__4185__auto__;
+var fexpr__58044 = (function (){var or__4126__auto__ = f;
+if(cljs.core.truth_(or__4126__auto__)){
+return or__4126__auto__;
 } else {
 return cljs.core.identity;
 }
 })();
-return (fexpr__59302.cljs$core$IFn$_invoke$arity$1 ? fexpr__59302.cljs$core$IFn$_invoke$arity$1(form) : fexpr__59302.call(null,form));
+return (fexpr__58044.cljs$core$IFn$_invoke$arity$1 ? fexpr__58044.cljs$core$IFn$_invoke$arity$1(form) : fexpr__58044.call(null,form));
 
 }
 }
