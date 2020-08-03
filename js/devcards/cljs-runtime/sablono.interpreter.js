@@ -62,8 +62,8 @@ return React.Component.call(this$,props);
 
 goog.inherits(ctor,React.Component);
 
-var x45215_45240 = ctor.prototype;
-(x45215_45240.onChange = (function (event){
+var x45227_45243 = ctor.prototype;
+(x45227_45243.onChange = (function (event){
 var this$ = this;
 var temp__5735__auto__ = this$.props.onChange;
 if(cljs.core.truth_(temp__5735__auto__)){
@@ -76,7 +76,7 @@ return null;
 }
 }));
 
-(x45215_45240.componentWillReceiveProps = (function (new_props){
+(x45227_45243.componentWillReceiveProps = (function (new_props){
 var this$ = this;
 var state_value = goog.object.getValueByKeys(this$,"state",property);
 var element_value = goog.object.get(ReactDOM.findDOMNode(this$),property);
@@ -87,7 +87,7 @@ return sablono.interpreter.update_state(this$,new_props,property,goog.object.get
 }
 }));
 
-(x45215_45240.render = (function (){
+(x45227_45243.render = (function (){
 var this$ = this;
 return React.createElement(element,this$.state);
 }));
@@ -114,8 +114,8 @@ return (sablono.interpreter.wrapped_textarea = sablono.interpreter.wrap_form_ele
  */
 sablono.interpreter.controlled_input_QMARK_ = (function sablono$interpreter$controlled_input_QMARK_(type,props){
 if(cljs.core.object_QMARK_(props)){
-var G__45225 = type;
-switch (G__45225) {
+var G__45229 = type;
+switch (G__45229) {
 case "input":
 return (((!((props.checked == null)))) || ((!((props.value == null)))));
 
@@ -144,11 +144,11 @@ sablono.interpreter.element_class = (function sablono$interpreter$element_class(
 if(sablono.interpreter.controlled_input_QMARK_(type,props)){
 sablono.interpreter.lazy_load_wrappers();
 
-var G__45227 = type;
-switch (G__45227) {
+var G__45230 = type;
+switch (G__45230) {
 case "input":
-var G__45228 = ((cljs.core.object_QMARK_(props))?props.type:false);
-switch (G__45228) {
+var G__45231 = ((cljs.core.object_QMARK_(props))?props.type:false);
+switch (G__45231) {
 case "radio":
 return sablono.interpreter.wrapped_checked;
 
@@ -185,14 +185,14 @@ return type;
  */
 sablono.interpreter.create_element = (function sablono$interpreter$create_element(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___45244 = arguments.length;
-var i__4737__auto___45245 = (0);
+var len__4736__auto___45250 = arguments.length;
+var i__4737__auto___45251 = (0);
 while(true){
-if((i__4737__auto___45245 < len__4736__auto___45244)){
-args__4742__auto__.push((arguments[i__4737__auto___45245]));
+if((i__4737__auto___45251 < len__4736__auto___45250)){
+args__4742__auto__.push((arguments[i__4737__auto___45251]));
 
-var G__45246 = (i__4737__auto___45245 + (1));
-i__4737__auto___45245 = G__45246;
+var G__45252 = (i__4737__auto___45251 + (1));
+i__4737__auto___45251 = G__45252;
 continue;
 } else {
 }
