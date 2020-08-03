@@ -5,6 +5,7 @@ goog.require('athens.db');
 goog.require('athens.util');
 goog.require('cljsjs.react');
 goog.require('cljsjs.react.dom');
+goog.require('goog.dom');
 goog.require('goog.dom.selection');
 goog.require('goog.events.KeyCodes');
 goog.require('re_frame.core');
@@ -150,7 +151,7 @@ e.preventDefault();
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword("search","index","search/index",1990835117),cljs.core.partial.cljs$core$IFn$_invoke$arity$3(athens.keybindings.dec_cycle,(0),athens.keybindings.max_idx(athens.keybindings.slash_options)));
 
 var cur_index = new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state));
-var container_el = document.getElementById("slash-menu-container");
+var container_el = goog.dom.getElement("slash-menu-container");
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(container_el.children),cur_index);
 if(athens.util.is_beyond_rect_QMARK_(next_el,container_el.parentNode)){
 return next_el.scrollIntoView(false,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
@@ -164,7 +165,7 @@ e.preventDefault();
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword("search","index","search/index",1990835117),cljs.core.partial.cljs$core$IFn$_invoke$arity$3(athens.keybindings.inc_cycle,(0),athens.keybindings.max_idx(athens.keybindings.slash_options)));
 
 var cur_index = new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state));
-var container_el = document.getElementById("slash-menu-container");
+var container_el = goog.dom.getElement("slash-menu-container");
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(container_el.children),cur_index);
 if(athens.util.is_beyond_rect_QMARK_(next_el,container_el)){
 return next_el.scrollIntoView(false,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
@@ -182,14 +183,14 @@ e.preventDefault();
 
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword("search","index","search/index",1990835117),cljs.core.partial.cljs$core$IFn$_invoke$arity$3(athens.keybindings.dec_cycle,(0),athens.keybindings.max_idx(results)));
 
-return athens.util.scroll_if_needed(document.getElementById(["result-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state)))].join('')),document.getElementById("dropdown-menu"));
+return athens.util.scroll_if_needed(goog.dom.getElement(["result-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state)))].join('')),goog.dom.getElement("dropdown-menu"));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.DOWN)){
 e.preventDefault();
 
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword("search","index","search/index",1990835117),cljs.core.partial.cljs$core$IFn$_invoke$arity$3(athens.keybindings.inc_cycle,(0),athens.keybindings.max_idx(results)));
 
-return athens.util.scroll_if_needed(document.getElementById(["result-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state)))].join('')),document.getElementById("dropdown-menu"));
+return athens.util.scroll_if_needed(goog.dom.getElement(["result-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state)))].join('')),goog.dom.getElement("dropdown-menu"));
 } else {
 return null;
 }

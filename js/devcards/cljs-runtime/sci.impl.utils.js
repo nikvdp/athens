@@ -175,13 +175,13 @@ return obj;
 (sci.impl.utils.vary_meta_STAR_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq57511){
-var G__57512 = cljs.core.first(seq57511);
-var seq57511__$1 = cljs.core.next(seq57511);
-var G__57513 = cljs.core.first(seq57511__$1);
-var seq57511__$2 = cljs.core.next(seq57511__$1);
+(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq57512){
+var G__57513 = cljs.core.first(seq57512);
+var seq57512__$1 = cljs.core.next(seq57512);
+var G__57514 = cljs.core.first(seq57512__$1);
+var seq57512__$2 = cljs.core.next(seq57512__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__57512,G__57513,seq57511__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__57513,G__57514,seq57512__$2);
 }));
 
 /**
@@ -215,8 +215,8 @@ return obj;
 }
 });
 sci.impl.utils.strip_core_ns = (function sci$impl$utils$strip_core_ns(sym){
-var G__57528 = cljs.core.namespace(sym);
-switch (G__57528) {
+var G__57529 = cljs.core.namespace(sym);
+switch (G__57529) {
 case "clojure.core":
 case "cljs.core":
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(cljs.core.name(sym));
@@ -237,10 +237,10 @@ if(cljs.core.list_QMARK_(form)){
 return cljs.core.with_meta(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.list,cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form)),cljs.core.meta(form));
 } else {
 if(cljs.core.map_entry_QMARK_(form)){
-return (new cljs.core.MapEntry((function (){var G__57530 = cljs.core.key(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__57530) : inner.call(null,G__57530));
-})(),(function (){var G__57532 = cljs.core.val(form);
+return (new cljs.core.MapEntry((function (){var G__57532 = cljs.core.key(form);
 return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__57532) : inner.call(null,G__57532));
+})(),(function (){var G__57533 = cljs.core.val(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__57533) : inner.call(null,G__57533));
 })(),null));
 } else {
 if(cljs.core.seq_QMARK_(form)){

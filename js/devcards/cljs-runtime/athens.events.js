@@ -6,6 +6,7 @@ goog.require('datascript.core');
 goog.require('datascript.transit');
 goog.require('day8.re_frame.async_flow_fx');
 goog.require('day8.re_frame.tracing');
+goog.require('goog.dom');
 goog.require('re_frame.core');
 re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"init-rfdb","init-rfdb",-460710127),((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (_,___$1){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
@@ -517,7 +518,7 @@ return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 1, 5, cljs.cor
 })));
 athens.events.focus_el = (function athens$events$focus_el(id){
 return (function (){
-var temp__5733__auto__ = document.getElementById(id);
+var temp__5733__auto__ = goog.dom.getElement(id);
 if(cljs.core.truth_(temp__5733__auto__)){
 var el = temp__5733__auto__;
 return el.focus();

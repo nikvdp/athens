@@ -94,16 +94,16 @@ new_patterns = G__23968;
 leftover_patterns = G__23969;
 continue;
 } else {
-var G__23973 = entids;
-var G__23974 = rest_datom;
-var G__23975 = cljs.core.rest(patterns);
-var G__23976 = new_patterns;
-var G__23977 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
-entids = G__23973;
-rest_datom = G__23974;
-patterns = G__23975;
-new_patterns = G__23976;
-leftover_patterns = G__23977;
+var G__23970 = entids;
+var G__23971 = rest_datom;
+var G__23972 = cljs.core.rest(patterns);
+var G__23973 = new_patterns;
+var G__23974 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
+entids = G__23970;
+rest_datom = G__23971;
+patterns = G__23972;
+new_patterns = G__23973;
+leftover_patterns = G__23974;
 continue;
 }
 }

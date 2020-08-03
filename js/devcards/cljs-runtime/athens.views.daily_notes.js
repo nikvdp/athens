@@ -6,6 +6,7 @@ goog.require('athens.util');
 goog.require('athens.views.node_page');
 goog.require('cljsjs.react');
 goog.require('cljsjs.react.dom');
+goog.require('goog.dom');
 goog.require('goog.functions');
 goog.require('posh.reagent');
 goog.require('re_frame.core');
@@ -15,7 +16,7 @@ athens.views.daily_notes.daily_notes_page_style = new cljs.core.PersistentArrayM
 athens.views.daily_notes.daily_notes_notional_page_style = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.daily_notes.daily_notes_page_style,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"box-shadow","box-shadow",1600206755),new cljs.core.Keyword(null,"4","4",-1197948085).cljs$core$IFn$_invoke$arity$1(athens.style.DEPTH_SHADOWS),new cljs.core.Keyword(null,"opacity","opacity",397153780),"0.5"], null)], 0));
 athens.views.daily_notes.scroll_daily_notes = (function athens$views$daily_notes$scroll_daily_notes(_){
 var daily_notes = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("daily-notes","items","daily-notes/items",227138573)], null)));
-var from_bottom = document.getElementById("daily-notes").getBoundingClientRect().bottom;
+var from_bottom = goog.dom.getElement("daily-notes").getBoundingClientRect().bottom;
 var doc_height = document.documentElement.scrollHeight;
 var delta = (from_bottom - doc_height);
 if((delta < (1))){
