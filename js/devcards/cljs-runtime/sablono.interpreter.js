@@ -53,9 +53,9 @@ var this$ = this;
 (this$.state = (function (){var state = ({});
 var G__46136_46170 = state;
 var G__46137_46171 = props;
-var G__46138_46172 = ({"onChange": (function (){var G__46141 = goog.object.get(this$,"onChange");
-var G__46142 = this$;
-return goog.bind(G__46141,G__46142);
+var G__46138_46172 = ({"onChange": (function (){var G__46139 = goog.object.get(this$,"onChange");
+var G__46140 = this$;
+return goog.bind(G__46139,G__46140);
 })()});
 goog.object.extend(G__46136_46170,G__46137_46171,G__46138_46172);
 
@@ -85,9 +85,9 @@ return null;
 (x46144_46173.componentWillReceiveProps = (function (new_props){
 var this$ = this;
 var state_value = goog.object.getValueByKeys(this$,"state",property);
-var element_value = (function (){var G__46148 = ReactDOM.findDOMNode(this$);
-var G__46149 = property;
-return goog.object.get(G__46148,G__46149);
+var element_value = (function (){var G__46147 = ReactDOM.findDOMNode(this$);
+var G__46148 = property;
+return goog.object.get(G__46147,G__46148);
 })();
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(state_value),cljs.core.str.cljs$core$IFn$_invoke$arity$1(element_value))){
 return sablono.interpreter.update_state(this$,new_props,property,element_value);

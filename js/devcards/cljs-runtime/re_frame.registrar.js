@@ -2,11 +2,12 @@ goog.provide('re_frame.registrar');
 goog.require('cljs.core');
 goog.require('re_frame.interop');
 goog.require('re_frame.loggers');
+goog.require('re_frame.settings');
 re_frame.registrar.kinds = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"sub","sub",-2093760025),null,new cljs.core.Keyword(null,"event","event",301435442),null,new cljs.core.Keyword(null,"cofx","cofx",2013202907),null,new cljs.core.Keyword(null,"fx","fx",-1237829572),null], null), null);
 re_frame.registrar.kind__GT_id__GT_handler = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 re_frame.registrar.get_handler = (function re_frame$registrar$get_handler(var_args){
-var G__52004 = arguments.length;
-switch (G__52004) {
+var G__52018 = arguments.length;
+switch (G__52018) {
 case 1:
 return re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -56,7 +57,7 @@ return handler;
 
 re_frame.registrar.register_handler = (function re_frame$registrar$register_handler(kind,id,handler_fn){
 if(re_frame.interop.debug_enabled_QMARK_){
-if(cljs.core.truth_(re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(kind,id,false))){
+if(cljs.core.truth_(((cljs.core.not(re_frame.settings.loaded_QMARK_()))?re_frame.registrar.get_handler.cljs$core$IFn$_invoke$arity$3(kind,id,false):false))){
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: overwriting",cljs.core.str.cljs$core$IFn$_invoke$arity$1(kind),"handler for:",id], 0));
 } else {
 }
@@ -68,8 +69,8 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(re_frame.registrar.kind__GT_i
 return handler_fn;
 });
 re_frame.registrar.clear_handlers = (function re_frame$registrar$clear_handlers(var_args){
-var G__52007 = arguments.length;
-switch (G__52007) {
+var G__52020 = arguments.length;
+switch (G__52020) {
 case 0:
 return re_frame.registrar.clear_handlers.cljs$core$IFn$_invoke$arity$0();
 
