@@ -436,9 +436,9 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(reagent.ratom._running,cljs.c
 } else {
 }
 
-var __31280 = o.reagReactionCache;
-var __31281__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__31280,k);
-(o.reagReactionCache = __31281__$1);
+var __31279 = o.reagReactionCache;
+var __31280__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__31279,k);
+(o.reagReactionCache = __31280__$1);
 
 if((!((obj == null)))){
 (obj.reaction = null);
@@ -558,14 +558,14 @@ return r;
 });
 reagent.ratom.track = (function reagent$ratom$track(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31286 = arguments.length;
-var i__4737__auto___31287 = (0);
+var len__4736__auto___31284 = arguments.length;
+var i__4737__auto___31285 = (0);
 while(true){
-if((i__4737__auto___31287 < len__4736__auto___31286)){
-args__4742__auto__.push((arguments[i__4737__auto___31287]));
+if((i__4737__auto___31285 < len__4736__auto___31284)){
+args__4742__auto__.push((arguments[i__4737__auto___31285]));
 
-var G__31288 = (i__4737__auto___31287 + (1));
-i__4737__auto___31287 = G__31288;
+var G__31286 = (i__4737__auto___31285 + (1));
+i__4737__auto___31285 = G__31286;
 continue;
 } else {
 }
@@ -1027,18 +1027,18 @@ count__31236_31301 = G__31313;
 i__31237_31302 = G__31314;
 continue;
 } else {
-var w_31316 = cljs.core.first(seq__31234_31309__$1);
-cljs.core._add_watch(w_31316,this$,reagent.ratom.handle_reaction_change);
+var w_31315 = cljs.core.first(seq__31234_31309__$1);
+cljs.core._add_watch(w_31315,this$,reagent.ratom.handle_reaction_change);
 
 
-var G__31317 = cljs.core.next(seq__31234_31309__$1);
-var G__31318 = null;
+var G__31316 = cljs.core.next(seq__31234_31309__$1);
+var G__31317 = null;
+var G__31318 = (0);
 var G__31319 = (0);
-var G__31320 = (0);
-seq__31234_31299 = G__31317;
-chunk__31235_31300 = G__31318;
-count__31236_31301 = G__31319;
-i__31237_31302 = G__31320;
+seq__31234_31299 = G__31316;
+chunk__31235_31300 = G__31317;
+count__31236_31301 = G__31318;
+i__31237_31302 = G__31319;
 continue;
 }
 } else {

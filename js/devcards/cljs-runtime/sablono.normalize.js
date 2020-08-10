@@ -97,14 +97,14 @@ return G__45145;
  */
 sablono.normalize.merge_with_class = (function sablono$normalize$merge_with_class(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___45173 = arguments.length;
-var i__4737__auto___45174 = (0);
+var len__4736__auto___45176 = arguments.length;
+var i__4737__auto___45177 = (0);
 while(true){
-if((i__4737__auto___45174 < len__4736__auto___45173)){
-args__4742__auto__.push((arguments[i__4737__auto___45174]));
+if((i__4737__auto___45177 < len__4736__auto___45176)){
+args__4742__auto__.push((arguments[i__4737__auto___45177]));
 
-var G__45178 = (i__4737__auto___45174 + (1));
-i__4737__auto___45174 = G__45178;
+var G__45182 = (i__4737__auto___45177 + (1));
+i__4737__auto___45177 = G__45182;
 continue;
 } else {
 }
@@ -161,14 +161,14 @@ return (fexpr__45159.cljs$core$IFn$_invoke$arity$1 ? fexpr__45159.cljs$core$IFn$
 ));
 var tag_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45156,(0),null);
 var names = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45156,(1),null);
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [tag_name,sablono.normalize.strip_css(cljs.core.some((function (p1__45153_SHARP_){
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("#",cljs.core.first(p1__45153_SHARP_))){
-return p1__45153_SHARP_;
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [tag_name,sablono.normalize.strip_css(cljs.core.some((function (p1__45154_SHARP_){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("#",cljs.core.first(p1__45154_SHARP_))){
+return p1__45154_SHARP_;
 } else {
 return null;
 }
-}),names)),cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentVector.EMPTY,cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.filter.cljs$core$IFn$_invoke$arity$1((function (p1__45154_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(".",cljs.core.first(p1__45154_SHARP_));
+}),names)),cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentVector.EMPTY,cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.filter.cljs$core$IFn$_invoke$arity$1((function (p1__45155_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(".",cljs.core.first(p1__45155_SHARP_));
 })),cljs.core.map.cljs$core$IFn$_invoke$arity$1(sablono.normalize.strip_css)),names)], null);
 });
 /**

@@ -97,10 +97,10 @@ devcards.core.register_card(new cljs.core.PersistentArrayMap(null, 2, [new cljs.
 return devcards.core.card_base(new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"name","name",1843675177),"box-state*",new cljs.core.Keyword(null,"documentation","documentation",1889593999),null,new cljs.core.Keyword(null,"main-obj","main-obj",-1544409742),athens.devcards.sci_boxes.box_state_STAR_,new cljs.core.Keyword(null,"initial-data","initial-data",-1315709804),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"options","options",99638489),cljs.core.PersistentArrayMap.EMPTY], null));
 })], null));
 athens.devcards.sci_boxes.get_parent_id = (function athens$devcards$sci_boxes$get_parent_id(boxes,child_id){
-return cljs.core.some((function (p__60188){
-var vec__60189 = p__60188;
-var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60189,(0),null);
-var box = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60189,(1),null);
+return cljs.core.some((function (p__60185){
+var vec__60186 = p__60185;
+var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60186,(0),null);
+var box = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60186,(1),null);
 if(cljs.core.truth_(cljs.core.some(cljs.core.PersistentHashSet.createAsIfByAssoc([child_id]),new cljs.core.Keyword(null,"children-ids","children-ids",-293558198).cljs$core$IFn$_invoke$arity$1(box)))){
 return id;
 } else {
@@ -108,27 +108,27 @@ return null;
 }
 }),boxes);
 });
-athens.devcards.sci_boxes.sci_node_QMARK_ = (function athens$devcards$sci_boxes$sci_node_QMARK_(p__60192){
-var map__60193 = p__60192;
-var map__60193__$1 = (((((!((map__60193 == null))))?(((((map__60193.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60193.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60193):map__60193);
-var str_content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60193__$1,new cljs.core.Keyword(null,"str-content","str-content",297549190));
+athens.devcards.sci_boxes.sci_node_QMARK_ = (function athens$devcards$sci_boxes$sci_node_QMARK_(p__60189){
+var map__60190 = p__60189;
+var map__60190__$1 = (((((!((map__60190 == null))))?(((((map__60190.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60190.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60190):map__60190);
+var str_content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60190__$1,new cljs.core.Keyword(null,"str-content","str-content",297549190));
 return clojure.string.starts_with_QMARK_(str_content,":sci");
 });
-athens.devcards.sci_boxes.eval_box = (function athens$devcards$sci_boxes$eval_box(p__60195,parent){
-var map__60196 = p__60195;
-var map__60196__$1 = (((((!((map__60196 == null))))?(((((map__60196.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60196.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60196):map__60196);
-var box = map__60196__$1;
-var str_content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60196__$1,new cljs.core.Keyword(null,"str-content","str-content",297549190));
+athens.devcards.sci_boxes.eval_box = (function athens$devcards$sci_boxes$eval_box(p__60192,parent){
+var map__60193 = p__60192;
+var map__60193__$1 = (((((!((map__60193 == null))))?(((((map__60193.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60193.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60193):map__60193);
+var box = map__60193__$1;
+var str_content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60193__$1,new cljs.core.Keyword(null,"str-content","str-content",297549190));
 if((!(athens.devcards.sci_boxes.sci_node_QMARK_(box)))){
 return box;
 } else {
 var code = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(str_content,(4));
 var result = (function (){try{return sci.core.eval_string.cljs$core$IFn$_invoke$arity$2(code,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"bindings","bindings",1271397192),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Symbol(null,"*1","*1",2110258092,null),new cljs.core.Keyword(null,"result","result",1415092211).cljs$core$IFn$_invoke$arity$1(parent)], null)], null));
-}catch (e60198){if((e60198 instanceof Error)){
-var e = e60198;
+}catch (e60195){if((e60195 instanceof Error)){
+var e = e60195;
 return athens.devcards.sci_boxes.trace(e);
 } else {
-throw e60198;
+throw e60195;
 
 }
 }})();
@@ -151,9 +151,9 @@ return null;
 var temp__5733__auto__ = cljs.core.seq(new cljs.core.Keyword(null,"children-ids","children-ids",-293558198).cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$2(boxes,id)));
 if(temp__5733__auto__){
 var children = temp__5733__auto__;
-var temp__5733__auto____$1 = cljs.core.some((function (p1__60199_SHARP_){
-if(cljs.core.not((visited.cljs$core$IFn$_invoke$arity$1 ? visited.cljs$core$IFn$_invoke$arity$1(p1__60199_SHARP_) : visited.call(null,p1__60199_SHARP_)))){
-return p1__60199_SHARP_;
+var temp__5733__auto____$1 = cljs.core.some((function (p1__60196_SHARP_){
+if(cljs.core.not((visited.cljs$core$IFn$_invoke$arity$1 ? visited.cljs$core$IFn$_invoke$arity$1(p1__60196_SHARP_) : visited.call(null,p1__60196_SHARP_)))){
+return p1__60196_SHARP_;
 } else {
 return null;
 }
@@ -167,9 +167,9 @@ return go_up();
 } else {
 var parent = athens.devcards.sci_boxes.get_parent_id(boxes,id);
 var siblings = new cljs.core.Keyword(null,"children-ids","children-ids",-293558198).cljs$core$IFn$_invoke$arity$1(parent);
-var temp__5733__auto____$1 = cljs.core.some((function (p1__60200_SHARP_){
-if(cljs.core.not((visited.cljs$core$IFn$_invoke$arity$1 ? visited.cljs$core$IFn$_invoke$arity$1(p1__60200_SHARP_) : visited.call(null,p1__60200_SHARP_)))){
-return p1__60200_SHARP_;
+var temp__5733__auto____$1 = cljs.core.some((function (p1__60197_SHARP_){
+if(cljs.core.not((visited.cljs$core$IFn$_invoke$arity$1 ? visited.cljs$core$IFn$_invoke$arity$1(p1__60197_SHARP_) : visited.call(null,p1__60197_SHARP_)))){
+return p1__60197_SHARP_;
 } else {
 return null;
 }
@@ -196,22 +196,22 @@ var id_SINGLEQUOTE_ = athens.devcards.sci_boxes.next_box_id(boxes__$1,visited_SI
 if(cljs.core.not(id_SINGLEQUOTE_)){
 return boxes_SINGLEQUOTE_;
 } else {
-var G__60239 = boxes_SINGLEQUOTE_;
-var G__60240 = visited_SINGLEQUOTE_;
-var G__60241 = id_SINGLEQUOTE_;
-boxes__$1 = G__60239;
-visited = G__60240;
-id = G__60241;
+var G__60233 = boxes_SINGLEQUOTE_;
+var G__60234 = visited_SINGLEQUOTE_;
+var G__60235 = id_SINGLEQUOTE_;
+boxes__$1 = G__60233;
+visited = G__60234;
+id = G__60235;
 continue;
 }
 break;
 }
 });
-athens.devcards.sci_boxes.add_child = (function athens$devcards$sci_boxes$add_child(p__60201,idx,id){
-var map__60202 = p__60201;
-var map__60202__$1 = (((((!((map__60202 == null))))?(((((map__60202.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60202.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60202):map__60202);
-var box = map__60202__$1;
-var children_ids = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60202__$1,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198));
+athens.devcards.sci_boxes.add_child = (function athens$devcards$sci_boxes$add_child(p__60198,idx,id){
+var map__60199 = p__60198;
+var map__60199__$1 = (((((!((map__60199 == null))))?(((((map__60199.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60199.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60199):map__60199);
+var box = map__60199__$1;
+var children_ids = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60199__$1,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198));
 var new_idx = (idx + (1));
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(box,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198),cljs.core.apply.cljs$core$IFn$_invoke$arity$4(cljs.core.conj,cljs.core.subvec.cljs$core$IFn$_invoke$arity$3(children_ids,(0),new_idx),id,cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(children_ids,new_idx)));
 });
@@ -219,22 +219,22 @@ athens.devcards.sci_boxes.remove_child = (function athens$devcards$sci_boxes$rem
 var idx = athens.devcards.sci_boxes.index_of(new cljs.core.Keyword(null,"children-ids","children-ids",-293558198).cljs$core$IFn$_invoke$arity$1(parent),child_id);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$4(parent,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198),athens.devcards.sci_boxes.remove_from_vec,idx);
 });
-athens.devcards.sci_boxes.add_sibling = (function athens$devcards$sci_boxes$add_sibling(p__60204,id){
-var map__60205 = p__60204;
-var map__60205__$1 = (((((!((map__60205 == null))))?(((((map__60205.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60205.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60205):map__60205);
-var state = map__60205__$1;
-var next_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60205__$1,new cljs.core.Keyword(null,"next-id","next-id",-224240762));
-var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60205__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
+athens.devcards.sci_boxes.add_sibling = (function athens$devcards$sci_boxes$add_sibling(p__60201,id){
+var map__60202 = p__60201;
+var map__60202__$1 = (((((!((map__60202 == null))))?(((((map__60202.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60202.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60202):map__60202);
+var state = map__60202__$1;
+var next_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60202__$1,new cljs.core.Keyword(null,"next-id","next-id",-224240762));
+var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60202__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
 var parent_id = athens.devcards.sci_boxes.get_parent_id(boxes,id);
 var siblings = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(boxes,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [parent_id,new cljs.core.Keyword(null,"children-ids","children-ids",-293558198)], null));
 var idx = athens.devcards.sci_boxes.index_of(siblings,id);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(cljs.core.update.cljs$core$IFn$_invoke$arity$variadic(cljs.core.update.cljs$core$IFn$_invoke$arity$3(state,new cljs.core.Keyword(null,"next-id","next-id",-224240762),cljs.core.inc),new cljs.core.Keyword(null,"boxes","boxes",-420813822),cljs.core.update,parent_id,athens.devcards.sci_boxes.add_child,idx,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([next_id], 0)),new cljs.core.Keyword(null,"boxes","boxes",-420813822),cljs.core.assoc,next_id,athens.devcards.sci_boxes.empty_box),new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.eval_all_boxes);
 });
-athens.devcards.sci_boxes.delete_box = (function athens$devcards$sci_boxes$delete_box(p__60207,id){
-var map__60208 = p__60207;
-var map__60208__$1 = (((((!((map__60208 == null))))?(((((map__60208.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60208.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60208):map__60208);
-var state = map__60208__$1;
-var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60208__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
+athens.devcards.sci_boxes.delete_box = (function athens$devcards$sci_boxes$delete_box(p__60204,id){
+var map__60205 = p__60204;
+var map__60205__$1 = (((((!((map__60205 == null))))?(((((map__60205.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60205.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60205):map__60205);
+var state = map__60205__$1;
+var boxes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60205__$1,new cljs.core.Keyword(null,"boxes","boxes",-420813822));
 var parent_id = athens.devcards.sci_boxes.get_parent_id(boxes,id);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$4(cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(state,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boxes","boxes",-420813822),parent_id], null),athens.devcards.sci_boxes.remove_child,id),new cljs.core.Keyword(null,"boxes","boxes",-420813822),cljs.core.dissoc,id),new cljs.core.Keyword(null,"boxes","boxes",-420813822),athens.devcards.sci_boxes.eval_all_boxes);
 });
