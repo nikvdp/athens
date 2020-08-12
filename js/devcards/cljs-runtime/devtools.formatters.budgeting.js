@@ -10,24 +10,24 @@ devtools.formatters.budgeting.add_over_budget_value_BANG_ = (function devtools$f
 if(cljs.core.volatile_QMARK_(devtools.formatters.budgeting.over_budget_values)){
 return cljs.core.vreset_BANG_(devtools.formatters.budgeting.over_budget_values,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(devtools.formatters.budgeting.over_budget_values),value));
 } else {
-var o__20595__auto__ = devtools.formatters.budgeting.over_budget_values;
-return (o__20595__auto__["add"]).call(o__20595__auto__,value);
+var o__20704__auto__ = devtools.formatters.budgeting.over_budget_values;
+return (o__20704__auto__["add"]).call(o__20704__auto__,value);
 }
 });
 devtools.formatters.budgeting.delete_over_budget_value_BANG_ = (function devtools$formatters$budgeting$delete_over_budget_value_BANG_(value){
 if(cljs.core.volatile_QMARK_(devtools.formatters.budgeting.over_budget_values)){
 return cljs.core.vreset_BANG_(devtools.formatters.budgeting.over_budget_values,cljs.core.disj.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(devtools.formatters.budgeting.over_budget_values),value));
 } else {
-var o__20595__auto__ = devtools.formatters.budgeting.over_budget_values;
-return (o__20595__auto__["delete"]).call(o__20595__auto__,value);
+var o__20704__auto__ = devtools.formatters.budgeting.over_budget_values;
+return (o__20704__auto__["delete"]).call(o__20704__auto__,value);
 }
 });
 devtools.formatters.budgeting.has_over_budget_value_QMARK_ = (function devtools$formatters$budgeting$has_over_budget_value_QMARK_(value){
 if(cljs.core.volatile_QMARK_(devtools.formatters.budgeting.over_budget_values)){
 return cljs.core.contains_QMARK_(cljs.core.deref(devtools.formatters.budgeting.over_budget_values),value);
 } else {
-var o__20595__auto__ = devtools.formatters.budgeting.over_budget_values;
-return (o__20595__auto__["has"]).call(o__20595__auto__,value);
+var o__20704__auto__ = devtools.formatters.budgeting.over_budget_values;
+return (o__20704__auto__["has"]).call(o__20704__auto__,value);
 }
 });
 devtools.formatters.budgeting.object_reference_QMARK_ = (function devtools$formatters$budgeting$object_reference_QMARK_(json_ml){
@@ -60,16 +60,16 @@ throw (new Error("Assert failed: (not (neg? depth-budget))"));
 var data = cljs.core.second(object_reference);
 var _ = ((cljs.core.object_QMARK_(data))?null:(function(){throw (new Error("Assert failed: (object? data)"))})());
 var config = (data["config"]);
-var G__23796 = data;
-var target__20604__auto__ = G__23796;
-if(cljs.core.truth_(target__20604__auto__)){
+var G__23793 = data;
+var target__20713__auto__ = G__23793;
+if(cljs.core.truth_(target__20713__auto__)){
 } else {
-throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__23796)].join(''),"\n","target__20604__auto__"].join('')));
+throw (new Error(["Assert failed: ",["unable to locate object path ",null," in ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__23793)].join(''),"\n","target__20713__auto__"].join('')));
 }
 
-(target__20604__auto__["config"] = devtools.formatters.state.set_depth_budget(config,depth_budget));
+(target__20713__auto__["config"] = devtools.formatters.state.set_depth_budget(config,depth_budget));
 
-return G__23796;
+return G__23793;
 });
 devtools.formatters.budgeting.distribute_budget_BANG_ = (function devtools$formatters$budgeting$distribute_budget_BANG_(json_ml,depth_budget){
 if((!((depth_budget < (0))))){
@@ -121,14 +121,14 @@ var item_23833 = cljs.core.first(seq__23800_23827__$1);
 (devtools.formatters.budgeting.distribute_budget_BANG_.cljs$core$IFn$_invoke$arity$2 ? devtools.formatters.budgeting.distribute_budget_BANG_.cljs$core$IFn$_invoke$arity$2(item_23833,new_depth_budget_23816) : devtools.formatters.budgeting.distribute_budget_BANG_.call(null,item_23833,new_depth_budget_23816));
 
 
-var G__23835 = cljs.core.next(seq__23800_23827__$1);
-var G__23836 = null;
-var G__23837 = (0);
+var G__23836 = cljs.core.next(seq__23800_23827__$1);
+var G__23837 = null;
 var G__23838 = (0);
-seq__23800_23817 = G__23835;
-chunk__23801_23818 = G__23836;
-count__23802_23819 = G__23837;
-i__23803_23820 = G__23838;
+var G__23839 = (0);
+seq__23800_23817 = G__23836;
+chunk__23801_23818 = G__23837;
+count__23802_23819 = G__23838;
+i__23803_23820 = G__23839;
 continue;
 }
 } else {
