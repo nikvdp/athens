@@ -6,8 +6,8 @@ goog.require('cljs.core.async.impl.dispatch');
 cljs.core.async.impl.timers.MAX_LEVEL = (15);
 cljs.core.async.impl.timers.P = ((1) / (2));
 cljs.core.async.impl.timers.random_level = (function cljs$core$async$impl$timers$random_level(var_args){
-var G__40755 = arguments.length;
-switch (G__40755) {
+var G__40581 = arguments.length;
+switch (G__40581) {
 case 0:
 return cljs.core.async.impl.timers.random_level.cljs$core$IFn$_invoke$arity$0();
 
@@ -29,8 +29,8 @@ return cljs.core.async.impl.timers.random_level.cljs$core$IFn$_invoke$arity$1((0
 (cljs.core.async.impl.timers.random_level.cljs$core$IFn$_invoke$arity$1 = (function (level){
 while(true){
 if((((Math.random() < cljs.core.async.impl.timers.P)) && ((level < cljs.core.async.impl.timers.MAX_LEVEL)))){
-var G__40893 = (level + (1));
-level = G__40893;
+var G__40755 = (level + (1));
+level = G__40755;
 continue;
 } else {
 return level;
@@ -86,8 +86,8 @@ return (new cljs.core.async.impl.timers.SkipListNode(key,val,forward));
 });
 
 cljs.core.async.impl.timers.skip_list_node = (function cljs$core$async$impl$timers$skip_list_node(var_args){
-var G__40797 = arguments.length;
-switch (G__40797) {
+var G__40587 = arguments.length;
+switch (G__40587) {
 case 1:
 return cljs.core.async.impl.timers.skip_list_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -108,13 +108,13 @@ return cljs.core.async.impl.timers.skip_list_node.cljs$core$IFn$_invoke$arity$3(
 
 (cljs.core.async.impl.timers.skip_list_node.cljs$core$IFn$_invoke$arity$3 = (function (k,v,level){
 var arr = (new Array((level + (1))));
-var i_40914 = (0);
+var i_40785 = (0);
 while(true){
-if((i_40914 < arr.length)){
-(arr[i_40914] = null);
+if((i_40785 < arr.length)){
+(arr[i_40785] = null);
 
-var G__40915 = (i_40914 + (1));
-i_40914 = G__40915;
+var G__40786 = (i_40785 + (1));
+i_40785 = G__40786;
 continue;
 } else {
 }
@@ -127,8 +127,8 @@ return (new cljs.core.async.impl.timers.SkipListNode(k,v,arr));
 (cljs.core.async.impl.timers.skip_list_node.cljs$lang$maxFixedArity = 3);
 
 cljs.core.async.impl.timers.least_greater_node = (function cljs$core$async$impl$timers$least_greater_node(var_args){
-var G__40813 = arguments.length;
-switch (G__40813) {
+var G__40614 = arguments.length;
+switch (G__40614) {
 case 3:
 return cljs.core.async.impl.timers.least_greater_node.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -156,8 +156,8 @@ var temp__5733__auto__ = (((level < x__$1.forward.length))?(x__$1.forward[level]
 if(cljs.core.truth_(temp__5733__auto__)){
 var x_SINGLEQUOTE_ = temp__5733__auto__;
 if((x_SINGLEQUOTE_.key < k)){
-var G__40935 = x_SINGLEQUOTE_;
-x__$1 = G__40935;
+var G__40800 = x_SINGLEQUOTE_;
+x__$1 = G__40800;
 continue;
 } else {
 return x__$1;
@@ -173,14 +173,14 @@ if((update == null)){
 (update[level] = x__$1);
 }
 
-var G__40940 = x__$1;
-var G__40941 = k;
-var G__40942 = (level - (1));
-var G__40943 = update;
-x = G__40940;
-k = G__40941;
-level = G__40942;
-update = G__40943;
+var G__40802 = x__$1;
+var G__40803 = k;
+var G__40804 = (level - (1));
+var G__40805 = update;
+x = G__40802;
+k = G__40803;
+level = G__40804;
+update = G__40805;
 continue;
 } else {
 return x;
@@ -214,13 +214,13 @@ return (x__$1.val = v);
 } else {
 var new_level = cljs.core.async.impl.timers.random_level.cljs$core$IFn$_invoke$arity$0();
 if((new_level > self__.level)){
-var i_40948 = (self__.level + (1));
+var i_40811 = (self__.level + (1));
 while(true){
-if((i_40948 <= (new_level + (1)))){
-(update[i_40948] = self__.header);
+if((i_40811 <= (new_level + (1)))){
+(update[i_40811] = self__.header);
 
-var G__40953 = (i_40948 + (1));
-i_40948 = G__40953;
+var G__40814 = (i_40811 + (1));
+i_40811 = G__40814;
 continue;
 } else {
 }
@@ -235,13 +235,13 @@ var x__$2 = cljs.core.async.impl.timers.skip_list_node.cljs$core$IFn$_invoke$ari
 var i = (0);
 while(true){
 if((i <= self__.level)){
-var links_40957 = (update[i]).forward;
-(x__$2.forward[i] = (links_40957[i]));
+var links_40815 = (update[i]).forward;
+(x__$2.forward[i] = (links_40815[i]));
 
-(links_40957[i] = x__$2);
+(links_40815[i] = x__$2);
 
-var G__40962 = (i + (1));
-i = G__40962;
+var G__40816 = (i + (1));
+i = G__40816;
 continue;
 } else {
 return null;
@@ -258,19 +258,19 @@ var update = (new Array(cljs.core.async.impl.timers.MAX_LEVEL));
 var x = cljs.core.async.impl.timers.least_greater_node.cljs$core$IFn$_invoke$arity$4(self__.header,k,self__.level,update);
 var x__$1 = (((x.forward.length === (0)))?null:(x.forward[(0)]));
 if((((!((x__$1 == null)))) && ((x__$1.key === k)))){
-var i_40967 = (0);
+var i_40825 = (0);
 while(true){
-if((i_40967 <= self__.level)){
-var links_40968 = (update[i_40967]).forward;
-if((x__$1 === (((i_40967 < links_40968.length))?(links_40968[i_40967]):null))){
-(links_40968[i_40967] = (x__$1.forward[i_40967]));
+if((i_40825 <= self__.level)){
+var links_40826 = (update[i_40825]).forward;
+if((x__$1 === (((i_40825 < links_40826.length))?(links_40826[i_40825]):null))){
+(links_40826[i_40825] = (x__$1.forward[i_40825]));
 
-var G__40973 = (i_40967 + (1));
-i_40967 = G__40973;
+var G__40831 = (i_40825 + (1));
+i_40825 = G__40831;
 continue;
 } else {
-var G__40974 = (i_40967 + (1));
-i_40967 = G__40974;
+var G__40832 = (i_40825 + (1));
+i_40825 = G__40832;
 continue;
 }
 } else {
@@ -307,8 +307,8 @@ if((!((x_SINGLEQUOTE_ == null)))){
 if((x_SINGLEQUOTE_.key > k)){
 return x__$1;
 } else {
-var G__40981 = x_SINGLEQUOTE_;
-x__$1 = G__40981;
+var G__40834 = x_SINGLEQUOTE_;
+x__$1 = G__40834;
 continue;
 }
 } else {
@@ -322,16 +322,16 @@ break;
 }
 })();
 if(cljs.core.truth_(nx)){
-var G__40983 = nx;
-var G__40984 = (level__$1 - (1));
-x = G__40983;
-level__$1 = G__40984;
+var G__40835 = nx;
+var G__40836 = (level__$1 - (1));
+x = G__40835;
+level__$1 = G__40836;
 continue;
 } else {
-var G__40985 = x;
-var G__40986 = (level__$1 - (1));
-x = G__40985;
-level__$1 = G__40986;
+var G__40838 = x;
+var G__40839 = (level__$1 - (1));
+x = G__40838;
+level__$1 = G__40839;
 continue;
 }
 } else {
@@ -359,8 +359,8 @@ if((!((x_SINGLEQUOTE_ == null)))){
 if((x_SINGLEQUOTE_.key > k)){
 return x__$1;
 } else {
-var G__40994 = x_SINGLEQUOTE_;
-x__$1 = G__40994;
+var G__40842 = x_SINGLEQUOTE_;
+x__$1 = G__40842;
 continue;
 }
 } else {
@@ -374,16 +374,16 @@ break;
 }
 })();
 if(cljs.core.truth_(nx)){
-var G__40998 = nx;
-var G__40999 = (level__$1 - (1));
-x = G__40998;
-level__$1 = G__40999;
+var G__40843 = nx;
+var G__40844 = (level__$1 - (1));
+x = G__40843;
+level__$1 = G__40844;
 continue;
 } else {
-var G__41000 = x;
-var G__41001 = (level__$1 - (1));
-x = G__41000;
-level__$1 = G__41001;
+var G__40845 = x;
+var G__40846 = (level__$1 - (1));
+x = G__40845;
+level__$1 = G__40846;
 continue;
 }
 } else {

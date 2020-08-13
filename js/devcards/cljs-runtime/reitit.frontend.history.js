@@ -35,7 +35,7 @@ return reitit$frontend$history$History$_init$dyn_54685(this$);
 }
 });
 
-var reitit$frontend$history$History$_stop$dyn_54688 = (function (this$){
+var reitit$frontend$history$History$_stop$dyn_54686 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._stop[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -56,11 +56,11 @@ reitit.frontend.history._stop = (function reitit$frontend$history$_stop(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_stop$arity$1 == null)))))){
 return this$.reitit$frontend$history$History$_stop$arity$1(this$);
 } else {
-return reitit$frontend$history$History$_stop$dyn_54688(this$);
+return reitit$frontend$history$History$_stop$dyn_54686(this$);
 }
 });
 
-var reitit$frontend$history$History$_on_navigate$dyn_54689 = (function (this$,path){
+var reitit$frontend$history$History$_on_navigate$dyn_54687 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._on_navigate[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -78,7 +78,7 @@ reitit.frontend.history._on_navigate = (function reitit$frontend$history$_on_nav
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_on_navigate$arity$2 == null)))))){
 return this$.reitit$frontend$history$History$_on_navigate$arity$2(this$,path);
 } else {
-return reitit$frontend$history$History$_on_navigate$dyn_54689(this$,path);
+return reitit$frontend$history$History$_on_navigate$dyn_54687(this$,path);
 }
 });
 
@@ -104,7 +104,7 @@ return reitit$frontend$history$History$_get_path$dyn_54690(this$);
 }
 });
 
-var reitit$frontend$history$History$_href$dyn_54693 = (function (this$,path){
+var reitit$frontend$history$History$_href$dyn_54691 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._href[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -122,7 +122,7 @@ reitit.frontend.history._href = (function reitit$frontend$history$_href(this$,pa
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_href$arity$2 == null)))))){
 return this$.reitit$frontend$history$History$_href$arity$2(this$,path);
 } else {
-return reitit$frontend$history$History$_href$dyn_54693(this$,path);
+return reitit$frontend$history$History$_href$dyn_54691(this$,path);
 }
 });
 

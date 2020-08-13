@@ -5,12 +5,12 @@ goog.require('cljs.core');
  * (including at the top-level).
  */
 dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__40007){
-var vec__40010 = p__40007;
-var seq__40011 = cljs.core.seq(vec__40010);
-var first__40012 = cljs.core.first(seq__40011);
-var seq__40011__$1 = cljs.core.next(seq__40011);
-var k = first__40012;
-var ks = seq__40011__$1;
+var vec__40008 = p__40007;
+var seq__40009 = cljs.core.seq(vec__40008);
+var first__40010 = cljs.core.first(seq__40009);
+var seq__40009__$1 = cljs.core.next(seq__40009);
+var k = first__40010;
+var ks = seq__40009__$1;
 if(cljs.core.truth_(m)){
 var temp__5733__auto__ = (function (){var and__4115__auto__ = ks;
 if(and__4115__auto__){

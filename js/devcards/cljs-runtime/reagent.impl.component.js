@@ -383,10 +383,10 @@ break;
 case "componentWillUnmount":
 return (function reagent$impl$component$custom_wrapper_$_componentWillUnmount(){
 var c = this;
-var G__31302_31371 = goog.object.get(c,"cljsRatom");
-if((G__31302_31371 == null)){
+var G__31298_31371 = goog.object.get(c,"cljsRatom");
+if((G__31298_31371 == null)){
 } else {
-reagent.ratom.dispose_BANG_(G__31302_31371);
+reagent.ratom.dispose_BANG_(G__31298_31371);
 }
 
 reagent.impl.batching.mark_rendered(c);
@@ -495,10 +495,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(fmap__$1,new cljs.co
 });
 reagent.impl.component.map_to_js = (function reagent$impl$component$map_to_js(m){
 return cljs.core.reduce_kv((function (o,k,v){
-var G__31349 = o;
-goog.object.set(G__31349,cljs.core.name(k),v);
+var G__31353 = o;
+goog.object.set(G__31353,cljs.core.name(k),v);
 
-return G__31349;
+return G__31353;
 }),({}),m);
 });
 reagent.impl.component.cljsify = (function reagent$impl$component$cljsify(body){
