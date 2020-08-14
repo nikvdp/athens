@@ -112,6 +112,8 @@ return closest_page_header;
 }
 }
 })();
+cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([e,e.type], 0));
+
 if(cljs.core.truth_(cljs.core.not_empty(selected_items))){
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("selected","clear-items","selected/clear-items",-700315697)], null));
 } else {
@@ -123,7 +125,7 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.co
 return null;
 }
 });
-athens.listeners.mouse_down_outside_athena = (function athens$listeners$mouse_down_outside_athena(e){
+athens.listeners.click_outside_athena = (function athens$listeners$click_outside_athena(e){
 var athena_QMARK_ = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("athena","open","athena/open",1253777725)], null)));
 var closest = e.target.closest(".athena");
 if(cljs.core.truth_((function (){var and__4115__auto__ = athena_QMARK_;
@@ -212,9 +214,9 @@ return null;
 }
 });
 athens.listeners.init = (function athens$listeners$init(){
-goog.events.listen(window,goog.events.EventType.MOUSEDOWN,athens.listeners.unfocus);
+goog.events.listen(window,goog.events.EventType.CLICK,athens.listeners.unfocus);
 
-goog.events.listen(window,goog.events.EventType.MOUSEDOWN,athens.listeners.mouse_down_outside_athena);
+goog.events.listen(window,goog.events.EventType.CLICK,athens.listeners.click_outside_athena);
 
 goog.events.listen(window,goog.events.EventType.KEYDOWN,athens.listeners.multi_block_selection);
 

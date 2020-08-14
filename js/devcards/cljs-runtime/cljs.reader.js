@@ -171,53 +171,53 @@ throw (new Error("Queue literal expects a vector for its elements."));
 cljs.reader.read_js = (function cljs$reader$read_js(form){
 if(cljs.core.vector_QMARK_(form)){
 var arr = [];
-var seq__26527_26588 = cljs.core.seq(form);
-var chunk__26528_26589 = null;
-var count__26529_26590 = (0);
-var i__26530_26591 = (0);
+var seq__26528_26588 = cljs.core.seq(form);
+var chunk__26529_26589 = null;
+var count__26530_26590 = (0);
+var i__26531_26591 = (0);
 while(true){
-if((i__26530_26591 < count__26529_26590)){
-var x_26592 = chunk__26528_26589.cljs$core$IIndexed$_nth$arity$2(null,i__26530_26591);
+if((i__26531_26591 < count__26530_26590)){
+var x_26592 = chunk__26529_26589.cljs$core$IIndexed$_nth$arity$2(null,i__26531_26591);
 arr.push(x_26592);
 
 
-var G__26593 = seq__26527_26588;
-var G__26594 = chunk__26528_26589;
-var G__26595 = count__26529_26590;
-var G__26596 = (i__26530_26591 + (1));
-seq__26527_26588 = G__26593;
-chunk__26528_26589 = G__26594;
-count__26529_26590 = G__26595;
-i__26530_26591 = G__26596;
+var G__26593 = seq__26528_26588;
+var G__26594 = chunk__26529_26589;
+var G__26595 = count__26530_26590;
+var G__26596 = (i__26531_26591 + (1));
+seq__26528_26588 = G__26593;
+chunk__26529_26589 = G__26594;
+count__26530_26590 = G__26595;
+i__26531_26591 = G__26596;
 continue;
 } else {
-var temp__5735__auto___26597 = cljs.core.seq(seq__26527_26588);
+var temp__5735__auto___26597 = cljs.core.seq(seq__26528_26588);
 if(temp__5735__auto___26597){
-var seq__26527_26598__$1 = temp__5735__auto___26597;
-if(cljs.core.chunked_seq_QMARK_(seq__26527_26598__$1)){
-var c__4556__auto___26599 = cljs.core.chunk_first(seq__26527_26598__$1);
-var G__26600 = cljs.core.chunk_rest(seq__26527_26598__$1);
+var seq__26528_26598__$1 = temp__5735__auto___26597;
+if(cljs.core.chunked_seq_QMARK_(seq__26528_26598__$1)){
+var c__4556__auto___26599 = cljs.core.chunk_first(seq__26528_26598__$1);
+var G__26600 = cljs.core.chunk_rest(seq__26528_26598__$1);
 var G__26601 = c__4556__auto___26599;
 var G__26602 = cljs.core.count(c__4556__auto___26599);
 var G__26603 = (0);
-seq__26527_26588 = G__26600;
-chunk__26528_26589 = G__26601;
-count__26529_26590 = G__26602;
-i__26530_26591 = G__26603;
+seq__26528_26588 = G__26600;
+chunk__26529_26589 = G__26601;
+count__26530_26590 = G__26602;
+i__26531_26591 = G__26603;
 continue;
 } else {
-var x_26604 = cljs.core.first(seq__26527_26598__$1);
+var x_26604 = cljs.core.first(seq__26528_26598__$1);
 arr.push(x_26604);
 
 
-var G__26605 = cljs.core.next(seq__26527_26598__$1);
+var G__26605 = cljs.core.next(seq__26528_26598__$1);
 var G__26606 = null;
 var G__26607 = (0);
 var G__26608 = (0);
-seq__26527_26588 = G__26605;
-chunk__26528_26589 = G__26606;
-count__26529_26590 = G__26607;
-i__26530_26591 = G__26608;
+seq__26528_26588 = G__26605;
+chunk__26529_26589 = G__26606;
+count__26530_26590 = G__26607;
+i__26531_26591 = G__26608;
 continue;
 }
 } else {
@@ -236,9 +236,9 @@ var count__26541_26611 = (0);
 var i__26542_26612 = (0);
 while(true){
 if((i__26542_26612 < count__26541_26611)){
-var vec__26550_26613 = chunk__26540_26610.cljs$core$IIndexed$_nth$arity$2(null,i__26542_26612);
-var k_26614 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26550_26613,(0),null);
-var v_26615 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26550_26613,(1),null);
+var vec__26552_26613 = chunk__26540_26610.cljs$core$IIndexed$_nth$arity$2(null,i__26542_26612);
+var k_26614 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26552_26613,(0),null);
+var v_26615 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26552_26613,(1),null);
 goog.object.set(obj,cljs.core.name(k_26614),v_26615);
 
 
@@ -324,8 +324,8 @@ cljs.reader._STAR_tag_table_STAR_ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1
  *            be called with the tag and the value.
  */
 cljs.reader.read = (function cljs$reader$read(var_args){
-var G__26570 = arguments.length;
-switch (G__26570) {
+var G__26571 = arguments.length;
+switch (G__26571) {
 case 1:
 return cljs.reader.read.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

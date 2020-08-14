@@ -385,8 +385,8 @@ reagent.impl.util.named_QMARK_ = (function reagent$impl$util$named_QMARK_(x){
 return (((x instanceof cljs.core.Keyword)) || ((x instanceof cljs.core.Symbol)));
 });
 reagent.impl.util.class_names = (function reagent$impl$util$class_names(var_args){
-var G__30887 = arguments.length;
-switch (G__30887) {
+var G__30898 = arguments.length;
+switch (G__30898) {
 case 0:
 return reagent.impl.util.class_names.cljs$core$IFn$_invoke$arity$0();
 
@@ -469,13 +469,13 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(reagent.impl.util.class_na
 }));
 
 /** @this {Function} */
-(reagent.impl.util.class_names.cljs$lang$applyTo = (function (seq30884){
-var G__30885 = cljs.core.first(seq30884);
-var seq30884__$1 = cljs.core.next(seq30884);
-var G__30886 = cljs.core.first(seq30884__$1);
-var seq30884__$2 = cljs.core.next(seq30884__$1);
+(reagent.impl.util.class_names.cljs$lang$applyTo = (function (seq30895){
+var G__30896 = cljs.core.first(seq30895);
+var seq30895__$1 = cljs.core.next(seq30895);
+var G__30897 = cljs.core.first(seq30895__$1);
+var seq30895__$2 = cljs.core.next(seq30895__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30885,G__30886,seq30884__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30896,G__30897,seq30895__$2);
 }));
 
 (reagent.impl.util.class_names.cljs$lang$maxFixedArity = (2));
@@ -505,8 +505,8 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p2,new cljs.core.Keyword(nu
 }
 });
 reagent.impl.util.merge_props = (function reagent$impl$util$merge_props(var_args){
-var G__30913 = arguments.length;
-switch (G__30913) {
+var G__30919 = arguments.length;
+switch (G__30919) {
 case 0:
 return reagent.impl.util.merge_props.cljs$core$IFn$_invoke$arity$0();
 
@@ -521,14 +521,14 @@ return reagent.impl.util.merge_props.cljs$core$IFn$_invoke$arity$2((arguments[(0
 break;
 default:
 var args_arr__4757__auto__ = [];
-var len__4736__auto___30957 = arguments.length;
-var i__4737__auto___30958 = (0);
+var len__4736__auto___30958 = arguments.length;
+var i__4737__auto___30959 = (0);
 while(true){
-if((i__4737__auto___30958 < len__4736__auto___30957)){
-args_arr__4757__auto__.push((arguments[i__4737__auto___30958]));
+if((i__4737__auto___30959 < len__4736__auto___30958)){
+args_arr__4757__auto__.push((arguments[i__4737__auto___30959]));
 
-var G__30960 = (i__4737__auto___30958 + (1));
-i__4737__auto___30958 = G__30960;
+var G__30960 = (i__4737__auto___30959 + (1));
+i__4737__auto___30959 = G__30960;
 continue;
 } else {
 }
@@ -579,13 +579,13 @@ return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(reagent.impl.util.merge_pr
 }));
 
 /** @this {Function} */
-(reagent.impl.util.merge_props.cljs$lang$applyTo = (function (seq30910){
-var G__30911 = cljs.core.first(seq30910);
-var seq30910__$1 = cljs.core.next(seq30910);
-var G__30912 = cljs.core.first(seq30910__$1);
-var seq30910__$2 = cljs.core.next(seq30910__$1);
+(reagent.impl.util.merge_props.cljs$lang$applyTo = (function (seq30912){
+var G__30913 = cljs.core.first(seq30912);
+var seq30912__$1 = cljs.core.next(seq30912);
+var G__30914 = cljs.core.first(seq30912__$1);
+var seq30912__$2 = cljs.core.next(seq30912__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30911,G__30912,seq30910__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30913,G__30914,seq30912__$2);
 }));
 
 (reagent.impl.util.merge_props.cljs$lang$maxFixedArity = (2));
@@ -593,12 +593,12 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30911,G__30912
 reagent.impl.util._STAR_always_update_STAR_ = false;
 reagent.impl.util.force_update = (function reagent$impl$util$force_update(comp,deep){
 if(cljs.core.truth_(deep)){
-var _STAR_always_update_STAR__orig_val__30923 = reagent.impl.util._STAR_always_update_STAR_;
-var _STAR_always_update_STAR__temp_val__30924 = true;
-(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__30924);
+var _STAR_always_update_STAR__orig_val__30934 = reagent.impl.util._STAR_always_update_STAR_;
+var _STAR_always_update_STAR__temp_val__30935 = true;
+(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__30935);
 
 try{return comp.forceUpdate();
-}finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__30923);
+}finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__30934);
 }} else {
 return comp.forceUpdate();
 }

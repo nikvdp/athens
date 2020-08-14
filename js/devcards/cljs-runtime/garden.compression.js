@@ -4,8 +4,8 @@ goog.require('cljs.core');
  * Return a function which when given a string will return a map
  *   containing the chunk of text matched by re, it's size, and tag.
  */
-garden.compression.token_fn = (function garden$compression$token_fn(p__38857){
-var vec__38859 = p__38857;
+garden.compression.token_fn = (function garden$compression$token_fn(p__38858){
+var vec__38859 = p__38858;
 var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__38859,(0),null);
 var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__38859,(1),null);
 return (function (s){
