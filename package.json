@@ -21,11 +21,6 @@
       "target": [
         "AppImage"
       ]
-    },
-    "publish": {
-      "provider": "s3",
-      "bucket": "athens-apps",
-      "region": "us-east-2"
     }
   },
   "scripts": {
