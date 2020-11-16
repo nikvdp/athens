@@ -29,6 +29,7 @@
     "clean": "rm -rf resources/public/**/*.js && rm -rf target && rm -rf .shadow-cljs",
     "dist": "electron-builder -p always"
   },
+  "repository": "github:nikvdp/athens",
   "devDependencies": {
     "electron": "^9.2.0",
     "electron-builder": "22.8.1",
